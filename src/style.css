@@ -1,0 +1,245 @@
+html,
+body {
+  box-sizing: border-box;
+  height: 100%;
+  padding: 0;
+  margin: 0 auto;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+  max-width: 1024px;
+  --color-black: #0d1b2a;
+  --color-accent-dark: #1b263b;
+  --color-accent: #415a77;
+  --color-grey: #778da9;
+  --color-white: #e0e1dd;
+  --color-youtube: #ff0033;
+  background-color: var(--color-white);
+  color: var(--color-white);
+
+  @media (prefers-color-scheme: dark) {
+    background-color: var(--color-black);
+    color: var(--color-black);
+  }
+}
+
+.wrapper {
+  box-sizing: border-box;
+  min-height: 100%;
+  padding: 16px 32px;
+  display: flex;
+  flex-direction: column;
+}
+
+header,
+footer {
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+
+header p {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 1rem 0;
+  padding: 0;
+  color: var(--color-black);
+
+  @media (prefers-color-scheme: dark) {
+    color: var(--color-grey);
+  }
+
+  @media (max-width:560px) {
+    margin: 0.5rem 0;
+    font-size: 1.5rem;
+  }
+}
+
+main {
+  flex-grow: 1;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: var(--color-accent-dark);
+}
+
+.film {
+  display: flex;
+  gap: 1.5em;
+  margin: 1rem 0;
+  padding: 1rem;
+  background-color: var(--color-accent);
+  border-radius: calc(1rem + 12px);
+
+  @media (max-width:560px) {
+    flex-direction: column;
+  }
+}
+
+.film-poster {
+  max-width: 250px;
+  min-height: 375px;
+  height: fit-content;
+  border-radius: 1rem;
+
+  @media (max-width:560px) {
+    height: auto;
+    align-self: center;
+  }
+}
+
+.film-info {
+  flex-grow: 1;
+}
+
+.film-title {
+  @media (max-width:560px) {
+    margin: 0 0 0.5rem 0;
+  }
+}
+
+.film-trailer {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  width: fit-content;
+  border-radius: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: var(--color-grey);
+}
+
+.film-trailer .icon {
+  display: block;
+  width: 32px;
+  height: 32px;
+  mask-repeat: no-repeat;
+  mask-position: center;
+  mask-size: contain;
+  mask-image: url(/src/svg/youtube.svg);
+  background-color: var(--color-black);
+}
+
+.film-trailer:hover,
+.film-trailer:focus-visible {
+  background-color: var(--color-white);
+}
+
+
+.film-trailer:hover .icon,
+.film-trailer:focus-visible .icon {
+  background-color: var(--color-youtube);
+}
+
+.film-screening {
+  list-style: none;
+  margin: 2rem 0;
+  padding: 0;
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+
+  @media (max-width:560px) {
+    margin: 1rem 0;
+  }
+}
+
+.film-screening li {
+  flex-grow: 1;
+}
+
+.film-screening li>p {
+  margin: 0;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+}
+
+/* .film-screening--weekend {
+  color: var(--color-accent-dark);
+
+  @media (prefers-color-scheme: dark) {
+    color: var(--color-white);
+  }
+} */
+
+.film-tickets {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  width: fit-content;
+  border-radius: 1rem;
+  padding: 0.7rem 0.8rem;
+  background-color: var(--color-grey);
+}
+
+
+.film-tickets:focus-visible,
+.film-tickets:hover {
+  background-color: var(--color-accent-dark);
+  color: var(--color-white)
+}
+
+.icon-tickets {
+  display: block;
+  width: 26px;
+  height: 26px;
+  mask-repeat: no-repeat;
+  mask-position: center;
+  mask-size: contain;
+  mask-image: url(/src/svg/ticket.svg);
+  background-color: var(--color-black);
+}
+
+.film-tickets:hover .icon-tickets,
+.film-tickets:focus-visible .icon-tickets {
+  background-color: var(--color-grey);
+}
+
+footer {
+  align-self: center;
+}
+
+.footer-link {
+  color: var(--color-accent-dark);
+  display: flex;
+  gap: 12px;
+  align-items: center;
+
+  @media (prefers-color-scheme: dark) {
+    color: var(--color-grey);
+  }
+}
+
+.footer-telegram {
+  display: block;
+  width: 22px;
+  height: 22px;
+  mask-repeat: no-repeat;
+  mask-position: center;
+  mask-size: contain;
+  mask-image: url(/src/svg/telegram.svg);
+  background-color: var(--color-accent-dark);
+
+  @media (prefers-color-scheme: dark) {
+    background-color: var(--color-grey);
+  }
+}
+
+.footer-link:hover,
+.footer-link:focus-visible {
+  color: var(--color-grey);
+
+  @media (prefers-color-scheme: dark) {
+    color: var(--color-white);
+  }
+}
+
+.footer-link:hover .footer-telegram,
+.footer-link:focus-visible .footer-telegram {
+  background-color: var(--color-grey);
+
+  @media (prefers-color-scheme: dark) {
+    background-color: var(--color-white);
+  }
+}
