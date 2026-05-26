@@ -117,7 +117,7 @@ a {
   mask-repeat: no-repeat;
   mask-position: center;
   mask-size: contain;
-  mask-image: url("./src/svg/youtube.svg");
+  mask-image: url("./svg/youtube.svg");
   background-color: var(--color-black);
 }
 
@@ -187,7 +187,7 @@ a {
   mask-repeat: no-repeat;
   mask-position: center;
   mask-size: contain;
-  mask-image: url("./src/svg/ticket.svg");
+  mask-image: url("./svg/ticket.svg");
   background-color: var(--color-black);
 }
 
@@ -218,7 +218,7 @@ footer {
   mask-repeat: no-repeat;
   mask-position: center;
   mask-size: contain;
-  mask-image: url("./src/svg/telegram.svg");
+  mask-image: url("./svg/telegram.svg");
   background-color: var(--color-accent-dark);
 
   @media (prefers-color-scheme: dark) {
