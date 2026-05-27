@@ -113,15 +113,23 @@ a {
 }
 
 .film-poster {
-  max-width: 250px;
-  min-height: 375px;
-  height: fit-content;
+  width: 250px;
+  height: auto;
   border-radius: 1rem;
+  object-fit: contain;
+  align-self: flex-start;
 
   @media (max-width:560px) {
     max-width: 150px;
-    min-height: 150px;
     align-self: center;
+  }
+}
+
+.zero-poster {
+  align-self: center;
+
+  @media (max-width:560px) {
+    max-width: 150px;
   }
 }
 
