@@ -120,8 +120,7 @@ a {
 
   @media (max-width:560px) {
     max-width: 150px;
-    min-height: fit-content;
-    max-height: 450px;
+    min-height: 150px;
     align-self: center;
   }
 }
