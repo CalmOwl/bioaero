@@ -1,0 +1,23 @@
+{
+  "name": "bioaero",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/CalmOwl/bioaero#readme",
+  "bugs": {
+    "url": "https://github.com/CalmOwl/bioaero/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CalmOwl/bioaero.git"
+  },
+  "license": "UNLICENSED",
+  "author": "lisa chu",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "astro build"
+  },
+  "dependencies": {
+    "astro": "^6.4.2"
+  }
+}
