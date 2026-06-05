@@ -1,0 +1,19 @@
+---
+import FilmScreening from "./FilmScreening.astro";
+const { poster, filmTitle, filmTrailerLink } = Astro.props;
+---
+
+<div class="film">
+  <img class="film-poster" src={`${poster.src}`} alt={`${poster.alt}`} />
+  <div class="film-info">
+    <h2 class="film-title">{filmTitle}</h2>
+    <a class="film-trailer" href={`${filmTrailerLink}`}>
+      <span class="icon"></span>
+      трейлер
+    </a>
+
+    <!-- <FilmScreening date={} time={} place={} ticketsLink={} /> -->
+
+    <!-- or somethingSomething.map? -->
+  </div>
+</div>

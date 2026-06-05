@@ -1,0 +1,17 @@
+---
+const { date, time, place, ticketsLink } = Astro.props;
+---
+
+<ul class="film-screening">
+  <li>
+    <p>
+      <span>{date}</span>
+      <span>{time}</span>
+      <span>{place}</span>
+    </p>
+    <a class="film-tickets" href={`${ticketsLink}`}>
+      <span class="icon-tickets"></span>
+      билеты
+    </a>
+  </li>
+</ul>
