@@ -1,15 +1,15 @@
 ---
-const { date, time, place, ticketsLink } = Astro.props;
+const { screening } = Astro.props;
 ---
 
 <ul class="film-screening">
   <li>
     <p>
-      <span>{date}</span>
-      <span>{time}</span>
-      <span>{place}</span>
+      <span>{screening.date}</span>
+      <span>{screening.time}</span>
+      <span>{screening.place}</span>
     </p>
-    <a class="film-tickets" href={`${ticketsLink}`}>
+    <a class="film-tickets" href={`${screening.ticketsUrl}`}>
       <span class="icon-tickets"></span>
       билеты
     </a>
