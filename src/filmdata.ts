@@ -1,3 +1,5 @@
+import { Film } from "./types";
+
 export const FILMS = [
   {
     title: "Obsession (2025)",
@@ -184,8 +186,9 @@ export const FILMS = [
       },
     ]
   },
-];
+] satisfies Film[];
 
+// const FILMS: Film[] = [ ... ]
 
 
 /*

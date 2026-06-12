@@ -1,26 +1,12 @@
 ---
+import type { Film } from "../types";
 import FilmScreening from "./FilmScreening.astro";
 
-type Screening = {
-  date: string;
-  time: string;
-  place: string;
-  ticketsLink: string;
-};
+interface Props {
+  film: Film;
+}
 
-type Film = {
-  title: string;
-  poster: {
-    src: string;
-    alt: string;
-  };
-  description: string;
-  infoButtonUrl: string;
-  infoButtonDescription: string;
-  screenings: Screening[];
-};
-
-const { film } = Astro.props as { film: Film };
+const { film } = Astro.props;
 ---
 
 <div class="film">
@@ -41,7 +27,6 @@ const { film } = Astro.props as { film: Film };
   }
   <div class="film-info">
     <h2 class="film-title">{film.title}</h2>
-
     <a class="film-trailer" href={`${film.infoButtonUrl}`}>
       {
         film.infoButtonDescription || (
@@ -60,33 +45,3 @@ const { film } = Astro.props as { film: Film };
     }
   </div>
 </div>
-
-<!-- <div class="film">
-          <img
-            class="film-poster zero-poster"
-            src="svg/clapperboard-question-mark.svg"
-            alt=""
-          />
-          <div class="film-info">
-            <h2 class="film-title">Aero naslepo</h2>
-            <a class="film-trailer" href="https://boxd.it/uqXaW"
-              >Список фильмов предыдущих сеансов</a
-            >
-            <p>
-              "Když zkusíte „Aero naslepo“, nebudete vědět, na jaký film jste se
-              vypravili. Předem neplatíte nic. Po projekci dostanete možnost
-              ocenit zážitek částkou, kterou si sami určíte."
-            </p>
-            <ul class="film-screening">
-              <li>
-                <p>ср 1.07 20:30 Aero</p>
-                <a
-                  class="film-tickets"
-                  href="https://www.kinoaero.cz/?cinema=1&sort=sort-by-data&projection=48280"
-                  ><span class="icon-tickets"></span>билеты</a
-                >
-              </li>
-            </ul>
-          </div>
-        </div>
-  -->
