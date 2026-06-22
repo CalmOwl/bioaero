@@ -1,0 +1,188 @@
+---
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout>
+  <h2>Хочу пойти</h2>
+  <div id="plan"></div>
+</Layout>
+
+<script>
+  import type { SavedScreening } from "../types";
+  import { getSavedScreenings, removeScreening } from "../scripts/wishlist";
+
+  const container = document.getElementById("plan");
+
+  function renderScreeningCard(screening: SavedScreening) {
+    return `
+    <div 
+      class="screening-card" 
+      data-id="${screening.id}"
+    >
+      <button 
+        class="screening-card__remove" 
+        data-id="${screening.id}" 
+        aria-label="Удалить сеанс из избранного" 
+        title="Удалить" 
+        type="button"
+      >
+      </button>
+      <div class="wrapper">
+        <h3>${screening.film}</h3>
+        <p>${screening.date} ${screening.time}</p>
+        <p>${screening.place}</p>
+      </div>
+      <a 
+        class="screening-card__link" 
+        href="${screening.ticketsUrl} 
+        tasrget="_blank"
+      >
+        купить билет
+      </a>
+    </div>
+  `;
+  }
+
+  function renderPlan() {
+    if (!container) return;
+
+    const screenings = getSavedScreenings();
+
+    if (!screenings.length) {
+      container.innerHTML = "<p>Пока никогда-никуда!</p>";
+      return;
+    }
+    container.innerHTML = screenings.map(renderScreeningCard).join("");
+  }
+
+  document.addEventListener("click", (event) => {
+    if (!(event.target instanceof HTMLElement)) return;
+
+    const btn = event.target.closest(".screening-card__remove");
+    if (!(btn instanceof HTMLElement)) return;
+
+    const id = btn.dataset.id;
+    if (!id) return;
+
+    removeScreening(id);
+    renderPlan();
+  });
+
+  renderPlan();
+</script>
+
+<style is:global>
+  body {
+    color: var(--color-grey);
+  }
+
+  #plan {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+  }
+
+  .screening-card {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 3.5rem;
+    gap: 1.5rem;
+    padding: 1rem;
+    background-color: var(--color-accent);
+    color: var(--color-black);
+    border-radius: calc(1rem + 12px);
+
+    @media (max-width: 560px) {
+      margin: 0.5rem 0;
+      gap: 1rem;
+    }
+  }
+
+  .screening-card .wrapper {
+    margin-right: auto;
+  }
+
+  .screening-card .wrapper * {
+    margin: 0.5rem;
+  }
+
+  .screening-card__remove {
+    position: absolute;
+    top: -0.4rem;
+    left: -0.4rem;
+    width: 50px;
+    height: 50px;
+    border: none;
+    background: transparent;
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 0;
+  }
+
+  .screening-card__remove:before,
+  .screening-card__remove:after {
+    position: absolute;
+    top: 0;
+    left: 0.3rem;
+    content: " ";
+    height: 1rem;
+    width: 3px;
+    background-color: var(--color-accent);
+  }
+  .screening-card__remove:before {
+    transform: rotate(45deg);
+  }
+  .screening-card__remove:after {
+    transform: rotate(-45deg);
+  }
+
+  .screening-card__remove:hover,
+  .screening-card__remove:focus-visible {
+    opacity: 0.7;
+  }
+
+  .screening-card__remove:active:before,
+  .screening-card__remove:active:after {
+    background-color: var(--color-white);
+  }
+
+  .screening-card__link {
+    position: relative;
+    font-weight: 500;
+    align-content: center;
+    text-align: center;
+    margin: -16px;
+    writing-mode: sideways-lr;
+    text-orientation: mixed;
+    border-radius: 0 calc(1rem + 12px) calc(1rem + 12px) 0;
+  }
+
+  .screening-card__link::before {
+    position: absolute;
+    content: "";
+    width: 3px;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border-left: 3px dashed var(--color-black);
+  }
+
+  .screening-card__link:focus-visible,
+  .screening-card__link:hover {
+    background-color: var(--color-grey);
+  }
+
+  .screening-card__link:focus-visible::before,
+  .screening-card__link:hover::before {
+    border-left: 3px dotted var(--color-black);
+  }
+
+  .screening-card__link:active {
+    background-color: var(--color-white);
+    border-radius: 0 calc(1rem + 12px) calc(1rem + 12px) 0;
+  }
+
+  .screening-card__link:active::before {
+    border-left: 3px solid var(--color-black);
+  }
+</style>

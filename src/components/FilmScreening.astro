@@ -3,21 +3,120 @@ import type { Screening } from "../types";
 
 interface Props {
   screening: Screening;
+  filmTitle: string;
+  screeningId: string;
 }
 
-const { screening } = Astro.props;
+const { screening, filmTitle, screeningId } = Astro.props;
 ---
 
-<ul class="film-screening">
-  <li>
-    <p>
-      <span>{screening.date}</span>
-      <span>{screening.time}</span>
-      <span>{screening.place}</span>
-    </p>
-    <a class="film-tickets" href={`${screening.ticketsUrl}`}>
+<li>
+  <p>
+    <span>{screening.date}</span>
+    <span>{screening.time}</span>
+    <span>{screening.place}</span>
+  </p>
+  <div class="screening-buttons-wrapper">
+    <button
+      class="screening-wishlist"
+      data-id={screeningId}
+      data-film={filmTitle}
+      data-date={screening.date}
+      data-time={screening.time}
+      data-place={screening.place}
+      data-tickets-url={screening.ticketsUrl}
+    >
+      <span class="screening-wishlist__icon"></span>
+      <span class="screening-wishlist__label">хочу пойти</span>
+    </button>
+    <a class="film-tickets" href={screening.ticketsUrl}>
       <span class="icon-tickets"></span>
       билеты
     </a>
-  </li>
-</ul>
+  </div>
+</li>
+
+<style>
+  .icon-tickets {
+    display: block;
+    width: 26px;
+    height: 26px;
+    mask-repeat: no-repeat;
+    mask-position: center;
+    mask-size: contain;
+    mask-image: url("/bioaero/svg/ticket.svg");
+    background-color: var(--color-black);
+  }
+
+  .film-tickets {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+    max-width: fit-content;
+    border-radius: 1rem;
+    padding: 0.7rem 0.8rem;
+    background-color: var(--color-grey);
+    flex-grow: 1;
+  }
+
+  .screening-wishlist:focus-visible,
+  .screening-wishlist:hover,
+  .film-tickets:focus-visible,
+  .film-tickets:hover {
+    background-color: var(--color-accent-dark);
+    color: var(--color-white);
+  }
+
+  .screening-buttons-wrapper {
+    display: flex;
+    gap: 1rem;
+    flex-grow: 1;
+    flex-wrap: wrap;
+  }
+
+  .screening-wishlist {
+    border: none;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+    max-width: fit-content;
+    border-radius: 1rem;
+    padding: 0.7rem 0.8rem;
+    background-color: var(--color-grey);
+    flex-shrink: 0;
+    flex-grow: 1;
+  }
+
+  .screening-wishlist:has(.is-active) {
+    background-color: var(--color-white);
+  }
+
+  .screening-wishlist__icon {
+    display: block;
+    width: 26px;
+    height: 26px;
+    mask-repeat: no-repeat;
+    mask-position: center;
+    mask-size: contain;
+    mask-image: url("/bioaero/svg/wishlist-star.svg");
+    background-color: var(--color-black);
+  }
+
+  .screening-wishlist__icon.is-active {
+    mask-image: url("/bioaero/svg/favourites.svg");
+  }
+
+  .screening-wishlist:focus-visible .screening-wishlist__icon,
+  .screening-wishlist:hover .screening-wishlist__icon,
+  .film-tickets:hover .icon-tickets,
+  .film-tickets:focus-visible .icon-tickets {
+    background-color: var(--color-grey);
+  }
+
+  .screening-wishlist.is-saved:focus-visible .screening-wishlist__label,
+  .screening-wishlist.is-saved:hover .screening-wishlist__label {
+    color: var(--color-grey);
+  }
+</style>

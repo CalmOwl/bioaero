@@ -13,7 +13,16 @@ export type Film = {
     alt: string;
   };
   description?: string;
-  infoButtonUrl: string;
+  trailerUrl: string;
   infoButtonDescription?: string;
   screenings: Screening[];
+};
+
+export type SavedScreening = {
+  id: string;
+  film: string;
+  date: string;
+  time: string;
+  place: string;
+  ticketsUrl: string;
 };

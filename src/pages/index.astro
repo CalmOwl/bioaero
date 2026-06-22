@@ -1,44 +1,81 @@
 ---
-import { FILMS } from "../filmdata.js";
+import { FILMS } from "../filmdata";
 import FilmCard from "../components/FilmCard.astro";
+import Layout from "../layouts/Layout.astro";
 ---
 
-<!doctype html>
-<html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Когда-куда?</title>
-    <meta property="og:url" content="https://calmowl.github.io/bioaero/" />
-    <meta property="og:title" content="Когда-куда?" />
-    <meta property="og:image" content="og-image.jpg" />
-    <meta
-      property="og:image:alt"
-      content="Фото из центра зрительного зала кинотеатра, на экране крупно движущийся человек в костюме Пьеро, на боковых стенах зала тёплым оражневым светом горят похожие на канделябры лампы-бра, на потолке лепнина"
-    />
-    <meta
-      property="og:description"
-      content="Выбираем, где и когда молча посидим вместе пару часов"
-    />
-    <meta property="og:locale" content="ru" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="/bioaero/style.css" rel="stylesheet" />
-  </head>
+<Layout>
+  {FILMS.map((film) => <FilmCard film={film} />)}
+</Layout>
 
-  <body>
-    <div class="wrapper">
-      <header>
-        <p>Когда-куда?</p>
-      </header>
-      <main>
-        {FILMS.map((film) => <FilmCard film={film} />)}
-      </main>
-      <footer>
-        <a class="footer-link" href="https://t.me/ahojbiograf"
-          ><span class="footer-telegram"></span>choose wisely</a
-        >
-      </footer>
-    </div>
-  </body>
-</html>
+<style>
+  a {
+    color: var(--color-grey);
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+</style>
+
+<script>
+  import type { SavedScreening } from "../types";
+  import { getSavedScreenings, toggleScreening } from "../scripts/wishlist";
+
+  function setButtonState(btn: HTMLElement, isSaved: boolean) {
+    const label = btn.querySelector(".screening-wishlist__label");
+    const icon = btn.querySelector(".screening-wishlist__icon");
+
+    if (isSaved) {
+      btn.classList.add("is-saved");
+      if (label) {
+        label.textContent = "иду!";
+        icon?.classList.add("is-active");
+      }
+    } else {
+      btn.classList.remove("is-saved");
+      if (label) {
+        label.textContent = "хочу пойти";
+        icon?.classList.remove("is-active");
+      }
+    }
+  }
+
+  function updateButtonsState() {
+    const saved = getSavedScreenings();
+
+    const buttons = document.querySelectorAll(".screening-wishlist");
+
+    buttons.forEach((btn) => {
+      if (!(btn instanceof HTMLElement)) return;
+
+      const id = btn.dataset.id;
+      if (!id) return;
+
+      const exists = saved.some((screening) => screening.id === id);
+      setButtonState(btn, exists);
+    });
+  }
+
+  document.addEventListener("click", (event) => {
+    if (!(event.target instanceof HTMLElement)) return;
+
+    const btn = event.target.closest(".screening-wishlist");
+    if (!(btn instanceof HTMLElement)) return;
+
+    const id = btn.dataset.id;
+    if (!id) return;
+
+    const screening: SavedScreening = {
+      id,
+      film: btn.dataset.film ?? "",
+      date: btn.dataset.date ?? "",
+      time: btn.dataset.time ?? "",
+      place: btn.dataset.place ?? "",
+      ticketsUrl: btn.dataset.ticketsUrl ?? "",
+    };
+
+    const wasAdded = toggleScreening(screening);
+    setButtonState(btn, wasAdded);
+  });
+
+  updateButtonsState();
+</script>
