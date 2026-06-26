@@ -1,5 +1,6 @@
 ---
 import { FILMS } from "../filmdata";
+import pluralize from "../scripts/pluralize";
 
 const date = new Date();
 const filmsNumber = FILMS.length;
@@ -70,7 +71,7 @@ const filmsNumber = FILMS.length;
                 })
               },
             </p>
-            <p>в афише {filmsNumber} фильмов</p>
+            <p>в афише {filmsNumber} {pluralize(filmsNumber)}</p>
           </div>
           <a href="/bioaero/personal-plan" class="header_favourites">
             <span class="favourites__icon"></span>
@@ -80,6 +81,7 @@ const filmsNumber = FILMS.length;
       </header>
       <main>
         <slot />
+        <a href="#" class="page-up-button"> &uarr; </a>
       </main>
       <footer>
         <a class="footer-link" href="https://t.me/ahojbiograf"
@@ -97,6 +99,44 @@ const filmsNumber = FILMS.length;
 </html>
 
 <style>
+  .page-up-button {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transition:
+      opacity 0.3s ease,
+      visibility 0.3s ease;
+  }
+
+  .page-up-button.is-visible {
+    opacity: 0.5;
+    visibility: visible;
+    pointer-events: auto;
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: var(--color-white);
+    color: var(--color-accent-dark);
+    text-align: center;
+    font-size: 2rem;
+    text-decoration: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+
+    @media (hover: hover) {
+      &:hover {
+        opacity: 1;
+      }
+    }
+
+    @media (max-width: 560px) {
+      bottom: 10px;
+      right: 10px;
+    }
+  }
+
   header,
   footer {
     flex-grow: 0;
@@ -113,8 +153,32 @@ const filmsNumber = FILMS.length;
       align-items: normal;
       margin: 0.5rem 0;
       gap: 0.7rem;
-      /* display: grid;
-      grid-template-columns: auto 1fr; */
+    }
+  }
+
+  header a {
+    transition: 0.3s;
+
+    &:focus-visible {
+      color: var(--color-accent);
+
+      @media (prefers-color-scheme: dark) {
+        color: var(--color-white);
+      }
+    }
+
+    &:active {
+      color: var(--color-accent);
+    }
+
+    @media (hover: hover) {
+      &:hover {
+        color: var(--color-accent);
+
+        @media (prefers-color-scheme: dark) {
+          color: var(--color-white);
+        }
+      }
     }
   }
 
@@ -127,9 +191,20 @@ const filmsNumber = FILMS.length;
   .header-logo {
     width: 64px;
     height: 64px;
+    transition: 0.3s;
+
+    .header_title:focus-visible & {
+      transform: translateX(16px) translateY(-16px) rotate(45deg);
+    }
 
     @media (max-width: 560px) {
       margin-left: -10px;
+    }
+
+    @media (hover: hover) {
+      .header_title:hover & {
+        transform: translateX(16px) translateY(-16px) rotate(45deg);
+      }
     }
   }
 
@@ -190,19 +265,45 @@ const filmsNumber = FILMS.length;
     mask-position: center;
     mask-size: contain;
     mask-image: url("/bioaero/svg/favourites.svg");
-    background-color: var(--color-accent);
-  }
+    background-color: var(--color-black);
+    transition: 0.3s;
 
-  header a:hover .favourites__icon,
-  header a:focus-visible .favourites__icon {
-    background-color: var(--color-white);
-  }
+    @media (prefers-color-scheme: dark) {
+      background-color: var(--color-grey);
+    }
 
-  header a:hover,
-  header a:focus-visible {
-    color: var(--color-white);
-  }
-  header a:active {
-    color: var(--color-accent);
+    header a:focus-visible & {
+      transform: rotateY(360deg);
+      background-color: var(--color-accent);
+
+      @media (prefers-color-scheme: dark) {
+        background-color: var(--color-white);
+      }
+    }
+
+    @media (hover: hover) {
+      header a:hover & {
+        transform: rotateY(360deg);
+        background-color: var(--color-accent);
+
+        @media (prefers-color-scheme: dark) {
+          background-color: var(--color-white);
+        }
+      }
+    }
   }
 </style>
+
+<script>
+  const button = document.querySelector(".page-up-button");
+
+  if (button instanceof HTMLElement) {
+    window.addEventListener("scroll", () => {
+      if (window.scrollY > window.innerHeight) {
+        button.classList.add("is-visible");
+      } else {
+        button.classList.remove("is-visible");
+      }
+    });
+  }
+</script>

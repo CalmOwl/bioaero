@@ -93,14 +93,6 @@ main {
   flex-grow: 1;
 }
 
-/* .film-screening--weekend {
-  color: var(--color-accent-dark);
-
-  @media (prefers-color-scheme: dark) {
-    color: var(--color-white);
-  }
-} */
-
 footer {
   align-self: center;
   display: flex;
@@ -115,9 +107,28 @@ footer {
   display: flex;
   gap: 12px;
   align-items: center;
+  transition: 0.3s;
 
   @media (prefers-color-scheme: dark) {
     color: var(--color-grey);
+  }
+
+  &:focus-visible {
+    color: var(--color-grey);
+
+    @media (prefers-color-scheme: dark) {
+      color: var(--color-white);
+    }
+  }
+
+  @media (hover: hover) {
+    &:hover {
+      color: var(--color-grey);
+
+      @media (prefers-color-scheme: dark) {
+        color: var(--color-white);
+      }
+    }
   }
 }
 
@@ -134,28 +145,27 @@ footer {
   mask-size: contain;
   mask-image: url("./svg/telegram.svg");
   background-color: var(--color-accent-dark);
+  transition: 0.3s;
 
   @media (prefers-color-scheme: dark) {
     background-color: var(--color-grey);
   }
-}
 
-.footer-link:hover,
-.footer-link:focus-visible,
-.footer-credits:hover,
-.footer-credits:focus-visible {
-  color: var(--color-grey);
+  .footer-link:focus-visible & {
+    background-color: var(--color-grey);
 
-  @media (prefers-color-scheme: dark) {
-    color: var(--color-white);
+    @media (prefers-color-scheme: dark) {
+      background-color: var(--color-white);
+    }
   }
-}
 
-.footer-link:hover .footer-telegram,
-.footer-link:focus-visible .footer-telegram {
-  background-color: var(--color-grey);
+  @media (hover: hover) {
+    .footer-link:hover & {
+      background-color: var(--color-grey);
 
-  @media (prefers-color-scheme: dark) {
-    background-color: var(--color-white);
+      @media (prefers-color-scheme: dark) {
+        background-color: var(--color-white);
+      }
+    }
   }
 }

@@ -2,55 +2,6 @@ import { Film } from "./types";
 
 export const FILMS = [
   {
-    title: "The Emperor's New Groove (2000)",
-    poster: {
-      src: "the_emperors_new_groove.jpg",
-      alt: "",
-    },
-    trailerUrl: "https://youtu.be/vjlPrTzOPUI",
-    screenings: [
-      {
-        date: "ср 24.06",
-        time: "20:30",
-        place: "Aero",
-        ticketsUrl: "https://www.kinoaero.cz/?projection=49247"
-      },
-    ]
-  },
-  {
-    title: "Принцесса Мононоке (1997)",
-    poster: {
-      src: "princess-mononoke.jpg",
-      alt: "",
-    },
-    trailerUrl: "https://youtu.be/I1dHzoRl0sQ",
-    screenings: [
-      {
-        date: "чт 25.06",
-        time: "17:50",
-        place: "Bio Oko",
-        ticketsUrl: "https://www.biooko.net/?projection=50517"
-      },
-    ]
-  },
-  {
-    title: "Stray Dog (1949)",
-    poster: {
-      src: "stray_dog.jpg",
-      alt: "",
-    },
-    description: "фильм на японском, субтитры чешские и английские",
-    trailerUrl: "https://youtu.be/afA0M0rO72I",
-    screenings: [
-      {
-        date: "чт 25.06",
-        time: "18:00",
-        place: "Aero",
-        ticketsUrl: "https://www.kinoaero.cz/?projection=49248"
-      },
-    ]
-  },
-  {
     title: "Pirates of the Caribbean: The Curse of the Black Pearl (2003)",
     poster: {
       src: "pirates-of-the-caribbean-the-curse-of-the-black-pearl.jpg",

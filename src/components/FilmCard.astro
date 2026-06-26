@@ -114,13 +114,24 @@ const { film } = Astro.props;
     border-radius: 1rem;
     padding: 0.5rem 1rem;
     background-color: var(--color-grey);
+    transition: 0.3s;
+
+    &:focus-visible {
+      background-color: var(--color-white);
+    }
+
+    @media (hover: hover) {
+      &:hover {
+        background-color: var(--color-white);
+      }
+    }
 
     @media (max-width: 560px) {
       margin: 0 auto;
     }
   }
 
-  .film-trailer .icon {
+  .icon {
     display: block;
     width: 32px;
     height: 32px;
@@ -129,16 +140,18 @@ const { film } = Astro.props;
     mask-size: contain;
     mask-image: url("/bioaero/svg/youtube.svg");
     background-color: var(--color-black);
-  }
+    transition: 0.3s;
 
-  .film-trailer:hover,
-  .film-trailer:focus-visible {
-    background-color: var(--color-white);
-  }
+    .film-trailer:focus-visible & {
+      background-color: var(--color-youtube);
+    }
 
-  .film-trailer:hover .icon,
-  .film-trailer:focus-visible .icon {
-    background-color: var(--color-youtube);
+    @media (hover: hover) {
+      .film-trailer:hover & {
+        background-color: var(--color-youtube);
+        transform: scale(1.1);
+      }
+    }
   }
 
   .film-screening {

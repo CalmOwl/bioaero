@@ -73,7 +73,9 @@ import Layout from "../layouts/Layout.astro";
 
 <style is:global>
   body {
-    color: var(--color-grey);
+    @media (prefers-color-scheme: dark) {
+      color: var(--color-grey);
+    }
   }
 
   #plan {
@@ -110,13 +112,36 @@ import Layout from "../layouts/Layout.astro";
     position: absolute;
     top: -0.4rem;
     left: -0.4rem;
-    width: 50px;
-    height: 50px;
+    width: 64px;
+    height: 64px;
     border: none;
     background: transparent;
     font-size: 1.5rem;
     cursor: pointer;
     padding: 0;
+    transition: 0.3s;
+
+    &:focus-visible::before {
+      background-color: var(--color-youtube);
+      transform: translate(32px, 32px) rotate(315deg) scale(3);
+    }
+
+    &:focus-visible::after {
+      background-color: var(--color-youtube);
+      transform: translate(32px, 32px) rotate(405deg) scale(3);
+    }
+
+    @media (hover: hover) {
+      &:hover::before {
+        background-color: var(--color-youtube);
+        transform: translate(32px, 32px) rotate(315deg) scale(3);
+      }
+
+      &:hover::after {
+        background-color: var(--color-youtube);
+        transform: translate(32px, 32px) rotate(405deg) scale(3);
+      }
+    }
   }
 
   .screening-card__remove:before,
@@ -128,17 +153,14 @@ import Layout from "../layouts/Layout.astro";
     height: 1rem;
     width: 3px;
     background-color: var(--color-accent);
+    transition: 0.3s;
   }
+
   .screening-card__remove:before {
     transform: rotate(45deg);
   }
   .screening-card__remove:after {
     transform: rotate(-45deg);
-  }
-
-  .screening-card__remove:hover,
-  .screening-card__remove:focus-visible {
-    opacity: 0.7;
   }
 
   .screening-card__remove:active:before,
@@ -155,6 +177,17 @@ import Layout from "../layouts/Layout.astro";
     writing-mode: sideways-lr;
     text-orientation: mixed;
     border-radius: 0 calc(1rem + 12px) calc(1rem + 12px) 0;
+    transition: 0.3s;
+
+    @media (hover: hover) {
+      &:hover {
+        background-color: var(--color-grey);
+      }
+
+      &:hover::before {
+        border-left: 3px dotted var(--color-black);
+      }
+    }
   }
 
   .screening-card__link::before {
@@ -167,13 +200,11 @@ import Layout from "../layouts/Layout.astro";
     border-left: 3px dashed var(--color-black);
   }
 
-  .screening-card__link:focus-visible,
-  .screening-card__link:hover {
+  .screening-card__link:focus-visible {
     background-color: var(--color-grey);
   }
 
-  .screening-card__link:focus-visible::before,
-  .screening-card__link:hover::before {
+  .screening-card__link:focus-visible::before {
     border-left: 3px dotted var(--color-black);
   }
 
