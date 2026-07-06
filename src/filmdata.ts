@@ -2,153 +2,6 @@ import { Film } from "./types";
 
 export const FILMS = [
   {
-    title: "Pirates of the Caribbean: The Curse of the Black Pearl (2003)",
-    poster: {
-      src: "pirates-of-the-caribbean-the-curse-of-the-black-pearl.jpg",
-      alt: "",
-    },
-    trailerUrl: "https://youtu.be/-9HT0l9HV4c",
-    screenings: [
-      {
-        date: "пт 26.06",
-        time: "20:30",
-        place: "Aero",
-        ticketsUrl: "https://www.kinoaero.cz/?projection=50744"
-      },
-    ]
-  },
-  {
-    title: " I Swear (2025)",
-    poster: {
-      src: "i-swear.jpg",
-      alt: "",
-    },
-    trailerUrl: "https://youtu.be/10ynpduiRpM",
-    screenings: [
-      {
-        date: "сб 27.06",
-        time: "12:15",
-        place: "Bio Oko",
-        ticketsUrl: "https://www.biooko.net/?projection=51418"
-      },
-      {
-        date: "сб 27.06",
-        time: "15:00",
-        place: "Světozor",
-        ticketsUrl: "https://www.kinosvetozor.cz/?projection=51524"
-      },
-      {
-        date: "вс 28.06",
-        time: "15:45",
-        place: "Světozor",
-        ticketsUrl: "https://www.kinosvetozor.cz/?projection=51455"
-      },
-      {
-        date: "вс 28.06",
-        time: "20:00",
-        place: "Aero ",
-        ticketsUrl: "https://www.kinoaero.cz/?projection=51397"
-      },
-    ]
-  },
-  {
-    title: "Power Ballad (2026)",
-    poster: {
-      src: "power-ballad.jpg",
-      alt: "",
-    },
-    trailerUrl: "https://youtu.be/-faiHUsbP_U",
-    screenings: [
-      {
-        date: "сб 27.06",
-        time: "12:45",
-        place: "Světozor",
-        ticketsUrl: "https://www.kinosvetozor.cz/?projection=51452"
-      },
-    ]
-  },
-  {
-    title: "Father Mother Sister Brother (2025)",
-    poster: {
-      src: "father-mother-sister-brother.jpg",
-      alt: "",
-    },
-    trailerUrl: "https://youtu.be/PA07EmbZ0b0",
-    screenings: [
-      {
-        date: "вс 28.06",
-        time: "13:00",
-        place: "Světozor",
-        ticketsUrl: "https://www.kinosvetozor.cz/?projection=51454"
-      },
-    ]
-  },
-  {
-    title: "Aero naslepo",
-    description: "Když zkusíte „Aero naslepo“, nebudete vědět, na jaký film jste se vypravili. Předem neplatíte nic. Po projekci dostanete možnost ocenit zážitek částkou, kterou si sami určíte.",
-    trailerUrl: "https://boxd.it/uqXaW",
-    infoButtonDescription: "Список фильмов предыдущих сеансов",
-    screenings: [
-      {
-        date: "ср 1.07",
-        time: "20:30",
-        place: "Aero",
-        ticketsUrl: "https://www.kinoaero.cz/?projection=48280"
-      },
-    ]
-  },
-
-  {
-    title: "Big Trouble in Little China (1986)",
-    poster: {
-      src: "big_trouble_in_little_china.jpg",
-      alt: "",
-    },
-    trailerUrl: "https://youtu.be/AXsBBqPb5YE",
-    screenings: [
-      {
-        date: "чт 2.07",
-        time: "20:30",
-        place: "Aero",
-        ticketsUrl: "https://www.kinoaero.cz/?projection=49256"
-      },
-    ]
-  },
-  {
-    title: "Pirates of the Caribbean: Dead Man's Chest (2006)",
-    poster: {
-      src: "pirates-of-the-caribbean-dead-man-s-chest.jpg",
-      alt: "",
-    },
-    description: "часть Pirates of the Caribbean double feature, один билет на оба фильма стоит 320Kč (на каждый по отдельности 190Kč)",
-    trailerUrl: "https://youtu.be/9SFWn9taQTw",
-    screenings: [
-      {
-        date: "пт 3.07",
-        time: "17:31",
-        place: "Aero",
-        ticketsUrl: "https://www.kinoaero.cz/?projection=50745"
-      },
-    ]
-  },
-  {
-    title: "Pirates of the Caribbean: At World's End (2007)",
-    poster: {
-      src: "pirates-of-the-caribbean-at-worlds-end.jpg",
-      alt: "",
-    },
-    description: "часть Pirates of the Caribbean double feature, один билет на оба фильма стоит 320Kč (на каждый по отдельности 190Kč)",
-    trailerUrl: "https://youtu.be/HKSZtp_OGHY",
-    screenings: [
-      {
-        date: "пт 3.07",
-        time: "20:30",
-        place: "Aero",
-        ticketsUrl: "https://www.kinoaero.cz/?projection=50746"
-      },
-    ]
-  },
-  {
     title: "The Devil's Advocate (1997)",
     poster: {
       src: "devil-s-advocate.jpg",
@@ -178,6 +31,80 @@ export const FILMS = [
         time: "18:00",
         place: "Bio Oko ",
         ticketsUrl: "https://www.biooko.net/?projection=50533"
+      },
+    ]
+  },
+  {
+    title: "I Swear (2025)",
+    poster: {
+      src: "i-swear.jpg",
+      alt: "",
+    },
+    trailerUrl: "https://youtu.be/10ynpduiRpM",
+    screenings: [
+      {
+        date: "сб 11.07",
+        time: "13:00",
+        place: "Lucerna",
+        ticketsUrl: "https://www.kinolucerna.cz/?projection=51988"
+      },
+      {
+        date: "сб 11.07",
+        time: "17:45",
+        place: "Světozor",
+        ticketsUrl: "https://www.kinosvetozor.cz/?projection=52078"
+      },
+      {
+        date: "вс 12.07",
+        time: "12:30",
+        place: "Lucerna",
+        ticketsUrl: "https://www.kinolucerna.cz/?projection=52009"
+      },
+      {
+        date: "вс 12.07",
+        time: "15:15",
+        place: "Světozor",
+        ticketsUrl: "https://www.kinosvetozor.cz/?projection=52052"
+      },
+      {
+        date: "вс 12.07",
+        time: "18:00",
+        place: "Aero",
+        ticketsUrl: "https://www.kinoaero.cz/?projection=52112"
+      },
+    ]
+  },
+  {
+    title: "The Invite (2026)",
+    poster: {
+      src: "the-invite.jpg",
+      alt: "",
+    },
+    trailerUrl: "https://youtu.be/nelkiuezJxg",
+    screenings: [
+      {
+        date: "сб 11.07",
+        time: "12:45",
+        place: "Světozor",
+        ticketsUrl: "https://www.kinosvetozor.cz/?projection=52082"
+      },
+      {
+        date: "сб 11.07",
+        time: "17:15",
+        place: "Aero",
+        ticketsUrl: "https://www.kinoaero.cz/?projection=52110"
+      },
+      {
+        date: "вс 12.07",
+        time: "13:00",
+        place: "Lucerna",
+        ticketsUrl: "https://www.kinolucerna.cz/?projection=52008"
+      },
+      {
+        date: "вс 12.07",
+        time: "17:00",
+        place: "Bio Oko",
+        ticketsUrl: "https://www.biooko.net/?projection=52098"
       },
     ]
   },
@@ -341,7 +268,52 @@ export const FILMS = [
       },
     ]
   },
-
+  {
+    title: "Pusher (1996)",
+    poster: {
+      src: "pusher.jpg",
+      alt: "",
+    },
+    trailerUrl: "https://youtu.be/AEIwMsqee-A",
+    screenings: [
+      {
+        date: "сб 8.08",
+        time: "17:01",
+        place: "Aero",
+        ticketsUrl: "https://www.kinoaero.cz/?projection=50306"
+      },
+    ]
+  }, {
+    title: "Pusher II (2004)",
+    poster: {
+      src: "pusher2.jpg",
+      alt: "",
+    },
+    trailerUrl: "https://youtu.be/BcFcDPWysEE",
+    screenings: [
+      {
+        date: "сб 8.08",
+        time: "19:20",
+        place: "Aero",
+        ticketsUrl: "https://www.kinoaero.cz/?projection=50307"
+      },
+    ]
+  }, {
+    title: "Pusher III (2005)",
+    poster: {
+      src: "pusher3.jpg",
+      alt: "",
+    },
+    trailerUrl: "https://youtu.be/d99iy7uHe8Q",
+    screenings: [
+      {
+        date: "сб 8.08",
+        time: "21:30",
+        place: "Aero",
+        ticketsUrl: "https://www.kinoaero.cz/?projection=50308"
+      },
+    ]
+  },
   {
     title: "Matrix (1999)",
     poster: {
@@ -355,6 +327,22 @@ export const FILMS = [
         time: "20:30",
         place: "Bio Oko",
         ticketsUrl: "https://biooko.net/?projection=50495"
+      },
+    ]
+  },
+  {
+    title: "Only Lovers Left Alive (2013)",
+    poster: {
+      src: "only-lovers-left-alive.jpg",
+      alt: "",
+    },
+    trailerUrl: "https://youtu.be/pkeWhokaPPs",
+    screenings: [
+      {
+        date: "пн 17.08",
+        time: "20:30",
+        place: "Aero",
+        ticketsUrl: "https://www.kinoaero.cz/?projection=50302"
       },
     ]
   },
@@ -448,4 +436,20 @@ export const FILMS = [
     ]
   },
 
+
+
+  {
+    title: "Aero naslepo",
+    description: "Když zkusíte „Aero naslepo“, nebudete vědět, na jaký film jste se vypravili. Předem neplatíte nic. Po projekci dostanete možnost ocenit zážitek částkou, kterou si sami určíte.",
+    trailerUrl: "https://boxd.it/uqXaW",
+    infoButtonDescription: "Список фильмов предыдущих сеансов",
+    screenings: [
+      {
+        date: "ср 1.07",
+        time: "20:30",
+        place: "Aero",
+        ticketsUrl: "https://www.kinoaero.cz/?projection=48280"
+      },
+    ]
+  },
 */
