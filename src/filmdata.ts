@@ -2,39 +2,6 @@ import { Film } from "./types";
 
 export const FILMS = [
   {
-    title: "The Devil's Advocate (1997)",
-    poster: {
-      src: "devil-s-advocate.jpg",
-      alt: "",
-    },
-    trailerUrl: "https://youtu.be/etrZJJC4ox8",
-    screenings: [
-      {
-        date: "вт 7.07",
-        time: "20:30",
-        place: "Bio Oko",
-        ticketsUrl: "https://www.biooko.net/?projection=50465"
-      },
-    ]
-  },
-  {
-    title: "Мои соседи Ямада (1999)",
-    poster: {
-      src: "my-neighbors-the-yamadas.jpg",
-      alt: "",
-    },
-    description: "",
-    trailerUrl: "https://youtu.be/oJD0k7hWc6M",
-    screenings: [
-      {
-        date: "чт 9.07",
-        time: "18:00",
-        place: "Bio Oko ",
-        ticketsUrl: "https://www.biooko.net/?projection=50533"
-      },
-    ]
-  },
-  {
     title: "I Swear (2025)",
     poster: {
       src: "i-swear.jpg",
@@ -43,34 +10,22 @@ export const FILMS = [
     trailerUrl: "https://youtu.be/10ynpduiRpM",
     screenings: [
       {
-        date: "сб 11.07",
+        date: "сб 18.07",
+        time: "15:30",
+        place: "Lucerna",
+        ticketsUrl: "https://www.kinolucerna.cz/?projection=52227"
+      },
+      {
+        date: "сб 18.07",
+        time: "17:15",
+        place: "Bio Oko",
+        ticketsUrl: "https://www.kinosvetozor.cz/?projection=52207"
+      },
+      {
+        date: "вс 19.07",
         time: "13:00",
         place: "Lucerna",
-        ticketsUrl: "https://www.kinolucerna.cz/?projection=51988"
-      },
-      {
-        date: "сб 11.07",
-        time: "17:45",
-        place: "Světozor",
-        ticketsUrl: "https://www.kinosvetozor.cz/?projection=52078"
-      },
-      {
-        date: "вс 12.07",
-        time: "12:30",
-        place: "Lucerna",
-        ticketsUrl: "https://www.kinolucerna.cz/?projection=52009"
-      },
-      {
-        date: "вс 12.07",
-        time: "15:15",
-        place: "Světozor",
-        ticketsUrl: "https://www.kinosvetozor.cz/?projection=52052"
-      },
-      {
-        date: "вс 12.07",
-        time: "18:00",
-        place: "Aero",
-        ticketsUrl: "https://www.kinoaero.cz/?projection=52112"
+        ticketsUrl: "https://www.kinolucerna.cz/?projection=52216"
       },
     ]
   },
@@ -83,28 +38,22 @@ export const FILMS = [
     trailerUrl: "https://youtu.be/nelkiuezJxg",
     screenings: [
       {
-        date: "сб 11.07",
-        time: "12:45",
+        date: "сб 18.07",
+        time: "12:00",
         place: "Světozor",
-        ticketsUrl: "https://www.kinosvetozor.cz/?projection=52082"
+        ticketsUrl: "https://www.kinosvetozor.cz/?projection=52270"
       },
       {
-        date: "сб 11.07",
-        time: "17:15",
-        place: "Aero",
-        ticketsUrl: "https://www.kinoaero.cz/?projection=52110"
-      },
-      {
-        date: "вс 12.07",
-        time: "13:00",
-        place: "Lucerna",
-        ticketsUrl: "https://www.kinolucerna.cz/?projection=52008"
-      },
-      {
-        date: "вс 12.07",
-        time: "17:00",
+        date: "сб 18.07",
+        time: "20:00",
         place: "Bio Oko",
-        ticketsUrl: "https://www.biooko.net/?projection=52098"
+        ticketsUrl: "https://www.biooko.net/?projection=52208"
+      },
+      {
+        date: "вс 19.07",
+        time: "12:00",
+        place: "Světozor",
+        ticketsUrl: "https://www.kinosvetozor.cz/?projection=52271"
       },
     ]
   },
@@ -149,7 +98,7 @@ export const FILMS = [
       },
       {
         date: "сб 18.07",
-        time: "14:30",
+        time: "16:30",
         place: "Světozor",
         ticketsUrl: "https://www.kinosvetozor.cz/?projection=51278"
       },
@@ -161,7 +110,7 @@ export const FILMS = [
       },
       {
         date: "вс 19.07",
-        time: "14:30",
+        time: "16:30",
         place: "Světozor",
         ticketsUrl: "https://www.kinosvetozor.cz/?projection=51279"
       },
@@ -265,6 +214,22 @@ export const FILMS = [
         time: "20:30",
         place: "Bio Oko",
         ticketsUrl: "https://www.biooko.net/?projection=50494"
+      },
+    ]
+  },
+  {
+    title: "Сталкер (1979)",
+    poster: {
+      src: "stalker.jpg",
+      alt: "",
+    },
+    trailerUrl: "https://youtu.be/nFLQEuQuNKM",
+    screenings: [
+      {
+        date: "пт 7.08",
+        time: "20:00",
+        place: "Aero",
+        ticketsUrl: "https://www.kinoaero.cz/?projection=50310"
       },
     ]
   },
