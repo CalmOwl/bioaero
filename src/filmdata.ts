@@ -2,122 +2,6 @@ import { Film } from "./types";
 
 export const FILMS = [
   {
-    title: "I Swear (2025)",
-    poster: {
-      src: "i-swear.jpg",
-      alt: "",
-    },
-    trailerUrl: "https://youtu.be/10ynpduiRpM",
-    screenings: [
-      {
-        date: "сб 18.07",
-        time: "15:30",
-        place: "Lucerna",
-        ticketsUrl: "https://www.kinolucerna.cz/?projection=52227"
-      },
-      {
-        date: "сб 18.07",
-        time: "17:15",
-        place: "Bio Oko",
-        ticketsUrl: "https://www.kinosvetozor.cz/?projection=52207"
-      },
-      {
-        date: "вс 19.07",
-        time: "13:00",
-        place: "Lucerna",
-        ticketsUrl: "https://www.kinolucerna.cz/?projection=52216"
-      },
-    ]
-  },
-  {
-    title: "The Invite (2026)",
-    poster: {
-      src: "the-invite.jpg",
-      alt: "",
-    },
-    trailerUrl: "https://youtu.be/nelkiuezJxg",
-    screenings: [
-      {
-        date: "сб 18.07",
-        time: "12:00",
-        place: "Světozor",
-        ticketsUrl: "https://www.kinosvetozor.cz/?projection=52270"
-      },
-      {
-        date: "сб 18.07",
-        time: "20:00",
-        place: "Bio Oko",
-        ticketsUrl: "https://www.biooko.net/?projection=52208"
-      },
-      {
-        date: "вс 19.07",
-        time: "12:00",
-        place: "Světozor",
-        ticketsUrl: "https://www.kinosvetozor.cz/?projection=52271"
-      },
-    ]
-  },
-  {
-    title: "Odyssey (2026)",
-    poster: {
-      src: "odyssey.jpg",
-      alt: "",
-    },
-    description: "",
-    trailerUrl: "https://youtu.be/f_bKjZeJBBI",
-    screenings: [
-      {
-        date: "сб 18.07",
-        time: "12:30",
-        place: "Lucerna",
-        ticketsUrl: "https://www.kinolucerna.cz/?projection=51255"
-      },
-      {
-        date: "сб 18.07",
-        time: "16:00",
-        place: "Lucerna",
-        ticketsUrl: "https://www.kinolucerna.cz/?projection=51256"
-      },
-      {
-        date: "вс 19.07",
-        time: "12:30",
-        place: "Lucerna",
-        ticketsUrl: "https://www.kinolucerna.cz/?projection=51258"
-      },
-      {
-        date: "вс 19.07",
-        time: "16:00",
-        place: "Lucerna",
-        ticketsUrl: "https://www.kinolucerna.cz/?projection=51260"
-      },
-      {
-        date: "сб 18.07",
-        time: "11:00",
-        place: "Světozor",
-        ticketsUrl: "https://www.kinosvetozor.cz/?projection=51277"
-      },
-      {
-        date: "сб 18.07",
-        time: "16:30",
-        place: "Světozor",
-        ticketsUrl: "https://www.kinosvetozor.cz/?projection=51278"
-      },
-      {
-        date: "вс 19.07",
-        time: "11:00",
-        place: "Světozor",
-        ticketsUrl: "https://www.kinosvetozor.cz/?projection=51280"
-      },
-      {
-        date: "вс 19.07",
-        time: "16:30",
-        place: "Světozor",
-        ticketsUrl: "https://www.kinosvetozor.cz/?projection=51279"
-      },
-    ]
-  },
-
-  {
     title: "Hard Boiled (1992)",
     poster: {
       src: "hard_boiled.jpg",
@@ -201,6 +85,176 @@ export const FILMS = [
     ]
   },
   {
+    title: "I Swear (2025)",
+    poster: {
+      src: "i-swear.jpg",
+      alt: "",
+    },
+    trailerUrl: "https://youtu.be/10ynpduiRpM",
+    screenings: [
+      {
+        date: "сб 25.07",
+        time: "12:30",
+        place: "Světozor",
+        ticketsUrl: "https://www.kinosvetozor.cz/?projection=52514"
+      },
+      {
+        date: "сб 25.07",
+        time: "18:00",
+        place: "Aero",
+        ticketsUrl: "https://www.kinoaero.cz/?projection=52568"
+      },
+      {
+        date: "вс 26.07",
+        time: "18:00",
+        place: "Světozor",
+        ticketsUrl: "https://www.kinosvetozor.cz/?projection=52515"
+      },
+    ]
+  },
+  {
+    title: "The Invite (2026)",
+    poster: {
+      src: "the-invite.jpg",
+      alt: "",
+    },
+    trailerUrl: "https://youtu.be/nelkiuezJxg",
+    screenings: [
+      {
+        date: "сб 25.07",
+        time: "12:45",
+        place: "Světozor",
+        ticketsUrl: "https://www.kinosvetozor.cz/?projection=52537"
+      },
+      {
+        date: "сб 25.07",
+        time: "17:30",
+        place: "Světozor",
+        ticketsUrl: "https://www.kinosvetozor.cz/?projection=52553"
+      }, {
+        date: "сб 25.07",
+        time: "20:30",
+        place: "Aero",
+        ticketsUrl: "https://www.kinoaero.cz/?projection=52569"
+      },
+      {
+        date: "вс 26.07",
+        time: "13:00",
+        place: "Světozor",
+        ticketsUrl: "https://www.kinosvetozor.cz/?projection=52538"
+      },
+      {
+        date: "вс 26.07",
+        time: "18:00",
+        place: "Světozor",
+        ticketsUrl: "https://www.kinosvetozor.cz/?projection=52539"
+      },
+    ]
+  },
+  {
+    title: "Odyssey (2026)",
+    poster: {
+      src: "odyssey.jpg",
+      alt: "",
+    },
+    description: "",
+    trailerUrl: "https://youtu.be/f_bKjZeJBBI",
+    screenings: [
+      {
+        date: "сб 25.07",
+        time: "12:00",
+        place: "Světozor",
+        ticketsUrl: "https://www.kinosvetozor.cz/?projection=52556"
+      },
+      {
+        date: "сб 25.07",
+        time: "12:30",
+        place: "Lucerna",
+        ticketsUrl: "https://www.kinolucerna.cz/?projection=52499"
+      }, {
+        date: "сб 25.07",
+        time: "16:00",
+        place: "Lucerna",
+        ticketsUrl: "https://www.kinolucerna.cz/?projection=52500"
+      }, {
+        date: "сб 25.07",
+        time: "16:45",
+        place: "Bio Oko",
+        ticketsUrl: "https://biooko.net/?projection=52481"
+      }, {
+        date: "сб 25.07",
+        time: "19:45",
+        place: "Světozor",
+        ticketsUrl: "https://www.kinosvetozor.cz/?projection=52555"
+      },
+      {
+        date: "вс 26.07",
+        time: "12:00",
+        place: "Lucerna",
+        ticketsUrl: "https://www.kinolucerna.cz/?projection=52502"
+      },
+      {
+        date: "вс 26.07",
+        time: "12:30",
+        place: "Světozor",
+        ticketsUrl: "https://www.kinosvetozor.cz/?projection=52557"
+      },
+      {
+        date: "вс 26.07",
+        time: "16:00",
+        place: "Světozor",
+        ticketsUrl: "https://www.kinosvetozor.cz/?projection=52558"
+      },
+      {
+        date: "вс 26.07",
+        time: "19:10",
+        place: "Aero",
+        ticketsUrl: "https://www.kinoaero.cz/?projection=51866"
+      },
+      {
+        date: "вс 26.07",
+        time: "19:30",
+        place: "Světozor",
+        ticketsUrl: "https://www.kinosvetozor.cz/?projection=52559"
+      },
+      {
+        date: "вс 26.07",
+        time: "19:45",
+        place: "Lucerna",
+        ticketsUrl: "https://www.kinolucerna.cz/?projection=52505"
+      },
+      {
+        date: "пт 21.08",
+        time: "14:00",
+        place: "Světozor",
+        ticketsUrl: "https://www.kinosvetozor.cz/?projection=52592"
+      },
+    ]
+  },
+  {
+    title: "Odyssey (2026) 35мм",
+    poster: {
+      src: "odyssey.jpg",
+      alt: "",
+    },
+    description: "показы с плёнки 35мм",
+    trailerUrl: "https://youtu.be/f_bKjZeJBBI",
+    screenings: [
+      {
+        date: "вт 4.08",
+        time: "20:00",
+        place: "Světozor",
+        ticketsUrl: "https://www.kinosvetozor.cz/?projection=52392"
+      },
+      {
+        date: "ср 5.08",
+        time: "20:00",
+        place: "Světozor",
+        ticketsUrl: "https://www.kinosvetozor.cz/?projection=52393"
+      },
+    ]
+  },
+  {
     title: "My Own Private Idaho (1991)",
     poster: {
       src: "my-own-private-idaho.jpg",
@@ -214,6 +268,20 @@ export const FILMS = [
         time: "20:30",
         place: "Bio Oko",
         ticketsUrl: "https://www.biooko.net/?projection=50494"
+      },
+    ]
+  },
+  {
+    title: "Aero naslepo",
+    description: "Сеанс неизвестного заранее фильма, билеты нужно брать ПРЯМО В КАССЕ КИНОТЕАТРА",
+    trailerUrl: "https://boxd.it/uqXaW",
+    infoButtonDescription: "Список фильмов предыдущих сеансов",
+    screenings: [
+      {
+        date: "ср 5.08",
+        time: "20:30",
+        place: "Aero",
+        ticketsUrl: "https://www.kinoaero.cz/?projection=48280"
       },
     ]
   },
@@ -328,6 +396,22 @@ export const FILMS = [
     ]
   },
   {
+    title: "Terminator 2: Judgment Day (1991)",
+    poster: {
+      src: "terminator-2-judgment-day.jpg",
+      alt: "",
+    },
+    trailerUrl: "https://youtu.be/BuBD2s2NmEM",
+    screenings: [
+      {
+        date: "пт 21.08",
+        time: "20:15",
+        place: "Aero",
+        ticketsUrl: "https://www.kinoaero.cz/?projection=50368"
+      },
+    ]
+  },
+  {
     title: "Constantine (2005)",
     poster: {
       src: "constantine.jpg",
@@ -340,6 +424,22 @@ export const FILMS = [
         time: "20:30",
         place: "Bio Oko",
         ticketsUrl: "https://www.biooko.net/?projection=50497"
+      },
+    ]
+  },
+  {
+    title: "Blade Runner: The Final Cut (1982)",
+    poster: {
+      src: "blade-runner.jpg",
+      alt: "",
+    },
+    trailerUrl: "https://youtu.be/qoEyZoOTtss",
+    screenings: [
+      {
+        date: "чт 27.08",
+        time: "18:01",
+        place: "Aero",
+        ticketsUrl: "https://www.kinoaero.cz/?projection=50374"
       },
     ]
   },
