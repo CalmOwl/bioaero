@@ -1,89 +1,9 @@
+import enrichedFilms from '../enrichedFilmdata.json'
 import { Film } from "./types";
 
+export const FILMS = enrichedFilms as Film[];
+/*
 export const FILMS = [
-  {
-    title: "Hard Boiled (1992)",
-    poster: {
-      src: "hard_boiled.jpg",
-      alt: "",
-    },
-    trailerUrl: "https://youtu.be/N_XBwks_MB8",
-    screenings: [
-      {
-        date: "пн 20.07",
-        time: "20:30",
-        place: "Aero",
-        ticketsUrl: "https://www.kinoaero.cz/?projection=49257"
-      },
-    ]
-  },
-  {
-    title: "Point Break (1991)",
-    poster: {
-      src: "point-break.jpg",
-      alt: "",
-    },
-    trailerUrl: "https://youtu.be/KywiWyPjrOg",
-    screenings: [
-      {
-        date: "вт 21.07",
-        time: "20:30",
-        place: "Bio Oko",
-        ticketsUrl: "https://www.biooko.net/?projection=50467"
-      },
-    ]
-  },
-  {
-    title: "The Princess Diaries (2001)",
-    poster: {
-      src: "princess-diaries.jpg",
-      alt: "",
-    },
-    description: "",
-    trailerUrl: "https://youtu.be/2CkcwPi20ms",
-    screenings: [
-      {
-        date: "ср 22.07",
-        time: "20:30",
-        place: "Aero",
-        ticketsUrl: "https://www.kinoaero.cz/?projection=50298"
-      },
-    ]
-  },
-  {
-    title: "Унесённые призраками (2001)",
-    poster: {
-      src: "spirited-away.jpg",
-      alt: "",
-    },
-    description: "",
-    trailerUrl: "https://youtu.be/GAp2_0JJskk",
-    screenings: [
-      {
-        date: "чт 23.07",
-        time: "17:50",
-        place: "Bio Oko ",
-        ticketsUrl: "https://www.biooko.net/?projection=50536"
-      },
-    ]
-  },
-
-  {
-    title: "Angel’s Egg (1985)",
-    poster: {
-      src: "angels_egg.jpg",
-      alt: "",
-    },
-    trailerUrl: "https://youtu.be/SqyVGzaQFpQ",
-    screenings: [
-      {
-        date: "чт 23.07",
-        time: "18:00",
-        place: "Aero",
-        ticketsUrl: "https://www.kinoaero.cz/?projection=50684"
-      },
-    ]
-  },
   {
     title: "I Swear (2025)",
     poster: {
@@ -92,18 +12,6 @@ export const FILMS = [
     },
     trailerUrl: "https://youtu.be/10ynpduiRpM",
     screenings: [
-      {
-        date: "сб 25.07",
-        time: "12:30",
-        place: "Světozor",
-        ticketsUrl: "https://www.kinosvetozor.cz/?projection=52514"
-      },
-      {
-        date: "сб 25.07",
-        time: "18:00",
-        place: "Aero",
-        ticketsUrl: "https://www.kinoaero.cz/?projection=52568"
-      },
       {
         date: "вс 26.07",
         time: "18:00",
@@ -120,23 +28,6 @@ export const FILMS = [
     },
     trailerUrl: "https://youtu.be/nelkiuezJxg",
     screenings: [
-      {
-        date: "сб 25.07",
-        time: "12:45",
-        place: "Světozor",
-        ticketsUrl: "https://www.kinosvetozor.cz/?projection=52537"
-      },
-      {
-        date: "сб 25.07",
-        time: "17:30",
-        place: "Světozor",
-        ticketsUrl: "https://www.kinosvetozor.cz/?projection=52553"
-      }, {
-        date: "сб 25.07",
-        time: "20:30",
-        place: "Aero",
-        ticketsUrl: "https://www.kinoaero.cz/?projection=52569"
-      },
       {
         date: "вс 26.07",
         time: "13:00",
@@ -160,33 +51,6 @@ export const FILMS = [
     description: "",
     trailerUrl: "https://youtu.be/f_bKjZeJBBI",
     screenings: [
-      {
-        date: "сб 25.07",
-        time: "12:00",
-        place: "Světozor",
-        ticketsUrl: "https://www.kinosvetozor.cz/?projection=52556"
-      },
-      {
-        date: "сб 25.07",
-        time: "12:30",
-        place: "Lucerna",
-        ticketsUrl: "https://www.kinolucerna.cz/?projection=52499"
-      }, {
-        date: "сб 25.07",
-        time: "16:00",
-        place: "Lucerna",
-        ticketsUrl: "https://www.kinolucerna.cz/?projection=52500"
-      }, {
-        date: "сб 25.07",
-        time: "16:45",
-        place: "Bio Oko",
-        ticketsUrl: "https://biooko.net/?projection=52481"
-      }, {
-        date: "сб 25.07",
-        time: "19:45",
-        place: "Světozor",
-        ticketsUrl: "https://www.kinosvetozor.cz/?projection=52555"
-      },
       {
         date: "вс 26.07",
         time: "12:00",

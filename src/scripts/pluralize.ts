@@ -1,13 +1,18 @@
 export default function pluralize(count: number): string {
-  if (count >= 11 && count <= 14) {
+  const lastTwo = count % 100;
+
+  if (lastTwo >= 11 && lastTwo <= 14) {
     return "фильмов";
   }
 
   switch (count % 10) {
-    case 1: return "фильм";
+    case 1:
+      return "фильм";
     case 2:
     case 3:
-    case 4: return "фильма";
-    default: return "фильмов";
+    case 4:
+      return "фильма";
+    default:
+      return "фильмов";
   }
 }

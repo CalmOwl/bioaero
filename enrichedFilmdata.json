@@ -1,0 +1,819 @@
+[
+  {
+    "title": "The Odyssey",
+    "poster": {
+      "src": "https://a.ltrbxd.com/resized/film-poster/1/2/5/5/3/9/4/1255394-the-odyssey-2026-0-600-0-900-crop.jpg?v=1eed046d0c",
+      "alt": "",
+      "local": "the-odyssey.jpg"
+    },
+    "letterboxdUrl": "https://letterboxd.com/film/the-odyssey-2026/",
+    "trailerUrl": "https://www.youtube.com/watch?v=VplmWV6cms4",
+    "screenings": [
+      {
+        "start": "2026-08-01T12:30:00+02:00",
+        "date": "сб, 01.08",
+        "time": "12:30",
+        "place": "Světozor",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=52843"
+      },
+      {
+        "start": "2026-08-01T14:15:00+02:00",
+        "date": "сб, 01.08",
+        "time": "14:15",
+        "place": "Lucerna",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=52739"
+      },
+      {
+        "start": "2026-08-01T17:15:00+02:00",
+        "date": "сб, 01.08",
+        "time": "17:15",
+        "place": "Aero",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=52671"
+      },
+      {
+        "start": "2026-08-01T19:30:00+02:00",
+        "date": "сб, 01.08",
+        "time": "19:30",
+        "place": "Světozor",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=52845"
+      },
+      {
+        "start": "2026-08-01T20:00:00+02:00",
+        "date": "сб, 01.08",
+        "time": "20:00",
+        "place": "Lucerna",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=52741"
+      },
+      {
+        "start": "2026-08-01T20:30:00+02:00",
+        "date": "сб, 01.08",
+        "time": "20:30",
+        "place": "Přítomnost",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=52642"
+      },
+      {
+        "start": "2026-08-02T11:45:00+02:00",
+        "date": "вс, 02.08",
+        "time": "11:45",
+        "place": "Světozor",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=52798"
+      },
+      {
+        "start": "2026-08-02T12:30:00+02:00",
+        "date": "вс, 02.08",
+        "time": "12:30",
+        "place": "Lucerna",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=52742"
+      },
+      {
+        "start": "2026-08-02T16:00:00+02:00",
+        "date": "вс, 02.08",
+        "time": "16:00",
+        "place": "Lucerna",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=52743"
+      },
+      {
+        "start": "2026-08-02T16:30:00+02:00",
+        "date": "вс, 02.08",
+        "time": "16:30",
+        "place": "Přítomnost",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=52643"
+      },
+      {
+        "start": "2026-08-02T17:30:00+02:00",
+        "date": "вс, 02.08",
+        "time": "17:30",
+        "place": "Světozor",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=52846"
+      },
+      {
+        "start": "2026-08-02T19:30:00+02:00",
+        "date": "вс, 02.08",
+        "time": "19:30",
+        "place": "Lucerna",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=52744"
+      },
+      {
+        "start": "2026-08-02T20:00:00+02:00",
+        "date": "вс, 02.08",
+        "time": "20:00",
+        "place": "Světozor",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=52797"
+      }
+    ]
+  },
+  {
+    "title": "The Odyssey 35mm",
+    "poster": {
+      "src": "https://a.ltrbxd.com/resized/film-poster/1/2/5/5/3/9/4/1255394-the-odyssey-2026-0-600-0-900-crop.jpg?v=1eed046d0c",
+      "alt": "",
+      "local": "odyssey.jpg"
+    },
+    "letterboxdUrl": "https://letterboxd.com/film/the-odyssey-2026/",
+    "trailerUrl": "https://www.youtube.com/watch?v=VplmWV6cms4",
+    "screenings": [
+      {
+        "start": "2026-07-29T20:15:00+02:00",
+        "date": "ср, 29.07",
+        "time": "20:15",
+        "place": "Aero",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=51867"
+      },
+      {
+        "start": "2026-07-30T20:15:00+02:00",
+        "date": "чт, 30.07",
+        "time": "20:15",
+        "place": "Aero",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=51868"
+      },
+      {
+        "start": "2026-07-31T20:30:00+02:00",
+        "date": "пт, 31.07",
+        "time": "20:30",
+        "place": "Bio Oko",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=52655"
+      },
+      {
+        "start": "2026-08-01T16:00:00+02:00",
+        "date": "сб, 01.08",
+        "time": "16:00",
+        "place": "Bio Oko",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=52692"
+      },
+      {
+        "start": "2026-08-04T20:00:00+02:00",
+        "date": "вт, 04.08",
+        "time": "20:00",
+        "place": "Světozor",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=52392"
+      },
+      {
+        "start": "2026-08-05T20:00:00+02:00",
+        "date": "ср, 05.08",
+        "time": "20:00",
+        "place": "Světozor",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=52393"
+      },
+      {
+        "start": "2026-08-21T14:00:00+02:00",
+        "date": "пт, 21.08",
+        "time": "14:00",
+        "place": "Světozor",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=52592"
+      },
+      {
+        "start": "2026-08-22T17:00:00+02:00",
+        "date": "сб, 22.08",
+        "time": "17:00",
+        "place": "Světozor",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=52945"
+      }
+    ]
+  },
+  {
+    "title": "I Swear",
+    "poster": {
+      "src": "https://a.ltrbxd.com/resized/film-poster/1/1/9/7/8/4/2/1197842-i-swear-0-600-0-900-crop.jpg?v=b8f019138e",
+      "alt": "",
+      "local": "i-swear.jpg"
+    },
+    "letterboxdUrl": "https://letterboxd.com/film/i-swear/",
+    "trailerUrl": "https://www.youtube.com/watch?v=CY_MBWaGv4I",
+    "screenings": [
+      {
+        "start": "2026-07-31T17:15:00+02:00",
+        "date": "пт, 31.07",
+        "time": "17:15",
+        "place": "Přítomnost",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=52640"
+      },
+      {
+        "start": "2026-08-01T12:15:00+02:00",
+        "date": "сб, 01.08",
+        "time": "12:15",
+        "place": "Světozor",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=52829"
+      },
+      {
+        "start": "2026-08-02T17:00:00+02:00",
+        "date": "вс, 02.08",
+        "time": "17:00",
+        "place": "Bio Oko",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=52710"
+      },
+      {
+        "start": "2026-08-02T20:30:00+02:00",
+        "date": "вс, 02.08",
+        "time": "20:30",
+        "place": "Světozor",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=52830"
+      }
+    ]
+  },
+  {
+    "title": "Obsession",
+    "poster": {
+      "src": "https://a.ltrbxd.com/resized/film-poster/1/2/3/4/4/7/2/1234472-obsession-2025-2-0-600-0-900-crop.jpg?v=cff6fc00b6",
+      "alt": "",
+      "local": "obsession.jpg"
+    },
+    "letterboxdUrl": "https://letterboxd.com/film/obsession-2025-2/",
+    "trailerUrl": "https://www.youtube.com/watch?v=Fl3pfvmcdmA",
+    "screenings": [
+      {
+        "start": "2026-07-31T18:00:00+02:00",
+        "date": "пт, 31.07",
+        "time": "18:00",
+        "place": "Lucerna",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=52723"
+      },
+      {
+        "start": "2026-07-31T20:15:00+02:00",
+        "date": "пт, 31.07",
+        "time": "20:15",
+        "place": "Světozor",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=52805"
+      },
+      {
+        "start": "2026-08-01T18:15:00+02:00",
+        "date": "сб, 01.08",
+        "time": "18:15",
+        "place": "Lucerna",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=52728"
+      },
+      {
+        "start": "2026-08-01T20:30:00+02:00",
+        "date": "сб, 01.08",
+        "time": "20:30",
+        "place": "Světozor",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=52806"
+      }
+    ]
+  },
+  {
+    "title": "The Invite",
+    "poster": {
+      "src": "https://a.ltrbxd.com/resized/film-poster/8/5/4/8/3/1/854831-the-invite-2026-0-600-0-900-crop.jpg?v=ee72905e48",
+      "alt": "",
+      "local": "the-invite.jpg"
+    },
+    "letterboxdUrl": "https://letterboxd.com/film/the-invite-2026/",
+    "trailerUrl": "https://www.youtube.com/watch?v=fRBFIc7g4gc",
+    "screenings": [
+      {
+        "start": "2026-08-01T17:30:00+02:00",
+        "date": "сб, 01.08",
+        "time": "17:30",
+        "place": "Lucerna",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=52740"
+      },
+      {
+        "start": "2026-08-01T20:30:00+02:00",
+        "date": "сб, 01.08",
+        "time": "20:30",
+        "place": "Světozor",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=52832"
+      },
+      {
+        "start": "2026-08-02T20:30:00+02:00",
+        "date": "вс, 02.08",
+        "time": "20:30",
+        "place": "Přítomnost",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=52644"
+      },
+      {
+        "start": "2026-08-02T20:45:00+02:00",
+        "date": "вс, 02.08",
+        "time": "20:45",
+        "place": "Světozor",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=52840"
+      }
+    ]
+  },
+  {
+    "title": "Spider-Man: Brand New Day",
+    "poster": {
+      "src": "https://a.ltrbxd.com/resized/film-poster/8/7/2/8/7/1/872871-spider-man-brand-new-day-0-600-0-900-crop.jpg?v=ebe6beb4fc",
+      "alt": "",
+      "local": "spider-man-brand-new-day.jpg"
+    },
+    "letterboxdUrl": "https://letterboxd.com/film/spider-man-brand-new-day/",
+    "trailerUrl": "https://www.youtube.com/watch?v=MEQT-OFvJS0&amp;t=1s",
+    "screenings": [
+      {
+        "start": "2026-08-01T17:30:00+02:00",
+        "date": "сб, 01.08",
+        "time": "17:30",
+        "place": "Světozor",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=52826"
+      },
+      {
+        "start": "2026-08-01T20:30:00+02:00",
+        "date": "сб, 01.08",
+        "time": "20:30",
+        "place": "Lucerna",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=52729"
+      },
+      {
+        "start": "2026-08-02T16:45:00+02:00",
+        "date": "вс, 02.08",
+        "time": "16:45",
+        "place": "Lucerna",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=52790"
+      },
+      {
+        "start": "2026-08-02T17:15:00+02:00",
+        "date": "вс, 02.08",
+        "time": "17:15",
+        "place": "Světozor",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=52827"
+      }
+    ]
+  },
+  {
+    "title": "Fox and Hare Save the Forest",
+    "poster": {
+      "src": "https://a.ltrbxd.com/resized/film-poster/9/5/7/3/6/6/957366-fox-and-hare-save-the-forest-0-600-0-900-crop.jpg?v=b49f946f9d",
+      "alt": "",
+      "local": "fox-&amp;-hare-save-the-forest.jpg"
+    },
+    "letterboxdUrl": "https://letterboxd.com/film/fox-and-hare-save-the-forest/",
+    "trailerUrl": "https://www.youtube.com/watch?v=KrcK7lzoqzw",
+    "screenings": [
+      {
+        "start": "2026-07-30T16:00:00+02:00",
+        "date": "чт, 30.07",
+        "time": "16:00",
+        "place": "Aero",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=52679"
+      }
+    ]
+  },
+  {
+    "title": "The Drama",
+    "poster": {
+      "src": "https://a.ltrbxd.com/resized/film-poster/1/2/0/5/4/9/4/1205494-the-drama-0-600-0-900-crop.jpg?v=2320acafd5",
+      "alt": "",
+      "local": "the-drama.jpg"
+    },
+    "letterboxdUrl": "https://letterboxd.com/film/the-drama/",
+    "trailerUrl": "https://www.youtube.com/watch?v=7Kx5OUZVj1M",
+    "screenings": [
+      {
+        "start": "2026-08-02T11:45:00+02:00",
+        "date": "вс, 02.08",
+        "time": "11:45",
+        "place": "Světozor",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=52823"
+      }
+    ]
+  },
+  {
+    "title": "Benjamin Bat",
+    "poster": {
+      "src": "https://a.ltrbxd.com/resized/film-poster/1/2/4/7/0/3/3/1247033-benjamin-bat-0-600-0-900-crop.jpg?v=35cbe58eed",
+      "alt": "",
+      "local": "benjamin-bat.jpg"
+    },
+    "letterboxdUrl": "https://letterboxd.com/film/benjamin-bat/",
+    "trailerUrl": "https://www.youtube.com/watch?v=8p7yZsDxPkw",
+    "screenings": [
+      {
+        "start": "2026-08-01T12:00:00+02:00",
+        "date": "сб, 01.08",
+        "time": "12:00",
+        "place": "Bio Oko",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=52704"
+      }
+    ]
+  },
+  {
+    "title": "Toy Story 5",
+    "poster": {
+      "src": "https://a.ltrbxd.com/resized/film-poster/9/7/7/1/8/6/977186-toy-story-5-0-600-0-900-crop.jpg?v=d0ac6a7d01",
+      "alt": "",
+      "local": "toy-story-5.jpg"
+    },
+    "letterboxdUrl": "https://letterboxd.com/film/toy-story-5/",
+    "trailerUrl": "https://www.youtube.com/watch?v=rhP9VrJFatw",
+    "screenings": [
+      {
+        "start": "2026-08-01T15:00:00+02:00",
+        "date": "сб, 01.08",
+        "time": "15:00",
+        "place": "Aero",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=52670"
+      },
+      {
+        "start": "2026-08-02T14:30:00+02:00",
+        "date": "вс, 02.08",
+        "time": "14:30",
+        "place": "Bio Oko",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=52695"
+      },
+      {
+        "start": "2026-08-02T15:00:00+02:00",
+        "date": "вс, 02.08",
+        "time": "15:00",
+        "place": "Světozor",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=52810"
+      }
+    ]
+  },
+  {
+    "title": "Ponyo",
+    "poster": {
+      "src": "https://a.ltrbxd.com/resized/film-poster/4/4/5/9/4/44594-ponyo-0-600-0-900-crop.jpg?v=6e5faa20db",
+      "alt": "",
+      "local": "ponyo.jpg"
+    },
+    "letterboxdUrl": "https://letterboxd.com/film/ponyo/",
+    "trailerUrl": "https://www.youtube.com/watch?v=N9Bjxgh8HD0",
+    "screenings": [
+      {
+        "start": "2026-08-02T12:00:00+02:00",
+        "date": "вс, 02.08",
+        "time": "12:00",
+        "place": "Bio Oko",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=52694"
+      }
+    ]
+  },
+  {
+    "title": "Papaya",
+    "poster": {
+      "src": "https://a.ltrbxd.com/resized/film-poster/1/4/0/9/0/2/3/1409023-papaya-2025-0-600-0-900-crop.jpg?v=8894f9a534",
+      "alt": "",
+      "local": "papaya.jpg"
+    },
+    "letterboxdUrl": "https://letterboxd.com/film/papaya-2025/",
+    "trailerUrl": "https://www.youtube.com/watch?v=bPNe_cyKMYo",
+    "screenings": [
+      {
+        "start": "2026-08-02T15:00:00+02:00",
+        "date": "вс, 02.08",
+        "time": "15:00",
+        "place": "Aero",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=52474"
+      }
+    ]
+  },
+  {
+    "title": "Do the Right Thing",
+    "poster": {
+      "src": "https://a.ltrbxd.com/resized/sm/upload/zm/fz/vn/ie/obNQLtdeJy3IiKnExWoWBJH8V67-0-600-0-900-crop.jpg?v=b4926532f8",
+      "alt": "",
+      "local": "do-the-right-thing.jpg"
+    },
+    "letterboxdUrl": "https://letterboxd.com/film/do-the-right-thing/",
+    "trailerUrl": "https://www.youtube.com/watch?v=VGFwp_H8Ny0",
+    "screenings": [
+      {
+        "start": "2026-08-03T20:30:00+02:00",
+        "date": "пн, 03.08",
+        "time": "20:30",
+        "place": "Aero",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=50367"
+      }
+    ]
+  },
+  {
+    "title": "My Own Private Idaho",
+    "poster": {
+      "src": "https://a.ltrbxd.com/resized/film-poster/5/1/6/3/4/51634-my-own-private-idaho-0-600-0-900-crop.jpg?v=8ac7ef6e68",
+      "alt": "",
+      "local": "my-own-private-idaho.jpg"
+    },
+    "letterboxdUrl": "https://letterboxd.com/film/my-own-private-idaho/",
+    "trailerUrl": "https://www.youtube.com/watch?v=t2Xnv2nV0lI",
+    "screenings": [
+      {
+        "start": "2026-08-04T20:30:00+02:00",
+        "date": "вт, 04.08",
+        "time": "20:30",
+        "place": "Bio Oko",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=50494"
+      }
+    ]
+  },
+  {
+    "title": "Flow",
+    "poster": {
+      "src": "https://a.ltrbxd.com/resized/film-poster/7/3/9/4/5/1/739451-flow-2024-0-600-0-900-crop.jpg?v=d664eca804",
+      "alt": "",
+      "local": "flow.jpg"
+    },
+    "letterboxdUrl": "https://letterboxd.com/film/flow-2024/",
+    "trailerUrl": "https://www.youtube.com/watch?v=1ewCDRKpWUU",
+    "screenings": [
+      {
+        "start": "2026-08-05T16:00:00+02:00",
+        "date": "ср, 05.08",
+        "time": "16:00",
+        "place": "Aero",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=52677"
+      }
+    ]
+  },
+  {
+    "title": "Aero naslepo",
+    "description": "Když zkusíte „Aero naslepo“, nebudete vědět, na jaký film jste se vypravili. Předem neplatíte nic. Po projekci dostanete možnost ocenit zážitek částkou, kterou si sami určíte.",
+    "letterboxdUrl": null,
+    "trailerUrl": "https://boxd.it/uqXaW",
+    "infoButtonDescription": "Список фильмов предыдущих сеансов",
+    "screenings": [
+      {
+        "start": "2026-08-05T20:30:00+02:00",
+        "date": "ср, 05.08",
+        "time": "20:30",
+        "place": "Aero",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=50303"
+      }
+    ]
+  },
+  {
+    "title": "One Battle After Another",
+    "poster": {
+      "src": "https://a.ltrbxd.com/resized/film-poster/9/5/1/2/7/7/951277-one-battle-after-another-0-600-0-900-crop.jpg?v=d27c4cc662",
+      "alt": "",
+      "local": "one-battle-after-another.jpg"
+    },
+    "letterboxdUrl": "https://letterboxd.com/film/one-battle-after-another/",
+    "trailerUrl": "https://www.youtube.com/watch?v=0Dj0jjKr6sM",
+    "screenings": [
+      {
+        "start": "2026-08-06T20:30:00+02:00",
+        "date": "чт, 06.08",
+        "time": "20:30",
+        "place": "Aero",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=50305"
+      }
+    ]
+  },
+  {
+    "title": "Stalker (1979)",
+    "poster": {
+      "src": "https://a.ltrbxd.com/resized/film-poster/5/1/0/6/2/51062-stalker-0-600-0-900-crop.jpg?v=1852068db9",
+      "alt": "",
+      "local": "stalker-(1979).jpg"
+    },
+    "letterboxdUrl": "https://letterboxd.com/film/stalker/",
+    "trailerUrl": "https://www.youtube.com/watch?v=YuOnfQd-aTw",
+    "screenings": [
+      {
+        "start": "2026-08-07T20:00:00+02:00",
+        "date": "пт, 07.08",
+        "time": "20:00",
+        "place": "Aero",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=50310"
+      }
+    ]
+  },
+  {
+    "title": "Pusher",
+    "poster": {
+      "src": "https://a.ltrbxd.com/resized/sm/upload/r0/7x/rh/jz/auG6gLxJwl2SkQpnfLqR5WFoqOa-0-600-0-900-crop.jpg?v=60ba7d7d0f",
+      "alt": "",
+      "local": "pusher.jpg"
+    },
+    "letterboxdUrl": "https://letterboxd.com/film/pusher/",
+    "trailerUrl": "https://www.youtube.com/watch?v=AEIwMsqee-A",
+    "screenings": [
+      {
+        "start": "2026-08-08T17:01:00+02:00",
+        "date": "сб, 08.08",
+        "time": "17:01",
+        "place": "Aero",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=50306"
+      }
+    ]
+  },
+  {
+    "title": "Pusher II: With Blood on My Hands",
+    "poster": {
+      "src": "https://a.ltrbxd.com/resized/sm/upload/rz/wz/st/bn/gfa7STxdOTqAWijSytswpdT535I-0-600-0-900-crop.jpg?v=d1238a7249",
+      "alt": "",
+      "local": "pusher-ii-with-blood-on-my-hands.jpg"
+    },
+    "letterboxdUrl": "https://letterboxd.com/film/pusher-ii/",
+    "trailerUrl": "https://www.youtube.com/watch?v=BcFcDPWysEE",
+    "screenings": [
+      {
+        "start": "2026-08-08T19:20:00+02:00",
+        "date": "сб, 08.08",
+        "time": "19:20",
+        "place": "Aero",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=50307"
+      }
+    ]
+  },
+  {
+    "title": "Pusher III: I'm the Angel of Death",
+    "poster": {
+      "src": "https://a.ltrbxd.com/resized/sm/upload/0x/vx/8j/ul/5emWr4vzLUWohqkoseK3bb4M2KG-0-600-0-900-crop.jpg?v=2a2295ff88",
+      "alt": "",
+      "local": "pusher-iii.jpg"
+    },
+    "letterboxdUrl": "https://letterboxd.com/film/pusher-iii/",
+    "trailerUrl": "https://www.youtube.com/watch?v=TOtZ62HT3sI",
+    "screenings": [
+      {
+        "start": "2026-08-08T21:30:00+02:00",
+        "date": "сб, 08.08",
+        "time": "21:30",
+        "place": "Aero",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=50308"
+      }
+    ]
+  },
+  {
+    "title": "The Matrix",
+    "poster": {
+      "src": "https://a.ltrbxd.com/resized/film-poster/5/1/5/1/8/51518-the-matrix-0-600-0-900-crop.jpg?v=fc7c366afe",
+      "alt": "",
+      "local": "the-matrix.jpg"
+    },
+    "letterboxdUrl": "https://letterboxd.com/film/the-matrix/",
+    "trailerUrl": "https://www.youtube.com/watch?v=m8e-FF8MsqU",
+    "screenings": [
+      {
+        "start": "2026-08-11T20:30:00+02:00",
+        "date": "вт, 11.08",
+        "time": "20:30",
+        "place": "Bio Oko",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=50495"
+      }
+    ]
+  },
+  {
+    "title": "Only Lovers Left Alive",
+    "poster": {
+      "src": "https://a.ltrbxd.com/resized/film-poster/1/1/4/5/6/3/114563-only-lovers-left-alive-0-600-0-900-crop.jpg?v=d6151d5d18",
+      "alt": "",
+      "local": "only-lovers-left-alive.jpg"
+    },
+    "letterboxdUrl": "https://letterboxd.com/film/only-lovers-left-alive/",
+    "trailerUrl": "https://www.youtube.com/watch?v=Xj0t52jhHas",
+    "screenings": [
+      {
+        "start": "2026-08-17T20:30:00+02:00",
+        "date": "пн, 17.08",
+        "time": "20:30",
+        "place": "Aero",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=50302"
+      }
+    ]
+  },
+  {
+    "title": "The Lake House",
+    "poster": {
+      "src": "https://a.ltrbxd.com/resized/sm/upload/jh/0w/6y/ph/bVhnYJGy7WT581g7Y88vwEOO47a-0-600-0-900-crop.jpg?v=fcbef72b28",
+      "alt": "",
+      "local": "the-lake-house.jpg"
+    },
+    "letterboxdUrl": "https://letterboxd.com/film/the-lake-house/",
+    "trailerUrl": "https://www.youtube.com/watch?v=LXBIjG92IkU",
+    "screenings": [
+      {
+        "start": "2026-08-18T20:30:00+02:00",
+        "date": "вт, 18.08",
+        "time": "20:30",
+        "place": "Bio Oko",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=50496"
+      }
+    ]
+  },
+  {
+    "title": "Howl's Moving Castle",
+    "poster": {
+      "src": "https://a.ltrbxd.com/resized/film-poster/4/9/0/6/2/49062-howl-s-moving-castle-0-600-0-900-crop.jpg?v=fde81bda52",
+      "alt": "",
+      "local": "howls-moving-castle.jpg"
+    },
+    "letterboxdUrl": "https://letterboxd.com/film/howls-moving-castle/",
+    "trailerUrl": "https://www.youtube.com/watch?v=2x5SejvTMeA",
+    "screenings": [
+      {
+        "start": "2026-08-20T18:00:00+02:00",
+        "date": "чт, 20.08",
+        "time": "18:00",
+        "place": "Bio Oko",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=50541"
+      }
+    ]
+  },
+  {
+    "title": "Terminator 2: Judgment Day",
+    "poster": {
+      "src": "https://a.ltrbxd.com/resized/film-poster/5/1/7/7/6/51776-terminator-2-judgment-day-0-600-0-900-crop.jpg?v=64f1721e62",
+      "alt": "",
+      "local": "terminator-2-judgment-day.jpg"
+    },
+    "letterboxdUrl": "https://letterboxd.com/film/terminator-2-judgment-day/",
+    "trailerUrl": "https://www.youtube.com/watch?v=BnsD-kEZr04",
+    "screenings": [
+      {
+        "start": "2026-08-21T20:15:00+02:00",
+        "date": "пт, 21.08",
+        "time": "20:15",
+        "place": "Aero",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=50368"
+      }
+    ]
+  },
+  {
+    "title": "Constantine",
+    "poster": {
+      "src": "https://a.ltrbxd.com/resized/film-poster/5/1/5/5/7/51557-constantine-0-600-0-900-crop.jpg?v=4d97045756",
+      "alt": "",
+      "local": "constantine.jpg"
+    },
+    "letterboxdUrl": "https://letterboxd.com/film/constantine/",
+    "trailerUrl": "https://www.youtube.com/watch?v=QhufWT5eLZw",
+    "screenings": [
+      {
+        "start": "2026-08-25T20:30:00+02:00",
+        "date": "вт, 25.08",
+        "time": "20:30",
+        "place": "Bio Oko",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=50497"
+      }
+    ]
+  },
+  {
+    "title": "Blade Runner: The Final Cut",
+    "poster": {
+      "src": "https://a.ltrbxd.com/resized/sm/upload/85/io/38/dz/vfzE3pjE5G7G7kcZWrA3fnbZo7V-0-600-0-900-crop.jpg?v=0d5de70f0d",
+      "alt": "",
+      "local": "blade-runner-the-final-cut.jpg"
+    },
+    "letterboxdUrl": "https://letterboxd.com/film/blade-runner/",
+    "trailerUrl": "https://www.youtube.com/watch?v=Vpb2EBryiP0",
+    "screenings": [
+      {
+        "start": "2026-08-27T18:01:00+02:00",
+        "date": "чт, 27.08",
+        "time": "18:01",
+        "place": "Aero",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=50374"
+      }
+    ]
+  },
+  {
+    "title": "In the Mood for Love",
+    "poster": {
+      "src": "https://a.ltrbxd.com/resized/sm/upload/g1/7l/2j/qk/tSRdvZY1waXrTeMqeLBmq9IRs08-0-600-0-900-crop.jpg?v=938633fc19",
+      "alt": "",
+      "local": "in-the-mood-for-love.jpg"
+    },
+    "letterboxdUrl": "https://letterboxd.com/film/in-the-mood-for-love/",
+    "trailerUrl": "https://www.youtube.com/watch?v=m8GuedsQnWQ",
+    "screenings": [
+      {
+        "start": "2026-08-28T15:00:00+02:00",
+        "date": "пт, 28.08",
+        "time": "15:00",
+        "place": "Aero",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=52667"
+      }
+    ]
+  },
+  {
+    "title": "Dracula  (1992)",
+    "poster": {
+      "src": "https://a.ltrbxd.com/resized/film-poster/4/8/4/5/4/48454-bram-stoker-s-dracula-0-600-0-900-crop.jpg?v=18a4a777e2",
+      "alt": "",
+      "local": "dracula-(1992).jpg"
+    },
+    "letterboxdUrl": "https://letterboxd.com/film/bram-stokers-dracula/",
+    "trailerUrl": "https://www.youtube.com/watch?v=m_W95uwBKXE",
+    "screenings": [
+      {
+        "start": "2026-09-01T20:30:00+02:00",
+        "date": "вт, 01.09",
+        "time": "20:30",
+        "place": "Bio Oko",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=50498"
+      }
+    ]
+  },
+  {
+    "title": "Tales from Earthsea",
+    "poster": {
+      "src": "https://a.ltrbxd.com/resized/film-poster/2/6/5/8/7/26587-tales-from-earthsea-0-600-0-900-crop.jpg?v=23db0dfab3",
+      "alt": "",
+      "local": "tales-from-earthsea.jpg"
+    },
+    "letterboxdUrl": "https://letterboxd.com/film/tales-from-earthsea/",
+    "trailerUrl": "https://www.youtube.com/watch?v=uvCUEWmlvD0",
+    "screenings": [
+      {
+        "start": "2026-09-03T18:00:00+02:00",
+        "date": "чт, 03.09",
+        "time": "18:00",
+        "place": "Bio Oko",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=50542"
+      }
+    ]
+  }
+]
