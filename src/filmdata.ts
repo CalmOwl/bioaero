@@ -1,4 +1,4 @@
-import enrichedFilms from '../enrichedFilmdata.json'
+import enrichedFilms from '../finalFilmData.json'
 import { Film } from "./types";
 
 export const FILMS = enrichedFilms as Film[];

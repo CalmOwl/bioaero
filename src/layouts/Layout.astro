@@ -2,7 +2,6 @@
 import { FILMS } from "../filmdata";
 import pluralize from "../scripts/pluralize";
 
-const date = new Date();
 const filmsNumber = FILMS.length;
 ---
 
@@ -63,13 +62,7 @@ const filmsNumber = FILMS.length;
         <div class="header_wrapper">
           <div class="header_info">
             <p>
-              Сегодня {
-                date.toLocaleString("ru-RU", {
-                  weekday: "short",
-                  day: "numeric",
-                  month: "2-digit",
-                })
-              },
+              Сегодня <span class="todayDate"></span>,
             </p>
             <p>в афише {filmsNumber} {pluralize(filmsNumber)}</p>
           </div>
@@ -307,4 +300,13 @@ const filmsNumber = FILMS.length;
       }
     });
   }
+
+  const date = new Date();
+
+  (document.querySelector(".todayDate") as HTMLElement).textContent =
+    date.toLocaleDateString("ru-RU", {
+      weekday: "short",
+      day: "numeric",
+      month: "2-digit",
+    });
 </script>
