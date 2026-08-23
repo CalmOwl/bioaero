@@ -17,7 +17,8 @@
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
-    "preview": "astro preview"
+    "preview": "astro preview",
+    "update": "node fetchScreenings.js && node buildFilmData.js && node downloadPosters.js"
   },
   "dependencies": {
     "astro": "^6.4.2"
