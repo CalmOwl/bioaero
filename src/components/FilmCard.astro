@@ -14,7 +14,7 @@ const { film } = Astro.props;
     film.poster ? (
       <img
         class="film-poster"
-        src={`/bioaero/poster/${film.poster.local}`}
+        src={`/bioaero/posters/${film.poster.local}`}
         alt={`${film.poster.alt}`}
       />
     ) : (

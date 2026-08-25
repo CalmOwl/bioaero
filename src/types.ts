@@ -11,7 +11,7 @@ export type Film = {
   poster?: {
     src: string;
     alt: string;
-    local: string;
+    local?: string;
   };
   description?: string;
   trailerUrl: string | null;
