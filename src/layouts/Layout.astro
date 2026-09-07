@@ -1,6 +1,7 @@
 ---
 import { FILMS } from "../filmdata";
 import pluralize from "../scripts/pluralize";
+import ScreeningsCalendar from "../components/ScreeningsCalendar.astro";
 
 const filmsNumber = FILMS.length;
 ---
@@ -72,9 +73,17 @@ const filmsNumber = FILMS.length;
           </a>
         </div>
       </header>
+      <!-- <aside>
+        <ScreeningsCalendar />
+      </aside> -->
       <main>
         <slot />
-        <a href="#" class="page-up-button"> &uarr; </a>
+        <a href="#" class="page-up-button">
+          <span class="page-up-button__icon visually-hidden">
+            Вернуться к началу страницы
+          </span>
+          <span class="page-up-button__icon"></span>
+        </a>
       </main>
       <footer>
         <a class="footer-link" href="https://t.me/ahojbiograf"
@@ -96,9 +105,12 @@ const filmsNumber = FILMS.length;
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
-    transition:
-      opacity 0.3s ease,
-      visibility 0.3s ease;
+
+    @media (prefers-reduced-motion: no-preference) {
+      transition:
+        opacity 300ms ease,
+        visibility 300ms ease;
+    }
   }
 
   .page-up-button.is-visible {
@@ -112,10 +124,9 @@ const filmsNumber = FILMS.length;
     height: 48px;
     border-radius: 50%;
     background-color: var(--color-white);
-    color: var(--color-accent-dark);
-    text-align: center;
-    font-size: 2rem;
-    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 
     @media (hover: hover) {
@@ -128,6 +139,17 @@ const filmsNumber = FILMS.length;
       bottom: 10px;
       right: 10px;
     }
+  }
+
+  .page-up-button__icon {
+    display: block;
+    width: 26px;
+    height: 26px;
+    mask-repeat: no-repeat;
+    mask-position: center;
+    mask-size: contain;
+    mask-image: url("/bioaero/svg/arrow-circle-up.svg");
+    background-color: var(--color-accent);
   }
 
   header,
@@ -150,8 +172,6 @@ const filmsNumber = FILMS.length;
   }
 
   header a {
-    transition: 0.3s;
-
     &:focus-visible {
       color: var(--color-accent);
 
@@ -173,6 +193,10 @@ const filmsNumber = FILMS.length;
         }
       }
     }
+
+    @media (prefers-reduced-motion: no-preference) {
+      transition: 300ms;
+    }
   }
 
   .header_title {
@@ -184,8 +208,6 @@ const filmsNumber = FILMS.length;
   .header-logo {
     width: 64px;
     height: 64px;
-    transition: 0.3s;
-    animation: drop-in 1000ms;
 
     .header_title:focus-visible & {
       transform: translateX(16px) translateY(-16px) rotate(45deg);
@@ -199,6 +221,11 @@ const filmsNumber = FILMS.length;
       .header_title:hover & {
         transform: translateX(16px) translateY(-16px) rotate(45deg);
       }
+    }
+
+    @media (prefers-reduced-motion: no-preference) {
+      transition: 300ms;
+      animation: drop-in 1000ms;
     }
   }
 
@@ -260,7 +287,6 @@ const filmsNumber = FILMS.length;
     mask-size: contain;
     mask-image: url("/bioaero/svg/favourites.svg");
     background-color: var(--color-black);
-    transition: 0.3s;
 
     @media (prefers-color-scheme: dark) {
       background-color: var(--color-grey);
@@ -284,6 +310,20 @@ const filmsNumber = FILMS.length;
           background-color: var(--color-white);
         }
       }
+    }
+
+    @media (prefers-reduced-motion: no-preference) {
+      transition: 300ms;
+    }
+  }
+
+  aside {
+    display: none;
+    @media (min-width: 1840px) {
+      display: block;
+      position: fixed;
+      top: 15%;
+      left: calc((100vw - 960px) / 2 - 432px);
     }
   }
 </style>

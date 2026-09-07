@@ -56,13 +56,16 @@ const { screening, filmTitle, screeningId } = Astro.props;
     background-color: var(--color-grey);
     flex-shrink: 0;
     flex-grow: 1;
-    transition: 0.5s;
 
     @media (hover: hover) {
       &:hover {
         background-color: var(--color-accent-dark);
         color: var(--color-white);
       }
+    }
+
+    @media (prefers-reduced-motion: no-preference) {
+      transition: 500ms;
     }
   }
 
@@ -85,7 +88,6 @@ const { screening, filmTitle, screeningId } = Astro.props;
     mask-size: contain;
     mask-image: url("/bioaero/svg/wishlist-star.svg");
     background-color: var(--color-black);
-    transition: 0.5s;
 
     &.is-active {
       mask-image: url("/bioaero/svg/favourites.svg");
@@ -105,11 +107,13 @@ const { screening, filmTitle, screeningId } = Astro.props;
     .screening-wishlist:active & {
       transform: rotateZ(360deg);
     }
+
+    @media (prefers-reduced-motion: no-preference) {
+      transition: 500ms;
+    }
   }
 
   .screening-wishlist__label {
-    transition: 0.3s;
-
     .screening-wishlist.is-saved:focus-visible & {
       color: var(--color-grey);
     }
@@ -118,6 +122,10 @@ const { screening, filmTitle, screeningId } = Astro.props;
       .screening-wishlist.is-saved:hover & {
         color: var(--color-grey);
       }
+    }
+
+    @media (prefers-reduced-motion: no-preference) {
+      transition: 300ms;
     }
   }
 
@@ -131,13 +139,16 @@ const { screening, filmTitle, screeningId } = Astro.props;
     padding: 0.7rem 0.8rem;
     background-color: var(--color-grey);
     flex-grow: 1;
-    transition: 0.3s;
 
     @media (hover: hover) {
       &:hover {
         background-color: var(--color-accent-dark);
         color: var(--color-white);
       }
+    }
+
+    @media (prefers-reduced-motion: no-preference) {
+      transition: 300ms;
     }
   }
 
@@ -150,7 +161,6 @@ const { screening, filmTitle, screeningId } = Astro.props;
     mask-size: contain;
     mask-image: url("/bioaero/svg/ticket.svg");
     background-color: var(--color-black);
-    transition: 0.3s;
 
     .film-tickets:focus-visible & {
       background-color: var(--color-grey);
@@ -161,6 +171,10 @@ const { screening, filmTitle, screeningId } = Astro.props;
         background-color: var(--color-grey);
         transform: rotate(270deg);
       }
+    }
+
+    @media (prefers-reduced-motion: no-preference) {
+      transition: 300ms;
     }
   }
 </style>

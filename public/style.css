@@ -67,6 +67,12 @@ body {
   font-size: 16px;
 }
 
+
+.visually-hidden {
+  position: fixed;
+  transform: scale(0);
+}
+
 body {
   max-width: 1024px;
   --color-black: #0d1b2a;
@@ -139,7 +145,6 @@ footer {
   display: flex;
   gap: 12px;
   align-items: center;
-  transition: 0.3s;
 
   @media (prefers-color-scheme: dark) {
     color: var(--color-grey);
@@ -162,6 +167,10 @@ footer {
       }
     }
   }
+
+  @media (prefers-reduced-motion: no-preference) {
+    transition: 300ms;
+  }
 }
 
 .footer-credits {
@@ -177,7 +186,6 @@ footer {
   mask-size: contain;
   mask-image: url("./svg/telegram.svg");
   background-color: var(--color-accent-dark);
-  transition: 0.3s;
 
   @media (prefers-color-scheme: dark) {
     background-color: var(--color-grey);
@@ -199,5 +207,9 @@ footer {
         background-color: var(--color-white);
       }
     }
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    transition: 300ms;
   }
 }
