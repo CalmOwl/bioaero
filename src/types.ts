@@ -1,5 +1,6 @@
 
 export type Screening = {
+  id: string;
   date: string;
   time: string;
   place: string;

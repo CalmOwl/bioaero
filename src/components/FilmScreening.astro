@@ -2,16 +2,17 @@
 import type { Screening } from "../types";
 
 interface Props {
+  id: string;
   screening: Screening;
   filmTitle: string;
   screeningId: string;
 }
 
-const { screening, filmTitle, screeningId } = Astro.props;
+const { id, screening, filmTitle, screeningId } = Astro.props;
 ---
 
-<li>
-  <p>
+<li data-screening-id={id}>
+  <p class="screening-info">
     <span>{screening.date}</span>
     <span>{screening.time}</span>
     <span>{screening.place}</span>
@@ -37,6 +38,16 @@ const { screening, filmTitle, screeningId } = Astro.props;
 </li>
 
 <style>
+  .screening-info {
+    display: grid;
+    gap: 4px 12px;
+    grid-template-columns: auto 1fr;
+  }
+
+  .screening-info :last-child {
+    grid-column: 1 / -1;
+  }
+
   .screening-buttons-wrapper {
     display: flex;
     gap: 1rem;

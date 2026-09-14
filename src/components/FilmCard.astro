@@ -9,7 +9,10 @@ interface Props {
 const { film } = Astro.props;
 ---
 
-<div class="film">
+<div
+  class="film"
+  data-screening-ids={film.screenings.map((screening) => screening.id)}
+>
   {
     film.poster ? (
       <img
@@ -40,8 +43,9 @@ const { film } = Astro.props;
     {film.description && <p>{film.description}</p>}
     <ul class="film-screening">
       {
-        film.screenings.map((screening, i) => (
+        film.screenings.map((screening) => (
           <FilmScreening
+            id={screening.id}
             screening={screening}
             filmTitle={film.title}
             screeningId={`${film.title}-${screening.date}-${screening.time}-${screening.place}`
