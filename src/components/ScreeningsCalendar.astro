@@ -1,0 +1,149 @@
+---
+import films from "../../raw-screenings.json";
+
+const now = new Date();
+const currentMonth = now.getMonth() + 1;
+const daysInCurrentMonth = new Date(
+  now.getFullYear(),
+  now.getMonth() + 1,
+  0,
+).getDate();
+
+const firstDayOfMonth = new Date(`2026-${currentMonth}-1`);
+const firstDay = firstDayOfMonth.getDay();
+
+const getMonthCalendar = (days: number) => {
+  let result = new Array(firstDay !== 0 ? firstDay - 1 : 6).fill("");
+
+  for (let i = 1; i <= days; i++) {
+    result.push(
+      `2026-${currentMonth < 10 ? `0${currentMonth}` : currentMonth}-${i < 10 ? `0${i}` : i}`,
+    );
+  }
+  return result;
+};
+
+const dates = getMonthCalendar(daysInCurrentMonth);
+
+const getDataScreeningsIds = () => {
+  let result: { date: string; screeningIds: string[] }[] = [];
+
+  for (let i = 0; i < dates.length; i++) {
+    for (let j = 0; j < films.length; j++) {
+      if (
+        films[j].start.includes(dates[i]) &&
+        result.some((x) => x.date !== dates[i])
+      ) {
+        result.push({ date: `boop${i}`, screeningIds: [`${j}`] });
+        // result.push({ date: dates[i], screeningIds: [films[j].id] });
+      } else if (
+        films[j].start.includes(dates[i]) &&
+        result.some((x) => x.date === dates[i])
+      ) {
+        // const dateElem = result.find((x) => x.date === dates[j]);
+
+        // if (!dateElem.screeningIds.includes(films[j].id))
+        //   dateElem.screeningIds.push(films[j].id);
+        result.push({ date: "booooooop", screeningIds: [films[j].id] });
+      }
+    }
+  }
+  console.log(result);
+  return result;
+};
+
+const DAYS = getDataScreeningsIds();
+---
+
+<div class="calendar">
+  {
+    DAYS.map((day, index) => {
+      return day.date !== "" ? (
+        <button
+          class="calendar_cell"
+          data-date={day.date}
+          data-screening-ids={day.screeningIds.join(",")}
+        >
+          {index}
+        </button>
+      ) : (
+        <div class="calendar_cell calendar_cell--empty" aria-hidden="true" />
+      );
+    })
+  }
+</div>
+<p class="red">{dates[0]}</p>
+
+<style>
+  .red {
+    color: deeppink;
+  }
+  .calendar {
+    border: 3px solid var(--color-accent);
+    border-radius: calc(1rem + 12px);
+    padding: 16px;
+    margin: 0px auto;
+    width: max-content;
+    display: grid;
+    grid-template-columns: repeat(7, 3rem);
+    gap: 4px;
+    justify-content: center;
+  }
+
+  .calendar .calendar_cell {
+    display: flex;
+    border: 2px solid var(--color-accent);
+    border-radius: 8px;
+    min-height: 3rem;
+    font-size: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-accent-dark);
+
+    @media (prefers-color-scheme: dark) {
+      color: var(--color-white);
+      background-color: var(--color-accent-dark);
+    }
+  }
+
+  .calendar .calendar_cell--empty {
+    border: transparent;
+    background-color: transparent;
+  }
+
+  .calendar .calendar_cell--today {
+    font-weight: 600;
+    background-color: var(--color-accent-dark);
+    color: var(--color-white);
+
+    @media (prefers-color-scheme: dark) {
+      background-color: var(--color-white);
+      color: var(--color-accent-dark);
+    }
+  }
+</style>
+
+<script>
+  const rightNow = new Date();
+  const date = rightNow.getDate().toString();
+
+  let calendarCells = document.querySelectorAll<HTMLElement>(".calendar_cell");
+
+  for (let cell of calendarCells) {
+    if (cell.textContent == date) {
+      cell.classList.add("calendar_cell--today");
+      break;
+    }
+    if (cell.tagName === "BUTTON") {
+      cell.addEventListener("click", () => {
+        //cell.dataset.date - если надо показать где-то
+
+        //cell.dataset.screeningIds.split(",") -
+
+        document.querySelectorAll(".film"); // data-scr-ids
+
+        document.querySelectorAll(".film-screening li"); // data-scr-id
+      });
+    }
+  }
+</script>
