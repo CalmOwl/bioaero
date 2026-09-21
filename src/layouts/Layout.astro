@@ -1,7 +1,7 @@
 ---
 import { FILMS } from "../filmdata";
 import pluralize from "../scripts/pluralize";
-import ScreeningsCalendar from "../components/ScreeningsCalendar.astro";
+// import ScreeningsCalendar from "../components/ScreeningsCalendar.astro";
 
 const filmsNumber = FILMS.length;
 ---
@@ -73,9 +73,9 @@ const filmsNumber = FILMS.length;
           </a>
         </div>
       </header>
-      <aside>
+      <!-- <aside>
         <ScreeningsCalendar />
-      </aside>
+      </aside> -->
       <main>
         <slot />
         <a href="#" class="page-up-button">
