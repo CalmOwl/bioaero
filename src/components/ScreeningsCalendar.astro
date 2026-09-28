@@ -29,30 +29,53 @@ const getDataScreeningsIds = () => {
   let result: { date: string; screeningIds: string[] }[] = [];
 
   for (let i = 0; i < dates.length; i++) {
-    for (let j = 0; j < films.length; j++) {
-      if (
-        films[j].start.includes(dates[i]) &&
-        result.some((x) => x.date !== dates[i])
-      ) {
-        result.push({ date: `boop${i}`, screeningIds: [`${j}`] });
-        // result.push({ date: dates[i], screeningIds: [films[j].id] });
-      } else if (
-        films[j].start.includes(dates[i]) &&
-        result.some((x) => x.date === dates[i])
-      ) {
-        // const dateElem = result.find((x) => x.date === dates[j]);
+    if (dates[i] === "") {
+      continue;
+    }
 
-        // if (!dateElem.screeningIds.includes(films[j].id))
-        //   dateElem.screeningIds.push(films[j].id);
-        result.push({ date: "booooooop", screeningIds: [films[j].id] });
+    for (let j = 0; j < films.length; j++) {
+      if (films[j].start.includes(dates[i])) {
+        if (result.length == 0 || !result.some((x) => x.date === dates[i])) {
+          result.push({ date: dates[i], screeningIds: [films[j].id] });
+        } else if (result.some((x) => x.date === dates[i])) {
+          const dateElem = result.find((x) => x.date === dates[i]);
+
+          if (!dateElem?.screeningIds.includes(films[j].id)) {
+            dateElem?.screeningIds.push(films[j].id);
+          }
+        }
       }
     }
   }
-  console.log(result);
+
   return result;
 };
 
-const DAYS = getDataScreeningsIds();
+const screeningDates = getDataScreeningsIds();
+
+const enrichDates = (
+  datesArr: string[],
+  screeningsArr: { date: string; screeningIds: string[] }[],
+) => {
+  let result: { date: string; screeningIds: string[] }[] = [];
+
+  for (let date of datesArr) {
+    result.push({ date: date, screeningIds: [] });
+
+    if (screeningsArr.some((x) => x.date == date)) {
+      const dateElem = result.find((x) => x.date === date);
+      const screeningsElem = screeningsArr.find((x) => x.date == date);
+
+      if (screeningsElem?.screeningIds) {
+        dateElem?.screeningIds.push(screeningsElem.screeningIds.join(","));
+      }
+    }
+  }
+
+  return result;
+};
+
+const DAYS = enrichDates(dates, screeningDates);
 ---
 
 <div class="calendar">
@@ -62,7 +85,7 @@ const DAYS = getDataScreeningsIds();
         <button
           class="calendar_cell"
           data-date={day.date}
-          data-screening-ids={day.screeningIds.join(",")}
+          data-screening-ids={day.screeningIds}
         >
           {index}
         </button>
@@ -100,6 +123,26 @@ const DAYS = getDataScreeningsIds();
     justify-content: center;
     color: var(--color-accent-dark);
 
+    @media (hover: hover) {
+      &:hover {
+        background-color: var(--color-accent-dark);
+        color: var(--color-white);
+      }
+
+      @media (prefers-color-scheme: dark) {
+        &:hover {
+          background-color: var(--color-white);
+          color: var(--color-accent-dark);
+        }
+      }
+    }
+
+    &:disabled {
+      border-color: transparent;
+      cursor: default;
+      pointer-events: none;
+    }
+
     @media (prefers-color-scheme: dark) {
       color: var(--color-white);
       background-color: var(--color-accent-dark);
@@ -113,11 +156,11 @@ const DAYS = getDataScreeningsIds();
 
   .calendar .calendar_cell--today {
     font-weight: 600;
-    background-color: var(--color-accent-dark);
+    background-color: var(--color-accent);
     color: var(--color-white);
 
     @media (prefers-color-scheme: dark) {
-      background-color: var(--color-white);
+      background-color: var(--color-accent);
       color: var(--color-accent-dark);
     }
   }
@@ -127,22 +170,66 @@ const DAYS = getDataScreeningsIds();
   const rightNow = new Date();
   const date = rightNow.getDate().toString();
 
-  let calendarCells = document.querySelectorAll<HTMLElement>(".calendar_cell");
+  let calendarCells =
+    document.querySelectorAll<HTMLButtonElement>(".calendar_cell");
+
+  function getList(element: HTMLElement, dataAttribute: string) {
+    const arr = element.dataset[dataAttribute]?.split(",");
+    if (arr?.length == 1 && arr[0] == "") return;
+    return arr;
+  }
 
   for (let cell of calendarCells) {
-    if (cell.textContent == date) {
+    if (cell.textContent.trim() == date) {
       cell.classList.add("calendar_cell--today");
-      break;
     }
     if (cell.tagName === "BUTTON") {
+      const cellScreeningIds = getList(cell, "screeningIds");
+      if (!cellScreeningIds || cellScreeningIds.length == 0) {
+        cell.disabled = true;
+        continue;
+      }
       cell.addEventListener("click", () => {
-        //cell.dataset.date - если надо показать где-то
+        // cell.dataset.date - если надо показать где-то
 
         //cell.dataset.screeningIds.split(",") -
 
-        document.querySelectorAll(".film"); // data-scr-ids
+        const films = document.querySelectorAll<HTMLElement>(".film"); // data-scr-ids
 
-        document.querySelectorAll(".film-screening li"); // data-scr-id
+        const screenings =
+          document.querySelectorAll<HTMLElement>(".film-screening li"); // data-scr-id
+
+        for (let screening of screenings) {
+          const hasScreening = cellScreeningIds.includes(
+            screening.dataset.screeningId!,
+          );
+          screening.classList.toggle("invisible", !hasScreening);
+          // if (
+          //   !cell.dataset.screeningIds.includes(screening.dataset.screeningId)
+          // ) {
+          //   screening.classList.toggle("invisible");
+          // }
+        }
+
+        for (let film of films) {
+          const filmScreeningIds = getList(film, "screeningIds");
+          if (!filmScreeningIds) {
+            film.classList.toggle("invisible", true);
+            continue;
+          }
+          const hasScreenings = filmScreeningIds.some((x) =>
+            cellScreeningIds.includes(x),
+          );
+
+          film.classList.toggle("invisible", !hasScreenings);
+          // if (
+          //   !film.dataset.screeningIds.some((x) =>
+          //     cell.dataset.screeningIds.includes(x),
+          //   )
+          // ) {
+          //   film.classList.toggle("invisible");
+          // }
+        }
       });
     }
   }

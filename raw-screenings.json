@@ -1,1562 +1,5 @@
 [
   {
-    "id": "pritomnost-51321",
-    "title": "Tereza Ševčíková - Co je se mnou dobře?",
-    "start": "2026-09-21T19:00:00+02:00",
-    "cinema": "Kino Přítomnost",
-    "url": "https://www.kinoaero.cz/en?projection=51321",
-    "letterboxdUrl": null,
-    "trailerUrl": null
-  },
-  {
-    "id": "svetozor-54662",
-    "title": "A Poet",
-    "start": "2026-09-21T20:15:00+02:00",
-    "cinema": "Kino Světozor",
-    "url": "https://www.kinoaero.cz/en?projection=54662",
-    "letterboxdUrl": "https://letterboxd.com/film/a-poet/",
-    "trailerUrl": "https://www.youtube.com/watch?v=MS3iWSd3chM"
-  },
-  {
-    "id": "svetozor-54667",
-    "title": "Don't Look Back in Anger",
-    "start": "2026-09-21T20:15:00+02:00",
-    "cinema": "Kino Světozor",
-    "url": "https://www.kinoaero.cz/en?projection=54667",
-    "letterboxdUrl": "https://letterboxd.com/film/oasis-dont-look-back-in-anger/",
-    "trailerUrl": "https://www.youtube.com/watch?v=vk8j6weBWPU"
-  },
-  {
-    "id": "svetozor-53668",
-    "title": "Bára - Diary of a Rockstar",
-    "start": "2026-09-21T20:30:00+02:00",
-    "cinema": "Kino Světozor",
-    "url": "https://www.kinoaero.cz/en?projection=53668",
-    "letterboxdUrl": "https://letterboxd.com/film/bara-diary-of-a-rockstar/",
-    "trailerUrl": "https://www.youtube.com/watch?v=lH5DamCVfFU"
-  },
-  {
-    "id": "aero-53478",
-    "title": "Moonlight",
-    "start": "2026-09-21T20:30:00+02:00",
-    "cinema": "Kino Aero",
-    "url": "https://www.kinoaero.cz/en?projection=53478",
-    "letterboxdUrl": "https://letterboxd.com/film/moonlight-2016/",
-    "trailerUrl": "https://www.youtube.com/watch?v=8hhV1ZpqFtQ"
-  },
-  {
-    "id": "lucerna-54750",
-    "title": "Bára - Diary of a Rockstar",
-    "start": "2026-09-21T20:30:00+02:00",
-    "cinema": "Kino Lucerna",
-    "url": "https://www.kinoaero.cz/en?projection=54750",
-    "letterboxdUrl": "https://letterboxd.com/film/bara-diary-of-a-rockstar/",
-    "trailerUrl": "https://www.youtube.com/watch?v=lH5DamCVfFU"
-  },
-  {
-    "id": "bio-oko-54833",
-    "title": "If Pigeons Turned to Gold",
-    "start": "2026-09-21T20:30:00+02:00",
-    "cinema": "Bio Oko",
-    "url": "https://www.kinoaero.cz/en?projection=54833",
-    "letterboxdUrl": "https://letterboxd.com/film/if-pigeons-turned-to-gold/",
-    "trailerUrl": "https://www.youtube.com/watch?v=dLuvAzVRpC8"
-  },
-  {
-    "id": "bio-oko-54583",
-    "title": "Chica Checa",
-    "start": "2026-09-22T10:00:00+02:00",
-    "cinema": "Bio Oko",
-    "url": "https://www.kinoaero.cz/en?projection=54583",
-    "letterboxdUrl": "https://letterboxd.com/film/czech-girl/",
-    "trailerUrl": "https://www.youtube.com/watch?v=24E_j3IujTU"
-  },
-  {
-    "id": "bio-oko-54146",
-    "title": "The Odyssey",
-    "start": "2026-09-22T13:00:00+02:00",
-    "cinema": "Bio Oko",
-    "url": "https://www.kinoaero.cz/en?projection=54146",
-    "letterboxdUrl": "https://letterboxd.com/film/the-odyssey-2026/",
-    "trailerUrl": "https://www.youtube.com/watch?v=VplmWV6cms4"
-  },
-  {
-    "id": "aero-53861",
-    "title": "Hen",
-    "start": "2026-09-22T15:00:00+02:00",
-    "cinema": "Kino Aero",
-    "url": "https://www.kinoaero.cz/en?projection=53861",
-    "letterboxdUrl": "https://letterboxd.com/film/hen-2025/",
-    "trailerUrl": "https://www.youtube.com/watch?v=nFt4SbxCIX8"
-  },
-  {
-    "id": "svetozor-53789",
-    "title": "Chica Checa",
-    "start": "2026-09-22T15:00:00+02:00",
-    "cinema": "Kino Světozor",
-    "url": "https://www.kinoaero.cz/en?projection=53789",
-    "letterboxdUrl": "https://letterboxd.com/film/czech-girl/",
-    "trailerUrl": "https://www.youtube.com/watch?v=24E_j3IujTU"
-  },
-  {
-    "id": "svetozor-54711",
-    "title": "Forsaken",
-    "start": "2026-09-22T15:15:00+02:00",
-    "cinema": "Kino Světozor",
-    "url": "https://www.kinoaero.cz/en?projection=54711",
-    "letterboxdUrl": "https://letterboxd.com/film/forsaken-2026/",
-    "trailerUrl": "https://www.youtube.com/watch?v=btUoqODoGt0"
-  },
-  {
-    "id": "lucerna-54752",
-    "title": "Bára - Diary of a Rockstar",
-    "start": "2026-09-22T15:30:00+02:00",
-    "cinema": "Kino Lucerna",
-    "url": "https://www.kinoaero.cz/en?projection=54752",
-    "letterboxdUrl": "https://letterboxd.com/film/bara-diary-of-a-rockstar/",
-    "trailerUrl": "https://www.youtube.com/watch?v=lH5DamCVfFU"
-  },
-  {
-    "id": "lucerna-54756",
-    "title": "The Christophers",
-    "start": "2026-09-22T15:45:00+02:00",
-    "cinema": "Kino Lucerna",
-    "url": "https://www.kinoaero.cz/en?projection=54756",
-    "letterboxdUrl": "https://letterboxd.com/film/the-christophers/",
-    "trailerUrl": "https://www.youtube.com/watch?v=5YhJ717PDwY"
-  },
-  {
-    "id": "pritomnost-54616",
-    "title": "Bára - Diary of a Rockstar",
-    "start": "2026-09-22T17:00:00+02:00",
-    "cinema": "Kino Přítomnost",
-    "url": "https://www.kinoaero.cz/en?projection=54616",
-    "letterboxdUrl": "https://letterboxd.com/film/bara-diary-of-a-rockstar/",
-    "trailerUrl": "https://www.youtube.com/watch?v=lH5DamCVfFU"
-  },
-  {
-    "id": "svetozor-54717",
-    "title": "If Pigeons Turned to Gold",
-    "start": "2026-09-22T17:45:00+02:00",
-    "cinema": "Kino Světozor",
-    "url": "https://www.kinoaero.cz/en?projection=54717",
-    "letterboxdUrl": "https://letterboxd.com/film/if-pigeons-turned-to-gold/",
-    "trailerUrl": "https://www.youtube.com/watch?v=dLuvAzVRpC8"
-  },
-  {
-    "id": "bio-oko-53825",
-    "title": "2v1: Viktorka Rys and Šebestián Bok – Adventures Off the Beaten Track",
-    "start": "2026-09-22T18:00:00+02:00",
-    "cinema": "Bio Oko",
-    "url": "https://www.kinoaero.cz/en?projection=53825",
-    "letterboxdUrl": null,
-    "trailerUrl": null
-  },
-  {
-    "id": "lucerna-54757",
-    "title": "Rose",
-    "start": "2026-09-22T18:00:00+02:00",
-    "cinema": "Kino Lucerna",
-    "url": "https://www.kinoaero.cz/en?projection=54757",
-    "letterboxdUrl": "https://letterboxd.com/film/rose-2026/",
-    "trailerUrl": "https://www.youtube.com/watch?v=80xR3G5eowo"
-  },
-  {
-    "id": "aero-54808",
-    "title": "Rose",
-    "start": "2026-09-22T18:00:00+02:00",
-    "cinema": "Kino Aero",
-    "url": "https://www.kinoaero.cz/en?projection=54808",
-    "letterboxdUrl": "https://letterboxd.com/film/rose-2026/",
-    "trailerUrl": "https://www.youtube.com/watch?v=80xR3G5eowo"
-  },
-  {
-    "id": "svetozor-54705",
-    "title": "Bára - Diary of a Rockstar",
-    "start": "2026-09-22T18:00:00+02:00",
-    "cinema": "Kino Světozor",
-    "url": "https://www.kinoaero.cz/en?projection=54705",
-    "letterboxdUrl": "https://letterboxd.com/film/bara-diary-of-a-rockstar/",
-    "trailerUrl": "https://www.youtube.com/watch?v=lH5DamCVfFU"
-  },
-  {
-    "id": "svetozor-54724",
-    "title": "The Christophers",
-    "start": "2026-09-22T18:00:00+02:00",
-    "cinema": "Kino Světozor",
-    "url": "https://www.kinoaero.cz/en?projection=54724",
-    "letterboxdUrl": "https://letterboxd.com/film/the-christophers/",
-    "trailerUrl": "https://www.youtube.com/watch?v=5YhJ717PDwY"
-  },
-  {
-    "id": "bio-oko-53826",
-    "title": "Viktorka Rys: Adventure As Lifestyle",
-    "start": "2026-09-22T18:01:00+02:00",
-    "cinema": "Bio Oko",
-    "url": "https://www.kinoaero.cz/en?projection=53826",
-    "letterboxdUrl": null,
-    "trailerUrl": null
-  },
-  {
-    "id": "lucerna-54804",
-    "title": "Dokonalý den",
-    "start": "2026-09-22T18:45:00+02:00",
-    "cinema": "Kino Lucerna",
-    "url": "https://www.kinoaero.cz/en?projection=54804",
-    "letterboxdUrl": null,
-    "trailerUrl": "https://www.youtube.com/watch?v=QbAdlAaOYro"
-  },
-  {
-    "id": "pritomnost-53767",
-    "title": "If Pigeons Turned to Gold",
-    "start": "2026-09-22T20:00:00+02:00",
-    "cinema": "Kino Přítomnost",
-    "url": "https://www.kinoaero.cz/en?projection=53767",
-    "letterboxdUrl": "https://letterboxd.com/film/if-pigeons-turned-to-gold/",
-    "trailerUrl": "https://www.youtube.com/watch?v=dLuvAzVRpC8"
-  },
-  {
-    "id": "svetozor-54708",
-    "title": "Practical Magic 2",
-    "start": "2026-09-22T20:15:00+02:00",
-    "cinema": "Kino Světozor",
-    "url": "https://www.kinoaero.cz/en?projection=54708",
-    "letterboxdUrl": "https://letterboxd.com/film/practical-magic-2/",
-    "trailerUrl": "https://www.youtube.com/watch?v=6gCENR0xBVo?si=AQYLYCADakTpTGr1"
-  },
-  {
-    "id": "svetozor-54725",
-    "title": "I Swear",
-    "start": "2026-09-22T20:15:00+02:00",
-    "cinema": "Kino Světozor",
-    "url": "https://www.kinoaero.cz/en?projection=54725",
-    "letterboxdUrl": "https://letterboxd.com/film/i-swear/",
-    "trailerUrl": "https://www.youtube.com/watch?v=CY_MBWaGv4I"
-  },
-  {
-    "id": "bio-oko-53827",
-    "title": "Africa by Punk Style – Šebestián Bok",
-    "start": "2026-09-22T20:30:00+02:00",
-    "cinema": "Bio Oko",
-    "url": "https://www.kinoaero.cz/en?projection=53827",
-    "letterboxdUrl": null,
-    "trailerUrl": null
-  },
-  {
-    "id": "svetozor-54714",
-    "title": "Teenage Sex and Death at Camp Miasma",
-    "start": "2026-09-22T20:30:00+02:00",
-    "cinema": "Kino Světozor",
-    "url": "https://www.kinoaero.cz/en?projection=54714",
-    "letterboxdUrl": "https://letterboxd.com/film/teenage-sex-and-death-at-camp-miasma/",
-    "trailerUrl": "https://www.youtube.com/watch?v=MA5NqUMEdbI"
-  },
-  {
-    "id": "lucerna-54758",
-    "title": "If Pigeons Turned to Gold",
-    "start": "2026-09-22T20:30:00+02:00",
-    "cinema": "Kino Lucerna",
-    "url": "https://www.kinoaero.cz/en?projection=54758",
-    "letterboxdUrl": "https://letterboxd.com/film/if-pigeons-turned-to-gold/",
-    "trailerUrl": "https://www.youtube.com/watch?v=dLuvAzVRpC8"
-  },
-  {
-    "id": "aero-53479",
-    "title": "Loners",
-    "start": "2026-09-22T20:30:00+02:00",
-    "cinema": "Kino Aero",
-    "url": "https://www.kinoaero.cz/en?projection=53479",
-    "letterboxdUrl": "https://letterboxd.com/film/loners/",
-    "trailerUrl": "https://www.youtube.com/watch?v=9eSeHdF5eyE"
-  },
-  {
-    "id": "lucerna-53802",
-    "title": "I Swear",
-    "start": "2026-09-23T15:00:00+02:00",
-    "cinema": "Kino Lucerna",
-    "url": "https://www.kinoaero.cz/en?projection=53802",
-    "letterboxdUrl": "https://letterboxd.com/film/i-swear/",
-    "trailerUrl": "https://www.youtube.com/watch?v=CY_MBWaGv4I"
-  },
-  {
-    "id": "svetozor-54719",
-    "title": "Bára - Diary of a Rockstar",
-    "start": "2026-09-23T15:15:00+02:00",
-    "cinema": "Kino Světozor",
-    "url": "https://www.kinoaero.cz/en?projection=54719",
-    "letterboxdUrl": "https://letterboxd.com/film/bara-diary-of-a-rockstar/",
-    "trailerUrl": "https://www.youtube.com/watch?v=lH5DamCVfFU"
-  },
-  {
-    "id": "lucerna-54763",
-    "title": "The Christophers",
-    "start": "2026-09-23T15:15:00+02:00",
-    "cinema": "Kino Lucerna",
-    "url": "https://www.kinoaero.cz/en?projection=54763",
-    "letterboxdUrl": "https://letterboxd.com/film/the-christophers/",
-    "trailerUrl": "https://www.youtube.com/watch?v=5YhJ717PDwY"
-  },
-  {
-    "id": "svetozor-54709",
-    "title": "Practical Magic 2",
-    "start": "2026-09-23T15:30:00+02:00",
-    "cinema": "Kino Světozor",
-    "url": "https://www.kinoaero.cz/en?projection=54709",
-    "letterboxdUrl": "https://letterboxd.com/film/practical-magic-2/",
-    "trailerUrl": "https://www.youtube.com/watch?v=6gCENR0xBVo?si=AQYLYCADakTpTGr1"
-  },
-  {
-    "id": "svetozor-54721",
-    "title": "Chica Checa",
-    "start": "2026-09-23T15:30:00+02:00",
-    "cinema": "Kino Světozor",
-    "url": "https://www.kinoaero.cz/en?projection=54721",
-    "letterboxdUrl": "https://letterboxd.com/film/czech-girl/",
-    "trailerUrl": "https://www.youtube.com/watch?v=24E_j3IujTU"
-  },
-  {
-    "id": "svetozor-54718",
-    "title": "If Pigeons Turned to Gold",
-    "start": "2026-09-23T17:30:00+02:00",
-    "cinema": "Kino Světozor",
-    "url": "https://www.kinoaero.cz/en?projection=54718",
-    "letterboxdUrl": "https://letterboxd.com/film/if-pigeons-turned-to-gold/",
-    "trailerUrl": "https://www.youtube.com/watch?v=dLuvAzVRpC8"
-  },
-  {
-    "id": "lucerna-55150",
-    "title": "Bára - Diary of a Rockstar",
-    "start": "2026-09-23T18:00:00+02:00",
-    "cinema": "Kino Lucerna",
-    "url": "https://www.kinoaero.cz/en?projection=55150",
-    "letterboxdUrl": "https://letterboxd.com/film/bara-diary-of-a-rockstar/",
-    "trailerUrl": "https://www.youtube.com/watch?v=lH5DamCVfFU"
-  },
-  {
-    "id": "bio-oko-54832",
-    "title": "Rose",
-    "start": "2026-09-23T18:00:00+02:00",
-    "cinema": "Bio Oko",
-    "url": "https://www.kinoaero.cz/en?projection=54832",
-    "letterboxdUrl": "https://letterboxd.com/film/rose-2026/",
-    "trailerUrl": "https://www.youtube.com/watch?v=80xR3G5eowo"
-  },
-  {
-    "id": "aero-54809",
-    "title": "The Christophers",
-    "start": "2026-09-23T18:00:00+02:00",
-    "cinema": "Kino Aero",
-    "url": "https://www.kinoaero.cz/en?projection=54809",
-    "letterboxdUrl": "https://letterboxd.com/film/the-christophers/",
-    "trailerUrl": "https://www.youtube.com/watch?v=5YhJ717PDwY"
-  },
-  {
-    "id": "svetozor-51047",
-    "title": "Tady Vary 2026/27 | Subscription",
-    "start": "2026-09-23T20:00:00+02:00",
-    "cinema": "Kino Světozor",
-    "url": "https://www.kinoaero.cz/en?projection=51047",
-    "letterboxdUrl": null,
-    "trailerUrl": null
-  },
-  {
-    "id": "svetozor-54295",
-    "title": "Tady Vary 1 | Lover, Not a Fighter",
-    "start": "2026-09-23T20:00:00+02:00",
-    "cinema": "Kino Světozor",
-    "url": "https://www.kinoaero.cz/en?projection=54295",
-    "letterboxdUrl": "https://letterboxd.com/film/lover-not-a-fighter/",
-    "trailerUrl": null
-  },
-  {
-    "id": "aero-54289",
-    "title": "Tady Vary 1 | Lover, Not a Fighter",
-    "start": "2026-09-23T20:15:00+02:00",
-    "cinema": "Kino Aero",
-    "url": "https://www.kinoaero.cz/en?projection=54289",
-    "letterboxdUrl": "https://letterboxd.com/film/lover-not-a-fighter/",
-    "trailerUrl": null
-  },
-  {
-    "id": "aero-54181",
-    "title": "Tady Vary 2026/27 | Subscription",
-    "start": "2026-09-23T20:15:00+02:00",
-    "cinema": "Kino Aero",
-    "url": "https://www.kinoaero.cz/en?projection=54181",
-    "letterboxdUrl": null,
-    "trailerUrl": null
-  },
-  {
-    "id": "bio-oko-54300",
-    "title": "Tady Vary 2026/27 | Subscription",
-    "start": "2026-09-23T20:15:00+02:00",
-    "cinema": "Bio Oko",
-    "url": "https://www.kinoaero.cz/en?projection=54300",
-    "letterboxdUrl": null,
-    "trailerUrl": null
-  },
-  {
-    "id": "bio-oko-54578",
-    "title": "Tady Vary 1 | Lover, Not a Fighter",
-    "start": "2026-09-23T20:15:00+02:00",
-    "cinema": "Bio Oko",
-    "url": "https://www.kinoaero.cz/en?projection=54578",
-    "letterboxdUrl": "https://letterboxd.com/film/lover-not-a-fighter/",
-    "trailerUrl": null
-  },
-  {
-    "id": "lucerna-55151",
-    "title": "If Pigeons Turned to Gold",
-    "start": "2026-09-23T20:30:00+02:00",
-    "cinema": "Kino Lucerna",
-    "url": "https://www.kinoaero.cz/en?projection=55151",
-    "letterboxdUrl": "https://letterboxd.com/film/if-pigeons-turned-to-gold/",
-    "trailerUrl": "https://www.youtube.com/watch?v=dLuvAzVRpC8"
-  },
-  {
-    "id": "aero-53862",
-    "title": "6 grams",
-    "start": "2026-09-24T13:30:00+02:00",
-    "cinema": "Kino Aero",
-    "url": "https://www.kinoaero.cz/en?projection=53862",
-    "letterboxdUrl": "https://letterboxd.com/film/6-gramu/",
-    "trailerUrl": "https://www.youtube.com/watch?v=zNQVQ_2DRZA"
-  },
-  {
-    "id": "bio-oko-54147",
-    "title": "Chica Checa",
-    "start": "2026-09-24T15:00:00+02:00",
-    "cinema": "Bio Oko",
-    "url": "https://www.kinoaero.cz/en?projection=54147",
-    "letterboxdUrl": "https://letterboxd.com/film/czech-girl/",
-    "trailerUrl": "https://www.youtube.com/watch?v=24E_j3IujTU"
-  },
-  {
-    "id": "lucerna-55027",
-    "title": "Bára - Diary of a Rockstar",
-    "start": "2026-09-24T15:15:00+02:00",
-    "cinema": "Kino Lucerna",
-    "url": "https://www.kinoaero.cz/en?projection=55027",
-    "letterboxdUrl": "https://letterboxd.com/film/bara-diary-of-a-rockstar/",
-    "trailerUrl": "https://www.youtube.com/watch?v=lH5DamCVfFU"
-  },
-  {
-    "id": "lucerna-55028",
-    "title": "Tony",
-    "start": "2026-09-24T15:30:00+02:00",
-    "cinema": "Kino Lucerna",
-    "url": "https://www.kinoaero.cz/en?projection=55028",
-    "letterboxdUrl": "https://letterboxd.com/film/tony-2026/",
-    "trailerUrl": "https://www.youtube.com/watch?v=WtXkdKveSpk"
-  },
-  {
-    "id": "lucerna-54065",
-    "title": "If Pigeons Turned to Gold",
-    "start": "2026-09-24T17:30:00+02:00",
-    "cinema": "Kino Lucerna",
-    "url": "https://www.kinoaero.cz/en?projection=54065",
-    "letterboxdUrl": "https://letterboxd.com/film/if-pigeons-turned-to-gold/",
-    "trailerUrl": "https://www.youtube.com/watch?v=dLuvAzVRpC8"
-  },
-  {
-    "id": "pritomnost-54958",
-    "title": "Tony",
-    "start": "2026-09-24T17:30:00+02:00",
-    "cinema": "Kino Přítomnost",
-    "url": "https://www.kinoaero.cz/en?projection=54958",
-    "letterboxdUrl": "https://letterboxd.com/film/tony-2026/",
-    "trailerUrl": "https://www.youtube.com/watch?v=WtXkdKveSpk"
-  },
-  {
-    "id": "lucerna-55036",
-    "title": "Heart of the Beast",
-    "start": "2026-09-24T17:45:00+02:00",
-    "cinema": "Kino Lucerna",
-    "url": "https://www.kinoaero.cz/en?projection=55036",
-    "letterboxdUrl": "https://letterboxd.com/film/heart-of-the-beast-2026/",
-    "trailerUrl": "https://www.youtube.com/watch?v=JloePhiYx-c"
-  },
-  {
-    "id": "bio-oko-55111",
-    "title": "Teenage Sex and Death at Camp Miasma",
-    "start": "2026-09-24T18:00:00+02:00",
-    "cinema": "Bio Oko",
-    "url": "https://www.kinoaero.cz/en?projection=55111",
-    "letterboxdUrl": "https://letterboxd.com/film/teenage-sex-and-death-at-camp-miasma/",
-    "trailerUrl": "https://www.youtube.com/watch?v=MA5NqUMEdbI"
-  },
-  {
-    "id": "aero-53499",
-    "title": "Pitt and Dog Double Feature",
-    "start": "2026-09-24T18:00:00+02:00",
-    "cinema": "Kino Aero",
-    "url": "https://www.kinoaero.cz/en?projection=53499",
-    "letterboxdUrl": null,
-    "trailerUrl": "https://www.youtube.com/watch?v=TY99_eyXj7I"
-  },
-  {
-    "id": "aero-53480",
-    "title": "Snatch",
-    "start": "2026-09-24T18:01:00+02:00",
-    "cinema": "Kino Aero",
-    "url": "https://www.kinoaero.cz/en?projection=53480",
-    "letterboxdUrl": "https://letterboxd.com/film/snatch/",
-    "trailerUrl": "https://www.youtube.com/watch?v=TY99_eyXj7I"
-  },
-  {
-    "id": "lucerna-55038",
-    "title": "The Odyssey",
-    "start": "2026-09-24T20:00:00+02:00",
-    "cinema": "Kino Lucerna",
-    "url": "https://www.kinoaero.cz/en?projection=55038",
-    "letterboxdUrl": "https://letterboxd.com/film/the-odyssey-2026/",
-    "trailerUrl": "https://www.youtube.com/watch?v=VplmWV6cms4"
-  },
-  {
-    "id": "lucerna-55132",
-    "title": "Zapomenutí dobrodruzi českých dějin",
-    "start": "2026-09-24T20:30:00+02:00",
-    "cinema": "Kino Lucerna",
-    "url": "https://www.kinoaero.cz/en?projection=55132",
-    "letterboxdUrl": null,
-    "trailerUrl": null
-  },
-  {
-    "id": "aero-53481",
-    "title": "Heart of the Beast",
-    "start": "2026-09-24T20:30:00+02:00",
-    "cinema": "Kino Aero",
-    "url": "https://www.kinoaero.cz/en?projection=53481",
-    "letterboxdUrl": "https://letterboxd.com/film/heart-of-the-beast-2026/",
-    "trailerUrl": "https://www.youtube.com/watch?v=JloePhiYx-c"
-  },
-  {
-    "id": "bio-oko-55112",
-    "title": "Tony",
-    "start": "2026-09-24T20:30:00+02:00",
-    "cinema": "Bio Oko",
-    "url": "https://www.kinoaero.cz/en?projection=55112",
-    "letterboxdUrl": "https://letterboxd.com/film/tony-2026/",
-    "trailerUrl": "https://www.youtube.com/watch?v=WtXkdKveSpk"
-  },
-  {
-    "id": "pritomnost-54959",
-    "title": "Heart of the Beast",
-    "start": "2026-09-24T20:30:00+02:00",
-    "cinema": "Kino Přítomnost",
-    "url": "https://www.kinoaero.cz/en?projection=54959",
-    "letterboxdUrl": "https://letterboxd.com/film/heart-of-the-beast-2026/",
-    "trailerUrl": "https://www.youtube.com/watch?v=JloePhiYx-c"
-  },
-  {
-    "id": "aero-54993",
-    "title": "Five plums",
-    "start": "2026-09-25T10:00:00+02:00",
-    "cinema": "Kino Aero",
-    "url": "https://www.kinoaero.cz/en?projection=54993",
-    "letterboxdUrl": "https://letterboxd.com/film/five-plums/",
-    "trailerUrl": "https://www.youtube.com/watch?v=Kmjyl3BhWM0"
-  },
-  {
-    "id": "lucerna-53803",
-    "title": "Chica Checa",
-    "start": "2026-09-25T13:00:00+02:00",
-    "cinema": "Kino Lucerna",
-    "url": "https://www.kinoaero.cz/en?projection=53803",
-    "letterboxdUrl": "https://letterboxd.com/film/czech-girl/",
-    "trailerUrl": "https://www.youtube.com/watch?v=24E_j3IujTU"
-  },
-  {
-    "id": "lucerna-55040",
-    "title": "Lone Wolf",
-    "start": "2026-09-25T13:15:00+02:00",
-    "cinema": "Kino Lucerna",
-    "url": "https://www.kinoaero.cz/en?projection=55040",
-    "letterboxdUrl": "https://letterboxd.com/film/lone-wolf-2026/",
-    "trailerUrl": "https://www.youtube.com/watch?v=cQguQ4c-ZhI"
-  },
-  {
-    "id": "svetozor-53790",
-    "title": "One Night Only",
-    "start": "2026-09-25T15:00:00+02:00",
-    "cinema": "Kino Světozor",
-    "url": "https://www.kinoaero.cz/en?projection=53790",
-    "letterboxdUrl": "https://letterboxd.com/film/one-night-only-2026/",
-    "trailerUrl": "https://www.youtube.com/watch?v=EKfIKG9GuPI?si=BCCNok4J22EAof-N"
-  },
-  {
-    "id": "aero-53863",
-    "title": "The End of Oak Street",
-    "start": "2026-09-25T15:00:00+02:00",
-    "cinema": "Kino Aero",
-    "url": "https://www.kinoaero.cz/en?projection=53863",
-    "letterboxdUrl": "https://letterboxd.com/film/the-end-of-oak-street/",
-    "trailerUrl": "https://www.youtube.com/watch?v=sEXd0IgJtoE"
-  },
-  {
-    "id": "lucerna-55041",
-    "title": "The Christophers",
-    "start": "2026-09-25T15:15:00+02:00",
-    "cinema": "Kino Lucerna",
-    "url": "https://www.kinoaero.cz/en?projection=55041",
-    "letterboxdUrl": "https://letterboxd.com/film/the-christophers/",
-    "trailerUrl": "https://www.youtube.com/watch?v=5YhJ717PDwY"
-  },
-  {
-    "id": "svetozor-55087",
-    "title": "Rose",
-    "start": "2026-09-25T15:15:00+02:00",
-    "cinema": "Kino Světozor",
-    "url": "https://www.kinoaero.cz/en?projection=55087",
-    "letterboxdUrl": "https://letterboxd.com/film/rose-2026/",
-    "trailerUrl": "https://www.youtube.com/watch?v=80xR3G5eowo"
-  },
-  {
-    "id": "svetozor-55046",
-    "title": "If Pigeons Turned to Gold",
-    "start": "2026-09-25T15:15:00+02:00",
-    "cinema": "Kino Světozor",
-    "url": "https://www.kinoaero.cz/en?projection=55046",
-    "letterboxdUrl": "https://letterboxd.com/film/if-pigeons-turned-to-gold/",
-    "trailerUrl": "https://www.youtube.com/watch?v=dLuvAzVRpC8"
-  },
-  {
-    "id": "lucerna-55031",
-    "title": "Bára - Diary of a Rockstar",
-    "start": "2026-09-25T15:30:00+02:00",
-    "cinema": "Kino Lucerna",
-    "url": "https://www.kinoaero.cz/en?projection=55031",
-    "letterboxdUrl": "https://letterboxd.com/film/bara-diary-of-a-rockstar/",
-    "trailerUrl": "https://www.youtube.com/watch?v=lH5DamCVfFU"
-  },
-  {
-    "id": "pritomnost-54960",
-    "title": "If Pigeons Turned to Gold",
-    "start": "2026-09-25T17:30:00+02:00",
-    "cinema": "Kino Přítomnost",
-    "url": "https://www.kinoaero.cz/en?projection=54960",
-    "letterboxdUrl": "https://letterboxd.com/film/if-pigeons-turned-to-gold/",
-    "trailerUrl": "https://www.youtube.com/watch?v=dLuvAzVRpC8"
-  },
-  {
-    "id": "svetozor-55049",
-    "title": "Tony",
-    "start": "2026-09-25T17:45:00+02:00",
-    "cinema": "Kino Světozor",
-    "url": "https://www.kinoaero.cz/en?projection=55049",
-    "letterboxdUrl": "https://letterboxd.com/film/tony-2026/",
-    "trailerUrl": "https://www.youtube.com/watch?v=WtXkdKveSpk"
-  },
-  {
-    "id": "lucerna-55042",
-    "title": "Rose",
-    "start": "2026-09-25T17:45:00+02:00",
-    "cinema": "Kino Lucerna",
-    "url": "https://www.kinoaero.cz/en?projection=55042",
-    "letterboxdUrl": "https://letterboxd.com/film/rose-2026/",
-    "trailerUrl": "https://www.youtube.com/watch?v=80xR3G5eowo"
-  },
-  {
-    "id": "svetozor-55090",
-    "title": "Bára - Diary of a Rockstar",
-    "start": "2026-09-25T17:45:00+02:00",
-    "cinema": "Kino Světozor",
-    "url": "https://www.kinoaero.cz/en?projection=55090",
-    "letterboxdUrl": "https://letterboxd.com/film/bara-diary-of-a-rockstar/",
-    "trailerUrl": "https://www.youtube.com/watch?v=lH5DamCVfFU"
-  },
-  {
-    "id": "svetozor-54878",
-    "title": "Primetime",
-    "start": "2026-09-25T18:00:00+02:00",
-    "cinema": "Kino Světozor",
-    "url": "https://www.kinoaero.cz/en?projection=54878",
-    "letterboxdUrl": "https://letterboxd.com/film/primetime-2026/details/",
-    "trailerUrl": "https://www.youtube.com/watch?v=5fHXyqQOKL8"
-  },
-  {
-    "id": "bio-oko-55113",
-    "title": "Heart of the Beast",
-    "start": "2026-09-25T18:00:00+02:00",
-    "cinema": "Bio Oko",
-    "url": "https://www.kinoaero.cz/en?projection=55113",
-    "letterboxdUrl": "https://letterboxd.com/film/heart-of-the-beast-2026/",
-    "trailerUrl": "https://www.youtube.com/watch?v=JloePhiYx-c"
-  },
-  {
-    "id": "lucerna-55033",
-    "title": "If Pigeons Turned to Gold",
-    "start": "2026-09-25T18:00:00+02:00",
-    "cinema": "Kino Lucerna",
-    "url": "https://www.kinoaero.cz/en?projection=55033",
-    "letterboxdUrl": "https://letterboxd.com/film/if-pigeons-turned-to-gold/",
-    "trailerUrl": "https://www.youtube.com/watch?v=dLuvAzVRpC8"
-  },
-  {
-    "id": "aero-55133",
-    "title": "If Pigeons Turned to Gold",
-    "start": "2026-09-25T18:00:00+02:00",
-    "cinema": "Kino Aero",
-    "url": "https://www.kinoaero.cz/en?projection=55133",
-    "letterboxdUrl": "https://letterboxd.com/film/if-pigeons-turned-to-gold/",
-    "trailerUrl": "https://www.youtube.com/watch?v=dLuvAzVRpC8"
-  },
-  {
-    "id": "lucerna-55044",
-    "title": "The Odyssey",
-    "start": "2026-09-25T20:00:00+02:00",
-    "cinema": "Kino Lucerna",
-    "url": "https://www.kinoaero.cz/en?projection=55044",
-    "letterboxdUrl": "https://letterboxd.com/film/the-odyssey-2026/",
-    "trailerUrl": "https://www.youtube.com/watch?v=VplmWV6cms4"
-  },
-  {
-    "id": "svetozor-55093",
-    "title": "Hope",
-    "start": "2026-09-25T20:15:00+02:00",
-    "cinema": "Kino Světozor",
-    "url": "https://www.kinoaero.cz/en?projection=55093",
-    "letterboxdUrl": "https://letterboxd.com/film/hope-2026/",
-    "trailerUrl": "https://www.youtube.com/watch?v=iD8Nu8lUy74"
-  },
-  {
-    "id": "svetozor-55051",
-    "title": "Don't Look Back in Anger",
-    "start": "2026-09-25T20:15:00+02:00",
-    "cinema": "Kino Světozor",
-    "url": "https://www.kinoaero.cz/en?projection=55051",
-    "letterboxdUrl": "https://letterboxd.com/film/oasis-dont-look-back-in-anger/",
-    "trailerUrl": "https://www.youtube.com/watch?v=vk8j6weBWPU"
-  },
-  {
-    "id": "pritomnost-54961",
-    "title": "Hope",
-    "start": "2026-09-25T20:30:00+02:00",
-    "cinema": "Kino Přítomnost",
-    "url": "https://www.kinoaero.cz/en?projection=54961",
-    "letterboxdUrl": "https://letterboxd.com/film/hope-2026/",
-    "trailerUrl": "https://www.youtube.com/watch?v=iD8Nu8lUy74"
-  },
-  {
-    "id": "lucerna-55034",
-    "title": "Tony",
-    "start": "2026-09-25T20:30:00+02:00",
-    "cinema": "Kino Lucerna",
-    "url": "https://www.kinoaero.cz/en?projection=55034",
-    "letterboxdUrl": "https://letterboxd.com/film/tony-2026/",
-    "trailerUrl": "https://www.youtube.com/watch?v=WtXkdKveSpk"
-  },
-  {
-    "id": "aero-53483",
-    "title": "Nostalgia",
-    "start": "2026-09-25T20:30:00+02:00",
-    "cinema": "Kino Aero",
-    "url": "https://www.kinoaero.cz/en?projection=53483",
-    "letterboxdUrl": "https://letterboxd.com/film/nostalgia-1983/",
-    "trailerUrl": "https://www.youtube.com/watch?v=vMy-T5GI7Z0"
-  },
-  {
-    "id": "bio-oko-55114",
-    "title": "If Pigeons Turned to Gold",
-    "start": "2026-09-25T20:30:00+02:00",
-    "cinema": "Bio Oko",
-    "url": "https://www.kinoaero.cz/en?projection=55114",
-    "letterboxdUrl": "https://letterboxd.com/film/if-pigeons-turned-to-gold/",
-    "trailerUrl": "https://www.youtube.com/watch?v=dLuvAzVRpC8"
-  },
-  {
-    "id": "svetozor-55068",
-    "title": "If Pigeons Turned to Gold",
-    "start": "2026-09-25T20:30:00+02:00",
-    "cinema": "Kino Světozor",
-    "url": "https://www.kinoaero.cz/en?projection=55068",
-    "letterboxdUrl": "https://letterboxd.com/film/if-pigeons-turned-to-gold/",
-    "trailerUrl": "https://www.youtube.com/watch?v=dLuvAzVRpC8"
-  },
-  {
-    "id": "bio-oko-55117",
-    "title": "Coyote vs. Acme",
-    "start": "2026-09-26T10:00:00+02:00",
-    "cinema": "Bio Oko",
-    "url": "https://www.kinoaero.cz/en?projection=55117",
-    "letterboxdUrl": "https://letterboxd.com/film/coyote-vs-acme/",
-    "trailerUrl": null
-  },
-  {
-    "id": "svetozor-55083",
-    "title": "The Odyssey",
-    "start": "2026-09-26T11:45:00+02:00",
-    "cinema": "Kino Světozor",
-    "url": "https://www.kinoaero.cz/en?projection=55083",
-    "letterboxdUrl": "https://letterboxd.com/film/the-odyssey-2026/",
-    "trailerUrl": "https://www.youtube.com/watch?v=VplmWV6cms4"
-  },
-  {
-    "id": "svetozor-55073",
-    "title": "Bára - Diary of a Rockstar",
-    "start": "2026-09-26T11:45:00+02:00",
-    "cinema": "Kino Světozor",
-    "url": "https://www.kinoaero.cz/en?projection=55073",
-    "letterboxdUrl": "https://letterboxd.com/film/bara-diary-of-a-rockstar/",
-    "trailerUrl": "https://www.youtube.com/watch?v=lH5DamCVfFU"
-  },
-  {
-    "id": "svetozor-55057",
-    "title": "The Christophers",
-    "start": "2026-09-26T12:00:00+02:00",
-    "cinema": "Kino Světozor",
-    "url": "https://www.kinoaero.cz/en?projection=55057",
-    "letterboxdUrl": "https://letterboxd.com/film/the-christophers/",
-    "trailerUrl": "https://www.youtube.com/watch?v=5YhJ717PDwY"
-  },
-  {
-    "id": "bio-oko-55115",
-    "title": "If Pigeons Turned to Gold",
-    "start": "2026-09-26T12:15:00+02:00",
-    "cinema": "Bio Oko",
-    "url": "https://www.kinoaero.cz/en?projection=55115",
-    "letterboxdUrl": "https://letterboxd.com/film/if-pigeons-turned-to-gold/",
-    "trailerUrl": "https://www.youtube.com/watch?v=dLuvAzVRpC8"
-  },
-  {
-    "id": "lucerna-55035",
-    "title": "Five plums",
-    "start": "2026-09-26T13:00:00+02:00",
-    "cinema": "Kino Lucerna",
-    "url": "https://www.kinoaero.cz/en?projection=55035",
-    "letterboxdUrl": "https://letterboxd.com/film/five-plums/",
-    "trailerUrl": "https://www.youtube.com/watch?v=Kmjyl3BhWM0"
-  },
-  {
-    "id": "lucerna-55048",
-    "title": "Teenage Sex and Death at Camp Miasma",
-    "start": "2026-09-26T13:15:00+02:00",
-    "cinema": "Kino Lucerna",
-    "url": "https://www.kinoaero.cz/en?projection=55048",
-    "letterboxdUrl": "https://letterboxd.com/film/teenage-sex-and-death-at-camp-miasma/",
-    "trailerUrl": "https://www.youtube.com/watch?v=MA5NqUMEdbI"
-  },
-  {
-    "id": "svetozor-55075",
-    "title": "Tony",
-    "start": "2026-09-26T13:45:00+02:00",
-    "cinema": "Kino Světozor",
-    "url": "https://www.kinoaero.cz/en?projection=55075",
-    "letterboxdUrl": "https://letterboxd.com/film/tony-2026/",
-    "trailerUrl": "https://www.youtube.com/watch?v=WtXkdKveSpk"
-  },
-  {
-    "id": "svetozor-55063",
-    "title": "The Invite",
-    "start": "2026-09-26T14:30:00+02:00",
-    "cinema": "Kino Světozor",
-    "url": "https://www.kinoaero.cz/en?projection=55063",
-    "letterboxdUrl": "https://letterboxd.com/film/the-invite-2026/",
-    "trailerUrl": "https://www.youtube.com/watch?v=fRBFIc7g4gc"
-  },
-  {
-    "id": "pritomnost-54970",
-    "title": "Bára - Diary of a Rockstar",
-    "start": "2026-09-26T14:30:00+02:00",
-    "cinema": "Kino Přítomnost",
-    "url": "https://www.kinoaero.cz/en?projection=54970",
-    "letterboxdUrl": "https://letterboxd.com/film/bara-diary-of-a-rockstar/",
-    "trailerUrl": "https://www.youtube.com/watch?v=lH5DamCVfFU"
-  },
-  {
-    "id": "bio-oko-55118",
-    "title": "Forgotten Island",
-    "start": "2026-09-26T15:00:00+02:00",
-    "cinema": "Bio Oko",
-    "url": "https://www.kinoaero.cz/en?projection=55118",
-    "letterboxdUrl": "https://letterboxd.com/film/forgotten-island-2026/",
-    "trailerUrl": "https://www.youtube.com/watch?v=bKvzxZmgiMY"
-  },
-  {
-    "id": "aero-55143",
-    "title": "Aeroschool for Kids",
-    "start": "2026-09-26T15:00:00+02:00",
-    "cinema": "Kino Aero",
-    "url": "https://www.kinoaero.cz/en?projection=55143",
-    "letterboxdUrl": null,
-    "trailerUrl": null
-  },
-  {
-    "id": "svetozor-55097",
-    "title": "Practical Magic 2",
-    "start": "2026-09-26T15:00:00+02:00",
-    "cinema": "Kino Světozor",
-    "url": "https://www.kinoaero.cz/en?projection=55097",
-    "letterboxdUrl": "https://letterboxd.com/film/practical-magic-2/",
-    "trailerUrl": "https://www.youtube.com/watch?v=6gCENR0xBVo?si=AQYLYCADakTpTGr1"
-  },
-  {
-    "id": "aero-55144",
-    "title": "Aeroschool for Kids with Creative Workshop",
-    "start": "2026-09-26T15:00:00+02:00",
-    "cinema": "Kino Aero",
-    "url": "https://www.kinoaero.cz/en?projection=55144",
-    "letterboxdUrl": null,
-    "trailerUrl": null
-  },
-  {
-    "id": "lucerna-55037",
-    "title": "Bára - Diary of a Rockstar",
-    "start": "2026-09-26T15:15:00+02:00",
-    "cinema": "Kino Lucerna",
-    "url": "https://www.kinoaero.cz/en?projection=55037",
-    "letterboxdUrl": "https://letterboxd.com/film/bara-diary-of-a-rockstar/",
-    "trailerUrl": "https://www.youtube.com/watch?v=lH5DamCVfFU"
-  },
-  {
-    "id": "lucerna-55054",
-    "title": "Rose",
-    "start": "2026-09-26T15:45:00+02:00",
-    "cinema": "Kino Lucerna",
-    "url": "https://www.kinoaero.cz/en?projection=55054",
-    "letterboxdUrl": "https://letterboxd.com/film/rose-2026/",
-    "trailerUrl": "https://www.youtube.com/watch?v=80xR3G5eowo"
-  },
-  {
-    "id": "svetozor-55077",
-    "title": "I Swear",
-    "start": "2026-09-26T16:00:00+02:00",
-    "cinema": "Kino Světozor",
-    "url": "https://www.kinoaero.cz/en?projection=55077",
-    "letterboxdUrl": "https://letterboxd.com/film/i-swear/",
-    "trailerUrl": "https://www.youtube.com/watch?v=CY_MBWaGv4I"
-  },
-  {
-    "id": "svetozor-55065",
-    "title": "Project Hail Mary",
-    "start": "2026-09-26T17:00:00+02:00",
-    "cinema": "Kino Světozor",
-    "url": "https://www.kinoaero.cz/en?projection=55065",
-    "letterboxdUrl": "https://letterboxd.com/film/project-hail-mary/",
-    "trailerUrl": "https://www.youtube.com/watch?v=26708YSDK-4"
-  },
-  {
-    "id": "pritomnost-54962",
-    "title": "Heart of the Beast",
-    "start": "2026-09-26T17:30:00+02:00",
-    "cinema": "Kino Přítomnost",
-    "url": "https://www.kinoaero.cz/en?projection=54962",
-    "letterboxdUrl": "https://letterboxd.com/film/heart-of-the-beast-2026/",
-    "trailerUrl": "https://www.youtube.com/watch?v=JloePhiYx-c"
-  },
-  {
-    "id": "lucerna-55039",
-    "title": "If Pigeons Turned to Gold",
-    "start": "2026-09-26T17:30:00+02:00",
-    "cinema": "Kino Lucerna",
-    "url": "https://www.kinoaero.cz/en?projection=55039",
-    "letterboxdUrl": "https://letterboxd.com/film/if-pigeons-turned-to-gold/",
-    "trailerUrl": "https://www.youtube.com/watch?v=dLuvAzVRpC8"
-  },
-  {
-    "id": "bio-oko-55119",
-    "title": "The Christophers",
-    "start": "2026-09-26T17:30:00+02:00",
-    "cinema": "Bio Oko",
-    "url": "https://www.kinoaero.cz/en?projection=55119",
-    "letterboxdUrl": "https://letterboxd.com/film/the-christophers/",
-    "trailerUrl": "https://www.youtube.com/watch?v=5YhJ717PDwY"
-  },
-  {
-    "id": "aero-55134",
-    "title": "The Christophers",
-    "start": "2026-09-26T17:30:00+02:00",
-    "cinema": "Kino Aero",
-    "url": "https://www.kinoaero.cz/en?projection=55134",
-    "letterboxdUrl": "https://letterboxd.com/film/the-christophers/",
-    "trailerUrl": "https://www.youtube.com/watch?v=5YhJ717PDwY"
-  },
-  {
-    "id": "svetozor-55098",
-    "title": "Teenage Sex and Death at Camp Miasma",
-    "start": "2026-09-26T17:45:00+02:00",
-    "cinema": "Kino Světozor",
-    "url": "https://www.kinoaero.cz/en?projection=55098",
-    "letterboxdUrl": "https://letterboxd.com/film/teenage-sex-and-death-at-camp-miasma/",
-    "trailerUrl": "https://www.youtube.com/watch?v=MA5NqUMEdbI"
-  },
-  {
-    "id": "lucerna-55056",
-    "title": "Tony",
-    "start": "2026-09-26T18:00:00+02:00",
-    "cinema": "Kino Lucerna",
-    "url": "https://www.kinoaero.cz/en?projection=55056",
-    "letterboxdUrl": "https://letterboxd.com/film/tony-2026/",
-    "trailerUrl": "https://www.youtube.com/watch?v=WtXkdKveSpk"
-  },
-  {
-    "id": "svetozor-55078",
-    "title": "Rose",
-    "start": "2026-09-26T18:30:00+02:00",
-    "cinema": "Kino Světozor",
-    "url": "https://www.kinoaero.cz/en?projection=55078",
-    "letterboxdUrl": "https://letterboxd.com/film/rose-2026/",
-    "trailerUrl": "https://www.youtube.com/watch?v=80xR3G5eowo"
-  },
-  {
-    "id": "lucerna-55043",
-    "title": "The Odyssey",
-    "start": "2026-09-26T20:00:00+02:00",
-    "cinema": "Kino Lucerna",
-    "url": "https://www.kinoaero.cz/en?projection=55043",
-    "letterboxdUrl": "https://letterboxd.com/film/the-odyssey-2026/",
-    "trailerUrl": "https://www.youtube.com/watch?v=VplmWV6cms4"
-  },
-  {
-    "id": "bio-oko-55120",
-    "title": "Resident Evil",
-    "start": "2026-09-26T20:00:00+02:00",
-    "cinema": "Bio Oko",
-    "url": "https://www.kinoaero.cz/en?projection=55120",
-    "letterboxdUrl": "https://letterboxd.com/film/untitled-resident-evil-reboot/",
-    "trailerUrl": "https://www.youtube.com/watch?v=Z61Cn71i-no"
-  },
-  {
-    "id": "aero-55135",
-    "title": "If Pigeons Turned to Gold",
-    "start": "2026-09-26T20:00:00+02:00",
-    "cinema": "Kino Aero",
-    "url": "https://www.kinoaero.cz/en?projection=55135",
-    "letterboxdUrl": "https://letterboxd.com/film/if-pigeons-turned-to-gold/",
-    "trailerUrl": "https://www.youtube.com/watch?v=dLuvAzVRpC8"
-  },
-  {
-    "id": "lucerna-55062",
-    "title": "Heart of the Beast",
-    "start": "2026-09-26T20:15:00+02:00",
-    "cinema": "Kino Lucerna",
-    "url": "https://www.kinoaero.cz/en?projection=55062",
-    "letterboxdUrl": "https://letterboxd.com/film/heart-of-the-beast-2026/",
-    "trailerUrl": "https://www.youtube.com/watch?v=JloePhiYx-c"
-  },
-  {
-    "id": "svetozor-55052",
-    "title": "Don't Look Back in Anger",
-    "start": "2026-09-26T20:15:00+02:00",
-    "cinema": "Kino Světozor",
-    "url": "https://www.kinoaero.cz/en?projection=55052",
-    "letterboxdUrl": "https://letterboxd.com/film/oasis-dont-look-back-in-anger/",
-    "trailerUrl": "https://www.youtube.com/watch?v=vk8j6weBWPU"
-  },
-  {
-    "id": "svetozor-55094",
-    "title": "Hope",
-    "start": "2026-09-26T20:15:00+02:00",
-    "cinema": "Kino Světozor",
-    "url": "https://www.kinoaero.cz/en?projection=55094",
-    "letterboxdUrl": "https://letterboxd.com/film/hope-2026/",
-    "trailerUrl": "https://www.youtube.com/watch?v=iD8Nu8lUy74"
-  },
-  {
-    "id": "svetozor-55069",
-    "title": "If Pigeons Turned to Gold",
-    "start": "2026-09-26T20:30:00+02:00",
-    "cinema": "Kino Světozor",
-    "url": "https://www.kinoaero.cz/en?projection=55069",
-    "letterboxdUrl": "https://letterboxd.com/film/if-pigeons-turned-to-gold/",
-    "trailerUrl": "https://www.youtube.com/watch?v=dLuvAzVRpC8"
-  },
-  {
-    "id": "pritomnost-54963",
-    "title": "If Pigeons Turned to Gold",
-    "start": "2026-09-26T20:30:00+02:00",
-    "cinema": "Kino Přítomnost",
-    "url": "https://www.kinoaero.cz/en?projection=54963",
-    "letterboxdUrl": "https://letterboxd.com/film/if-pigeons-turned-to-gold/",
-    "trailerUrl": "https://www.youtube.com/watch?v=dLuvAzVRpC8"
-  },
-  {
-    "id": "bio-oko-55121",
-    "title": "Girl in the Clouds",
-    "start": "2026-09-27T10:00:00+02:00",
-    "cinema": "Bio Oko",
-    "url": "https://www.kinoaero.cz/en?projection=55121",
-    "letterboxdUrl": "https://letterboxd.com/film/the-girl-in-the-clouds/",
-    "trailerUrl": "https://www.youtube.com/watch?v=Mw7SU99P0wY"
-  },
-  {
-    "id": "bio-oko-55122",
-    "title": "Bára - Diary of a Rockstar",
-    "start": "2026-09-27T12:15:00+02:00",
-    "cinema": "Bio Oko",
-    "url": "https://www.kinoaero.cz/en?projection=55122",
-    "letterboxdUrl": "https://letterboxd.com/film/bara-diary-of-a-rockstar/",
-    "trailerUrl": "https://www.youtube.com/watch?v=lH5DamCVfFU"
-  },
-  {
-    "id": "svetozor-55091",
-    "title": "Bára - Diary of a Rockstar",
-    "start": "2026-09-27T12:15:00+02:00",
-    "cinema": "Kino Světozor",
-    "url": "https://www.kinoaero.cz/en?projection=55091",
-    "letterboxdUrl": "https://letterboxd.com/film/bara-diary-of-a-rockstar/",
-    "trailerUrl": "https://www.youtube.com/watch?v=lH5DamCVfFU"
-  },
-  {
-    "id": "svetozor-55070",
-    "title": "If Pigeons Turned to Gold",
-    "start": "2026-09-27T12:45:00+02:00",
-    "cinema": "Kino Světozor",
-    "url": "https://www.kinoaero.cz/en?projection=55070",
-    "letterboxdUrl": "https://letterboxd.com/film/if-pigeons-turned-to-gold/",
-    "trailerUrl": "https://www.youtube.com/watch?v=dLuvAzVRpC8"
-  },
-  {
-    "id": "lucerna-55045",
-    "title": "Rose",
-    "start": "2026-09-27T13:00:00+02:00",
-    "cinema": "Kino Lucerna",
-    "url": "https://www.kinoaero.cz/en?projection=55045",
-    "letterboxdUrl": "https://letterboxd.com/film/rose-2026/",
-    "trailerUrl": "https://www.youtube.com/watch?v=80xR3G5eowo"
-  },
-  {
-    "id": "svetozor-55066",
-    "title": "Chica Checa",
-    "start": "2026-09-27T13:00:00+02:00",
-    "cinema": "Kino Světozor",
-    "url": "https://www.kinoaero.cz/en?projection=55066",
-    "letterboxdUrl": "https://letterboxd.com/film/czech-girl/",
-    "trailerUrl": "https://www.youtube.com/watch?v=24E_j3IujTU"
-  },
-  {
-    "id": "lucerna-55076",
-    "title": "The Christophers",
-    "start": "2026-09-27T13:15:00+02:00",
-    "cinema": "Kino Lucerna",
-    "url": "https://www.kinoaero.cz/en?projection=55076",
-    "letterboxdUrl": "https://letterboxd.com/film/the-christophers/",
-    "trailerUrl": "https://www.youtube.com/watch?v=5YhJ717PDwY"
-  },
-  {
-    "id": "bio-oko-55124",
-    "title": "Aeroschool for Kids with Creative Workshop",
-    "start": "2026-09-27T14:30:00+02:00",
-    "cinema": "Bio Oko",
-    "url": "https://www.kinoaero.cz/en?projection=55124",
-    "letterboxdUrl": null,
-    "trailerUrl": null
-  },
-  {
-    "id": "svetozor-55103",
-    "title": "The Samurai and the Prisoner",
-    "start": "2026-09-27T14:30:00+02:00",
-    "cinema": "Kino Světozor",
-    "url": "https://www.kinoaero.cz/en?projection=55103",
-    "letterboxdUrl": "https://letterboxd.com/film/the-samurai-and-the-prisoner/",
-    "trailerUrl": "https://www.youtube.com/watch?v=nyCLgg4G5dw"
-  },
-  {
-    "id": "bio-oko-55125",
-    "title": "Aeroschool for Kids",
-    "start": "2026-09-27T14:31:00+02:00",
-    "cinema": "Bio Oko",
-    "url": "https://www.kinoaero.cz/en?projection=55125",
-    "letterboxdUrl": null,
-    "trailerUrl": null
-  },
-  {
-    "id": "aero-50571",
-    "title": "Subscription METinHD | 2026-2027 Kino Aero",
-    "start": "2026-09-27T14:59:00+02:00",
-    "cinema": "Kino Aero",
-    "url": "https://www.kinoaero.cz/en?projection=50571",
-    "letterboxdUrl": null,
-    "trailerUrl": null
-  },
-  {
-    "id": "aero-50014",
-    "title": "Twenty Years of Met in Cinemas: An Anniversary Celebration",
-    "start": "2026-09-27T15:00:00+02:00",
-    "cinema": "Kino Aero",
-    "url": "https://www.kinoaero.cz/en?projection=50014",
-    "letterboxdUrl": null,
-    "trailerUrl": null
-  },
-  {
-    "id": "lucerna-55055",
-    "title": "Tony",
-    "start": "2026-09-27T15:15:00+02:00",
-    "cinema": "Kino Lucerna",
-    "url": "https://www.kinoaero.cz/en?projection=55055",
-    "letterboxdUrl": "https://letterboxd.com/film/tony-2026/",
-    "trailerUrl": "https://www.youtube.com/watch?v=WtXkdKveSpk"
-  },
-  {
-    "id": "svetozor-55079",
-    "title": "Rose",
-    "start": "2026-09-27T15:15:00+02:00",
-    "cinema": "Kino Světozor",
-    "url": "https://www.kinoaero.cz/en?projection=55079",
-    "letterboxdUrl": "https://letterboxd.com/film/rose-2026/",
-    "trailerUrl": "https://www.youtube.com/watch?v=80xR3G5eowo"
-  },
-  {
-    "id": "svetozor-55058",
-    "title": "The Christophers",
-    "start": "2026-09-27T15:30:00+02:00",
-    "cinema": "Kino Světozor",
-    "url": "https://www.kinoaero.cz/en?projection=55058",
-    "letterboxdUrl": "https://letterboxd.com/film/the-christophers/",
-    "trailerUrl": "https://www.youtube.com/watch?v=5YhJ717PDwY"
-  },
-  {
-    "id": "lucerna-55082",
-    "title": "Teenage Sex and Death at Camp Miasma",
-    "start": "2026-09-27T15:30:00+02:00",
-    "cinema": "Kino Lucerna",
-    "url": "https://www.kinoaero.cz/en?projection=55082",
-    "letterboxdUrl": "https://letterboxd.com/film/teenage-sex-and-death-at-camp-miasma/",
-    "trailerUrl": "https://www.youtube.com/watch?v=MA5NqUMEdbI"
-  },
-  {
-    "id": "bio-oko-55116",
-    "title": "If Pigeons Turned to Gold",
-    "start": "2026-09-27T17:00:00+02:00",
-    "cinema": "Bio Oko",
-    "url": "https://www.kinoaero.cz/en?projection=55116",
-    "letterboxdUrl": "https://letterboxd.com/film/if-pigeons-turned-to-gold/",
-    "trailerUrl": "https://www.youtube.com/watch?v=dLuvAzVRpC8"
-  },
-  {
-    "id": "pritomnost-54964",
-    "title": "Rose",
-    "start": "2026-09-27T17:00:00+02:00",
-    "cinema": "Kino Přítomnost",
-    "url": "https://www.kinoaero.cz/en?projection=54964",
-    "letterboxdUrl": "https://letterboxd.com/film/rose-2026/",
-    "trailerUrl": "https://www.youtube.com/watch?v=80xR3G5eowo"
-  },
-  {
-    "id": "svetozor-55071",
-    "title": "If Pigeons Turned to Gold",
-    "start": "2026-09-27T17:30:00+02:00",
-    "cinema": "Kino Světozor",
-    "url": "https://www.kinoaero.cz/en?projection=55071",
-    "letterboxdUrl": "https://letterboxd.com/film/if-pigeons-turned-to-gold/",
-    "trailerUrl": "https://www.youtube.com/watch?v=dLuvAzVRpC8"
-  },
-  {
-    "id": "svetozor-55104",
-    "title": "Obsession",
-    "start": "2026-09-27T17:45:00+02:00",
-    "cinema": "Kino Světozor",
-    "url": "https://www.kinoaero.cz/en?projection=55104",
-    "letterboxdUrl": "https://letterboxd.com/film/obsession-2025-2/",
-    "trailerUrl": "https://www.youtube.com/watch?v=Fl3pfvmcdmA"
-  },
-  {
-    "id": "lucerna-55059",
-    "title": "Bára - Diary of a Rockstar",
-    "start": "2026-09-27T17:45:00+02:00",
-    "cinema": "Kino Lucerna",
-    "url": "https://www.kinoaero.cz/en?projection=55059",
-    "letterboxdUrl": "https://letterboxd.com/film/bara-diary-of-a-rockstar/",
-    "trailerUrl": "https://www.youtube.com/watch?v=lH5DamCVfFU"
-  },
-  {
-    "id": "lucerna-55086",
-    "title": "Heart of the Beast",
-    "start": "2026-09-27T18:00:00+02:00",
-    "cinema": "Kino Lucerna",
-    "url": "https://www.kinoaero.cz/en?projection=55086",
-    "letterboxdUrl": "https://letterboxd.com/film/heart-of-the-beast-2026/",
-    "trailerUrl": "https://www.youtube.com/watch?v=JloePhiYx-c"
-  },
-  {
-    "id": "svetozor-55050",
-    "title": "Tony",
-    "start": "2026-09-27T18:00:00+02:00",
-    "cinema": "Kino Světozor",
-    "url": "https://www.kinoaero.cz/en?projection=55050",
-    "letterboxdUrl": "https://letterboxd.com/film/tony-2026/",
-    "trailerUrl": "https://www.youtube.com/watch?v=WtXkdKveSpk"
-  },
-  {
-    "id": "aero-55136",
-    "title": "Bára - Diary of a Rockstar",
-    "start": "2026-09-27T18:30:00+02:00",
-    "cinema": "Kino Aero",
-    "url": "https://www.kinoaero.cz/en?projection=55136",
-    "letterboxdUrl": "https://letterboxd.com/film/bara-diary-of-a-rockstar/",
-    "trailerUrl": "https://www.youtube.com/watch?v=lH5DamCVfFU"
-  },
-  {
-    "id": "bio-oko-55126",
-    "title": "Teenage Sex and Death at Camp Miasma",
-    "start": "2026-09-27T20:00:00+02:00",
-    "cinema": "Bio Oko",
-    "url": "https://www.kinoaero.cz/en?projection=55126",
-    "letterboxdUrl": "https://letterboxd.com/film/teenage-sex-and-death-at-camp-miasma/",
-    "trailerUrl": "https://www.youtube.com/watch?v=MA5NqUMEdbI"
-  },
-  {
-    "id": "svetozor-55080",
-    "title": "The Odyssey",
-    "start": "2026-09-27T20:00:00+02:00",
-    "cinema": "Kino Světozor",
-    "url": "https://www.kinoaero.cz/en?projection=55080",
-    "letterboxdUrl": "https://letterboxd.com/film/the-odyssey-2026/",
-    "trailerUrl": "https://www.youtube.com/watch?v=VplmWV6cms4"
-  },
-  {
-    "id": "pritomnost-53174",
-    "title": "The Audience | NT Live",
-    "start": "2026-09-27T20:00:00+02:00",
-    "cinema": "Kino Přítomnost",
-    "url": "https://www.kinoaero.cz/en?projection=53174",
-    "letterboxdUrl": "https://letterboxd.com/film/national-theatre-live-the-audience/",
-    "trailerUrl": "https://www.youtube.com/watch?v=LYq6RdsCKK8"
-  },
-  {
-    "id": "lucerna-55067",
-    "title": "If Pigeons Turned to Gold",
-    "start": "2026-09-27T20:00:00+02:00",
-    "cinema": "Kino Lucerna",
-    "url": "https://www.kinoaero.cz/en?projection=55067",
-    "letterboxdUrl": "https://letterboxd.com/film/if-pigeons-turned-to-gold/",
-    "trailerUrl": "https://www.youtube.com/watch?v=dLuvAzVRpC8"
-  },
-  {
-    "id": "svetozor-55095",
-    "title": "Hope",
-    "start": "2026-09-27T20:15:00+02:00",
-    "cinema": "Kino Světozor",
-    "url": "https://www.kinoaero.cz/en?projection=55095",
-    "letterboxdUrl": "https://letterboxd.com/film/hope-2026/",
-    "trailerUrl": "https://www.youtube.com/watch?v=iD8Nu8lUy74"
-  },
-  {
-    "id": "lucerna-55096",
-    "title": "The Odyssey",
-    "start": "2026-09-27T20:15:00+02:00",
-    "cinema": "Kino Lucerna",
-    "url": "https://www.kinoaero.cz/en?projection=55096",
-    "letterboxdUrl": "https://letterboxd.com/film/the-odyssey-2026/",
-    "trailerUrl": "https://www.youtube.com/watch?v=VplmWV6cms4"
-  },
-  {
-    "id": "svetozor-55064",
-    "title": "The Invite",
-    "start": "2026-09-27T20:30:00+02:00",
-    "cinema": "Kino Světozor",
-    "url": "https://www.kinoaero.cz/en?projection=55064",
-    "letterboxdUrl": "https://letterboxd.com/film/the-invite-2026/",
-    "trailerUrl": "https://www.youtube.com/watch?v=fRBFIc7g4gc"
-  },
-  {
-    "id": "aero-55137",
-    "title": "Tony",
-    "start": "2026-09-27T20:30:00+02:00",
-    "cinema": "Kino Aero",
-    "url": "https://www.kinoaero.cz/en?projection=55137",
-    "letterboxdUrl": "https://letterboxd.com/film/tony-2026/",
-    "trailerUrl": "https://www.youtube.com/watch?v=WtXkdKveSpk"
-  },
-  {
-    "id": "bio-oko-55127",
-    "title": "Forgotten Island",
-    "start": "2026-09-28T10:00:00+02:00",
-    "cinema": "Bio Oko",
-    "url": "https://www.kinoaero.cz/en?projection=55127",
-    "letterboxdUrl": "https://letterboxd.com/film/forgotten-island-2026/",
-    "trailerUrl": "https://www.youtube.com/watch?v=bKvzxZmgiMY"
-  },
-  {
-    "id": "lucerna-55100",
-    "title": "The Odyssey",
-    "start": "2026-09-28T12:15:00+02:00",
-    "cinema": "Kino Lucerna",
-    "url": "https://www.kinoaero.cz/en?projection=55100",
-    "letterboxdUrl": "https://letterboxd.com/film/the-odyssey-2026/",
-    "trailerUrl": "https://www.youtube.com/watch?v=VplmWV6cms4"
-  },
-  {
-    "id": "bio-oko-55128",
-    "title": "Heart of the Beast",
-    "start": "2026-09-28T12:30:00+02:00",
-    "cinema": "Bio Oko",
-    "url": "https://www.kinoaero.cz/en?projection=55128",
-    "letterboxdUrl": "https://letterboxd.com/film/heart-of-the-beast-2026/",
-    "trailerUrl": "https://www.youtube.com/watch?v=JloePhiYx-c"
-  },
-  {
-    "id": "lucerna-55081",
-    "title": "Bára - Diary of a Rockstar",
-    "start": "2026-09-28T12:30:00+02:00",
-    "cinema": "Kino Lucerna",
-    "url": "https://www.kinoaero.cz/en?projection=55081",
-    "letterboxdUrl": "https://letterboxd.com/film/bara-diary-of-a-rockstar/",
-    "trailerUrl": "https://www.youtube.com/watch?v=lH5DamCVfFU"
-  },
-  {
-    "id": "svetozor-55000",
-    "title": "The Christophers",
-    "start": "2026-09-28T13:00:00+02:00",
-    "cinema": "Kino Světozor",
-    "url": "https://www.kinoaero.cz/en?projection=55000",
-    "letterboxdUrl": "https://letterboxd.com/film/the-christophers/",
-    "trailerUrl": "https://www.youtube.com/watch?v=5YhJ717PDwY"
-  },
-  {
-    "id": "svetozor-54994",
-    "title": "Practical Magic 2",
-    "start": "2026-09-28T13:00:00+02:00",
-    "cinema": "Kino Světozor",
-    "url": "https://www.kinoaero.cz/en?projection=54994",
-    "letterboxdUrl": "https://letterboxd.com/film/practical-magic-2/",
-    "trailerUrl": "https://www.youtube.com/watch?v=6gCENR0xBVo?si=AQYLYCADakTpTGr1"
-  },
-  {
-    "id": "svetozor-54998",
-    "title": "The Odyssey",
-    "start": "2026-09-28T13:15:00+02:00",
-    "cinema": "Kino Světozor",
-    "url": "https://www.kinoaero.cz/en?projection=54998",
-    "letterboxdUrl": "https://letterboxd.com/film/the-odyssey-2026/",
-    "trailerUrl": "https://www.youtube.com/watch?v=VplmWV6cms4"
-  },
-  {
-    "id": "lucerna-53804",
-    "title": "Born in the Jungle",
-    "start": "2026-09-28T15:00:00+02:00",
-    "cinema": "Kino Lucerna",
-    "url": "https://www.kinoaero.cz/en?projection=53804",
-    "letterboxdUrl": "https://letterboxd.com/film/born-in-the-jungle/",
-    "trailerUrl": "https://www.youtube.com/watch?v=7U0rVflIuWU"
-  },
-  {
-    "id": "aero-55145",
-    "title": "Forgotten Island",
-    "start": "2026-09-28T15:00:00+02:00",
-    "cinema": "Kino Aero",
-    "url": "https://www.kinoaero.cz/en?projection=55145",
-    "letterboxdUrl": "https://letterboxd.com/film/forgotten-island-2026/",
-    "trailerUrl": "https://www.youtube.com/watch?v=bKvzxZmgiMY"
-  },
-  {
-    "id": "bio-oko-54149",
-    "title": "The Sheep Detectives",
-    "start": "2026-09-28T15:00:00+02:00",
-    "cinema": "Bio Oko",
-    "url": "https://www.kinoaero.cz/en?projection=54149",
-    "letterboxdUrl": "https://letterboxd.com/film/the-sheep-detectives/",
-    "trailerUrl": "https://www.youtube.com/watch?v=pyZI5oM6hWk"
-  },
-  {
-    "id": "svetozor-55001",
-    "title": "Chica Checa",
-    "start": "2026-09-28T15:15:00+02:00",
-    "cinema": "Kino Světozor",
-    "url": "https://www.kinoaero.cz/en?projection=55001",
-    "letterboxdUrl": "https://letterboxd.com/film/czech-girl/",
-    "trailerUrl": "https://www.youtube.com/watch?v=24E_j3IujTU"
-  },
-  {
-    "id": "lucerna-55101",
-    "title": "The Christophers",
-    "start": "2026-09-28T15:30:00+02:00",
-    "cinema": "Kino Lucerna",
-    "url": "https://www.kinoaero.cz/en?projection=55101",
-    "letterboxdUrl": "https://letterboxd.com/film/the-christophers/",
-    "trailerUrl": "https://www.youtube.com/watch?v=5YhJ717PDwY"
-  },
-  {
-    "id": "svetozor-54995",
-    "title": "Rose",
-    "start": "2026-09-28T15:45:00+02:00",
-    "cinema": "Kino Světozor",
-    "url": "https://www.kinoaero.cz/en?projection=54995",
-    "letterboxdUrl": "https://letterboxd.com/film/rose-2026/",
-    "trailerUrl": "https://www.youtube.com/watch?v=80xR3G5eowo"
-  },
-  {
-    "id": "svetozor-54999",
-    "title": "If Pigeons Turned to Gold",
-    "start": "2026-09-28T16:30:00+02:00",
-    "cinema": "Kino Světozor",
-    "url": "https://www.kinoaero.cz/en?projection=54999",
-    "letterboxdUrl": "https://letterboxd.com/film/if-pigeons-turned-to-gold/",
-    "trailerUrl": "https://www.youtube.com/watch?v=dLuvAzVRpC8"
-  },
-  {
-    "id": "pritomnost-54526",
-    "title": "No Country for Old Men",
-    "start": "2026-09-28T17:00:00+02:00",
-    "cinema": "Kino Přítomnost",
-    "url": "https://www.kinoaero.cz/en?projection=54526",
-    "letterboxdUrl": "https://letterboxd.com/film/no-country-for-old-men/",
-    "trailerUrl": null
-  },
-  {
-    "id": "aero-55138",
-    "title": "Teenage Sex and Death at Camp Miasma",
-    "start": "2026-09-28T17:30:00+02:00",
-    "cinema": "Kino Aero",
-    "url": "https://www.kinoaero.cz/en?projection=55138",
-    "letterboxdUrl": "https://letterboxd.com/film/teenage-sex-and-death-at-camp-miasma/",
-    "trailerUrl": "https://www.youtube.com/watch?v=MA5NqUMEdbI"
-  },
-  {
-    "id": "lucerna-55089",
-    "title": "If Pigeons Turned to Gold",
-    "start": "2026-09-28T17:30:00+02:00",
-    "cinema": "Kino Lucerna",
-    "url": "https://www.kinoaero.cz/en?projection=55089",
-    "letterboxdUrl": "https://letterboxd.com/film/if-pigeons-turned-to-gold/",
-    "trailerUrl": "https://www.youtube.com/watch?v=dLuvAzVRpC8"
-  },
-  {
-    "id": "bio-oko-55129",
-    "title": "Tony",
-    "start": "2026-09-28T17:30:00+02:00",
-    "cinema": "Bio Oko",
-    "url": "https://www.kinoaero.cz/en?projection=55129",
-    "letterboxdUrl": "https://letterboxd.com/film/tony-2026/",
-    "trailerUrl": "https://www.youtube.com/watch?v=WtXkdKveSpk"
-  },
-  {
-    "id": "svetozor-55002",
-    "title": "Tony",
-    "start": "2026-09-28T17:30:00+02:00",
-    "cinema": "Kino Světozor",
-    "url": "https://www.kinoaero.cz/en?projection=55002",
-    "letterboxdUrl": "https://letterboxd.com/film/tony-2026/",
-    "trailerUrl": "https://www.youtube.com/watch?v=WtXkdKveSpk"
-  },
-  {
-    "id": "lucerna-54642",
-    "title": "Student Film Competition",
-    "start": "2026-09-28T18:00:00+02:00",
-    "cinema": "Kino Lucerna",
-    "url": "https://www.kinoaero.cz/en?projection=54642",
-    "letterboxdUrl": null,
-    "trailerUrl": null
-  },
-  {
-    "id": "svetozor-54996",
-    "title": "A Poet",
-    "start": "2026-09-28T18:00:00+02:00",
-    "cinema": "Kino Světozor",
-    "url": "https://www.kinoaero.cz/en?projection=54996",
-    "letterboxdUrl": "https://letterboxd.com/film/a-poet/",
-    "trailerUrl": "https://www.youtube.com/watch?v=MS3iWSd3chM"
-  },
-  {
-    "id": "svetozor-55029",
-    "title": "Drive My Car",
-    "start": "2026-09-28T20:00:00+02:00",
-    "cinema": "Kino Světozor",
-    "url": "https://www.kinoaero.cz/en?projection=55029",
-    "letterboxdUrl": null,
-    "trailerUrl": "https://www.youtube.com/watch?v=zWijAnZBaHk"
-  },
-  {
     "id": "aero-55139",
     "title": "Hope",
     "start": "2026-09-28T20:00:00+02:00",
@@ -1575,6 +18,15 @@
     "trailerUrl": "https://www.youtube.com/watch?v=pyqKfI35a0o"
   },
   {
+    "id": "svetozor-55029",
+    "title": "Drive My Car",
+    "start": "2026-09-28T20:00:00+02:00",
+    "cinema": "Kino Světozor",
+    "url": "https://www.kinoaero.cz/en?projection=55029",
+    "letterboxdUrl": null,
+    "trailerUrl": "https://www.youtube.com/watch?v=zWijAnZBaHk"
+  },
+  {
     "id": "bio-oko-55130",
     "title": "The Samurai and the Prisoner",
     "start": "2026-09-28T20:00:00+02:00",
@@ -1584,13 +36,13 @@
     "trailerUrl": "https://www.youtube.com/watch?v=nyCLgg4G5dw"
   },
   {
-    "id": "lucerna-55105",
-    "title": "Heart of the Beast",
+    "id": "svetozor-54997",
+    "title": "Teenage Sex and Death at Camp Miasma",
     "start": "2026-09-28T20:30:00+02:00",
-    "cinema": "Kino Lucerna",
-    "url": "https://www.kinoaero.cz/en?projection=55105",
-    "letterboxdUrl": "https://letterboxd.com/film/heart-of-the-beast-2026/",
-    "trailerUrl": "https://www.youtube.com/watch?v=JloePhiYx-c"
+    "cinema": "Kino Světozor",
+    "url": "https://www.kinoaero.cz/en?projection=54997",
+    "letterboxdUrl": "https://letterboxd.com/film/teenage-sex-and-death-at-camp-miasma/",
+    "trailerUrl": "https://www.youtube.com/watch?v=MA5NqUMEdbI"
   },
   {
     "id": "pritomnost-54965",
@@ -1602,13 +54,13 @@
     "trailerUrl": "https://www.youtube.com/watch?v=JloePhiYx-c"
   },
   {
-    "id": "svetozor-54997",
-    "title": "Teenage Sex and Death at Camp Miasma",
+    "id": "lucerna-55105",
+    "title": "Heart of the Beast",
     "start": "2026-09-28T20:30:00+02:00",
-    "cinema": "Kino Světozor",
-    "url": "https://www.kinoaero.cz/en?projection=54997",
-    "letterboxdUrl": "https://letterboxd.com/film/teenage-sex-and-death-at-camp-miasma/",
-    "trailerUrl": "https://www.youtube.com/watch?v=MA5NqUMEdbI"
+    "cinema": "Kino Lucerna",
+    "url": "https://www.kinoaero.cz/en?projection=55105",
+    "letterboxdUrl": "https://letterboxd.com/film/heart-of-the-beast-2026/",
+    "trailerUrl": "https://www.youtube.com/watch?v=JloePhiYx-c"
   },
   {
     "id": "bio-oko-54584",
@@ -1746,13 +198,13 @@
     "trailerUrl": "https://www.youtube.com/watch?v=p3yujVP6DYc"
   },
   {
-    "id": "svetozor-55084",
-    "title": "The Odyssey",
-    "start": "2026-09-29T20:00:00+02:00",
-    "cinema": "Kino Světozor",
-    "url": "https://www.kinoaero.cz/en?projection=55084",
-    "letterboxdUrl": "https://letterboxd.com/film/the-odyssey-2026/",
-    "trailerUrl": "https://www.youtube.com/watch?v=VplmWV6cms4"
+    "id": "lucerna-54645",
+    "title": "Light Pillar",
+    "start": "2026-09-29T20:15:00+02:00",
+    "cinema": "Kino Lucerna",
+    "url": "https://www.kinoaero.cz/en?projection=54645",
+    "letterboxdUrl": null,
+    "trailerUrl": "https://www.youtube.com/watch?v=cDEmxBRe_Ww"
   },
   {
     "id": "svetozor-55053",
@@ -1764,13 +216,13 @@
     "trailerUrl": "https://www.youtube.com/watch?v=vk8j6weBWPU"
   },
   {
-    "id": "lucerna-54645",
-    "title": "Light Pillar",
-    "start": "2026-09-29T20:15:00+02:00",
+    "id": "lucerna-54643",
+    "title": "Short Sci-Fi Films by iShorts",
+    "start": "2026-09-29T20:30:00+02:00",
     "cinema": "Kino Lucerna",
-    "url": "https://www.kinoaero.cz/en?projection=54645",
+    "url": "https://www.kinoaero.cz/en?projection=54643",
     "letterboxdUrl": null,
-    "trailerUrl": "https://www.youtube.com/watch?v=cDEmxBRe_Ww"
+    "trailerUrl": null
   },
   {
     "id": "svetozor-55110",
@@ -1789,15 +241,6 @@
     "url": "https://www.kinoaero.cz/en?projection=54967",
     "letterboxdUrl": "https://letterboxd.com/film/if-pigeons-turned-to-gold/",
     "trailerUrl": "https://www.youtube.com/watch?v=dLuvAzVRpC8"
-  },
-  {
-    "id": "lucerna-54643",
-    "title": "Short Sci-Fi Films by iShorts",
-    "start": "2026-09-29T20:30:00+02:00",
-    "cinema": "Kino Lucerna",
-    "url": "https://www.kinoaero.cz/en?projection=54643",
-    "letterboxdUrl": null,
-    "trailerUrl": null
   },
   {
     "id": "svetozor-55085",
@@ -1872,15 +315,6 @@
     "trailerUrl": "https://www.youtube.com/watch?v=WtXkdKveSpk"
   },
   {
-    "id": "lucerna-54646",
-    "title": "A Report for Minerva 2",
-    "start": "2026-09-30T18:00:00+02:00",
-    "cinema": "Kino Lucerna",
-    "url": "https://www.kinoaero.cz/en?projection=54646",
-    "letterboxdUrl": null,
-    "trailerUrl": "https://www.youtube.com/watch?v=Lwtjty9eryA"
-  },
-  {
     "id": "bio-oko-55123",
     "title": "Bára - Diary of a Rockstar",
     "start": "2026-09-30T18:00:00+02:00",
@@ -1888,15 +322,6 @@
     "url": "https://www.kinoaero.cz/en?projection=55123",
     "letterboxdUrl": "https://letterboxd.com/film/bara-diary-of-a-rockstar/",
     "trailerUrl": "https://www.youtube.com/watch?v=lH5DamCVfFU"
-  },
-  {
-    "id": "svetozor-54301",
-    "title": "Copan",
-    "start": "2026-09-30T18:00:00+02:00",
-    "cinema": "Kino Světozor",
-    "url": "https://www.kinoaero.cz/en?projection=54301",
-    "letterboxdUrl": "https://letterboxd.com/film/copan/",
-    "trailerUrl": "https://www.youtube.com/watch?v=4SyXl2KFSDI"
   },
   {
     "id": "aero-55141",
@@ -1908,6 +333,24 @@
     "trailerUrl": "https://www.youtube.com/watch?v=WtXkdKveSpk"
   },
   {
+    "id": "svetozor-54301",
+    "title": "Copan",
+    "start": "2026-09-30T18:00:00+02:00",
+    "cinema": "Kino Světozor",
+    "url": "https://www.kinoaero.cz/en?projection=54301",
+    "letterboxdUrl": "https://letterboxd.com/film/copan/",
+    "trailerUrl": "https://www.youtube.com/watch?v=4SyXl2KFSDI"
+  },
+  {
+    "id": "lucerna-54646",
+    "title": "A Report for Minerva 2",
+    "start": "2026-09-30T18:00:00+02:00",
+    "cinema": "Kino Lucerna",
+    "url": "https://www.kinoaero.cz/en?projection=54646",
+    "letterboxdUrl": null,
+    "trailerUrl": "https://www.youtube.com/watch?v=Lwtjty9eryA"
+  },
+  {
     "id": "svetozor-54353",
     "title": "Archi shorts: So where will we be living?",
     "start": "2026-09-30T18:15:00+02:00",
@@ -1915,15 +358,6 @@
     "url": "https://www.kinoaero.cz/en?projection=54353",
     "letterboxdUrl": null,
     "trailerUrl": null
-  },
-  {
-    "id": "svetozor-55106",
-    "title": "Digger",
-    "start": "2026-09-30T20:15:00+02:00",
-    "cinema": "Kino Světozor",
-    "url": "https://www.kinoaero.cz/en?projection=55106",
-    "letterboxdUrl": "https://letterboxd.com/film/digger-2026/",
-    "trailerUrl": "https://www.youtube.com/watch?v=BuGKVIuWiOg"
   },
   {
     "id": "bio-oko-55131",
@@ -1942,6 +376,15 @@
     "url": "https://www.kinoaero.cz/en?projection=54647",
     "letterboxdUrl": null,
     "trailerUrl": "https://www.youtube.com/watch?v=igEZSu5BpvE"
+  },
+  {
+    "id": "svetozor-55106",
+    "title": "Digger",
+    "start": "2026-09-30T20:15:00+02:00",
+    "cinema": "Kino Světozor",
+    "url": "https://www.kinoaero.cz/en?projection=55106",
+    "letterboxdUrl": "https://letterboxd.com/film/digger-2026/",
+    "trailerUrl": "https://www.youtube.com/watch?v=BuGKVIuWiOg"
   },
   {
     "id": "svetozor-54001",
@@ -2007,6 +450,15 @@
     "trailerUrl": "https://www.youtube.com/watch?v=xED9MDEkezY"
   },
   {
+    "id": "bio-oko-55188",
+    "title": "Silent Friend",
+    "start": "2026-10-01T15:00:00+02:00",
+    "cinema": "Bio Oko",
+    "url": "https://www.kinoaero.cz/en?projection=55188",
+    "letterboxdUrl": "https://letterboxd.com/film/silent-friend/",
+    "trailerUrl": "https://www.youtube.com/watch?v=72SfEyxoZrA"
+  },
+  {
     "id": "svetozor-54972",
     "title": "The Odyssey",
     "start": "2026-10-01T15:00:00+02:00",
@@ -2014,6 +466,78 @@
     "url": "https://www.kinoaero.cz/en?projection=54972",
     "letterboxdUrl": "https://letterboxd.com/film/the-odyssey-2026/",
     "trailerUrl": "https://www.youtube.com/watch?v=VplmWV6cms4"
+  },
+  {
+    "id": "svetozor-55204",
+    "title": "Practical Magic 2",
+    "start": "2026-10-01T15:15:00+02:00",
+    "cinema": "Kino Světozor",
+    "url": "https://www.kinoaero.cz/en?projection=55204",
+    "letterboxdUrl": "https://letterboxd.com/film/practical-magic-2/",
+    "trailerUrl": "https://www.youtube.com/watch?v=6gCENR0xBVo?si=AQYLYCADakTpTGr1"
+  },
+  {
+    "id": "lucerna-55253",
+    "title": "If Pigeons Turned to Gold",
+    "start": "2026-10-01T15:15:00+02:00",
+    "cinema": "Kino Lucerna",
+    "url": "https://www.kinoaero.cz/en?projection=55253",
+    "letterboxdUrl": "https://letterboxd.com/film/if-pigeons-turned-to-gold/",
+    "trailerUrl": "https://www.youtube.com/watch?v=dLuvAzVRpC8"
+  },
+  {
+    "id": "svetozor-55233",
+    "title": "Tony",
+    "start": "2026-10-01T15:30:00+02:00",
+    "cinema": "Kino Světozor",
+    "url": "https://www.kinoaero.cz/en?projection=55233",
+    "letterboxdUrl": "https://letterboxd.com/film/tony-2026/",
+    "trailerUrl": "https://www.youtube.com/watch?v=WtXkdKveSpk"
+  },
+  {
+    "id": "lucerna-55252",
+    "title": "Bára - Diary of a Rockstar",
+    "start": "2026-10-01T15:30:00+02:00",
+    "cinema": "Kino Lucerna",
+    "url": "https://www.kinoaero.cz/en?projection=55252",
+    "letterboxdUrl": "https://letterboxd.com/film/bara-diary-of-a-rockstar/",
+    "trailerUrl": "https://www.youtube.com/watch?v=lH5DamCVfFU"
+  },
+  {
+    "id": "pritomnost-55173",
+    "title": "Verity",
+    "start": "2026-10-01T17:30:00+02:00",
+    "cinema": "Kino Přítomnost",
+    "url": "https://www.kinoaero.cz/en?projection=55173",
+    "letterboxdUrl": "https://letterboxd.com/film/verity-2026/",
+    "trailerUrl": "https://www.youtube.com/watch?v=LNl82sjXH_g"
+  },
+  {
+    "id": "lucerna-55254",
+    "title": "Tony",
+    "start": "2026-10-01T17:45:00+02:00",
+    "cinema": "Kino Lucerna",
+    "url": "https://www.kinoaero.cz/en?projection=55254",
+    "letterboxdUrl": "https://letterboxd.com/film/tony-2026/",
+    "trailerUrl": "https://www.youtube.com/watch?v=WtXkdKveSpk"
+  },
+  {
+    "id": "svetozor-54302",
+    "title": "Ouvidor",
+    "start": "2026-10-01T18:00:00+02:00",
+    "cinema": "Kino Světozor",
+    "url": "https://www.kinoaero.cz/en?projection=54302",
+    "letterboxdUrl": "https://letterboxd.com/film/ouvidor/",
+    "trailerUrl": "https://www.youtube.com/watch?v=mKUmPkwb8X4"
+  },
+  {
+    "id": "bio-oko-55314",
+    "title": "The Secret World of Arrietty",
+    "start": "2026-10-01T18:00:00+02:00",
+    "cinema": "Bio Oko",
+    "url": "https://www.kinoaero.cz/en?projection=55314",
+    "letterboxdUrl": "https://letterboxd.com/film/the-secret-world-of-arrietty/",
+    "trailerUrl": "https://www.youtube.com/watch?v=QfkrMq2G71g?si=lV7KYgUntI9dIVaw&amp;t=6"
   },
   {
     "id": "aero-53500",
@@ -2025,13 +549,13 @@
     "trailerUrl": "https://www.youtube.com/watch?v=BuGKVIuWiOg"
   },
   {
-    "id": "svetozor-54302",
-    "title": "Ouvidor",
+    "id": "svetozor-55237",
+    "title": "If Pigeons Turned to Gold",
     "start": "2026-10-01T18:00:00+02:00",
     "cinema": "Kino Světozor",
-    "url": "https://www.kinoaero.cz/en?projection=54302",
-    "letterboxdUrl": "https://letterboxd.com/film/ouvidor/",
-    "trailerUrl": "https://www.youtube.com/watch?v=mKUmPkwb8X4"
+    "url": "https://www.kinoaero.cz/en?projection=55237",
+    "letterboxdUrl": "https://letterboxd.com/film/if-pigeons-turned-to-gold/",
+    "trailerUrl": "https://www.youtube.com/watch?v=dLuvAzVRpC8"
   },
   {
     "id": "lucerna-54648",
@@ -2070,6 +594,15 @@
     "trailerUrl": "https://www.youtube.com/watch?v=r2g2DFazuE8"
   },
   {
+    "id": "bio-oko-55315",
+    "title": "If Pigeons Turned to Gold",
+    "start": "2026-10-01T20:30:00+02:00",
+    "cinema": "Bio Oko",
+    "url": "https://www.kinoaero.cz/en?projection=55315",
+    "letterboxdUrl": "https://letterboxd.com/film/if-pigeons-turned-to-gold/",
+    "trailerUrl": "https://www.youtube.com/watch?v=dLuvAzVRpC8"
+  },
+  {
     "id": "lucerna-54649",
     "title": "Colony",
     "start": "2026-10-01T20:30:00+02:00",
@@ -2077,6 +610,24 @@
     "url": "https://www.kinoaero.cz/en?projection=54649",
     "letterboxdUrl": null,
     "trailerUrl": "https://www.youtube.com/watch?v=v9wofFeYU1A"
+  },
+  {
+    "id": "svetozor-55241",
+    "title": "Resident Evil",
+    "start": "2026-10-01T20:30:00+02:00",
+    "cinema": "Kino Světozor",
+    "url": "https://www.kinoaero.cz/en?projection=55241",
+    "letterboxdUrl": "https://letterboxd.com/film/untitled-resident-evil-reboot/",
+    "trailerUrl": "https://www.youtube.com/watch?v=Z61Cn71i-no"
+  },
+  {
+    "id": "pritomnost-55174",
+    "title": "If Pigeons Turned to Gold",
+    "start": "2026-10-01T20:30:00+02:00",
+    "cinema": "Kino Přítomnost",
+    "url": "https://www.kinoaero.cz/en?projection=55174",
+    "letterboxdUrl": "https://letterboxd.com/film/if-pigeons-turned-to-gold/",
+    "trailerUrl": "https://www.youtube.com/watch?v=dLuvAzVRpC8"
   },
   {
     "id": "aero-53486",
@@ -2095,6 +646,15 @@
     "url": "https://www.kinoaero.cz/en?projection=53998",
     "letterboxdUrl": "https://letterboxd.com/film/empathy-for-concrete-things/",
     "trailerUrl": null
+  },
+  {
+    "id": "lucerna-55257",
+    "title": "The Christophers",
+    "start": "2026-10-02T12:45:00+02:00",
+    "cinema": "Kino Lucerna",
+    "url": "https://www.kinoaero.cz/en?projection=55257",
+    "letterboxdUrl": "https://letterboxd.com/film/the-christophers/",
+    "trailerUrl": "https://www.youtube.com/watch?v=5YhJ717PDwY"
   },
   {
     "id": "lucerna-54940",
@@ -2124,6 +684,51 @@
     "trailerUrl": "https://www.youtube.com/watch?v=MA5NqUMEdbI"
   },
   {
+    "id": "lucerna-55258",
+    "title": "Tony",
+    "start": "2026-10-02T15:00:00+02:00",
+    "cinema": "Kino Lucerna",
+    "url": "https://www.kinoaero.cz/en?projection=55258",
+    "letterboxdUrl": "https://letterboxd.com/film/tony-2026/",
+    "trailerUrl": "https://www.youtube.com/watch?v=WtXkdKveSpk"
+  },
+  {
+    "id": "lucerna-55255",
+    "title": "Bára - Diary of a Rockstar",
+    "start": "2026-10-02T15:15:00+02:00",
+    "cinema": "Kino Lucerna",
+    "url": "https://www.kinoaero.cz/en?projection=55255",
+    "letterboxdUrl": "https://letterboxd.com/film/bara-diary-of-a-rockstar/",
+    "trailerUrl": "https://www.youtube.com/watch?v=lH5DamCVfFU"
+  },
+  {
+    "id": "svetozor-55238",
+    "title": "If Pigeons Turned to Gold",
+    "start": "2026-10-02T15:15:00+02:00",
+    "cinema": "Kino Světozor",
+    "url": "https://www.kinoaero.cz/en?projection=55238",
+    "letterboxdUrl": "https://letterboxd.com/film/if-pigeons-turned-to-gold/",
+    "trailerUrl": "https://www.youtube.com/watch?v=dLuvAzVRpC8"
+  },
+  {
+    "id": "svetozor-55205",
+    "title": "Rose",
+    "start": "2026-10-02T15:30:00+02:00",
+    "cinema": "Kino Světozor",
+    "url": "https://www.kinoaero.cz/en?projection=55205",
+    "letterboxdUrl": "https://letterboxd.com/film/rose-2026/",
+    "trailerUrl": "https://www.youtube.com/watch?v=80xR3G5eowo"
+  },
+  {
+    "id": "pritomnost-55175",
+    "title": "If Pigeons Turned to Gold",
+    "start": "2026-10-02T17:30:00+02:00",
+    "cinema": "Kino Přítomnost",
+    "url": "https://www.kinoaero.cz/en?projection=55175",
+    "letterboxdUrl": "https://letterboxd.com/film/if-pigeons-turned-to-gold/",
+    "trailerUrl": "https://www.youtube.com/watch?v=dLuvAzVRpC8"
+  },
+  {
     "id": "lucerna-54877",
     "title": "Osamu Tezuka's Metropolis",
     "start": "2026-10-02T17:30:00+02:00",
@@ -2131,6 +736,42 @@
     "url": "https://www.kinoaero.cz/en?projection=54877",
     "letterboxdUrl": null,
     "trailerUrl": "https://www.youtube.com/watch?v=lFecILxgh6c"
+  },
+  {
+    "id": "lucerna-55256",
+    "title": "If Pigeons Turned to Gold",
+    "start": "2026-10-02T17:30:00+02:00",
+    "cinema": "Kino Lucerna",
+    "url": "https://www.kinoaero.cz/en?projection=55256",
+    "letterboxdUrl": "https://letterboxd.com/film/if-pigeons-turned-to-gold/",
+    "trailerUrl": "https://www.youtube.com/watch?v=dLuvAzVRpC8"
+  },
+  {
+    "id": "svetozor-55220",
+    "title": "Digger",
+    "start": "2026-10-02T17:45:00+02:00",
+    "cinema": "Kino Světozor",
+    "url": "https://www.kinoaero.cz/en?projection=55220",
+    "letterboxdUrl": "https://letterboxd.com/film/digger-2026/",
+    "trailerUrl": "https://www.youtube.com/watch?v=BuGKVIuWiOg"
+  },
+  {
+    "id": "svetozor-55244",
+    "title": "Verity",
+    "start": "2026-10-02T18:00:00+02:00",
+    "cinema": "Kino Světozor",
+    "url": "https://www.kinoaero.cz/en?projection=55244",
+    "letterboxdUrl": "https://letterboxd.com/film/verity-2026/",
+    "trailerUrl": "https://www.youtube.com/watch?v=LNl82sjXH_g"
+  },
+  {
+    "id": "bio-oko-55318",
+    "title": "Resident Evil",
+    "start": "2026-10-02T18:00:00+02:00",
+    "cinema": "Bio Oko",
+    "url": "https://www.kinoaero.cz/en?projection=55318",
+    "letterboxdUrl": "https://letterboxd.com/film/untitled-resident-evil-reboot/",
+    "trailerUrl": "https://www.youtube.com/watch?v=Z61Cn71i-no"
   },
   {
     "id": "aero-54903",
@@ -2160,6 +801,15 @@
     "trailerUrl": "https://www.youtube.com/watch?v=jSV__2obvGU"
   },
   {
+    "id": "lucerna-54651",
+    "title": "Fukushima: A Nuclear Nightmare",
+    "start": "2026-10-02T20:15:00+02:00",
+    "cinema": "Kino Lucerna",
+    "url": "https://www.kinoaero.cz/en?projection=54651",
+    "letterboxdUrl": null,
+    "trailerUrl": "https://www.youtube.com/watch?v=POZe4QP1xxY"
+  },
+  {
     "id": "svetozor-54307",
     "title": "Building on the Edge",
     "start": "2026-10-02T20:15:00+02:00",
@@ -2169,13 +819,13 @@
     "trailerUrl": null
   },
   {
-    "id": "lucerna-54651",
-    "title": "Fukushima: A Nuclear Nightmare",
-    "start": "2026-10-02T20:15:00+02:00",
-    "cinema": "Kino Lucerna",
-    "url": "https://www.kinoaero.cz/en?projection=54651",
-    "letterboxdUrl": null,
-    "trailerUrl": "https://www.youtube.com/watch?v=POZe4QP1xxY"
+    "id": "bio-oko-55326",
+    "title": "Digger",
+    "start": "2026-10-02T20:30:00+02:00",
+    "cinema": "Bio Oko",
+    "url": "https://www.kinoaero.cz/en?projection=55326",
+    "letterboxdUrl": "https://letterboxd.com/film/digger-2026/",
+    "trailerUrl": "https://www.youtube.com/watch?v=BuGKVIuWiOg"
   },
   {
     "id": "aero-53487",
@@ -2187,12 +837,129 @@
     "trailerUrl": "https://www.youtube.com/watch?v=VD3s2us-MF8"
   },
   {
+    "id": "pritomnost-55176",
+    "title": "Digger",
+    "start": "2026-10-02T20:30:00+02:00",
+    "cinema": "Kino Přítomnost",
+    "url": "https://www.kinoaero.cz/en?projection=55176",
+    "letterboxdUrl": "https://letterboxd.com/film/digger-2026/",
+    "trailerUrl": "https://www.youtube.com/watch?v=BuGKVIuWiOg"
+  },
+  {
+    "id": "svetozor-55224",
+    "title": "Resident Evil",
+    "start": "2026-10-02T20:30:00+02:00",
+    "cinema": "Kino Světozor",
+    "url": "https://www.kinoaero.cz/en?projection=55224",
+    "letterboxdUrl": "https://letterboxd.com/film/untitled-resident-evil-reboot/",
+    "trailerUrl": "https://www.youtube.com/watch?v=Z61Cn71i-no"
+  },
+  {
+    "id": "svetozor-55239",
+    "title": "If Pigeons Turned to Gold",
+    "start": "2026-10-02T20:45:00+02:00",
+    "cinema": "Kino Světozor",
+    "url": "https://www.kinoaero.cz/en?projection=55239",
+    "letterboxdUrl": "https://letterboxd.com/film/if-pigeons-turned-to-gold/",
+    "trailerUrl": "https://www.youtube.com/watch?v=dLuvAzVRpC8"
+  },
+  {
+    "id": "bio-oko-55331",
+    "title": "Forgotten Island",
+    "start": "2026-10-03T10:00:00+02:00",
+    "cinema": "Bio Oko",
+    "url": "https://www.kinoaero.cz/en?projection=55331",
+    "letterboxdUrl": "https://letterboxd.com/film/forgotten-island-2026/",
+    "trailerUrl": "https://www.youtube.com/watch?v=bKvzxZmgiMY"
+  },
+  {
+    "id": "lucerna-55259",
+    "title": "Bára - Diary of a Rockstar",
+    "start": "2026-10-03T12:00:00+02:00",
+    "cinema": "Kino Lucerna",
+    "url": "https://www.kinoaero.cz/en?projection=55259",
+    "letterboxdUrl": "https://letterboxd.com/film/bara-diary-of-a-rockstar/",
+    "trailerUrl": "https://www.youtube.com/watch?v=lH5DamCVfFU"
+  },
+  {
+    "id": "bio-oko-55332",
+    "title": "Verity",
+    "start": "2026-10-03T12:30:00+02:00",
+    "cinema": "Bio Oko",
+    "url": "https://www.kinoaero.cz/en?projection=55332",
+    "letterboxdUrl": "https://letterboxd.com/film/verity-2026/",
+    "trailerUrl": "https://www.youtube.com/watch?v=LNl82sjXH_g"
+  },
+  {
+    "id": "lucerna-55263",
+    "title": "Tony",
+    "start": "2026-10-03T12:30:00+02:00",
+    "cinema": "Kino Lucerna",
+    "url": "https://www.kinoaero.cz/en?projection=55263",
+    "letterboxdUrl": "https://letterboxd.com/film/tony-2026/",
+    "trailerUrl": "https://www.youtube.com/watch?v=WtXkdKveSpk"
+  },
+  {
+    "id": "svetozor-55221",
+    "title": "Digger",
+    "start": "2026-10-03T13:00:00+02:00",
+    "cinema": "Kino Světozor",
+    "url": "https://www.kinoaero.cz/en?projection=55221",
+    "letterboxdUrl": "https://letterboxd.com/film/digger-2026/",
+    "trailerUrl": "https://www.youtube.com/watch?v=BuGKVIuWiOg"
+  },
+  {
+    "id": "svetozor-55206",
+    "title": "Rose",
+    "start": "2026-10-03T13:15:00+02:00",
+    "cinema": "Kino Světozor",
+    "url": "https://www.kinoaero.cz/en?projection=55206",
+    "letterboxdUrl": "https://letterboxd.com/film/rose-2026/",
+    "trailerUrl": "https://www.youtube.com/watch?v=80xR3G5eowo"
+  },
+  {
+    "id": "svetozor-55248",
+    "title": "The Christophers",
+    "start": "2026-10-03T13:15:00+02:00",
+    "cinema": "Kino Světozor",
+    "url": "https://www.kinoaero.cz/en?projection=55248",
+    "letterboxdUrl": "https://letterboxd.com/film/the-christophers/",
+    "trailerUrl": "https://www.youtube.com/watch?v=5YhJ717PDwY"
+  },
+  {
+    "id": "lucerna-55278",
+    "title": "The Odyssey",
+    "start": "2026-10-03T14:30:00+02:00",
+    "cinema": "Kino Lucerna",
+    "url": "https://www.kinoaero.cz/en?projection=55278",
+    "letterboxdUrl": "https://letterboxd.com/film/the-odyssey-2026/",
+    "trailerUrl": "https://www.youtube.com/watch?v=VplmWV6cms4"
+  },
+  {
+    "id": "aero-55330",
+    "title": "Aeroschool for Kids with Creative Workshop",
+    "start": "2026-10-03T15:00:00+02:00",
+    "cinema": "Kino Aero",
+    "url": "https://www.kinoaero.cz/en?projection=55330",
+    "letterboxdUrl": null,
+    "trailerUrl": null
+  },
+  {
     "id": "bio-oko-55167",
     "title": "Coraline",
     "start": "2026-10-03T15:00:00+02:00",
     "cinema": "Bio Oko",
     "url": "https://www.kinoaero.cz/en?projection=55167",
     "letterboxdUrl": "https://letterboxd.com/film/coraline/",
+    "trailerUrl": null
+  },
+  {
+    "id": "aero-55329",
+    "title": "Aeroschool for Kids",
+    "start": "2026-10-03T15:00:00+02:00",
+    "cinema": "Kino Aero",
+    "url": "https://www.kinoaero.cz/en?projection=55329",
+    "letterboxdUrl": null,
     "trailerUrl": null
   },
   {
@@ -2205,6 +972,15 @@
     "trailerUrl": "https://www.youtube.com/watch?v=e4RrOe8IbI8"
   },
   {
+    "id": "svetozor-55245",
+    "title": "Verity",
+    "start": "2026-10-03T15:30:00+02:00",
+    "cinema": "Kino Světozor",
+    "url": "https://www.kinoaero.cz/en?projection=55245",
+    "letterboxdUrl": "https://letterboxd.com/film/verity-2026/",
+    "trailerUrl": "https://www.youtube.com/watch?v=LNl82sjXH_g"
+  },
+  {
     "id": "svetozor-54310",
     "title": "Stardust: A Story of Love and Architecture",
     "start": "2026-10-03T15:30:00+02:00",
@@ -2212,6 +988,15 @@
     "url": "https://www.kinoaero.cz/en?projection=54310",
     "letterboxdUrl": "https://letterboxd.com/film/stardust-a-story-of-love-and-architecture-2025/",
     "trailerUrl": "https://www.youtube.com/watch?v=ZVdpXJrR1cQ"
+  },
+  {
+    "id": "svetozor-55225",
+    "title": "If Pigeons Turned to Gold",
+    "start": "2026-10-03T15:45:00+02:00",
+    "cinema": "Kino Světozor",
+    "url": "https://www.kinoaero.cz/en?projection=55225",
+    "letterboxdUrl": "https://letterboxd.com/film/if-pigeons-turned-to-gold/",
+    "trailerUrl": "https://www.youtube.com/watch?v=dLuvAzVRpC8"
   },
   {
     "id": "lucerna-54652",
@@ -2230,6 +1015,33 @@
     "url": "https://www.kinoaero.cz/en?projection=54654",
     "letterboxdUrl": null,
     "trailerUrl": "https://www.youtube.com/watch?v=ZVwvR57OwoI"
+  },
+  {
+    "id": "bio-oko-55327",
+    "title": "Digger",
+    "start": "2026-10-03T17:30:00+02:00",
+    "cinema": "Bio Oko",
+    "url": "https://www.kinoaero.cz/en?projection=55327",
+    "letterboxdUrl": "https://letterboxd.com/film/digger-2026/",
+    "trailerUrl": "https://www.youtube.com/watch?v=BuGKVIuWiOg"
+  },
+  {
+    "id": "svetozor-55207",
+    "title": "Teenage Sex and Death at Camp Miasma",
+    "start": "2026-10-03T17:45:00+02:00",
+    "cinema": "Kino Světozor",
+    "url": "https://www.kinoaero.cz/en?projection=55207",
+    "letterboxdUrl": "https://letterboxd.com/film/teenage-sex-and-death-at-camp-miasma/",
+    "trailerUrl": "https://www.youtube.com/watch?v=MA5NqUMEdbI"
+  },
+  {
+    "id": "svetozor-55242",
+    "title": "Resident Evil",
+    "start": "2026-10-03T18:15:00+02:00",
+    "cinema": "Kino Světozor",
+    "url": "https://www.kinoaero.cz/en?projection=55242",
+    "letterboxdUrl": "https://letterboxd.com/film/untitled-resident-evil-reboot/",
+    "trailerUrl": "https://www.youtube.com/watch?v=Z61Cn71i-no"
   },
   {
     "id": "svetozor-50146",
@@ -2268,6 +1080,15 @@
     "trailerUrl": "https://www.youtube.com/watch?v=amzGB-YVFjc"
   },
   {
+    "id": "bio-oko-55316",
+    "title": "If Pigeons Turned to Gold",
+    "start": "2026-10-03T20:15:00+02:00",
+    "cinema": "Bio Oko",
+    "url": "https://www.kinoaero.cz/en?projection=55316",
+    "letterboxdUrl": "https://letterboxd.com/film/if-pigeons-turned-to-gold/",
+    "trailerUrl": "https://www.youtube.com/watch?v=dLuvAzVRpC8"
+  },
+  {
     "id": "svetozor-54305",
     "title": "Emergent City",
     "start": "2026-10-03T20:15:00+02:00",
@@ -2295,6 +1116,132 @@
     "trailerUrl": "https://www.youtube.com/watch?v=EcLAEY78Vhw"
   },
   {
+    "id": "bio-oko-55333",
+    "title": "Born in the Jungle",
+    "start": "2026-10-04T10:00:00+02:00",
+    "cinema": "Bio Oko",
+    "url": "https://www.kinoaero.cz/en?projection=55333",
+    "letterboxdUrl": "https://letterboxd.com/film/born-in-the-jungle/",
+    "trailerUrl": "https://www.youtube.com/watch?v=7U0rVflIuWU"
+  },
+  {
+    "id": "bio-oko-55328",
+    "title": "Digger",
+    "start": "2026-10-04T12:00:00+02:00",
+    "cinema": "Bio Oko",
+    "url": "https://www.kinoaero.cz/en?projection=55328",
+    "letterboxdUrl": "https://letterboxd.com/film/digger-2026/",
+    "trailerUrl": "https://www.youtube.com/watch?v=BuGKVIuWiOg"
+  },
+  {
+    "id": "lucerna-55264",
+    "title": "Digger",
+    "start": "2026-10-04T12:00:00+02:00",
+    "cinema": "Kino Lucerna",
+    "url": "https://www.kinoaero.cz/en?projection=55264",
+    "letterboxdUrl": "https://letterboxd.com/film/digger-2026/",
+    "trailerUrl": "https://www.youtube.com/watch?v=BuGKVIuWiOg"
+  },
+  {
+    "id": "svetozor-55210",
+    "title": "Bára - Diary of a Rockstar",
+    "start": "2026-10-04T12:15:00+02:00",
+    "cinema": "Kino Světozor",
+    "url": "https://www.kinoaero.cz/en?projection=55210",
+    "letterboxdUrl": "https://letterboxd.com/film/bara-diary-of-a-rockstar/",
+    "trailerUrl": "https://www.youtube.com/watch?v=lH5DamCVfFU"
+  },
+  {
+    "id": "svetozor-55251",
+    "title": "The Invite",
+    "start": "2026-10-04T12:30:00+02:00",
+    "cinema": "Kino Světozor",
+    "url": "https://www.kinoaero.cz/en?projection=55251",
+    "letterboxdUrl": "https://letterboxd.com/film/the-invite-2026/",
+    "trailerUrl": "https://www.youtube.com/watch?v=fRBFIc7g4gc"
+  },
+  {
+    "id": "lucerna-55265",
+    "title": "Tony",
+    "start": "2026-10-04T12:30:00+02:00",
+    "cinema": "Kino Lucerna",
+    "url": "https://www.kinoaero.cz/en?projection=55265",
+    "letterboxdUrl": "https://letterboxd.com/film/tony-2026/",
+    "trailerUrl": "https://www.youtube.com/watch?v=WtXkdKveSpk"
+  },
+  {
+    "id": "svetozor-55226",
+    "title": "If Pigeons Turned to Gold",
+    "start": "2026-10-04T13:00:00+02:00",
+    "cinema": "Kino Světozor",
+    "url": "https://www.kinoaero.cz/en?projection=55226",
+    "letterboxdUrl": "https://letterboxd.com/film/if-pigeons-turned-to-gold/",
+    "trailerUrl": "https://www.youtube.com/watch?v=dLuvAzVRpC8"
+  },
+  {
+    "id": "svetozor-55213",
+    "title": "The Odyssey",
+    "start": "2026-10-04T14:30:00+02:00",
+    "cinema": "Kino Světozor",
+    "url": "https://www.kinoaero.cz/en?projection=55213",
+    "letterboxdUrl": "https://letterboxd.com/film/the-odyssey-2026/",
+    "trailerUrl": "https://www.youtube.com/watch?v=VplmWV6cms4"
+  },
+  {
+    "id": "bio-oko-55334",
+    "title": "Aeroschool for Kids with Creative Workshop",
+    "start": "2026-10-04T14:45:00+02:00",
+    "cinema": "Bio Oko",
+    "url": "https://www.kinoaero.cz/en?projection=55334",
+    "letterboxdUrl": null,
+    "trailerUrl": null
+  },
+  {
+    "id": "bio-oko-55335",
+    "title": "Aeroschool for Kids",
+    "start": "2026-10-04T14:46:00+02:00",
+    "cinema": "Bio Oko",
+    "url": "https://www.kinoaero.cz/en?projection=55335",
+    "letterboxdUrl": null,
+    "trailerUrl": null
+  },
+  {
+    "id": "aero-55320",
+    "title": "Coyote vs. Acme",
+    "start": "2026-10-04T15:00:00+02:00",
+    "cinema": "Kino Aero",
+    "url": "https://www.kinoaero.cz/en?projection=55320",
+    "letterboxdUrl": "https://letterboxd.com/film/coyote-vs-acme/",
+    "trailerUrl": null
+  },
+  {
+    "id": "svetozor-55249",
+    "title": "The Christophers",
+    "start": "2026-10-04T15:00:00+02:00",
+    "cinema": "Kino Světozor",
+    "url": "https://www.kinoaero.cz/en?projection=55249",
+    "letterboxdUrl": "https://letterboxd.com/film/the-christophers/",
+    "trailerUrl": "https://www.youtube.com/watch?v=5YhJ717PDwY"
+  },
+  {
+    "id": "lucerna-55266",
+    "title": "Bára - Diary of a Rockstar",
+    "start": "2026-10-04T15:15:00+02:00",
+    "cinema": "Kino Lucerna",
+    "url": "https://www.kinoaero.cz/en?projection=55266",
+    "letterboxdUrl": "https://letterboxd.com/film/bara-diary-of-a-rockstar/",
+    "trailerUrl": "https://www.youtube.com/watch?v=lH5DamCVfFU"
+  },
+  {
+    "id": "svetozor-55229",
+    "title": "Rose",
+    "start": "2026-10-04T15:30:00+02:00",
+    "cinema": "Kino Světozor",
+    "url": "https://www.kinoaero.cz/en?projection=55229",
+    "letterboxdUrl": "https://letterboxd.com/film/rose-2026/",
+    "trailerUrl": "https://www.youtube.com/watch?v=80xR3G5eowo"
+  },
+  {
     "id": "lucerna-54884",
     "title": "Star Trek II: The Wrath of Khan / director’s cut",
     "start": "2026-10-04T17:00:00+02:00",
@@ -2302,6 +1249,24 @@
     "url": "https://www.kinoaero.cz/en?projection=54884",
     "letterboxdUrl": null,
     "trailerUrl": "https://www.youtube.com/watch?v=dAz5ke98AoA"
+  },
+  {
+    "id": "pritomnost-55177",
+    "title": "Digger",
+    "start": "2026-10-04T17:00:00+02:00",
+    "cinema": "Kino Přítomnost",
+    "url": "https://www.kinoaero.cz/en?projection=55177",
+    "letterboxdUrl": "https://letterboxd.com/film/digger-2026/",
+    "trailerUrl": "https://www.youtube.com/watch?v=BuGKVIuWiOg"
+  },
+  {
+    "id": "aero-55321",
+    "title": "If Pigeons Turned to Gold",
+    "start": "2026-10-04T17:15:00+02:00",
+    "cinema": "Kino Aero",
+    "url": "https://www.kinoaero.cz/en?projection=55321",
+    "letterboxdUrl": "https://letterboxd.com/film/if-pigeons-turned-to-gold/",
+    "trailerUrl": "https://www.youtube.com/watch?v=dLuvAzVRpC8"
   },
   {
     "id": "lucerna-54659",
@@ -2313,6 +1278,33 @@
     "trailerUrl": "https://www.youtube.com/watch?v=YeNDYbxJEWo"
   },
   {
+    "id": "bio-oko-55336",
+    "title": "Tony",
+    "start": "2026-10-04T17:30:00+02:00",
+    "cinema": "Bio Oko",
+    "url": "https://www.kinoaero.cz/en?projection=55336",
+    "letterboxdUrl": "https://letterboxd.com/film/tony-2026/",
+    "trailerUrl": "https://www.youtube.com/watch?v=WtXkdKveSpk"
+  },
+  {
+    "id": "svetozor-55240",
+    "title": "If Pigeons Turned to Gold",
+    "start": "2026-10-04T17:30:00+02:00",
+    "cinema": "Kino Světozor",
+    "url": "https://www.kinoaero.cz/en?projection=55240",
+    "letterboxdUrl": "https://letterboxd.com/film/if-pigeons-turned-to-gold/",
+    "trailerUrl": "https://www.youtube.com/watch?v=dLuvAzVRpC8"
+  },
+  {
+    "id": "svetozor-55222",
+    "title": "Digger",
+    "start": "2026-10-04T17:45:00+02:00",
+    "cinema": "Kino Světozor",
+    "url": "https://www.kinoaero.cz/en?projection=55222",
+    "letterboxdUrl": "https://letterboxd.com/film/digger-2026/",
+    "trailerUrl": "https://www.youtube.com/watch?v=BuGKVIuWiOg"
+  },
+  {
     "id": "svetozor-54306",
     "title": "Changing Lanes",
     "start": "2026-10-04T18:00:00+02:00",
@@ -2320,6 +1312,60 @@
     "url": "https://www.kinoaero.cz/en?projection=54306",
     "letterboxdUrl": "https://letterboxd.com/film/changing-lanes-2025/",
     "trailerUrl": "https://www.youtube.com/watch?v=0qR7DaPN-0Q"
+  },
+  {
+    "id": "aero-55322",
+    "title": "Digger",
+    "start": "2026-10-04T20:00:00+02:00",
+    "cinema": "Kino Aero",
+    "url": "https://www.kinoaero.cz/en?projection=55322",
+    "letterboxdUrl": "https://letterboxd.com/film/digger-2026/",
+    "trailerUrl": "https://www.youtube.com/watch?v=BuGKVIuWiOg"
+  },
+  {
+    "id": "bio-oko-55319",
+    "title": "Resident Evil",
+    "start": "2026-10-04T20:00:00+02:00",
+    "cinema": "Bio Oko",
+    "url": "https://www.kinoaero.cz/en?projection=55319",
+    "letterboxdUrl": "https://letterboxd.com/film/untitled-resident-evil-reboot/",
+    "trailerUrl": "https://www.youtube.com/watch?v=Z61Cn71i-no"
+  },
+  {
+    "id": "lucerna-55268",
+    "title": "Resident Evil",
+    "start": "2026-10-04T20:15:00+02:00",
+    "cinema": "Kino Lucerna",
+    "url": "https://www.kinoaero.cz/en?projection=55268",
+    "letterboxdUrl": "https://letterboxd.com/film/untitled-resident-evil-reboot/",
+    "trailerUrl": "https://www.youtube.com/watch?v=Z61Cn71i-no"
+  },
+  {
+    "id": "svetozor-55216",
+    "title": "Hope",
+    "start": "2026-10-04T20:15:00+02:00",
+    "cinema": "Kino Světozor",
+    "url": "https://www.kinoaero.cz/en?projection=55216",
+    "letterboxdUrl": "https://letterboxd.com/film/hope-2026/",
+    "trailerUrl": "https://www.youtube.com/watch?v=iD8Nu8lUy74"
+  },
+  {
+    "id": "svetozor-55234",
+    "title": "Tony",
+    "start": "2026-10-04T20:15:00+02:00",
+    "cinema": "Kino Světozor",
+    "url": "https://www.kinoaero.cz/en?projection=55234",
+    "letterboxdUrl": "https://letterboxd.com/film/tony-2026/",
+    "trailerUrl": "https://www.youtube.com/watch?v=WtXkdKveSpk"
+  },
+  {
+    "id": "lucerna-55267",
+    "title": "If Pigeons Turned to Gold",
+    "start": "2026-10-04T20:30:00+02:00",
+    "cinema": "Kino Lucerna",
+    "url": "https://www.kinoaero.cz/en?projection=55267",
+    "letterboxdUrl": "https://letterboxd.com/film/if-pigeons-turned-to-gold/",
+    "trailerUrl": "https://www.youtube.com/watch?v=dLuvAzVRpC8"
   },
   {
     "id": "svetozor-53999",
@@ -2331,6 +1377,24 @@
     "trailerUrl": "https://www.youtube.com/watch?v=GY8_A6e-PWY"
   },
   {
+    "id": "pritomnost-55178",
+    "title": "Verity",
+    "start": "2026-10-04T20:30:00+02:00",
+    "cinema": "Kino Přítomnost",
+    "url": "https://www.kinoaero.cz/en?projection=55178",
+    "letterboxdUrl": "https://letterboxd.com/film/verity-2026/",
+    "trailerUrl": "https://www.youtube.com/watch?v=LNl82sjXH_g"
+  },
+  {
+    "id": "bio-oko-55189",
+    "title": "The Match",
+    "start": "2026-10-05T15:00:00+02:00",
+    "cinema": "Bio Oko",
+    "url": "https://www.kinoaero.cz/en?projection=55189",
+    "letterboxdUrl": "https://letterboxd.com/film/the-match-2026/",
+    "trailerUrl": "https://www.youtube.com/watch?v=xED9MDEkezY"
+  },
+  {
     "id": "lucerna-54941",
     "title": "Dokonalý den",
     "start": "2026-10-05T15:00:00+02:00",
@@ -2340,11 +1404,110 @@
     "trailerUrl": "https://www.youtube.com/watch?v=QbAdlAaOYro"
   },
   {
+    "id": "svetozor-55232",
+    "title": "Tony",
+    "start": "2026-10-05T15:15:00+02:00",
+    "cinema": "Kino Světozor",
+    "url": "https://www.kinoaero.cz/en?projection=55232",
+    "letterboxdUrl": "https://letterboxd.com/film/tony-2026/",
+    "trailerUrl": "https://www.youtube.com/watch?v=WtXkdKveSpk"
+  },
+  {
+    "id": "svetozor-55219",
+    "title": "Rose",
+    "start": "2026-10-05T15:15:00+02:00",
+    "cinema": "Kino Světozor",
+    "url": "https://www.kinoaero.cz/en?projection=55219",
+    "letterboxdUrl": "https://letterboxd.com/film/rose-2026/",
+    "trailerUrl": "https://www.youtube.com/watch?v=80xR3G5eowo"
+  },
+  {
+    "id": "svetozor-55230",
+    "title": "Bára - Diary of a Rockstar",
+    "start": "2026-10-05T15:30:00+02:00",
+    "cinema": "Kino Světozor",
+    "url": "https://www.kinoaero.cz/en?projection=55230",
+    "letterboxdUrl": "https://letterboxd.com/film/bara-diary-of-a-rockstar/",
+    "trailerUrl": "https://www.youtube.com/watch?v=lH5DamCVfFU"
+  },
+  {
+    "id": "lucerna-55269",
+    "title": "Digger",
+    "start": "2026-10-05T15:30:00+02:00",
+    "cinema": "Kino Lucerna",
+    "url": "https://www.kinoaero.cz/en?projection=55269",
+    "letterboxdUrl": "https://letterboxd.com/film/digger-2026/",
+    "trailerUrl": "https://www.youtube.com/watch?v=BuGKVIuWiOg"
+  },
+  {
+    "id": "svetozor-55218",
+    "title": "Teenage Sex and Death at Camp Miasma",
+    "start": "2026-10-05T17:30:00+02:00",
+    "cinema": "Kino Světozor",
+    "url": "https://www.kinoaero.cz/en?projection=55218",
+    "letterboxdUrl": "https://letterboxd.com/film/teenage-sex-and-death-at-camp-miasma/",
+    "trailerUrl": "https://www.youtube.com/watch?v=MA5NqUMEdbI"
+  },
+  {
+    "id": "svetozor-55231",
+    "title": "If Pigeons Turned to Gold",
+    "start": "2026-10-05T17:45:00+02:00",
+    "cinema": "Kino Světozor",
+    "url": "https://www.kinoaero.cz/en?projection=55231",
+    "letterboxdUrl": "https://letterboxd.com/film/if-pigeons-turned-to-gold/",
+    "trailerUrl": "https://www.youtube.com/watch?v=dLuvAzVRpC8"
+  },
+  {
+    "id": "aero-55323",
+    "title": "Resident Evil",
+    "start": "2026-10-05T18:00:00+02:00",
+    "cinema": "Kino Aero",
+    "url": "https://www.kinoaero.cz/en?projection=55323",
+    "letterboxdUrl": "https://letterboxd.com/film/untitled-resident-evil-reboot/",
+    "trailerUrl": "https://www.youtube.com/watch?v=Z61Cn71i-no"
+  },
+  {
+    "id": "bio-oko-55202",
+    "title": "Citizen Havel",
+    "start": "2026-10-05T18:00:00+02:00",
+    "cinema": "Bio Oko",
+    "url": "https://www.kinoaero.cz/en?projection=55202",
+    "letterboxdUrl": null,
+    "trailerUrl": "https://www.youtube.com/watch?v=WYQMUovS_Ro"
+  },
+  {
     "id": "svetozor-54351",
     "title": "Archi shorts: So where will we be living?",
     "start": "2026-10-05T18:00:00+02:00",
     "cinema": "Kino Světozor",
     "url": "https://www.kinoaero.cz/en?projection=54351",
+    "letterboxdUrl": null,
+    "trailerUrl": null
+  },
+  {
+    "id": "lucerna-55270",
+    "title": "Bára - Diary of a Rockstar",
+    "start": "2026-10-05T18:15:00+02:00",
+    "cinema": "Kino Lucerna",
+    "url": "https://www.kinoaero.cz/en?projection=55270",
+    "letterboxdUrl": "https://letterboxd.com/film/bara-diary-of-a-rockstar/",
+    "trailerUrl": "https://www.youtube.com/watch?v=lH5DamCVfFU"
+  },
+  {
+    "id": "svetozor-55217",
+    "title": "Hope",
+    "start": "2026-10-05T20:00:00+02:00",
+    "cinema": "Kino Světozor",
+    "url": "https://www.kinoaero.cz/en?projection=55217",
+    "letterboxdUrl": "https://letterboxd.com/film/hope-2026/",
+    "trailerUrl": "https://www.youtube.com/watch?v=iD8Nu8lUy74"
+  },
+  {
+    "id": "pritomnost-55179",
+    "title": "Jam Sessh Prague vol. 74",
+    "start": "2026-10-05T20:00:00+02:00",
+    "cinema": "Kino Přítomnost",
+    "url": "https://www.kinoaero.cz/en?projection=55179",
     "letterboxdUrl": null,
     "trailerUrl": null
   },
@@ -2358,6 +1521,15 @@
     "trailerUrl": "https://www.youtube.com/watch?v=hF7vGlfTg6w"
   },
   {
+    "id": "lucerna-55271",
+    "title": "Resident Evil",
+    "start": "2026-10-05T20:30:00+02:00",
+    "cinema": "Kino Lucerna",
+    "url": "https://www.kinoaero.cz/en?projection=55271",
+    "letterboxdUrl": "https://letterboxd.com/film/untitled-resident-evil-reboot/",
+    "trailerUrl": "https://www.youtube.com/watch?v=Z61Cn71i-no"
+  },
+  {
     "id": "aero-53489",
     "title": "The Adventures of Priscilla, Queen of the Desert",
     "start": "2026-10-05T20:30:00+02:00",
@@ -2365,6 +1537,15 @@
     "url": "https://www.kinoaero.cz/en?projection=53489",
     "letterboxdUrl": "https://letterboxd.com/film/the-adventures-of-priscilla-queen-of-the-desert/",
     "trailerUrl": "https://www.youtube.com/watch?v=GDwbKnKUzBs"
+  },
+  {
+    "id": "bio-oko-55337",
+    "title": "Lover, Not a Fighter",
+    "start": "2026-10-05T20:30:00+02:00",
+    "cinema": "Bio Oko",
+    "url": "https://www.kinoaero.cz/en?projection=55337",
+    "letterboxdUrl": "https://letterboxd.com/film/lover-not-a-fighter/",
+    "trailerUrl": "https://www.youtube.com/watch?v=fmkeOvR46Hc"
   },
   {
     "id": "svetozor-55030",
@@ -2376,13 +1557,31 @@
     "trailerUrl": "https://www.youtube.com/watch?v=K83WkLiVtdc"
   },
   {
-    "id": "aero-54891",
-    "title": "Lone Wolf",
-    "start": "2026-10-06T15:00:00+02:00",
-    "cinema": "Kino Aero",
-    "url": "https://www.kinoaero.cz/en?projection=54891",
-    "letterboxdUrl": "https://letterboxd.com/film/lone-wolf-2026/",
-    "trailerUrl": "https://www.youtube.com/watch?v=cQguQ4c-ZhI"
+    "id": "bio-oko-55183",
+    "title": "The Odyssey",
+    "start": "2026-10-06T10:00:00+02:00",
+    "cinema": "Bio Oko",
+    "url": "https://www.kinoaero.cz/en?projection=55183",
+    "letterboxdUrl": "https://letterboxd.com/film/the-odyssey-2026/",
+    "trailerUrl": "https://www.youtube.com/watch?v=VplmWV6cms4"
+  },
+  {
+    "id": "bio-oko-55190",
+    "title": "The Samurai and the Prisoner",
+    "start": "2026-10-06T13:30:00+02:00",
+    "cinema": "Bio Oko",
+    "url": "https://www.kinoaero.cz/en?projection=55190",
+    "letterboxdUrl": "https://letterboxd.com/film/the-samurai-and-the-prisoner/",
+    "trailerUrl": "https://www.youtube.com/watch?v=nyCLgg4G5dw"
+  },
+  {
+    "id": "svetozor-55208",
+    "title": "Teenage Sex and Death at Camp Miasma",
+    "start": "2026-10-06T14:45:00+02:00",
+    "cinema": "Kino Světozor",
+    "url": "https://www.kinoaero.cz/en?projection=55208",
+    "letterboxdUrl": "https://letterboxd.com/film/teenage-sex-and-death-at-camp-miasma/",
+    "trailerUrl": "https://www.youtube.com/watch?v=MA5NqUMEdbI"
   },
   {
     "id": "svetozor-54974",
@@ -2394,6 +1593,78 @@
     "trailerUrl": "https://www.youtube.com/watch?v=Kmjyl3BhWM0"
   },
   {
+    "id": "aero-54891",
+    "title": "Lone Wolf",
+    "start": "2026-10-06T15:00:00+02:00",
+    "cinema": "Kino Aero",
+    "url": "https://www.kinoaero.cz/en?projection=54891",
+    "letterboxdUrl": "https://letterboxd.com/film/lone-wolf-2026/",
+    "trailerUrl": "https://www.youtube.com/watch?v=cQguQ4c-ZhI"
+  },
+  {
+    "id": "lucerna-55272",
+    "title": "If Pigeons Turned to Gold",
+    "start": "2026-10-06T15:15:00+02:00",
+    "cinema": "Kino Lucerna",
+    "url": "https://www.kinoaero.cz/en?projection=55272",
+    "letterboxdUrl": "https://letterboxd.com/film/if-pigeons-turned-to-gold/",
+    "trailerUrl": "https://www.youtube.com/watch?v=dLuvAzVRpC8"
+  },
+  {
+    "id": "svetozor-55250",
+    "title": "The Christophers",
+    "start": "2026-10-06T15:15:00+02:00",
+    "cinema": "Kino Světozor",
+    "url": "https://www.kinoaero.cz/en?projection=55250",
+    "letterboxdUrl": "https://letterboxd.com/film/the-christophers/",
+    "trailerUrl": "https://www.youtube.com/watch?v=5YhJ717PDwY"
+  },
+  {
+    "id": "lucerna-55273",
+    "title": "Bára - Diary of a Rockstar",
+    "start": "2026-10-06T15:30:00+02:00",
+    "cinema": "Kino Lucerna",
+    "url": "https://www.kinoaero.cz/en?projection=55273",
+    "letterboxdUrl": "https://letterboxd.com/film/bara-diary-of-a-rockstar/",
+    "trailerUrl": "https://www.youtube.com/watch?v=lH5DamCVfFU"
+  },
+  {
+    "id": "svetozor-55211",
+    "title": "Bára - Diary of a Rockstar",
+    "start": "2026-10-06T17:30:00+02:00",
+    "cinema": "Kino Světozor",
+    "url": "https://www.kinoaero.cz/en?projection=55211",
+    "letterboxdUrl": "https://letterboxd.com/film/bara-diary-of-a-rockstar/",
+    "trailerUrl": "https://www.youtube.com/watch?v=lH5DamCVfFU"
+  },
+  {
+    "id": "lucerna-55274",
+    "title": "Digger",
+    "start": "2026-10-06T17:45:00+02:00",
+    "cinema": "Kino Lucerna",
+    "url": "https://www.kinoaero.cz/en?projection=55274",
+    "letterboxdUrl": "https://letterboxd.com/film/digger-2026/",
+    "trailerUrl": "https://www.youtube.com/watch?v=BuGKVIuWiOg"
+  },
+  {
+    "id": "svetozor-55235",
+    "title": "Tony",
+    "start": "2026-10-06T17:45:00+02:00",
+    "cinema": "Kino Světozor",
+    "url": "https://www.kinoaero.cz/en?projection=55235",
+    "letterboxdUrl": "https://letterboxd.com/film/tony-2026/",
+    "trailerUrl": "https://www.youtube.com/watch?v=WtXkdKveSpk"
+  },
+  {
+    "id": "aero-55324",
+    "title": "If Pigeons Turned to Gold",
+    "start": "2026-10-06T18:00:00+02:00",
+    "cinema": "Kino Aero",
+    "url": "https://www.kinoaero.cz/en?projection=55324",
+    "letterboxdUrl": "https://letterboxd.com/film/if-pigeons-turned-to-gold/",
+    "trailerUrl": "https://www.youtube.com/watch?v=dLuvAzVRpC8"
+  },
+  {
     "id": "bio-oko-54640",
     "title": "Protagonista: Reporter Targeted by the Drug Mafia",
     "start": "2026-10-06T18:00:00+02:00",
@@ -2401,6 +1672,69 @@
     "url": "https://www.kinoaero.cz/en?projection=54640",
     "letterboxdUrl": null,
     "trailerUrl": "https://www.youtube.com/watch?v=f7ro_vs6eHk"
+  },
+  {
+    "id": "lucerna-55340",
+    "title": "Tango pro 3",
+    "start": "2026-10-06T18:45:00+02:00",
+    "cinema": "Kino Lucerna",
+    "url": "https://www.kinoaero.cz/en?projection=55340",
+    "letterboxdUrl": null,
+    "trailerUrl": "https://www.youtube.com/watch?v=uIgxrdyeWE0"
+  },
+  {
+    "id": "svetozor-55214",
+    "title": "The Odyssey",
+    "start": "2026-10-06T19:45:00+02:00",
+    "cinema": "Kino Světozor",
+    "url": "https://www.kinoaero.cz/en?projection=55214",
+    "letterboxdUrl": "https://letterboxd.com/film/the-odyssey-2026/",
+    "trailerUrl": "https://www.youtube.com/watch?v=VplmWV6cms4"
+  },
+  {
+    "id": "svetozor-55227",
+    "title": "If Pigeons Turned to Gold",
+    "start": "2026-10-06T20:00:00+02:00",
+    "cinema": "Kino Světozor",
+    "url": "https://www.kinoaero.cz/en?projection=55227",
+    "letterboxdUrl": "https://letterboxd.com/film/if-pigeons-turned-to-gold/",
+    "trailerUrl": "https://www.youtube.com/watch?v=dLuvAzVRpC8"
+  },
+  {
+    "id": "svetozor-55246",
+    "title": "Verity",
+    "start": "2026-10-06T20:15:00+02:00",
+    "cinema": "Kino Světozor",
+    "url": "https://www.kinoaero.cz/en?projection=55246",
+    "letterboxdUrl": "https://letterboxd.com/film/verity-2026/",
+    "trailerUrl": "https://www.youtube.com/watch?v=LNl82sjXH_g"
+  },
+  {
+    "id": "lucerna-55275",
+    "title": "Resident Evil",
+    "start": "2026-10-06T20:30:00+02:00",
+    "cinema": "Kino Lucerna",
+    "url": "https://www.kinoaero.cz/en?projection=55275",
+    "letterboxdUrl": "https://letterboxd.com/film/untitled-resident-evil-reboot/",
+    "trailerUrl": "https://www.youtube.com/watch?v=Z61Cn71i-no"
+  },
+  {
+    "id": "bio-oko-55317",
+    "title": "If Pigeons Turned to Gold",
+    "start": "2026-10-06T20:30:00+02:00",
+    "cinema": "Bio Oko",
+    "url": "https://www.kinoaero.cz/en?projection=55317",
+    "letterboxdUrl": "https://letterboxd.com/film/if-pigeons-turned-to-gold/",
+    "trailerUrl": "https://www.youtube.com/watch?v=dLuvAzVRpC8"
+  },
+  {
+    "id": "aero-55325",
+    "title": "Tony",
+    "start": "2026-10-06T20:30:00+02:00",
+    "cinema": "Kino Aero",
+    "url": "https://www.kinoaero.cz/en?projection=55325",
+    "letterboxdUrl": "https://letterboxd.com/film/tony-2026/",
+    "trailerUrl": "https://www.youtube.com/watch?v=WtXkdKveSpk"
   },
   {
     "id": "lucerna-54942",
@@ -2412,6 +1746,42 @@
     "trailerUrl": "https://www.youtube.com/watch?v=P2i-JwCQ2ww"
   },
   {
+    "id": "svetozor-55223",
+    "title": "Digger",
+    "start": "2026-10-07T15:00:00+02:00",
+    "cinema": "Kino Světozor",
+    "url": "https://www.kinoaero.cz/en?projection=55223",
+    "letterboxdUrl": "https://letterboxd.com/film/digger-2026/",
+    "trailerUrl": "https://www.youtube.com/watch?v=BuGKVIuWiOg"
+  },
+  {
+    "id": "svetozor-55236",
+    "title": "Tony",
+    "start": "2026-10-07T15:15:00+02:00",
+    "cinema": "Kino Světozor",
+    "url": "https://www.kinoaero.cz/en?projection=55236",
+    "letterboxdUrl": "https://letterboxd.com/film/tony-2026/",
+    "trailerUrl": "https://www.youtube.com/watch?v=WtXkdKveSpk"
+  },
+  {
+    "id": "svetozor-55212",
+    "title": "Bára - Diary of a Rockstar",
+    "start": "2026-10-07T15:15:00+02:00",
+    "cinema": "Kino Světozor",
+    "url": "https://www.kinoaero.cz/en?projection=55212",
+    "letterboxdUrl": "https://letterboxd.com/film/bara-diary-of-a-rockstar/",
+    "trailerUrl": "https://www.youtube.com/watch?v=lH5DamCVfFU"
+  },
+  {
+    "id": "lucerna-55277",
+    "title": "The Christophers",
+    "start": "2026-10-07T15:15:00+02:00",
+    "cinema": "Kino Lucerna",
+    "url": "https://www.kinoaero.cz/en?projection=55277",
+    "letterboxdUrl": "https://letterboxd.com/film/the-christophers/",
+    "trailerUrl": "https://www.youtube.com/watch?v=5YhJ717PDwY"
+  },
+  {
     "id": "lucerna-54530",
     "title": "Minotaur",
     "start": "2026-10-07T17:30:00+02:00",
@@ -2421,6 +1791,24 @@
     "trailerUrl": null
   },
   {
+    "id": "svetozor-55209",
+    "title": "Teenage Sex and Death at Camp Miasma",
+    "start": "2026-10-07T17:30:00+02:00",
+    "cinema": "Kino Světozor",
+    "url": "https://www.kinoaero.cz/en?projection=55209",
+    "letterboxdUrl": "https://letterboxd.com/film/teenage-sex-and-death-at-camp-miasma/",
+    "trailerUrl": "https://www.youtube.com/watch?v=MA5NqUMEdbI"
+  },
+  {
+    "id": "svetozor-55228",
+    "title": "If Pigeons Turned to Gold",
+    "start": "2026-10-07T17:45:00+02:00",
+    "cinema": "Kino Světozor",
+    "url": "https://www.kinoaero.cz/en?projection=55228",
+    "letterboxdUrl": "https://letterboxd.com/film/if-pigeons-turned-to-gold/",
+    "trailerUrl": "https://www.youtube.com/watch?v=dLuvAzVRpC8"
+  },
+  {
     "id": "lucerna-54591",
     "title": "The Golden Age",
     "start": "2026-10-07T17:45:00+02:00",
@@ -2428,6 +1816,24 @@
     "url": "https://www.kinoaero.cz/en?projection=54591",
     "letterboxdUrl": null,
     "trailerUrl": null
+  },
+  {
+    "id": "svetozor-55247",
+    "title": "Verity",
+    "start": "2026-10-07T18:00:00+02:00",
+    "cinema": "Kino Světozor",
+    "url": "https://www.kinoaero.cz/en?projection=55247",
+    "letterboxdUrl": "https://letterboxd.com/film/verity-2026/",
+    "trailerUrl": "https://www.youtube.com/watch?v=LNl82sjXH_g"
+  },
+  {
+    "id": "bio-oko-55338",
+    "title": "Rose",
+    "start": "2026-10-07T18:00:00+02:00",
+    "cinema": "Bio Oko",
+    "url": "https://www.kinoaero.cz/en?projection=55338",
+    "letterboxdUrl": "https://letterboxd.com/film/rose-2026/",
+    "trailerUrl": "https://www.youtube.com/watch?v=80xR3G5eowo"
   },
   {
     "id": "aero-54904",
@@ -2448,6 +1854,15 @@
     "trailerUrl": null
   },
   {
+    "id": "svetozor-55215",
+    "title": "The Odyssey",
+    "start": "2026-10-07T20:00:00+02:00",
+    "cinema": "Kino Světozor",
+    "url": "https://www.kinoaero.cz/en?projection=55215",
+    "letterboxdUrl": "https://letterboxd.com/film/the-odyssey-2026/",
+    "trailerUrl": "https://www.youtube.com/watch?v=VplmWV6cms4"
+  },
+  {
     "id": "svetozor-54119",
     "title": "Queen Budapest",
     "start": "2026-10-07T20:15:00+02:00",
@@ -2466,6 +1881,24 @@
     "trailerUrl": "https://www.youtube.com/watch?v=S4ay7xulYLg"
   },
   {
+    "id": "svetozor-55243",
+    "title": "Resident Evil",
+    "start": "2026-10-07T20:30:00+02:00",
+    "cinema": "Kino Světozor",
+    "url": "https://www.kinoaero.cz/en?projection=55243",
+    "letterboxdUrl": "https://letterboxd.com/film/untitled-resident-evil-reboot/",
+    "trailerUrl": "https://www.youtube.com/watch?v=Z61Cn71i-no"
+  },
+  {
+    "id": "bio-oko-55203",
+    "title": "For Love",
+    "start": "2026-10-07T20:30:00+02:00",
+    "cinema": "Bio Oko",
+    "url": "https://www.kinoaero.cz/en?projection=55203",
+    "letterboxdUrl": null,
+    "trailerUrl": "https://www.youtube.com/watch?v=F0ymOHZHQw4"
+  },
+  {
     "id": "aero-53490",
     "title": "Blind Date with Aero",
     "start": "2026-10-07T20:30:00+02:00",
@@ -2473,6 +1906,15 @@
     "url": "https://www.kinoaero.cz/en?projection=53490",
     "letterboxdUrl": null,
     "trailerUrl": null
+  },
+  {
+    "id": "lucerna-55276",
+    "title": "Digger",
+    "start": "2026-10-07T21:00:00+02:00",
+    "cinema": "Kino Lucerna",
+    "url": "https://www.kinoaero.cz/en?projection=55276",
+    "letterboxdUrl": "https://letterboxd.com/film/digger-2026/",
+    "trailerUrl": "https://www.youtube.com/watch?v=BuGKVIuWiOg"
   },
   {
     "id": "aero-54892",
@@ -2491,6 +1933,24 @@
     "url": "https://www.kinoaero.cz/en?projection=54975",
     "letterboxdUrl": "https://letterboxd.com/film/spider-man-brand-new-day/",
     "trailerUrl": "https://www.youtube.com/watch?v=MEQT-OFvJS0"
+  },
+  {
+    "id": "bio-oko-55191",
+    "title": "Teenage Sex and Death at Camp Miasma",
+    "start": "2026-10-08T15:00:00+02:00",
+    "cinema": "Bio Oko",
+    "url": "https://www.kinoaero.cz/en?projection=55191",
+    "letterboxdUrl": "https://letterboxd.com/film/teenage-sex-and-death-at-camp-miasma/",
+    "trailerUrl": "https://www.youtube.com/watch?v=MA5NqUMEdbI"
+  },
+  {
+    "id": "bio-oko-55344",
+    "title": "KineDok: FEINKOŠT 2026",
+    "start": "2026-10-08T18:00:00+02:00",
+    "cinema": "Bio Oko",
+    "url": "https://www.kinoaero.cz/en?projection=55344",
+    "letterboxdUrl": null,
+    "trailerUrl": "https://www.youtube.com/watch?v=6e-IvKJua3g"
   },
   {
     "id": "lucerna-54593",
@@ -2565,15 +2025,6 @@
     "trailerUrl": "https://www.youtube.com/watch?v=qt8N377uUX4"
   },
   {
-    "id": "pritomnost-54971",
-    "title": "Verity",
-    "start": "2026-10-09T20:00:00+02:00",
-    "cinema": "Kino Přítomnost",
-    "url": "https://www.kinoaero.cz/en?projection=54971",
-    "letterboxdUrl": "https://letterboxd.com/film/verity-2026/",
-    "trailerUrl": "https://www.youtube.com/watch?v=LNl82sjXH_g"
-  },
-  {
     "id": "svetozor-54989",
     "title": "Cocktail 2",
     "start": "2026-10-09T20:00:00+02:00",
@@ -2581,6 +2032,15 @@
     "url": "https://www.kinoaero.cz/en?projection=54989",
     "letterboxdUrl": "https://letterboxd.com/film/cocktail-2/",
     "trailerUrl": "https://www.youtube.com/watch?v=XXxUqLHq1xg"
+  },
+  {
+    "id": "pritomnost-54971",
+    "title": "Verity",
+    "start": "2026-10-09T20:00:00+02:00",
+    "cinema": "Kino Přítomnost",
+    "url": "https://www.kinoaero.cz/en?projection=54971",
+    "letterboxdUrl": "https://letterboxd.com/film/verity-2026/",
+    "trailerUrl": "https://www.youtube.com/watch?v=LNl82sjXH_g"
   },
   {
     "id": "lucerna-54596",
@@ -2736,6 +2196,24 @@
     "trailerUrl": "https://www.youtube.com/watch?v=WtXkdKveSpk"
   },
   {
+    "id": "bio-oko-55192",
+    "title": "Don't Look Back in Anger",
+    "start": "2026-10-12T15:00:00+02:00",
+    "cinema": "Bio Oko",
+    "url": "https://www.kinoaero.cz/en?projection=55192",
+    "letterboxdUrl": "https://letterboxd.com/film/oasis-dont-look-back-in-anger/",
+    "trailerUrl": "https://www.youtube.com/watch?v=vk8j6weBWPU"
+  },
+  {
+    "id": "bio-oko-55313",
+    "title": "Vlak Červená Ruta",
+    "start": "2026-10-12T18:00:00+02:00",
+    "cinema": "Bio Oko",
+    "url": "https://www.kinoaero.cz/en?projection=55313",
+    "letterboxdUrl": null,
+    "trailerUrl": null
+  },
+  {
     "id": "lucerna-54604",
     "title": "The Golden Age",
     "start": "2026-10-12T18:15:00+02:00",
@@ -2743,15 +2221,6 @@
     "url": "https://www.kinoaero.cz/en?projection=54604",
     "letterboxdUrl": null,
     "trailerUrl": null
-  },
-  {
-    "id": "svetozor-55032",
-    "title": "Perfect Days",
-    "start": "2026-10-12T20:15:00+02:00",
-    "cinema": "Kino Světozor",
-    "url": "https://www.kinoaero.cz/en?projection=55032",
-    "letterboxdUrl": "https://letterboxd.com/film/perfect-days-2023/",
-    "trailerUrl": "https://www.youtube.com/watch?v=hSGUfczF8uA"
   },
   {
     "id": "aero-54905",
@@ -2763,6 +2232,15 @@
     "trailerUrl": "https://www.youtube.com/watch?v=ikzItl3Re8Q"
   },
   {
+    "id": "svetozor-55032",
+    "title": "Perfect Days",
+    "start": "2026-10-12T20:15:00+02:00",
+    "cinema": "Kino Světozor",
+    "url": "https://www.kinoaero.cz/en?projection=55032",
+    "letterboxdUrl": "https://letterboxd.com/film/perfect-days-2023/",
+    "trailerUrl": "https://www.youtube.com/watch?v=hSGUfczF8uA"
+  },
+  {
     "id": "lucerna-54605",
     "title": "Pina",
     "start": "2026-10-12T20:45:00+02:00",
@@ -2770,6 +2248,24 @@
     "url": "https://www.kinoaero.cz/en?projection=54605",
     "letterboxdUrl": "https://letterboxd.com/film/pina/",
     "trailerUrl": null
+  },
+  {
+    "id": "bio-oko-55184",
+    "title": "If Pigeons Turned to Gold",
+    "start": "2026-10-13T10:00:00+02:00",
+    "cinema": "Bio Oko",
+    "url": "https://www.kinoaero.cz/en?projection=55184",
+    "letterboxdUrl": "https://letterboxd.com/film/if-pigeons-turned-to-gold/",
+    "trailerUrl": "https://www.youtube.com/watch?v=dLuvAzVRpC8"
+  },
+  {
+    "id": "bio-oko-55193",
+    "title": "Dalai Lama - An Ocean of Wisdom",
+    "start": "2026-10-13T13:00:00+02:00",
+    "cinema": "Bio Oko",
+    "url": "https://www.kinoaero.cz/en?projection=55193",
+    "letterboxdUrl": null,
+    "trailerUrl": "https://www.youtube.com/watch?v=P2i-JwCQ2ww"
   },
   {
     "id": "svetozor-54977",
@@ -2808,21 +2304,21 @@
     "trailerUrl": "https://www.youtube.com/watch?v=S4ay7xulYLg"
   },
   {
-    "id": "bio-oko-55169",
-    "title": "Coraline",
-    "start": "2026-10-13T20:30:00+02:00",
-    "cinema": "Bio Oko",
-    "url": "https://www.kinoaero.cz/en?projection=55169",
-    "letterboxdUrl": "https://letterboxd.com/film/coraline/",
-    "trailerUrl": null
-  },
-  {
     "id": "pritomnost-54587",
     "title": "Fiume o morte!",
     "start": "2026-10-13T20:30:00+02:00",
     "cinema": "Kino Přítomnost",
     "url": "https://www.kinoaero.cz/en?projection=54587",
     "letterboxdUrl": "https://letterboxd.com/film/fiume-o-morte/",
+    "trailerUrl": null
+  },
+  {
+    "id": "bio-oko-55169",
+    "title": "Coraline",
+    "start": "2026-10-13T20:30:00+02:00",
+    "cinema": "Bio Oko",
+    "url": "https://www.kinoaero.cz/en?projection=55169",
+    "letterboxdUrl": "https://letterboxd.com/film/coraline/",
     "trailerUrl": null
   },
   {
@@ -2871,13 +2367,13 @@
     "trailerUrl": "https://www.youtube.com/watch?v=j1El1xVRrkA"
   },
   {
-    "id": "lucerna-54609",
-    "title": "Her Private Hell",
+    "id": "aero-54181",
+    "title": "Tady Vary 2026/27 | Subscription",
     "start": "2026-10-14T20:15:00+02:00",
-    "cinema": "Kino Lucerna",
-    "url": "https://www.kinoaero.cz/en?projection=54609",
-    "letterboxdUrl": "https://letterboxd.com/film/her-private-hell-2026/",
-    "trailerUrl": "https://www.youtube.com/watch?v=C7E-0t1TfzM"
+    "cinema": "Kino Aero",
+    "url": "https://www.kinoaero.cz/en?projection=54181",
+    "letterboxdUrl": null,
+    "trailerUrl": null
   },
   {
     "id": "aero-54290",
@@ -2889,6 +2385,15 @@
     "trailerUrl": null
   },
   {
+    "id": "bio-oko-54300",
+    "title": "Tady Vary 2026/27 | Subscription",
+    "start": "2026-10-14T20:15:00+02:00",
+    "cinema": "Bio Oko",
+    "url": "https://www.kinoaero.cz/en?projection=54300",
+    "letterboxdUrl": null,
+    "trailerUrl": null
+  },
+  {
     "id": "bio-oko-54579",
     "title": "Tady Vary 2 | Fjord",
     "start": "2026-10-14T20:15:00+02:00",
@@ -2896,6 +2401,15 @@
     "url": "https://www.kinoaero.cz/en?projection=54579",
     "letterboxdUrl": "https://letterboxd.com/film/fjord-2026/",
     "trailerUrl": null
+  },
+  {
+    "id": "lucerna-54609",
+    "title": "Her Private Hell",
+    "start": "2026-10-14T20:15:00+02:00",
+    "cinema": "Kino Lucerna",
+    "url": "https://www.kinoaero.cz/en?projection=54609",
+    "letterboxdUrl": "https://letterboxd.com/film/her-private-hell-2026/",
+    "trailerUrl": "https://www.youtube.com/watch?v=C7E-0t1TfzM"
   },
   {
     "id": "aero-54895",
@@ -2916,6 +2430,15 @@
     "trailerUrl": "https://www.youtube.com/watch?v=vk8j6weBWPU"
   },
   {
+    "id": "bio-oko-55194",
+    "title": "Tony",
+    "start": "2026-10-15T15:00:00+02:00",
+    "cinema": "Bio Oko",
+    "url": "https://www.kinoaero.cz/en?projection=55194",
+    "letterboxdUrl": "https://letterboxd.com/film/tony-2026/",
+    "trailerUrl": "https://www.youtube.com/watch?v=WtXkdKveSpk"
+  },
+  {
     "id": "lucerna-54805",
     "title": "Gentle Monster",
     "start": "2026-10-15T18:00:00+02:00",
@@ -2923,6 +2446,15 @@
     "url": "https://www.kinoaero.cz/en?projection=54805",
     "letterboxdUrl": null,
     "trailerUrl": "https://www.youtube.com/watch?v=PGkQjgizxLA"
+  },
+  {
+    "id": "bio-oko-53504",
+    "title": "Everytime",
+    "start": "2026-10-15T20:30:00+02:00",
+    "cinema": "Bio Oko",
+    "url": "https://www.kinoaero.cz/en?projection=53504",
+    "letterboxdUrl": "https://letterboxd.com/film/everytime/",
+    "trailerUrl": "https://www.youtube.com/watch?v=PsLSvf99UDg"
   },
   {
     "id": "lucerna-54946",
@@ -3006,15 +2538,6 @@
     "trailerUrl": null
   },
   {
-    "id": "aero-54954",
-    "title": "Trainspotting double feature",
-    "start": "2026-10-17T17:30:00+02:00",
-    "cinema": "Kino Aero",
-    "url": "https://www.kinoaero.cz/en?projection=54954",
-    "letterboxdUrl": null,
-    "trailerUrl": "https://www.youtube.com/watch?v=n27jeaZOnt8"
-  },
-  {
     "id": "lucerna-54837",
     "title": "Ah, This Gap, This Appalling Gap",
     "start": "2026-10-17T17:30:00+02:00",
@@ -3022,6 +2545,15 @@
     "url": "https://www.kinoaero.cz/en?projection=54837",
     "letterboxdUrl": null,
     "trailerUrl": "https://www.youtube.com/watch?v=t2lWftuM9PE"
+  },
+  {
+    "id": "aero-54954",
+    "title": "Trainspotting double feature",
+    "start": "2026-10-17T17:30:00+02:00",
+    "cinema": "Kino Aero",
+    "url": "https://www.kinoaero.cz/en?projection=54954",
+    "letterboxdUrl": null,
+    "trailerUrl": "https://www.youtube.com/watch?v=n27jeaZOnt8"
   },
   {
     "id": "aero-54906",
@@ -3078,11 +2610,11 @@
     "trailerUrl": "https://www.youtube.com/watch?v=vkj0AFB9WXM"
   },
   {
-    "id": "lucerna-54885",
+    "id": "lucerna-55339",
     "title": "FilmED Kinderklub",
     "start": "2026-10-18T14:30:00+02:00",
     "cinema": "Kino Lucerna",
-    "url": "https://www.kinoaero.cz/en?projection=54885",
+    "url": "https://www.kinoaero.cz/en?projection=55339",
     "letterboxdUrl": null,
     "trailerUrl": null
   },
@@ -3096,15 +2628,6 @@
     "trailerUrl": null
   },
   {
-    "id": "lucerna-54843",
-    "title": "Altweibersommer",
-    "start": "2026-10-18T17:30:00+02:00",
-    "cinema": "Kino Lucerna",
-    "url": "https://www.kinoaero.cz/en?projection=54843",
-    "letterboxdUrl": null,
-    "trailerUrl": "https://www.youtube.com/watch?v=YFiYO4mE_qw"
-  },
-  {
     "id": "svetozor-53669",
     "title": "The Lives of Others",
     "start": "2026-10-18T17:30:00+02:00",
@@ -3112,6 +2635,15 @@
     "url": "https://www.kinoaero.cz/en?projection=53669",
     "letterboxdUrl": "https://letterboxd.com/film/the-lives-of-others/",
     "trailerUrl": "https://www.youtube.com/watch?v=YsShZNHmpGE"
+  },
+  {
+    "id": "lucerna-54843",
+    "title": "Altweibersommer",
+    "start": "2026-10-18T17:30:00+02:00",
+    "cinema": "Kino Lucerna",
+    "url": "https://www.kinoaero.cz/en?projection=54843",
+    "letterboxdUrl": null,
+    "trailerUrl": "https://www.youtube.com/watch?v=YFiYO4mE_qw"
   },
   {
     "id": "lucerna-54845",
@@ -3150,6 +2682,15 @@
     "trailerUrl": "https://www.youtube.com/watch?v=80xR3G5eowo"
   },
   {
+    "id": "bio-oko-55195",
+    "title": "The Christophers",
+    "start": "2026-10-19T15:00:00+02:00",
+    "cinema": "Bio Oko",
+    "url": "https://www.kinoaero.cz/en?projection=55195",
+    "letterboxdUrl": "https://letterboxd.com/film/the-christophers/",
+    "trailerUrl": "https://www.youtube.com/watch?v=5YhJ717PDwY"
+  },
+  {
     "id": "lucerna-54847",
     "title": "Late Shift",
     "start": "2026-10-19T17:45:00+02:00",
@@ -3186,6 +2727,24 @@
     "trailerUrl": "https://www.youtube.com/watch?v=xXP8OaJGxrM"
   },
   {
+    "id": "bio-oko-55185",
+    "title": "Rose",
+    "start": "2026-10-20T10:00:00+02:00",
+    "cinema": "Bio Oko",
+    "url": "https://www.kinoaero.cz/en?projection=55185",
+    "letterboxdUrl": "https://letterboxd.com/film/rose-2026/",
+    "trailerUrl": "https://www.youtube.com/watch?v=80xR3G5eowo"
+  },
+  {
+    "id": "bio-oko-55196",
+    "title": "The Odyssey",
+    "start": "2026-10-20T13:00:00+02:00",
+    "cinema": "Bio Oko",
+    "url": "https://www.kinoaero.cz/en?projection=55196",
+    "letterboxdUrl": "https://letterboxd.com/film/the-odyssey-2026/",
+    "trailerUrl": "https://www.youtube.com/watch?v=VplmWV6cms4"
+  },
+  {
     "id": "svetozor-54980",
     "title": "Chica Checa",
     "start": "2026-10-20T15:00:00+02:00",
@@ -3213,13 +2772,13 @@
     "trailerUrl": "https://www.youtube.com/watch?v=LYDKc5VpToE"
   },
   {
-    "id": "lucerna-54851",
-    "title": "22 Lengths",
+    "id": "bio-oko-54881",
+    "title": "2-in-1: Lukáš Cígler & Flow – Finding One’s Path Through the Elements",
     "start": "2026-10-20T18:00:00+02:00",
-    "cinema": "Kino Lucerna",
-    "url": "https://www.kinoaero.cz/en?projection=54851",
+    "cinema": "Bio Oko",
+    "url": "https://www.kinoaero.cz/en?projection=54881",
     "letterboxdUrl": null,
-    "trailerUrl": "https://www.youtube.com/watch?v=vkj0AFB9WXM"
+    "trailerUrl": null
   },
   {
     "id": "aero-54955",
@@ -3231,13 +2790,22 @@
     "trailerUrl": "https://www.youtube.com/watch?v=04GVe_l3rds"
   },
   {
-    "id": "bio-oko-54881",
-    "title": "2-in-1: Lukáš Cígler & Flow – Finding One’s Path Through the Elements",
+    "id": "lucerna-54851",
+    "title": "22 Lengths",
     "start": "2026-10-20T18:00:00+02:00",
-    "cinema": "Bio Oko",
-    "url": "https://www.kinoaero.cz/en?projection=54881",
+    "cinema": "Kino Lucerna",
+    "url": "https://www.kinoaero.cz/en?projection=54851",
     "letterboxdUrl": null,
-    "trailerUrl": null
+    "trailerUrl": "https://www.youtube.com/watch?v=vkj0AFB9WXM"
+  },
+  {
+    "id": "svetozor-55283",
+    "title": "Primetime",
+    "start": "2026-10-20T18:00:00+02:00",
+    "cinema": "Kino Světozor",
+    "url": "https://www.kinoaero.cz/en?projection=55283",
+    "letterboxdUrl": "https://letterboxd.com/film/primetime-2026/details/",
+    "trailerUrl": "https://www.youtube.com/watch?v=5fHXyqQOKL8"
   },
   {
     "id": "aero-54910",
@@ -3258,15 +2826,6 @@
     "trailerUrl": null
   },
   {
-    "id": "lucerna-54852",
-    "title": "Karla",
-    "start": "2026-10-20T20:15:00+02:00",
-    "cinema": "Kino Lucerna",
-    "url": "https://www.kinoaero.cz/en?projection=54852",
-    "letterboxdUrl": null,
-    "trailerUrl": null
-  },
-  {
     "id": "aero-54911",
     "title": "Inherent Vice",
     "start": "2026-10-20T20:15:00+02:00",
@@ -3274,6 +2833,15 @@
     "url": "https://www.kinoaero.cz/en?projection=54911",
     "letterboxdUrl": "https://letterboxd.com/film/inherent-vice/",
     "trailerUrl": "https://www.youtube.com/watch?v=HZZ3NBGeSeM"
+  },
+  {
+    "id": "lucerna-54852",
+    "title": "Karla",
+    "start": "2026-10-20T20:15:00+02:00",
+    "cinema": "Kino Lucerna",
+    "url": "https://www.kinoaero.cz/en?projection=54852",
+    "letterboxdUrl": null,
+    "trailerUrl": null
   },
   {
     "id": "lucerna-54883",
@@ -3330,6 +2898,15 @@
     "trailerUrl": "https://www.youtube.com/watch?v=nyCLgg4G5dw"
   },
   {
+    "id": "bio-oko-55197",
+    "title": "Rose",
+    "start": "2026-10-22T15:00:00+02:00",
+    "cinema": "Bio Oko",
+    "url": "https://www.kinoaero.cz/en?projection=55197",
+    "letterboxdUrl": "https://letterboxd.com/film/rose-2026/",
+    "trailerUrl": "https://www.youtube.com/watch?v=80xR3G5eowo"
+  },
+  {
     "id": "svetozor-54981",
     "title": "If Pigeons Turned to Gold",
     "start": "2026-10-22T15:00:00+02:00",
@@ -3357,15 +2934,6 @@
     "trailerUrl": "https://www.youtube.com/watch?v=btUoqODoGt0"
   },
   {
-    "id": "svetozor-54982",
-    "title": "Rose",
-    "start": "2026-10-23T15:00:00+02:00",
-    "cinema": "Kino Světozor",
-    "url": "https://www.kinoaero.cz/en?projection=54982",
-    "letterboxdUrl": "https://letterboxd.com/film/rose-2026/",
-    "trailerUrl": "https://www.youtube.com/watch?v=80xR3G5eowo"
-  },
-  {
     "id": "aero-54899",
     "title": "Terminator 2: Judgment Day",
     "start": "2026-10-23T15:00:00+02:00",
@@ -3375,12 +2943,30 @@
     "trailerUrl": "https://www.youtube.com/watch?v=BnsD-kEZr04"
   },
   {
+    "id": "svetozor-54982",
+    "title": "Rose",
+    "start": "2026-10-23T15:00:00+02:00",
+    "cinema": "Kino Světozor",
+    "url": "https://www.kinoaero.cz/en?projection=54982",
+    "letterboxdUrl": "https://letterboxd.com/film/rose-2026/",
+    "trailerUrl": "https://www.youtube.com/watch?v=80xR3G5eowo"
+  },
+  {
     "id": "bio-oko-55171",
     "title": "Kubo and the Two Strings",
     "start": "2026-10-24T15:00:00+02:00",
     "cinema": "Bio Oko",
     "url": "https://www.kinoaero.cz/en?projection=55171",
     "letterboxdUrl": "https://letterboxd.com/film/kubo-and-the-two-strings/",
+    "trailerUrl": null
+  },
+  {
+    "id": "pritomnost-55180",
+    "title": "Rublak – Legenda o vyměřené zemi",
+    "start": "2026-10-24T17:30:00+02:00",
+    "cinema": "Kino Přítomnost",
+    "url": "https://www.kinoaero.cz/en?projection=55180",
+    "letterboxdUrl": null,
     "trailerUrl": null
   },
   {
@@ -3402,12 +2988,30 @@
     "trailerUrl": "https://www.youtube.com/watch?v=VplmWV6cms4"
   },
   {
+    "id": "bio-oko-55198",
+    "title": "If Pigeons Turned to Gold",
+    "start": "2026-10-26T15:00:00+01:00",
+    "cinema": "Bio Oko",
+    "url": "https://www.kinoaero.cz/en?projection=55198",
+    "letterboxdUrl": "https://letterboxd.com/film/if-pigeons-turned-to-gold/",
+    "trailerUrl": "https://www.youtube.com/watch?v=dLuvAzVRpC8"
+  },
+  {
     "id": "pritomnost-54527",
     "title": "Scary Movie (2000)",
     "start": "2026-10-26T17:00:00+01:00",
     "cinema": "Kino Přítomnost",
     "url": "https://www.kinoaero.cz/en?projection=54527",
     "letterboxdUrl": "https://letterboxd.com/film/scary-movie-2000/",
+    "trailerUrl": null
+  },
+  {
+    "id": "bio-oko-55343",
+    "title": "J. Šolc, I. Mitrus, D. Pumr. | Stopy divočiny – křest knihy",
+    "start": "2026-10-26T18:00:00+01:00",
+    "cinema": "Bio Oko",
+    "url": "https://www.kinoaero.cz/en?projection=55343",
+    "letterboxdUrl": null,
     "trailerUrl": null
   },
   {
@@ -3420,11 +3024,20 @@
     "trailerUrl": "https://www.youtube.com/watch?v=86tatNXDTME"
   },
   {
-    "id": "svetozor-54983",
+    "id": "bio-oko-55186",
+    "title": "The Christophers",
+    "start": "2026-10-27T10:00:00+01:00",
+    "cinema": "Bio Oko",
+    "url": "https://www.kinoaero.cz/en?projection=55186",
+    "letterboxdUrl": "https://letterboxd.com/film/the-christophers/",
+    "trailerUrl": "https://www.youtube.com/watch?v=5YhJ717PDwY"
+  },
+  {
+    "id": "bio-oko-55199",
     "title": "Bára - Diary of a Rockstar",
-    "start": "2026-10-27T15:00:00+01:00",
-    "cinema": "Kino Světozor",
-    "url": "https://www.kinoaero.cz/en?projection=54983",
+    "start": "2026-10-27T13:00:00+01:00",
+    "cinema": "Bio Oko",
+    "url": "https://www.kinoaero.cz/en?projection=55199",
     "letterboxdUrl": "https://letterboxd.com/film/bara-diary-of-a-rockstar/",
     "trailerUrl": "https://www.youtube.com/watch?v=lH5DamCVfFU"
   },
@@ -3436,6 +3049,15 @@
     "url": "https://www.kinoaero.cz/en?projection=54900",
     "letterboxdUrl": "https://letterboxd.com/film/if-pigeons-turned-to-gold/",
     "trailerUrl": "https://www.youtube.com/watch?v=dLuvAzVRpC8"
+  },
+  {
+    "id": "svetozor-54983",
+    "title": "Bára - Diary of a Rockstar",
+    "start": "2026-10-27T15:00:00+01:00",
+    "cinema": "Kino Světozor",
+    "url": "https://www.kinoaero.cz/en?projection=54983",
+    "letterboxdUrl": "https://letterboxd.com/film/bara-diary-of-a-rockstar/",
+    "trailerUrl": "https://www.youtube.com/watch?v=lH5DamCVfFU"
   },
   {
     "id": "aero-55154",
@@ -3481,6 +3103,15 @@
     "url": "https://www.kinoaero.cz/en?projection=54901",
     "letterboxdUrl": "https://letterboxd.com/film/the-christophers/",
     "trailerUrl": "https://www.youtube.com/watch?v=5YhJ717PDwY"
+  },
+  {
+    "id": "bio-oko-55200",
+    "title": "Born in the Jungle",
+    "start": "2026-10-29T15:00:00+01:00",
+    "cinema": "Bio Oko",
+    "url": "https://www.kinoaero.cz/en?projection=55200",
+    "letterboxdUrl": "https://letterboxd.com/film/born-in-the-jungle/",
+    "trailerUrl": "https://www.youtube.com/watch?v=7U0rVflIuWU"
   },
   {
     "id": "svetozor-54984",
