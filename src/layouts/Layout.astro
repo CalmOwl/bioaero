@@ -73,7 +73,22 @@ const filmsNumber = FILMS.length;
           </a>
         </div>
       </header>
+
+      <button class="calendar-toggle" type="button"> Выбрать дату </button>
+      <div class="view-container">
+        <a class="gridview" href="/bioaero/gridview"> В виде постеров </a>
+        <a class="listview" href="/bioaero/"> В виде карточек </a>
+        <button class="suggestions" type="button">Хочу совет!</button>
+      </div>
+      <div class="calendar-overlay"></div>
       <aside>
+        <button
+          class="calendar-close"
+          type="button"
+          aria-label="Закрыть календарь"
+        >
+          ×
+        </button>
         <ScreeningsCalendar />
       </aside>
       <main>
@@ -319,12 +334,144 @@ const filmsNumber = FILMS.length;
 
   aside {
     display: none;
+
     @media (min-width: 1840px) {
       display: block;
       position: fixed;
       top: 15%;
       left: calc((100vw - 960px) / 2 - 432px);
     }
+  }
+
+  .calendar-toggle,
+  .calendar-close,
+  .calendar-overlay {
+    display: none;
+  }
+
+  @media (max-width: 1839px) {
+    .calendar-toggle {
+      display: block;
+      border: none;
+      display: flex;
+      gap: 8px;
+      align-items: center;
+      justify-content: center;
+      max-width: 100%;
+      border-radius: 1rem;
+      padding: 0.5rem;
+      background-color: var(--color-accent);
+      flex-shrink: 0;
+
+      @media (hover: hover) {
+        &:hover {
+          background-color: var(--color-accent-dark);
+          color: var(--color-white);
+        }
+      }
+
+      @media (prefers-reduced-motion: no-preference) {
+        transition: 500ms;
+      }
+
+      .calendar-toggle:focus-visible {
+        background-color: var(--color-accent-dark);
+        color: var(--color-white);
+      }
+
+      .calendar-toggle:has(.is-active) {
+        background-color: var(--color-white);
+      }
+    }
+
+    aside {
+      display: block;
+      position: fixed;
+      z-index: 1000;
+      top: 0;
+      left: 0;
+      width: min(450px, 90vw);
+      height: 100dvh;
+      padding: 1.5rem;
+      background-color: var(--color-black);
+      transform: translateX(-100%);
+      transition: transform 0.3s ease;
+      overflow-y: auto;
+    }
+
+    aside.open {
+      transform: translateX(0);
+    }
+
+    .calendar-close {
+      display: block;
+      font-size: 2rem;
+      border: none;
+      border-radius: 50%;
+      width: 3rem;
+      height: 3rem;
+      margin-bottom: 1rem;
+    }
+
+    .calendar-overlay {
+      display: block;
+      position: fixed;
+      inset: 0;
+      z-index: 999;
+      background: rgb(0 0 0 / 50%);
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.3s ease;
+    }
+
+    .calendar-overlay.open {
+      opacity: 1;
+      pointer-events: auto;
+    }
+  }
+
+  .view-container {
+    font-size: 1.5rem;
+    color: var(--color-accent);
+    display: grid;
+    grid-template-columns: 1.44fr 1.42fr 1fr;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 0.7rem;
+
+    @media (prefers-color-scheme: dark) {
+      color: var(--color-white);
+    }
+
+    @media (max-width: 505px) {
+      font-size: 1rem;
+    }
+  }
+
+  .view-container a,
+  .suggestions {
+    color: inherit;
+    text-decoration: none;
+
+    text-align: center;
+
+    @media (hover: hover) {
+      &:hover {
+        color: var(--color-white);
+
+        @media (prefers-color-scheme: dark) {
+          color: var(--color-accent);
+        }
+      }
+    }
+  }
+
+  .suggestions {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    margin: 0;
   }
 </style>
 
@@ -349,4 +496,49 @@ const filmsNumber = FILMS.length;
       day: "numeric",
       month: "2-digit",
     });
+
+  const calendarToggle =
+    document.querySelector<HTMLButtonElement>(".calendar-toggle");
+
+  const calendarClose =
+    document.querySelector<HTMLButtonElement>(".calendar-close");
+
+  const calendarOverlay =
+    document.querySelector<HTMLElement>(".calendar-overlay");
+
+  const aside = document.querySelector<HTMLElement>("aside");
+
+  const openCalendar = () => {
+    aside?.classList.add("open");
+    calendarOverlay?.classList.add("open");
+  };
+
+  const closeCalendar = () => {
+    aside?.classList.remove("open");
+    calendarOverlay?.classList.remove("open");
+  };
+
+  calendarToggle?.addEventListener("click", openCalendar);
+  calendarClose?.addEventListener("click", closeCalendar);
+  calendarOverlay?.addEventListener("click", closeCalendar);
+
+  const suggestionsButton = document.querySelector(".suggestions");
+
+  suggestionsButton?.addEventListener("click", () => {
+    const films = document.querySelectorAll<HTMLElement>(".film");
+    const filmButtons = document.querySelectorAll<HTMLElement>(".film-button");
+
+    for (let film of films) {
+      if (!film.dataset.suggestion) {
+        film.classList.toggle("invisible", true);
+        continue;
+      }
+    }
+    for (let film of filmButtons) {
+      if (!film.dataset.suggestion) {
+        film.classList.toggle("invisible", true);
+        continue;
+      }
+    }
+  });
 </script>

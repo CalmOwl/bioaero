@@ -9,6 +9,7 @@ export type Screening = {
 };
 
 export type Film = {
+  suggestion: boolean;
   title: string;
   poster?: {
     src: string;

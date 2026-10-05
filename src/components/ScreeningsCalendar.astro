@@ -76,6 +76,14 @@ const enrichDates = (
 };
 
 const DAYS = enrichDates(dates, screeningDates);
+
+let emptyCellsCount = 0;
+
+DAYS.map((day) => {
+  if (day.date == "") {
+    emptyCellsCount++;
+  }
+});
 ---
 
 <div class="calendar">
@@ -87,7 +95,7 @@ const DAYS = enrichDates(dates, screeningDates);
           data-date={day.date}
           data-screening-ids={day.screeningIds}
         >
-          {index}
+          {index - emptyCellsCount + 1}
         </button>
       ) : (
         <div class="calendar_cell calendar_cell--empty" aria-hidden="true" />
@@ -95,12 +103,8 @@ const DAYS = enrichDates(dates, screeningDates);
     })
   }
 </div>
-<p class="red">{dates[0]}</p>
 
 <style>
-  .red {
-    color: deeppink;
-  }
   .calendar {
     border: 3px solid var(--color-accent);
     border-radius: calc(1rem + 12px);
@@ -111,17 +115,27 @@ const DAYS = enrichDates(dates, screeningDates);
     grid-template-columns: repeat(7, 3rem);
     gap: 4px;
     justify-content: center;
+
+    @media (max-width: 505px) {
+      grid-template-columns: repeat(7, 2rem);
+    }
   }
 
   .calendar .calendar_cell {
     display: flex;
     border: 2px solid var(--color-accent);
     border-radius: 8px;
-    min-height: 3rem;
+    height: auto;
     font-size: 1.5rem;
+    aspect-ratio: 1/1;
     align-items: center;
     justify-content: center;
     color: var(--color-accent-dark);
+
+    @media (max-width: 505px) {
+      grid-template-columns: repeat(7, 2rem);
+      font-size: 1rem;
+    }
 
     @media (hover: hover) {
       &:hover {
@@ -152,6 +166,8 @@ const DAYS = enrichDates(dates, screeningDates);
   .calendar .calendar_cell--empty {
     border: transparent;
     background-color: transparent;
+    cursor: default;
+    pointer-events: none;
   }
 
   .calendar .calendar_cell--today {
@@ -163,6 +179,13 @@ const DAYS = enrichDates(dates, screeningDates);
       background-color: var(--color-accent);
       color: var(--color-accent-dark);
     }
+  }
+
+  .calendar .calendar_cell.active {
+    transform: rotate(5deg) scale(1.3);
+    background-color: revert;
+    color: revert;
+    font-weight: 500;
   }
 </style>
 
@@ -179,6 +202,18 @@ const DAYS = enrichDates(dates, screeningDates);
     return arr;
   }
 
+  function updateContainerVisibility() {
+    const container = document.querySelector(".gridview_container");
+    const films = document.querySelectorAll<HTMLButtonElement>(".film-button");
+
+    const allInvisible = [...films].every((element) =>
+      element.classList.contains("invisible"),
+    );
+    console.log(allInvisible);
+
+    container?.classList.toggle("invisible", allInvisible);
+  }
+
   for (let cell of calendarCells) {
     if (cell.textContent.trim() == date) {
       cell.classList.add("calendar_cell--today");
@@ -193,8 +228,12 @@ const DAYS = enrichDates(dates, screeningDates);
         // cell.dataset.date - если надо показать где-то
 
         //cell.dataset.screeningIds.split(",") -
+        document.querySelector(".active")?.classList.remove("active");
+        cell.classList.add("active");
 
         const films = document.querySelectorAll<HTMLElement>(".film"); // data-scr-ids
+        const filmButtons =
+          document.querySelectorAll<HTMLElement>(".film-button"); // data-scr-ids
 
         const screenings =
           document.querySelectorAll<HTMLElement>(".film-screening li"); // data-scr-id
@@ -230,6 +269,20 @@ const DAYS = enrichDates(dates, screeningDates);
           //   film.classList.toggle("invisible");
           // }
         }
+
+        for (let film of filmButtons) {
+          const filmScreeningIds = getList(film, "screeningIds");
+          if (!filmScreeningIds) {
+            film.classList.toggle("invisible", true);
+            continue;
+          }
+          const hasScreenings = filmScreeningIds.some((x) =>
+            cellScreeningIds.includes(x),
+          );
+
+          film.classList.toggle("invisible", !hasScreenings);
+        }
+        updateContainerVisibility();
       });
     }
   }

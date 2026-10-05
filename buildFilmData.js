@@ -123,9 +123,19 @@ const findFilmScreenings = (uniqueFilmTitlesArr, allFilmsObj) => {
     }
   }
 
+
+  // for (const film of sortedScreenings) {
+  //   if (film.screenings.length > 4) {
+  //     film.screenings = film.screenings.filter(screening => screening.weekday === 0 || screening.weekday === 6);
+  //   }
+  // }
+
   for (const film of sortedScreenings) {
-    if (film.screenings.length > 4) {
-      film.screenings = film.screenings.filter(screening => screening.weekday === 0 || screening.weekday === 6);
+    if (film.title.includes("Blind" && "Aero")) {
+      film.title = "Aero naslepo";
+      film.description = "Když zkusíte „Aero naslepo“, nebudete vědět, na jaký film jste se vypravili. Předem neplatíte nic. Po projekci dostanete možnost ocenit zážitek částkou, kterou si sami určíte.";
+      film.trailerUrl = "https://boxd.it/uqXaW";
+      film.infoButtonDescription = "Список фильмов предыдущих сеансов";
     }
   }
 
@@ -138,7 +148,6 @@ const result = findFilmScreenings(
   normalizeDate(data)
 );
 
-
 for (let film of result) {
   if (film.letterboxdUrl) {
     const poster = await getLetterboxdPoster(film.letterboxdUrl);
@@ -148,7 +157,6 @@ for (let film of result) {
   console.log(film.poster);
 
 }
-
 
 fs.writeFileSync(
   "finalFilmData.json",

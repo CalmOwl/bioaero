@@ -1,0 +1,209 @@
+---
+import { FILMS } from "../filmdata";
+import FilmCard from "../components/FilmCard.astro";
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout>
+  <div class="gridview_container">
+    {
+      FILMS.map((film) => (
+        <button
+          class="film-button"
+          data-screening-ids={film.screenings.map((screening) => screening.id)}
+            data-suggestion={film.suggestion}
+        >
+          {film.poster ? (
+            <img
+              class="film-poster"
+              src={`/bioaero/posters/${film.poster.local}`}
+              alt={`${film.title}`}
+            />
+          ) : (
+            <img
+              class="film-poster zero-poster"
+              src="/bioaero/svg/clapperboard-question-mark.svg"
+              alt="Неизвестный фильм"
+            />
+          )}
+        </button>
+        <dialog class="film-dialog">
+          <button class="film-dialog-close-button" type="button">x</button>
+          <FilmCard film={film}/>
+        </dialog>
+      ))
+    }
+  </div>
+</Layout>
+
+<style>
+  .gridview_container {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    gap: 1em;
+    margin: 1rem 0;
+    padding: 1rem;
+    background-color: var(--color-grey);
+    border-radius: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+
+    @media (max-width: 560px) {
+      grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+      gap: 0.5rem;
+      padding: 0.5rem;
+    }
+  }
+ .gridview_container.invisible {
+  display: none;
+ }
+
+  .film-button {
+    border: none;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 0;
+  }
+  
+  .film-button.invisible {
+    display: none;
+  }
+
+  .film-poster {
+    display: block;
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 250px;
+    object-fit: cover;
+    height: auto;
+    border-radius: 0.5rem;
+    align-self: flex-start;
+
+    @media (max-width: 560px) {
+      align-self: center;
+    }
+  }
+
+  .film-dialog {
+    width: min(900px, 90vw);
+    max-height: 90vh;
+    padding: 0;
+    border: none;
+    background: transparent;
+    color: inherit;
+  }
+
+  .film-dialog::backdrop {
+    background: rgb(0 0 0 / 70%);
+  }
+
+  .film-dialog-close-button {
+    position: absolute;
+
+    top: 2rem;
+    right: 1rem;
+
+    width: 3rem;
+    height: 3rem;
+
+    border: none;
+    border-radius: 50%;
+    background: white;
+
+    font-size: 2rem;
+    padding-bottom: 5px;
+    cursor: pointer;
+  }
+</style>
+
+<script>
+    import type { SavedScreening } from "../types";
+  import { getSavedScreenings, toggleScreening } from "../scripts/wishlist";
+
+  function setButtonState(btn: HTMLElement, isSaved: boolean) {
+    const label = btn.querySelector(".screening-wishlist__label");
+    const icon = btn.querySelector(".screening-wishlist__icon");
+
+    if (isSaved) {
+      btn.classList.add("is-saved");
+      if (label) {
+        label.textContent = "иду!";
+        icon?.classList.add("is-active");
+      }
+    } else {
+      btn.classList.remove("is-saved");
+      if (label) {
+        label.textContent = "хочу пойти";
+        icon?.classList.remove("is-active");
+      }
+    }
+  }
+
+  function updateButtonsState() {
+    const saved = getSavedScreenings();
+
+    const buttons = document.querySelectorAll(".screening-wishlist");
+
+    buttons.forEach((btn) => {
+      if (!(btn instanceof HTMLElement)) return;
+
+      const id = btn.dataset.id;
+      if (!id) return;
+
+      const exists = saved.some((screening) => screening.id === id);
+      setButtonState(btn, exists);
+    });
+  }
+
+  document.addEventListener("click", (event) => {
+    if (!(event.target instanceof HTMLElement)) return;
+
+    const btn = event.target.closest(".screening-wishlist");
+    if (!(btn instanceof HTMLElement)) return;
+
+    const id = btn.dataset.id;
+    if (!id) return;
+
+    const screening: SavedScreening = {
+      id,
+      film: btn.dataset.film ?? "",
+      date: btn.dataset.date ?? "",
+      time: btn.dataset.time ?? "",
+      place: btn.dataset.place ?? "",
+      ticketsUrl: btn.dataset.ticketsUrl ?? "",
+    };
+
+    const wasAdded = toggleScreening(screening);
+    setButtonState(btn, wasAdded);
+  });
+
+  updateButtonsState();
+
+
+  const films = document.querySelectorAll<HTMLButtonElement>(".film-button");
+  const dialogs = document.querySelectorAll<HTMLDialogElement>(".film-dialog");
+
+  films.forEach((film) => {
+    film.addEventListener("click", () => {
+      const dialog = film.nextElementSibling as HTMLDialogElement;
+      dialog.showModal();
+    });
+  });
+
+  dialogs.forEach((dialog) => {
+    const closeButton =
+      dialog.querySelector<HTMLButtonElement>(".film-dialog-close-button");
+
+    closeButton?.addEventListener("click", () => {
+      dialog.close();
+    });
+
+      dialog.addEventListener("click", (event) => {
+    if (event.target === dialog) {
+      dialog.close();
+    }
+  });
+  });
+</script>

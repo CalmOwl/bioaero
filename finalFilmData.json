@@ -1,49 +1,604 @@
 [
   {
-    "title": "Hope",
+    "title": "The Match",
     "poster": {
-      "src": "https://a.ltrbxd.com/resized/film-poster/9/5/4/6/6/3/954663-hope-2026-0-600-0-900-crop.jpg?v=102a8bfda2",
+      "src": "https://a.ltrbxd.com/resized/film-poster/1/5/2/9/4/4/7/1529447-the-match-2026-0-600-0-900-crop.jpg?v=3eb19a7587",
       "alt": "",
-      "local": "hope.jpg"
+      "local": "the-match.jpg"
     },
-    "letterboxdUrl": "https://letterboxd.com/film/hope-2026/",
-    "trailerUrl": "https://www.youtube.com/watch?v=iD8Nu8lUy74",
+    "letterboxdUrl": "https://letterboxd.com/film/the-match-2026/",
+    "trailerUrl": "https://www.youtube.com/watch?v=xED9MDEkezY",
     "screenings": [
       {
-        "id": "aero-55139",
-        "start": "2026-09-28T20:00:00+02:00",
-        "weekday": 1,
-        "date": "пн, 28.09",
-        "time": "20:00",
-        "place": "Kino Aero",
-        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55139"
-      },
-      {
-        "id": "bio-oko-55131",
-        "start": "2026-09-30T20:15:00+02:00",
-        "weekday": 3,
-        "date": "ср, 30.09",
-        "time": "20:15",
-        "place": "Bio Oko",
-        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55131"
-      },
-      {
-        "id": "svetozor-55216",
-        "start": "2026-10-04T20:15:00+02:00",
-        "weekday": 0,
-        "date": "вс, 04.10",
-        "time": "20:15",
-        "place": "Kino Světozor",
-        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55216"
-      },
-      {
-        "id": "svetozor-55217",
-        "start": "2026-10-05T20:00:00+02:00",
+        "id": "bio-oko-55189",
+        "start": "2026-10-05T15:00:00+02:00",
         "weekday": 1,
         "date": "пн, 05.10",
-        "time": "20:00",
+        "time": "15:00",
+        "place": "Bio Oko",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55189"
+      }
+    ]
+  },
+  {
+    "suggestion": true,
+    "title": "Tony",
+    "poster": {
+      "src": "https://a.ltrbxd.com/resized/film-poster/1/2/0/9/0/0/1/1209001-tony-2026-0-600-0-900-crop.jpg?v=63ce7b9234",
+      "alt": "",
+      "local": "tony.jpg"
+    },
+    "letterboxdUrl": "https://letterboxd.com/film/tony-2026/",
+    "trailerUrl": "https://www.youtube.com/watch?v=WtXkdKveSpk",
+    "screenings": [
+      {
+        "id": "svetozor-55232",
+        "start": "2026-10-05T15:15:00+02:00",
+        "weekday": 1,
+        "date": "пн, 05.10",
+        "time": "15:15",
         "place": "Kino Světozor",
-        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55217"
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55232"
+      },
+      {
+        "id": "svetozor-55235",
+        "start": "2026-10-06T17:45:00+02:00",
+        "weekday": 2,
+        "date": "вт, 06.10",
+        "time": "17:45",
+        "place": "Kino Světozor",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55235"
+      },
+      {
+        "id": "aero-55325",
+        "start": "2026-10-06T20:30:00+02:00",
+        "weekday": 2,
+        "date": "вт, 06.10",
+        "time": "20:30",
+        "place": "Kino Aero",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55325"
+      },
+      {
+        "id": "svetozor-55236",
+        "start": "2026-10-07T15:15:00+02:00",
+        "weekday": 3,
+        "date": "ср, 07.10",
+        "time": "15:15",
+        "place": "Kino Světozor",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55236"
+      },
+      {
+        "id": "svetozor-55435",
+        "start": "2026-10-08T15:30:00+02:00",
+        "weekday": 4,
+        "date": "чт, 08.10",
+        "time": "15:30",
+        "place": "Kino Světozor",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55435"
+      },
+      {
+        "id": "aero-54893",
+        "start": "2026-10-09T15:00:00+02:00",
+        "weekday": 5,
+        "date": "пт, 09.10",
+        "time": "15:00",
+        "place": "Kino Aero",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=54893"
+      },
+      {
+        "id": "svetozor-55436",
+        "start": "2026-10-09T18:00:00+02:00",
+        "weekday": 5,
+        "date": "пт, 09.10",
+        "time": "18:00",
+        "place": "Kino Světozor",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55436"
+      },
+      {
+        "id": "svetozor-55437",
+        "start": "2026-10-10T15:15:00+02:00",
+        "weekday": 6,
+        "date": "сб, 10.10",
+        "time": "15:15",
+        "place": "Kino Světozor",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55437"
+      },
+      {
+        "id": "svetozor-55438",
+        "start": "2026-10-11T18:00:00+02:00",
+        "weekday": 0,
+        "date": "вс, 11.10",
+        "time": "18:00",
+        "place": "Kino Světozor",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55438"
+      },
+      {
+        "id": "lucerna-54944",
+        "start": "2026-10-12T15:00:00+02:00",
+        "weekday": 1,
+        "date": "пн, 12.10",
+        "time": "15:00",
+        "place": "Kino Lucerna",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=54944"
+      },
+      {
+        "id": "svetozor-55459",
+        "start": "2026-10-14T17:30:00+02:00",
+        "weekday": 3,
+        "date": "ср, 14.10",
+        "time": "17:30",
+        "place": "Kino Světozor",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55459"
+      },
+      {
+        "id": "bio-oko-55194",
+        "start": "2026-10-15T15:00:00+02:00",
+        "weekday": 4,
+        "date": "чт, 15.10",
+        "time": "15:00",
+        "place": "Bio Oko",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55194"
+      },
+      {
+        "id": "svetozor-54979",
+        "start": "2026-10-16T15:00:00+02:00",
+        "weekday": 5,
+        "date": "пт, 16.10",
+        "time": "15:00",
+        "place": "Kino Světozor",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=54979"
+      }
+    ]
+  },
+  {
+    "suggestion": true,
+    "title": "Rose",
+    "poster": {
+      "src": "https://a.ltrbxd.com/resized/film-poster/1/0/6/3/5/0/7/1063507-rose-2026-0-600-0-900-crop.jpg?v=b3df652beb",
+      "alt": "",
+      "local": "rose.jpg"
+    },
+    "letterboxdUrl": "https://letterboxd.com/film/rose-2026/",
+    "trailerUrl": "https://www.youtube.com/watch?v=80xR3G5eowo",
+    "screenings": [
+      {
+        "id": "svetozor-55219",
+        "start": "2026-10-05T15:15:00+02:00",
+        "weekday": 1,
+        "date": "пн, 05.10",
+        "time": "15:15",
+        "place": "Kino Světozor",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55219"
+      },
+      {
+        "id": "bio-oko-55338",
+        "start": "2026-10-07T18:00:00+02:00",
+        "weekday": 3,
+        "date": "ср, 07.10",
+        "time": "18:00",
+        "place": "Bio Oko",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55338"
+      },
+      {
+        "id": "svetozor-55473",
+        "start": "2026-10-11T13:00:00+02:00",
+        "weekday": 0,
+        "date": "вс, 11.10",
+        "time": "13:00",
+        "place": "Kino Světozor",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55473"
+      },
+      {
+        "id": "svetozor-55474",
+        "start": "2026-10-13T15:30:00+02:00",
+        "weekday": 2,
+        "date": "вт, 13.10",
+        "time": "15:30",
+        "place": "Kino Světozor",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55474"
+      },
+      {
+        "id": "svetozor-55475",
+        "start": "2026-10-14T15:30:00+02:00",
+        "weekday": 3,
+        "date": "ср, 14.10",
+        "time": "15:30",
+        "place": "Kino Světozor",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55475"
+      },
+      {
+        "id": "aero-54896",
+        "start": "2026-10-16T15:00:00+02:00",
+        "weekday": 5,
+        "date": "пт, 16.10",
+        "time": "15:00",
+        "place": "Kino Aero",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=54896"
+      },
+      {
+        "id": "lucerna-54947",
+        "start": "2026-10-19T15:00:00+02:00",
+        "weekday": 1,
+        "date": "пн, 19.10",
+        "time": "15:00",
+        "place": "Kino Lucerna",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=54947"
+      },
+      {
+        "id": "bio-oko-55185",
+        "start": "2026-10-20T10:00:00+02:00",
+        "weekday": 2,
+        "date": "вт, 20.10",
+        "time": "10:00",
+        "place": "Bio Oko",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55185"
+      },
+      {
+        "id": "bio-oko-55197",
+        "start": "2026-10-22T15:00:00+02:00",
+        "weekday": 4,
+        "date": "чт, 22.10",
+        "time": "15:00",
+        "place": "Bio Oko",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55197"
+      },
+      {
+        "id": "svetozor-54982",
+        "start": "2026-10-23T15:00:00+02:00",
+        "weekday": 5,
+        "date": "пт, 23.10",
+        "time": "15:00",
+        "place": "Kino Světozor",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=54982"
+      }
+    ]
+  },
+  {
+    "title": "Bára - Diary of a Rockstar",
+    "poster": {
+      "src": "https://a.ltrbxd.com/resized/film-poster/1/5/7/6/8/6/0/1576860-bara-diary-of-a-rockstar-0-600-0-900-crop.jpg?v=3e8f92491a",
+      "alt": "",
+      "local": "bára---diary-of-a-rockstar.jpg"
+    },
+    "letterboxdUrl": "https://letterboxd.com/film/bara-diary-of-a-rockstar/",
+    "trailerUrl": "https://www.youtube.com/watch?v=lH5DamCVfFU",
+    "screenings": [
+      {
+        "id": "svetozor-55230",
+        "start": "2026-10-05T15:30:00+02:00",
+        "weekday": 1,
+        "date": "пн, 05.10",
+        "time": "15:30",
+        "place": "Kino Světozor",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55230"
+      },
+      {
+        "id": "lucerna-55270",
+        "start": "2026-10-05T18:15:00+02:00",
+        "weekday": 1,
+        "date": "пн, 05.10",
+        "time": "18:15",
+        "place": "Kino Lucerna",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55270"
+      },
+      {
+        "id": "lucerna-55273",
+        "start": "2026-10-06T15:30:00+02:00",
+        "weekday": 2,
+        "date": "вт, 06.10",
+        "time": "15:30",
+        "place": "Kino Lucerna",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55273"
+      },
+      {
+        "id": "svetozor-55211",
+        "start": "2026-10-06T17:30:00+02:00",
+        "weekday": 2,
+        "date": "вт, 06.10",
+        "time": "17:30",
+        "place": "Kino Světozor",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55211"
+      },
+      {
+        "id": "svetozor-55212",
+        "start": "2026-10-07T15:15:00+02:00",
+        "weekday": 3,
+        "date": "ср, 07.10",
+        "time": "15:15",
+        "place": "Kino Světozor",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55212"
+      },
+      {
+        "id": "lucerna-55401",
+        "start": "2026-10-08T15:00:00+02:00",
+        "weekday": 4,
+        "date": "чт, 08.10",
+        "time": "15:00",
+        "place": "Kino Lucerna",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55401"
+      },
+      {
+        "id": "lucerna-55404",
+        "start": "2026-10-09T13:15:00+02:00",
+        "weekday": 5,
+        "date": "пт, 09.10",
+        "time": "13:15",
+        "place": "Kino Lucerna",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55404"
+      },
+      {
+        "id": "svetozor-55470",
+        "start": "2026-10-09T15:30:00+02:00",
+        "weekday": 5,
+        "date": "пт, 09.10",
+        "time": "15:30",
+        "place": "Kino Světozor",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55470"
+      },
+      {
+        "id": "lucerna-55410",
+        "start": "2026-10-10T12:45:00+02:00",
+        "weekday": 6,
+        "date": "сб, 10.10",
+        "time": "12:45",
+        "place": "Kino Lucerna",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55410"
+      },
+      {
+        "id": "pritomnost-55394",
+        "start": "2026-10-10T14:30:00+02:00",
+        "weekday": 6,
+        "date": "сб, 10.10",
+        "time": "14:30",
+        "place": "Kino Přítomnost",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55394"
+      },
+      {
+        "id": "svetozor-55471",
+        "start": "2026-10-10T15:45:00+02:00",
+        "weekday": 6,
+        "date": "сб, 10.10",
+        "time": "15:45",
+        "place": "Kino Světozor",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55471"
+      },
+      {
+        "id": "svetozor-55455",
+        "start": "2026-10-11T12:30:00+02:00",
+        "weekday": 0,
+        "date": "вс, 11.10",
+        "time": "12:30",
+        "place": "Kino Světozor",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55455"
+      },
+      {
+        "id": "lucerna-55418",
+        "start": "2026-10-11T15:45:00+02:00",
+        "weekday": 0,
+        "date": "вс, 11.10",
+        "time": "15:45",
+        "place": "Kino Lucerna",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55418"
+      },
+      {
+        "id": "bio-oko-55492",
+        "start": "2026-10-11T20:00:00+02:00",
+        "weekday": 0,
+        "date": "вс, 11.10",
+        "time": "20:00",
+        "place": "Bio Oko",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55492"
+      },
+      {
+        "id": "svetozor-55432",
+        "start": "2026-10-12T15:00:00+02:00",
+        "weekday": 1,
+        "date": "пн, 12.10",
+        "time": "15:00",
+        "place": "Kino Světozor",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55432"
+      },
+      {
+        "id": "lucerna-55419",
+        "start": "2026-10-13T15:00:00+02:00",
+        "weekday": 2,
+        "date": "вт, 13.10",
+        "time": "15:00",
+        "place": "Kino Lucerna",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55419"
+      },
+      {
+        "id": "svetozor-55456",
+        "start": "2026-10-14T15:00:00+02:00",
+        "weekday": 3,
+        "date": "ср, 14.10",
+        "time": "15:00",
+        "place": "Kino Světozor",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55456"
+      },
+      {
+        "id": "aero-54897",
+        "start": "2026-10-20T15:00:00+02:00",
+        "weekday": 2,
+        "date": "вт, 20.10",
+        "time": "15:00",
+        "place": "Kino Aero",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=54897"
+      },
+      {
+        "id": "bio-oko-55199",
+        "start": "2026-10-27T13:00:00+01:00",
+        "weekday": 2,
+        "date": "вт, 27.10",
+        "time": "13:00",
+        "place": "Bio Oko",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55199"
+      },
+      {
+        "id": "svetozor-54983",
+        "start": "2026-10-27T15:00:00+01:00",
+        "weekday": 2,
+        "date": "вт, 27.10",
+        "time": "15:00",
+        "place": "Kino Světozor",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=54983"
+      },
+      {
+        "id": "lucerna-54952",
+        "start": "2026-10-30T13:00:00+01:00",
+        "weekday": 5,
+        "date": "пт, 30.10",
+        "time": "13:00",
+        "place": "Kino Lucerna",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=54952"
+      }
+    ]
+  },
+  {
+    "suggestion": true,
+    "title": "Digger",
+    "poster": {
+      "src": "https://a.ltrbxd.com/resized/film-poster/1/1/3/2/6/8/8/1132688-digger-2026-0-600-0-900-crop.jpg?v=81ec883a95",
+      "alt": "",
+      "local": "digger.jpg"
+    },
+    "letterboxdUrl": "https://letterboxd.com/film/digger-2026/",
+    "trailerUrl": "https://www.youtube.com/watch?v=BuGKVIuWiOg",
+    "screenings": [
+      {
+        "id": "lucerna-55269",
+        "start": "2026-10-05T15:30:00+02:00",
+        "weekday": 1,
+        "date": "пн, 05.10",
+        "time": "15:30",
+        "place": "Kino Lucerna",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55269"
+      },
+      {
+        "id": "svetozor-55544",
+        "start": "2026-10-06T17:15:00+02:00",
+        "weekday": 2,
+        "date": "вт, 06.10",
+        "time": "17:15",
+        "place": "Kino Světozor",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55544"
+      },
+      {
+        "id": "lucerna-55274",
+        "start": "2026-10-06T17:45:00+02:00",
+        "weekday": 2,
+        "date": "вт, 06.10",
+        "time": "17:45",
+        "place": "Kino Lucerna",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55274"
+      },
+      {
+        "id": "svetozor-55223",
+        "start": "2026-10-07T15:00:00+02:00",
+        "weekday": 3,
+        "date": "ср, 07.10",
+        "time": "15:00",
+        "place": "Kino Světozor",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55223"
+      },
+      {
+        "id": "lucerna-55276",
+        "start": "2026-10-07T21:00:00+02:00",
+        "weekday": 3,
+        "date": "ср, 07.10",
+        "time": "21:00",
+        "place": "Kino Lucerna",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55276"
+      },
+      {
+        "id": "svetozor-55460",
+        "start": "2026-10-08T15:15:00+02:00",
+        "weekday": 4,
+        "date": "чт, 08.10",
+        "time": "15:15",
+        "place": "Kino Světozor",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55460"
+      },
+      {
+        "id": "lucerna-55405",
+        "start": "2026-10-09T15:30:00+02:00",
+        "weekday": 5,
+        "date": "пт, 09.10",
+        "time": "15:30",
+        "place": "Kino Lucerna",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55405"
+      },
+      {
+        "id": "svetozor-55461",
+        "start": "2026-10-09T20:15:00+02:00",
+        "weekday": 5,
+        "date": "пт, 09.10",
+        "time": "20:15",
+        "place": "Kino Světozor",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55461"
+      },
+      {
+        "id": "bio-oko-55483",
+        "start": "2026-10-10T12:15:00+02:00",
+        "weekday": 6,
+        "date": "сб, 10.10",
+        "time": "12:15",
+        "place": "Bio Oko",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55483"
+      },
+      {
+        "id": "lucerna-55406",
+        "start": "2026-10-10T13:00:00+02:00",
+        "weekday": 6,
+        "date": "сб, 10.10",
+        "time": "13:00",
+        "place": "Kino Lucerna",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55406"
+      },
+      {
+        "id": "svetozor-55462",
+        "start": "2026-10-10T20:15:00+02:00",
+        "weekday": 6,
+        "date": "сб, 10.10",
+        "time": "20:15",
+        "place": "Kino Světozor",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55462"
+      },
+      {
+        "id": "pritomnost-54887",
+        "start": "2026-10-11T11:00:00+02:00",
+        "weekday": 0,
+        "date": "вс, 11.10",
+        "time": "11:00",
+        "place": "Kino Přítomnost",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=54887"
+      },
+      {
+        "id": "lucerna-55417",
+        "start": "2026-10-11T12:45:00+02:00",
+        "weekday": 0,
+        "date": "вс, 11.10",
+        "time": "12:45",
+        "place": "Kino Lucerna",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55417"
+      },
+      {
+        "id": "svetozor-55463",
+        "start": "2026-10-11T15:15:00+02:00",
+        "weekday": 0,
+        "date": "вс, 11.10",
+        "time": "15:15",
+        "place": "Kino Světozor",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55463"
+      },
+      {
+        "id": "aero-55504",
+        "start": "2026-10-11T19:30:00+02:00",
+        "weekday": 0,
+        "date": "вс, 11.10",
+        "time": "19:30",
+        "place": "Kino Aero",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55504"
       }
     ]
   },
@@ -58,91 +613,67 @@
     "trailerUrl": "https://www.youtube.com/watch?v=MA5NqUMEdbI",
     "screenings": [
       {
-        "id": "svetozor-55207",
-        "start": "2026-10-03T17:45:00+02:00",
-        "weekday": 6,
-        "date": "сб, 03.10",
-        "time": "17:45",
-        "place": "Kino Světozor",
-        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55207"
-      }
-    ]
-  },
-  {
-    "title": "Tony",
-    "poster": {
-      "src": "https://a.ltrbxd.com/resized/film-poster/1/2/0/9/0/0/1/1209001-tony-2026-0-600-0-900-crop.jpg?v=63ce7b9234",
-      "alt": "",
-      "local": "tony.jpg"
-    },
-    "letterboxdUrl": "https://letterboxd.com/film/tony-2026/",
-    "trailerUrl": "https://www.youtube.com/watch?v=WtXkdKveSpk",
-    "screenings": [
-      {
-        "id": "lucerna-55263",
-        "start": "2026-10-03T12:30:00+02:00",
-        "weekday": 6,
-        "date": "сб, 03.10",
-        "time": "12:30",
-        "place": "Kino Lucerna",
-        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55263"
-      },
-      {
-        "id": "lucerna-55265",
-        "start": "2026-10-04T12:30:00+02:00",
-        "weekday": 0,
-        "date": "вс, 04.10",
-        "time": "12:30",
-        "place": "Kino Lucerna",
-        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55265"
-      },
-      {
-        "id": "bio-oko-55336",
-        "start": "2026-10-04T17:30:00+02:00",
-        "weekday": 0,
-        "date": "вс, 04.10",
+        "id": "svetozor-55218",
+        "start": "2026-10-05T17:30:00+02:00",
+        "weekday": 1,
+        "date": "пн, 05.10",
         "time": "17:30",
-        "place": "Bio Oko",
-        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55336"
+        "place": "Kino Světozor",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55218"
       },
       {
-        "id": "svetozor-55234",
-        "start": "2026-10-04T20:15:00+02:00",
+        "id": "svetozor-55208",
+        "start": "2026-10-06T14:45:00+02:00",
+        "weekday": 2,
+        "date": "вт, 06.10",
+        "time": "14:45",
+        "place": "Kino Světozor",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55208"
+      },
+      {
+        "id": "svetozor-55209",
+        "start": "2026-10-07T17:30:00+02:00",
+        "weekday": 3,
+        "date": "ср, 07.10",
+        "time": "17:30",
+        "place": "Kino Světozor",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55209"
+      },
+      {
+        "id": "bio-oko-55191",
+        "start": "2026-10-08T15:00:00+02:00",
+        "weekday": 4,
+        "date": "чт, 08.10",
+        "time": "15:00",
+        "place": "Bio Oko",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55191"
+      },
+      {
+        "id": "svetozor-55468",
+        "start": "2026-10-08T20:30:00+02:00",
+        "weekday": 4,
+        "date": "чт, 08.10",
+        "time": "20:30",
+        "place": "Kino Světozor",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55468"
+      },
+      {
+        "id": "bio-oko-55488",
+        "start": "2026-10-11T12:30:00+02:00",
         "weekday": 0,
-        "date": "вс, 04.10",
+        "date": "вс, 11.10",
+        "time": "12:30",
+        "place": "Bio Oko",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55488"
+      },
+      {
+        "id": "svetozor-55469",
+        "start": "2026-10-11T20:15:00+02:00",
+        "weekday": 0,
+        "date": "вс, 11.10",
         "time": "20:15",
         "place": "Kino Světozor",
-        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55234"
-      }
-    ]
-  },
-  {
-    "title": "The Christophers",
-    "poster": {
-      "src": "https://a.ltrbxd.com/resized/film-poster/1/2/8/3/6/8/4/1283684-the-christophers-0-600-0-900-crop.jpg?v=4269379fb4",
-      "alt": "",
-      "local": "the-christophers.jpg"
-    },
-    "letterboxdUrl": "https://letterboxd.com/film/the-christophers/",
-    "trailerUrl": "https://www.youtube.com/watch?v=5YhJ717PDwY",
-    "screenings": [
-      {
-        "id": "svetozor-55248",
-        "start": "2026-10-03T13:15:00+02:00",
-        "weekday": 6,
-        "date": "сб, 03.10",
-        "time": "13:15",
-        "place": "Kino Světozor",
-        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55248"
-      },
-      {
-        "id": "svetozor-55249",
-        "start": "2026-10-04T15:00:00+02:00",
-        "weekday": 0,
-        "date": "вс, 04.10",
-        "time": "15:00",
-        "place": "Kino Světozor",
-        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55249"
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55469"
       }
     ]
   },
@@ -157,92 +688,261 @@
     "trailerUrl": "https://www.youtube.com/watch?v=dLuvAzVRpC8",
     "screenings": [
       {
-        "id": "svetozor-55225",
-        "start": "2026-10-03T15:45:00+02:00",
-        "weekday": 6,
-        "date": "сб, 03.10",
-        "time": "15:45",
+        "id": "svetozor-55231",
+        "start": "2026-10-05T17:45:00+02:00",
+        "weekday": 1,
+        "date": "пн, 05.10",
+        "time": "17:45",
         "place": "Kino Světozor",
-        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55225"
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55231"
       },
       {
-        "id": "bio-oko-55316",
-        "start": "2026-10-03T20:15:00+02:00",
-        "weekday": 6,
-        "date": "сб, 03.10",
-        "time": "20:15",
-        "place": "Bio Oko",
-        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55316"
-      },
-      {
-        "id": "svetozor-55226",
-        "start": "2026-10-04T13:00:00+02:00",
-        "weekday": 0,
-        "date": "вс, 04.10",
-        "time": "13:00",
-        "place": "Kino Světozor",
-        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55226"
-      },
-      {
-        "id": "aero-55321",
-        "start": "2026-10-04T17:15:00+02:00",
-        "weekday": 0,
-        "date": "вс, 04.10",
-        "time": "17:15",
-        "place": "Kino Aero",
-        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55321"
-      },
-      {
-        "id": "svetozor-55240",
-        "start": "2026-10-04T17:30:00+02:00",
-        "weekday": 0,
-        "date": "вс, 04.10",
-        "time": "17:30",
-        "place": "Kino Světozor",
-        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55240"
-      },
-      {
-        "id": "lucerna-55267",
-        "start": "2026-10-04T20:30:00+02:00",
-        "weekday": 0,
-        "date": "вс, 04.10",
-        "time": "20:30",
+        "id": "lucerna-55272",
+        "start": "2026-10-06T15:15:00+02:00",
+        "weekday": 2,
+        "date": "вт, 06.10",
+        "time": "15:15",
         "place": "Kino Lucerna",
-        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55267"
-      }
-    ]
-  },
-  {
-    "title": "Rose",
-    "poster": {
-      "src": "https://a.ltrbxd.com/resized/film-poster/1/0/6/3/5/0/7/1063507-rose-2026-0-600-0-900-crop.jpg?v=b3df652beb",
-      "alt": "",
-      "local": "rose.jpg"
-    },
-    "letterboxdUrl": "https://letterboxd.com/film/rose-2026/",
-    "trailerUrl": "https://www.youtube.com/watch?v=80xR3G5eowo",
-    "screenings": [
-      {
-        "id": "svetozor-55206",
-        "start": "2026-10-03T13:15:00+02:00",
-        "weekday": 6,
-        "date": "сб, 03.10",
-        "time": "13:15",
-        "place": "Kino Světozor",
-        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55206"
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55272"
       },
       {
-        "id": "svetozor-55229",
-        "start": "2026-10-04T15:30:00+02:00",
-        "weekday": 0,
-        "date": "вс, 04.10",
-        "time": "15:30",
+        "id": "aero-55324",
+        "start": "2026-10-06T18:00:00+02:00",
+        "weekday": 2,
+        "date": "вт, 06.10",
+        "time": "18:00",
+        "place": "Kino Aero",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55324"
+      },
+      {
+        "id": "svetozor-55227",
+        "start": "2026-10-06T20:00:00+02:00",
+        "weekday": 2,
+        "date": "вт, 06.10",
+        "time": "20:00",
         "place": "Kino Světozor",
-        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55229"
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55227"
+      },
+      {
+        "id": "bio-oko-55317",
+        "start": "2026-10-06T20:30:00+02:00",
+        "weekday": 2,
+        "date": "вт, 06.10",
+        "time": "20:30",
+        "place": "Bio Oko",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55317"
+      },
+      {
+        "id": "svetozor-55228",
+        "start": "2026-10-07T17:45:00+02:00",
+        "weekday": 3,
+        "date": "ср, 07.10",
+        "time": "17:45",
+        "place": "Kino Světozor",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55228"
+      },
+      {
+        "id": "lucerna-55402",
+        "start": "2026-10-08T15:15:00+02:00",
+        "weekday": 4,
+        "date": "чт, 08.10",
+        "time": "15:15",
+        "place": "Kino Lucerna",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55402"
+      },
+      {
+        "id": "aero-55501",
+        "start": "2026-10-08T18:00:00+02:00",
+        "weekday": 4,
+        "date": "чт, 08.10",
+        "time": "18:00",
+        "place": "Kino Aero",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55501"
+      },
+      {
+        "id": "pritomnost-55393",
+        "start": "2026-10-09T17:00:00+02:00",
+        "weekday": 5,
+        "date": "пт, 09.10",
+        "time": "17:00",
+        "place": "Kino Přítomnost",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55393"
+      },
+      {
+        "id": "svetozor-55440",
+        "start": "2026-10-09T20:30:00+02:00",
+        "weekday": 5,
+        "date": "пт, 09.10",
+        "time": "20:30",
+        "place": "Kino Světozor",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55440"
+      },
+      {
+        "id": "svetozor-55453",
+        "start": "2026-10-10T12:45:00+02:00",
+        "weekday": 6,
+        "date": "сб, 10.10",
+        "time": "12:45",
+        "place": "Kino Světozor",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55453"
+      },
+      {
+        "id": "lucerna-55407",
+        "start": "2026-10-10T15:45:00+02:00",
+        "weekday": 6,
+        "date": "сб, 10.10",
+        "time": "15:45",
+        "place": "Kino Lucerna",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55407"
+      },
+      {
+        "id": "bio-oko-55484",
+        "start": "2026-10-10T17:30:00+02:00",
+        "weekday": 6,
+        "date": "сб, 10.10",
+        "time": "17:30",
+        "place": "Bio Oko",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55484"
+      },
+      {
+        "id": "svetozor-55441",
+        "start": "2026-10-10T20:15:00+02:00",
+        "weekday": 6,
+        "date": "сб, 10.10",
+        "time": "20:15",
+        "place": "Kino Světozor",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55441"
+      },
+      {
+        "id": "lucerna-55409",
+        "start": "2026-10-11T13:00:00+02:00",
+        "weekday": 0,
+        "date": "вс, 11.10",
+        "time": "13:00",
+        "place": "Kino Lucerna",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55409"
+      },
+      {
+        "id": "svetozor-55454",
+        "start": "2026-10-11T15:00:00+02:00",
+        "weekday": 0,
+        "date": "вс, 11.10",
+        "time": "15:00",
+        "place": "Kino Světozor",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55454"
+      },
+      {
+        "id": "lucerna-55412",
+        "start": "2026-10-12T15:30:00+02:00",
+        "weekday": 1,
+        "date": "пн, 12.10",
+        "time": "15:30",
+        "place": "Kino Lucerna",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55412"
+      },
+      {
+        "id": "aero-55505",
+        "start": "2026-10-12T18:00:00+02:00",
+        "weekday": 1,
+        "date": "пн, 12.10",
+        "time": "18:00",
+        "place": "Kino Aero",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55505"
+      },
+      {
+        "id": "bio-oko-55184",
+        "start": "2026-10-13T10:00:00+02:00",
+        "weekday": 2,
+        "date": "вт, 13.10",
+        "time": "10:00",
+        "place": "Bio Oko",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55184"
+      },
+      {
+        "id": "svetozor-55442",
+        "start": "2026-10-13T15:15:00+02:00",
+        "weekday": 2,
+        "date": "вт, 13.10",
+        "time": "15:15",
+        "place": "Kino Světozor",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55442"
+      },
+      {
+        "id": "bio-oko-55485",
+        "start": "2026-10-13T18:00:00+02:00",
+        "weekday": 2,
+        "date": "вт, 13.10",
+        "time": "18:00",
+        "place": "Bio Oko",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55485"
+      },
+      {
+        "id": "lucerna-55415",
+        "start": "2026-10-14T15:15:00+02:00",
+        "weekday": 3,
+        "date": "ср, 14.10",
+        "time": "15:15",
+        "place": "Kino Lucerna",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55415"
+      },
+      {
+        "id": "svetozor-55443",
+        "start": "2026-10-14T18:00:00+02:00",
+        "weekday": 3,
+        "date": "ср, 14.10",
+        "time": "18:00",
+        "place": "Kino Světozor",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55443"
+      },
+      {
+        "id": "lucerna-54948",
+        "start": "2026-10-21T15:00:00+02:00",
+        "weekday": 3,
+        "date": "ср, 21.10",
+        "time": "15:00",
+        "place": "Kino Lucerna",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=54948"
+      },
+      {
+        "id": "svetozor-54981",
+        "start": "2026-10-22T15:00:00+02:00",
+        "weekday": 4,
+        "date": "чт, 22.10",
+        "time": "15:00",
+        "place": "Kino Světozor",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=54981"
+      },
+      {
+        "id": "bio-oko-55198",
+        "start": "2026-10-26T15:00:00+01:00",
+        "weekday": 1,
+        "date": "пн, 26.10",
+        "time": "15:00",
+        "place": "Bio Oko",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55198"
+      },
+      {
+        "id": "aero-54900",
+        "start": "2026-10-27T15:00:00+01:00",
+        "weekday": 2,
+        "date": "вт, 27.10",
+        "time": "15:00",
+        "place": "Kino Aero",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=54900"
+      },
+      {
+        "id": "svetozor-54984",
+        "start": "2026-10-29T15:00:00+01:00",
+        "weekday": 4,
+        "date": "чт, 29.10",
+        "time": "15:00",
+        "place": "Kino Světozor",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=54984"
       }
     ]
   },
   {
+    "suggestion": true,
     "title": "Resident Evil",
     "poster": {
       "src": "https://a.ltrbxd.com/resized/film-poster/1/3/0/2/7/1/7/1302717-untitled-resident-evil-reboot-0-600-0-900-crop.jpg?v=a688bf1bc7",
@@ -253,490 +953,157 @@
     "trailerUrl": "https://www.youtube.com/watch?v=Z61Cn71i-no",
     "screenings": [
       {
-        "id": "svetozor-55242",
-        "start": "2026-10-03T18:15:00+02:00",
-        "weekday": 6,
-        "date": "сб, 03.10",
-        "time": "18:15",
-        "place": "Kino Světozor",
-        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55242"
-      },
-      {
-        "id": "bio-oko-55319",
-        "start": "2026-10-04T20:00:00+02:00",
-        "weekday": 0,
-        "date": "вс, 04.10",
-        "time": "20:00",
-        "place": "Bio Oko",
-        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55319"
-      },
-      {
-        "id": "lucerna-55268",
-        "start": "2026-10-04T20:15:00+02:00",
-        "weekday": 0,
-        "date": "вс, 04.10",
-        "time": "20:15",
-        "place": "Kino Lucerna",
-        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55268"
-      }
-    ]
-  },
-  {
-    "title": "2001: A Space Odyssey",
-    "poster": {
-      "src": "https://a.ltrbxd.com/resized/film-poster/5/1/9/8/7/51987-2001-a-space-odyssey-0-600-0-900-crop.jpg?v=a69c46a272",
-      "alt": "",
-      "local": "2001-a-space-odyssey.jpg"
-    },
-    "letterboxdUrl": "https://letterboxd.com/film/2001-a-space-odyssey/",
-    "trailerUrl": "https://www.youtube.com/watch?v=p3yujVP6DYc",
-    "screenings": [
-      {
-        "id": "aero-53484",
-        "start": "2026-09-29T20:00:00+02:00",
-        "weekday": 2,
-        "date": "вт, 29.09",
-        "time": "20:00",
+        "id": "aero-55323",
+        "start": "2026-10-05T18:00:00+02:00",
+        "weekday": 1,
+        "date": "пн, 05.10",
+        "time": "18:00",
         "place": "Kino Aero",
-        "ticketsUrl": "https://www.kinoaero.cz/en?projection=53484"
-      }
-    ]
-  },
-  {
-    "title": "The Odyssey",
-    "poster": {
-      "src": "https://a.ltrbxd.com/resized/film-poster/1/2/5/5/3/9/4/1255394-the-odyssey-2026-0-600-0-900-crop.jpg?v=1eed046d0c",
-      "alt": "",
-      "local": "the-odyssey.jpg"
-    },
-    "letterboxdUrl": "https://letterboxd.com/film/the-odyssey-2026/",
-    "trailerUrl": "https://www.youtube.com/watch?v=VplmWV6cms4",
-    "screenings": [
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55323"
+      },
       {
-        "id": "lucerna-55278",
-        "start": "2026-10-03T14:30:00+02:00",
-        "weekday": 6,
-        "date": "сб, 03.10",
-        "time": "14:30",
+        "id": "lucerna-55271",
+        "start": "2026-10-05T20:30:00+02:00",
+        "weekday": 1,
+        "date": "пн, 05.10",
+        "time": "20:30",
         "place": "Kino Lucerna",
-        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55278"
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55271"
       },
       {
-        "id": "svetozor-55213",
-        "start": "2026-10-04T14:30:00+02:00",
-        "weekday": 0,
-        "date": "вс, 04.10",
-        "time": "14:30",
-        "place": "Kino Světozor",
-        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55213"
-      }
-    ]
-  },
-  {
-    "title": "Digger",
-    "poster": {
-      "src": "https://a.ltrbxd.com/resized/film-poster/1/1/3/2/6/8/8/1132688-digger-2026-0-600-0-900-crop.jpg?v=81ec883a95",
-      "alt": "",
-      "local": "digger.jpg"
-    },
-    "letterboxdUrl": "https://letterboxd.com/film/digger-2026/",
-    "trailerUrl": "https://www.youtube.com/watch?v=BuGKVIuWiOg",
-    "screenings": [
-      {
-        "id": "svetozor-55221",
-        "start": "2026-10-03T13:00:00+02:00",
-        "weekday": 6,
-        "date": "сб, 03.10",
-        "time": "13:00",
-        "place": "Kino Světozor",
-        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55221"
+        "id": "lucerna-55275",
+        "start": "2026-10-06T20:30:00+02:00",
+        "weekday": 2,
+        "date": "вт, 06.10",
+        "time": "20:30",
+        "place": "Kino Lucerna",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55275"
       },
       {
-        "id": "bio-oko-55327",
-        "start": "2026-10-03T17:30:00+02:00",
-        "weekday": 6,
-        "date": "сб, 03.10",
+        "id": "svetozor-55243",
+        "start": "2026-10-07T20:30:00+02:00",
+        "weekday": 3,
+        "date": "ср, 07.10",
+        "time": "20:30",
+        "place": "Kino Světozor",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55243"
+      },
+      {
+        "id": "lucerna-55403",
+        "start": "2026-10-08T17:30:00+02:00",
+        "weekday": 4,
+        "date": "чт, 08.10",
         "time": "17:30",
-        "place": "Bio Oko",
-        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55327"
+        "place": "Kino Lucerna",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55403"
       },
       {
-        "id": "bio-oko-55328",
-        "start": "2026-10-04T12:00:00+02:00",
-        "weekday": 0,
-        "date": "вс, 04.10",
-        "time": "12:00",
-        "place": "Bio Oko",
-        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55328"
-      },
-      {
-        "id": "pritomnost-55177",
-        "start": "2026-10-04T17:00:00+02:00",
-        "weekday": 0,
-        "date": "вс, 04.10",
-        "time": "17:00",
-        "place": "Kino Přítomnost",
-        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55177"
-      },
-      {
-        "id": "svetozor-55222",
-        "start": "2026-10-04T17:45:00+02:00",
-        "weekday": 0,
-        "date": "вс, 04.10",
-        "time": "17:45",
-        "place": "Kino Světozor",
-        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55222"
-      },
-      {
-        "id": "aero-55322",
-        "start": "2026-10-04T20:00:00+02:00",
-        "weekday": 0,
-        "date": "вс, 04.10",
-        "time": "20:00",
-        "place": "Kino Aero",
-        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55322"
-      },
-      {
-        "id": "pritomnost-54887",
-        "start": "2026-10-11T11:00:00+02:00",
-        "weekday": 0,
-        "date": "вс, 11.10",
-        "time": "11:00",
-        "place": "Kino Přítomnost",
-        "ticketsUrl": "https://www.kinoaero.cz/en?projection=54887"
-      }
-    ]
-  },
-  {
-    "title": "Verity",
-    "poster": {
-      "src": "https://a.ltrbxd.com/resized/film-poster/1/1/6/7/1/5/1/1167151-verity-2026-0-600-0-900-crop.jpg?v=3169444893",
-      "alt": "",
-      "local": "verity.jpg"
-    },
-    "letterboxdUrl": "https://letterboxd.com/film/verity-2026/",
-    "trailerUrl": "https://www.youtube.com/watch?v=LNl82sjXH_g",
-    "screenings": [
-      {
-        "id": "bio-oko-55332",
-        "start": "2026-10-03T12:30:00+02:00",
-        "weekday": 6,
-        "date": "сб, 03.10",
-        "time": "12:30",
-        "place": "Bio Oko",
-        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55332"
-      },
-      {
-        "id": "svetozor-55245",
-        "start": "2026-10-03T15:30:00+02:00",
-        "weekday": 6,
-        "date": "сб, 03.10",
-        "time": "15:30",
-        "place": "Kino Světozor",
-        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55245"
-      },
-      {
-        "id": "pritomnost-55178",
-        "start": "2026-10-04T20:30:00+02:00",
-        "weekday": 0,
-        "date": "вс, 04.10",
-        "time": "20:30",
-        "place": "Kino Přítomnost",
-        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55178"
-      }
-    ]
-  },
-  {
-    "title": "The Secret World of Arrietty",
-    "poster": {
-      "src": "https://a.ltrbxd.com/resized/sm/upload/ba/5u/k5/he/arietty-0-600-0-900-crop.jpg?v=c291004a3a",
-      "alt": "",
-      "local": "the-secret-world-of-arrietty.jpg"
-    },
-    "letterboxdUrl": "https://letterboxd.com/film/the-secret-world-of-arrietty/",
-    "trailerUrl": "https://www.youtube.com/watch?v=QfkrMq2G71g?si=lV7KYgUntI9dIVaw&amp;t=6",
-    "screenings": [
-      {
-        "id": "bio-oko-55314",
-        "start": "2026-10-01T18:00:00+02:00",
+        "id": "svetozor-55444",
+        "start": "2026-10-08T20:30:00+02:00",
         "weekday": 4,
-        "date": "чт, 01.10",
-        "time": "18:00",
-        "place": "Bio Oko",
-        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55314"
-      }
-    ]
-  },
-  {
-    "title": "21 Grams",
-    "poster": {
-      "src": "https://a.ltrbxd.com/resized/sm/upload/ee/gx/q4/xd/Aps7GzrYiJZKHNT524Rsg4jaXej-0-600-0-900-crop.jpg?v=e37943795b",
-      "alt": "",
-      "local": "21-grams.jpg"
-    },
-    "letterboxdUrl": "https://letterboxd.com/film/21-grams/",
-    "trailerUrl": "https://www.youtube.com/watch?v=wgd8-aryLYI",
-    "screenings": [
-      {
-        "id": "aero-53485",
-        "start": "2026-10-01T18:01:00+02:00",
-        "weekday": 4,
-        "date": "чт, 01.10",
-        "time": "18:01",
-        "place": "Kino Aero",
-        "ticketsUrl": "https://www.kinoaero.cz/en?projection=53485"
-      }
-    ]
-  },
-  {
-    "title": "Coraline",
-    "poster": {
-      "src": "https://a.ltrbxd.com/resized/film-poster/4/2/7/7/9/42779-coraline-0-600-0-900-crop.jpg?v=b792483e2a",
-      "alt": "",
-      "local": "coraline.jpg"
-    },
-    "letterboxdUrl": "https://letterboxd.com/film/coraline/",
-    "trailerUrl": null,
-    "screenings": [
-      {
-        "id": "aero-54903",
-        "start": "2026-10-02T18:00:00+02:00",
-        "weekday": 5,
-        "date": "пт, 02.10",
-        "time": "18:00",
-        "place": "Kino Aero",
-        "ticketsUrl": "https://www.kinoaero.cz/en?projection=54903"
-      },
-      {
-        "id": "bio-oko-55167",
-        "start": "2026-10-03T15:00:00+02:00",
-        "weekday": 6,
-        "date": "сб, 03.10",
-        "time": "15:00",
-        "place": "Bio Oko",
-        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55167"
-      },
-      {
-        "id": "bio-oko-55169",
-        "start": "2026-10-13T20:30:00+02:00",
-        "weekday": 2,
-        "date": "вт, 13.10",
+        "date": "чт, 08.10",
         "time": "20:30",
-        "place": "Bio Oko",
-        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55169"
+        "place": "Kino Světozor",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55444"
       },
       {
-        "id": "aero-55152",
-        "start": "2026-10-27T18:01:00+01:00",
-        "weekday": 2,
-        "date": "вт, 27.10",
-        "time": "18:01",
-        "place": "Kino Aero",
-        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55152"
-      }
-    ]
-  },
-  {
-    "title": "Donnie Darko",
-    "poster": {
-      "src": "https://a.ltrbxd.com/resized/sm/upload/ye/jq/f3/22/nmb4QhCRmdfNP6rgb81yUFgI83l-0-600-0-900-crop.jpg?v=caa3999c6f",
-      "alt": "",
-      "local": "donnie-darko.jpg"
-    },
-    "letterboxdUrl": "https://letterboxd.com/film/donnie-darko/",
-    "trailerUrl": "https://www.youtube.com/watch?v=VD3s2us-MF8",
-    "screenings": [
-      {
-        "id": "aero-53487",
-        "start": "2026-10-02T20:30:00+02:00",
-        "weekday": 5,
-        "date": "пт, 02.10",
-        "time": "20:30",
-        "place": "Kino Aero",
-        "ticketsUrl": "https://www.kinoaero.cz/en?projection=53487"
-      },
-      {
-        "id": "bio-oko-55166",
-        "start": "2026-10-09T20:30:00+02:00",
+        "id": "aero-55503",
+        "start": "2026-10-09T18:00:00+02:00",
         "weekday": 5,
         "date": "пт, 09.10",
-        "time": "20:30",
-        "place": "Bio Oko",
-        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55166"
+        "time": "18:00",
+        "place": "Kino Aero",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55503"
       },
       {
-        "id": "aero-54918",
-        "start": "2026-10-30T20:30:00+01:00",
-        "weekday": 5,
-        "date": "пт, 30.10",
-        "time": "20:30",
-        "place": "Kino Aero",
-        "ticketsUrl": "https://www.kinoaero.cz/en?projection=54918"
-      }
-    ]
-  },
-  {
-    "title": "Arco",
-    "poster": {
-      "src": "https://a.ltrbxd.com/resized/film-poster/7/2/1/5/6/6/721566-arco-0-600-0-900-crop.jpg?v=dcaae85d56",
-      "alt": "",
-      "local": "arco.jpg"
-    },
-    "letterboxdUrl": "https://letterboxd.com/film/arco/",
-    "trailerUrl": "https://www.youtube.com/watch?v=e4RrOe8IbI8",
-    "screenings": [
-      {
-        "id": "lucerna-54653",
-        "start": "2026-10-03T15:15:00+02:00",
+        "id": "bio-oko-55486",
+        "start": "2026-10-10T20:00:00+02:00",
         "weekday": 6,
-        "date": "сб, 03.10",
-        "time": "15:15",
-        "place": "Kino Lucerna",
-        "ticketsUrl": "https://www.kinoaero.cz/en?projection=54653"
-      }
-    ]
-  },
-  {
-    "title": "The Rocky Horror Picture Show",
-    "poster": {
-      "src": "https://a.ltrbxd.com/resized/film-poster/2/7/6/9/8/27698-the-rocky-horror-picture-show-0-600-0-900-crop.jpg?v=737e51d6bc",
-      "alt": "",
-      "local": "the-rocky-horror-picture-show.jpg"
-    },
-    "letterboxdUrl": "https://letterboxd.com/film/the-rocky-horror-picture-show/",
-    "trailerUrl": "https://www.youtube.com/watch?v=52JoNp6v82Y",
-    "screenings": [
-      {
-        "id": "aero-53488",
-        "start": "2026-10-03T19:00:00+02:00",
-        "weekday": 6,
-        "date": "сб, 03.10",
-        "time": "19:00",
-        "place": "Kino Aero",
-        "ticketsUrl": "https://www.kinoaero.cz/en?projection=53488"
-      }
-    ]
-  },
-  {
-    "title": "Arrival",
-    "poster": {
-      "src": "https://a.ltrbxd.com/resized/sm/upload/3u/dy/qd/qd/4Iu5f2nv7huqvuYkmZvSPOtbFjs-0-600-0-900-crop.jpg?v=0fc28fdf2c",
-      "alt": "",
-      "local": "arrival.jpg"
-    },
-    "letterboxdUrl": "https://letterboxd.com/film/arrival-2016/",
-    "trailerUrl": "https://www.youtube.com/watch?v=amzGB-YVFjc",
-    "screenings": [
-      {
-        "id": "lucerna-54658",
-        "start": "2026-10-03T20:00:00+02:00",
-        "weekday": 6,
-        "date": "сб, 03.10",
+        "date": "сб, 10.10",
         "time": "20:00",
-        "place": "Kino Lucerna",
-        "ticketsUrl": "https://www.kinoaero.cz/en?projection=54658"
-      }
-    ]
-  },
-  {
-    "title": "Emergent City",
-    "poster": {
-      "src": "https://a.ltrbxd.com/resized/film-poster/1/1/6/1/9/3/5/1161935-emergent-city-0-600-0-900-crop.jpg?v=43e325c292",
-      "alt": "",
-      "local": "emergent-city.jpg"
-    },
-    "letterboxdUrl": "https://letterboxd.com/film/emergent-city/",
-    "trailerUrl": "https://www.youtube.com/watch?v=NjEyURzxv90",
-    "screenings": [
+        "place": "Bio Oko",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55486"
+      },
       {
-        "id": "svetozor-54305",
-        "start": "2026-10-03T20:15:00+02:00",
-        "weekday": 6,
-        "date": "сб, 03.10",
+        "id": "svetozor-55445",
+        "start": "2026-10-11T20:15:00+02:00",
+        "weekday": 0,
+        "date": "вс, 11.10",
         "time": "20:15",
         "place": "Kino Světozor",
-        "ticketsUrl": "https://www.kinoaero.cz/en?projection=54305"
-      }
-    ]
-  },
-  {
-    "title": "Born in the Jungle",
-    "poster": {
-      "src": "https://a.ltrbxd.com/resized/film-poster/8/5/1/7/3/0/851730-born-in-the-jungle-0-600-0-900-crop.jpg?v=68da9b7fb7",
-      "alt": "",
-      "local": "born-in-the-jungle.jpg"
-    },
-    "letterboxdUrl": "https://letterboxd.com/film/born-in-the-jungle/",
-    "trailerUrl": "https://www.youtube.com/watch?v=7U0rVflIuWU",
-    "screenings": [
-      {
-        "id": "bio-oko-55333",
-        "start": "2026-10-04T10:00:00+02:00",
-        "weekday": 0,
-        "date": "вс, 04.10",
-        "time": "10:00",
-        "place": "Bio Oko",
-        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55333"
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55445"
       },
       {
-        "id": "bio-oko-55200",
-        "start": "2026-10-29T15:00:00+01:00",
-        "weekday": 4,
-        "date": "чт, 29.10",
-        "time": "15:00",
-        "place": "Bio Oko",
-        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55200"
-      }
-    ]
-  },
-  {
-    "title": "The Invite",
-    "poster": {
-      "src": "https://a.ltrbxd.com/resized/film-poster/8/5/4/8/3/1/854831-the-invite-2026-0-600-0-900-crop.jpg?v=ee72905e48",
-      "alt": "",
-      "local": "the-invite.jpg"
-    },
-    "letterboxdUrl": "https://letterboxd.com/film/the-invite-2026/",
-    "trailerUrl": "https://www.youtube.com/watch?v=fRBFIc7g4gc",
-    "screenings": [
-      {
-        "id": "svetozor-55251",
-        "start": "2026-10-04T12:30:00+02:00",
-        "weekday": 0,
-        "date": "вс, 04.10",
-        "time": "12:30",
+        "id": "svetozor-55446",
+        "start": "2026-10-14T20:30:00+02:00",
+        "weekday": 3,
+        "date": "ср, 14.10",
+        "time": "20:30",
         "place": "Kino Světozor",
-        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55251"
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55446"
       }
     ]
   },
   {
-    "title": "Coyote vs. Acme",
+    "title": "Hope",
     "poster": {
-      "src": "https://a.ltrbxd.com/resized/film-poster/1/0/8/9/0/8/8/1089088-coyote-vs-acme-0-600-0-900-crop.jpg?v=735eb10cc7",
+      "src": "https://a.ltrbxd.com/resized/film-poster/9/5/4/6/6/3/954663-hope-2026-0-600-0-900-crop.jpg?v=102a8bfda2",
       "alt": "",
-      "local": "coyote-vs.-acme.jpg"
+      "local": "hope.jpg"
     },
-    "letterboxdUrl": "https://letterboxd.com/film/coyote-vs-acme/",
-    "trailerUrl": null,
+    "letterboxdUrl": "https://letterboxd.com/film/hope-2026/",
+    "trailerUrl": "https://www.youtube.com/watch?v=iD8Nu8lUy74",
     "screenings": [
       {
-        "id": "aero-55320",
-        "start": "2026-10-04T15:00:00+02:00",
-        "weekday": 0,
-        "date": "вс, 04.10",
-        "time": "15:00",
-        "place": "Kino Aero",
-        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55320"
-      },
+        "id": "svetozor-55217",
+        "start": "2026-10-05T20:00:00+02:00",
+        "weekday": 1,
+        "date": "пн, 05.10",
+        "time": "20:00",
+        "place": "Kino Světozor",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55217"
+      }
+    ]
+  },
+  {
+    "title": "The Adventures of Priscilla, Queen of the Desert",
+    "poster": {
+      "src": "https://a.ltrbxd.com/resized/sm/upload/ip/ay/kf/iq/pmHRJPlAEiYATBIgKAa0IyY6Or7-0-600-0-900-crop.jpg?v=be718dd3bb",
+      "alt": "",
+      "local": "the-adventures-of-priscilla-queen-of-the-desert.jpg"
+    },
+    "letterboxdUrl": "https://letterboxd.com/film/the-adventures-of-priscilla-queen-of-the-desert/",
+    "trailerUrl": "https://www.youtube.com/watch?v=GDwbKnKUzBs",
+    "screenings": [
       {
-        "id": "aero-54902",
-        "start": "2026-10-30T15:00:00+01:00",
-        "weekday": 5,
-        "date": "пт, 30.10",
-        "time": "15:00",
+        "id": "aero-53489",
+        "start": "2026-10-05T20:30:00+02:00",
+        "weekday": 1,
+        "date": "пн, 05.10",
+        "time": "20:30",
         "place": "Kino Aero",
-        "ticketsUrl": "https://www.kinoaero.cz/en?projection=54902"
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=53489"
+      }
+    ]
+  },
+  {
+    "title": "The History of Concrete",
+    "poster": {
+      "src": "https://a.ltrbxd.com/resized/film-poster/1/4/6/4/8/3/5/1464835-the-history-of-concrete-0-600-0-900-crop.jpg?v=a9805b24e4",
+      "alt": "",
+      "local": "the-history-of-concrete.jpg"
+    },
+    "letterboxdUrl": "https://letterboxd.com/film/the-history-of-concrete/",
+    "trailerUrl": "https://www.youtube.com/watch?v=hF7vGlfTg6w",
+    "screenings": [
+      {
+        "id": "svetozor-54000",
+        "start": "2026-10-05T20:30:00+02:00",
+        "weekday": 1,
+        "date": "пн, 05.10",
+        "time": "20:30",
+        "place": "Kino Světozor",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=54000"
       }
     ]
   },
@@ -758,6 +1125,96 @@
         "time": "20:30",
         "place": "Bio Oko",
         "ticketsUrl": "https://www.kinoaero.cz/en?projection=55337"
+      },
+      {
+        "id": "svetozor-55464",
+        "start": "2026-10-08T18:00:00+02:00",
+        "weekday": 4,
+        "date": "чт, 08.10",
+        "time": "18:00",
+        "place": "Kino Světozor",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55464"
+      },
+      {
+        "id": "aero-55502",
+        "start": "2026-10-08T20:30:00+02:00",
+        "weekday": 4,
+        "date": "чт, 08.10",
+        "time": "20:30",
+        "place": "Kino Aero",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55502"
+      },
+      {
+        "id": "svetozor-55465",
+        "start": "2026-10-09T18:00:00+02:00",
+        "weekday": 5,
+        "date": "пт, 09.10",
+        "time": "18:00",
+        "place": "Kino Světozor",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55465"
+      },
+      {
+        "id": "lucerna-55414",
+        "start": "2026-10-10T15:30:00+02:00",
+        "weekday": 6,
+        "date": "сб, 10.10",
+        "time": "15:30",
+        "place": "Kino Lucerna",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55414"
+      },
+      {
+        "id": "pritomnost-55395",
+        "start": "2026-10-10T17:30:00+02:00",
+        "weekday": 6,
+        "date": "сб, 10.10",
+        "time": "17:30",
+        "place": "Kino Přítomnost",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55395"
+      },
+      {
+        "id": "svetozor-55466",
+        "start": "2026-10-10T18:00:00+02:00",
+        "weekday": 6,
+        "date": "сб, 10.10",
+        "time": "18:00",
+        "place": "Kino Světozor",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55466"
+      },
+      {
+        "id": "svetozor-55457",
+        "start": "2026-10-11T17:30:00+02:00",
+        "weekday": 0,
+        "date": "вс, 11.10",
+        "time": "17:30",
+        "place": "Kino Světozor",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55457"
+      },
+      {
+        "id": "svetozor-55431",
+        "start": "2026-10-12T20:30:00+02:00",
+        "weekday": 1,
+        "date": "пн, 12.10",
+        "time": "20:30",
+        "place": "Kino Světozor",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55431"
+      },
+      {
+        "id": "pritomnost-55397",
+        "start": "2026-10-13T17:30:00+02:00",
+        "weekday": 2,
+        "date": "вт, 13.10",
+        "time": "17:30",
+        "place": "Kino Přítomnost",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55397"
+      },
+      {
+        "id": "svetozor-55467",
+        "start": "2026-10-14T20:30:00+02:00",
+        "weekday": 3,
+        "date": "ср, 14.10",
+        "time": "20:30",
+        "place": "Kino Světozor",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55467"
       }
     ]
   },
@@ -783,6 +1240,333 @@
     ]
   },
   {
+    "suggestion": true,
+    "title": "The Odyssey",
+    "poster": {
+      "src": "https://a.ltrbxd.com/resized/film-poster/1/2/5/5/3/9/4/1255394-the-odyssey-2026-0-600-0-900-crop.jpg?v=1eed046d0c",
+      "alt": "",
+      "local": "the-odyssey.jpg"
+    },
+    "letterboxdUrl": "https://letterboxd.com/film/the-odyssey-2026/",
+    "trailerUrl": "https://www.youtube.com/watch?v=VplmWV6cms4",
+    "screenings": [
+      {
+        "id": "bio-oko-55183",
+        "start": "2026-10-06T10:00:00+02:00",
+        "weekday": 2,
+        "date": "вт, 06.10",
+        "time": "10:00",
+        "place": "Bio Oko",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55183"
+      },
+      {
+        "id": "svetozor-55214",
+        "start": "2026-10-06T19:45:00+02:00",
+        "weekday": 2,
+        "date": "вт, 06.10",
+        "time": "19:45",
+        "place": "Kino Světozor",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55214"
+      },
+      {
+        "id": "svetozor-55215",
+        "start": "2026-10-07T20:00:00+02:00",
+        "weekday": 3,
+        "date": "ср, 07.10",
+        "time": "20:00",
+        "place": "Kino Světozor",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55215"
+      },
+      {
+        "id": "aero-54892",
+        "start": "2026-10-08T13:30:00+02:00",
+        "weekday": 4,
+        "date": "чт, 08.10",
+        "time": "13:30",
+        "place": "Kino Aero",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=54892"
+      },
+      {
+        "id": "svetozor-55472",
+        "start": "2026-10-10T12:15:00+02:00",
+        "weekday": 6,
+        "date": "сб, 10.10",
+        "time": "12:15",
+        "place": "Kino Světozor",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55472"
+      },
+      {
+        "id": "bio-oko-55196",
+        "start": "2026-10-20T13:00:00+02:00",
+        "weekday": 2,
+        "date": "вт, 20.10",
+        "time": "13:00",
+        "place": "Bio Oko",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55196"
+      },
+      {
+        "id": "lucerna-54950",
+        "start": "2026-10-26T14:30:00+01:00",
+        "weekday": 1,
+        "date": "пн, 26.10",
+        "time": "14:30",
+        "place": "Kino Lucerna",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=54950"
+      }
+    ]
+  },
+  {
+    "title": "The Samurai and the Prisoner",
+    "poster": {
+      "src": "https://a.ltrbxd.com/resized/film-poster/1/4/8/8/8/2/0/1488820-the-samurai-and-the-prisoner-0-600-0-900-crop.jpg?v=45ed2fe898",
+      "alt": "",
+      "local": "the-samurai-and-the-prisoner.jpg"
+    },
+    "letterboxdUrl": "https://letterboxd.com/film/the-samurai-and-the-prisoner/",
+    "trailerUrl": "https://www.youtube.com/watch?v=nyCLgg4G5dw",
+    "screenings": [
+      {
+        "id": "bio-oko-55190",
+        "start": "2026-10-06T13:30:00+02:00",
+        "weekday": 2,
+        "date": "вт, 06.10",
+        "time": "13:30",
+        "place": "Bio Oko",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55190"
+      },
+      {
+        "id": "aero-54898",
+        "start": "2026-10-22T13:30:00+02:00",
+        "weekday": 4,
+        "date": "чт, 22.10",
+        "time": "13:30",
+        "place": "Kino Aero",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=54898"
+      }
+    ]
+  },
+  {
+    "title": "Five plums",
+    "poster": {
+      "src": "https://a.ltrbxd.com/resized/film-poster/1/5/4/3/4/1/6/1543416-pet-svestek-0-600-0-900-crop.jpg?v=b0bc5220fb",
+      "alt": "",
+      "local": "five-plums.jpg"
+    },
+    "letterboxdUrl": "https://letterboxd.com/film/five-plums/",
+    "trailerUrl": "https://www.youtube.com/watch?v=Kmjyl3BhWM0",
+    "screenings": [
+      {
+        "id": "svetozor-54974",
+        "start": "2026-10-06T15:00:00+02:00",
+        "weekday": 2,
+        "date": "вт, 06.10",
+        "time": "15:00",
+        "place": "Kino Světozor",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=54974"
+      },
+      {
+        "id": "lucerna-54946",
+        "start": "2026-10-16T13:00:00+02:00",
+        "weekday": 5,
+        "date": "пт, 16.10",
+        "time": "13:00",
+        "place": "Kino Lucerna",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=54946"
+      }
+    ]
+  },
+  {
+    "title": "Lone Wolf",
+    "poster": {
+      "src": "https://a.ltrbxd.com/resized/film-poster/1/5/9/9/1/8/2/1599182-lone-wolf-2026-0-600-0-900-crop.jpg?v=1d63a7a9ab",
+      "alt": "",
+      "local": "lone-wolf.jpg"
+    },
+    "letterboxdUrl": "https://letterboxd.com/film/lone-wolf-2026/",
+    "trailerUrl": "https://www.youtube.com/watch?v=cQguQ4c-ZhI",
+    "screenings": [
+      {
+        "id": "aero-54891",
+        "start": "2026-10-06T15:00:00+02:00",
+        "weekday": 2,
+        "date": "вт, 06.10",
+        "time": "15:00",
+        "place": "Kino Aero",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=54891"
+      },
+      {
+        "id": "lucerna-54943",
+        "start": "2026-10-09T13:00:00+02:00",
+        "weekday": 5,
+        "date": "пт, 09.10",
+        "time": "13:00",
+        "place": "Kino Lucerna",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=54943"
+      }
+    ]
+  },
+  {
+    "suggestion": true,
+    "title": "The Christophers",
+    "poster": {
+      "src": "https://a.ltrbxd.com/resized/film-poster/1/2/8/3/6/8/4/1283684-the-christophers-0-600-0-900-crop.jpg?v=4269379fb4",
+      "alt": "",
+      "local": "the-christophers.jpg"
+    },
+    "letterboxdUrl": "https://letterboxd.com/film/the-christophers/",
+    "trailerUrl": "https://www.youtube.com/watch?v=5YhJ717PDwY",
+    "screenings": [
+      {
+        "id": "svetozor-55250",
+        "start": "2026-10-06T15:15:00+02:00",
+        "weekday": 2,
+        "date": "вт, 06.10",
+        "time": "15:15",
+        "place": "Kino Světozor",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55250"
+      },
+      {
+        "id": "lucerna-55277",
+        "start": "2026-10-07T15:15:00+02:00",
+        "weekday": 3,
+        "date": "ср, 07.10",
+        "time": "15:15",
+        "place": "Kino Lucerna",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55277"
+      },
+      {
+        "id": "svetozor-54976",
+        "start": "2026-10-09T15:00:00+02:00",
+        "weekday": 5,
+        "date": "пт, 09.10",
+        "time": "15:00",
+        "place": "Kino Světozor",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=54976"
+      },
+      {
+        "id": "svetozor-55451",
+        "start": "2026-10-11T13:00:00+02:00",
+        "weekday": 0,
+        "date": "вс, 11.10",
+        "time": "13:00",
+        "place": "Kino Světozor",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55451"
+      },
+      {
+        "id": "lucerna-55411",
+        "start": "2026-10-11T15:30:00+02:00",
+        "weekday": 0,
+        "date": "вс, 11.10",
+        "time": "15:30",
+        "place": "Kino Lucerna",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55411"
+      },
+      {
+        "id": "lucerna-55413",
+        "start": "2026-10-13T15:30:00+02:00",
+        "weekday": 2,
+        "date": "вт, 13.10",
+        "time": "15:30",
+        "place": "Kino Lucerna",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55413"
+      },
+      {
+        "id": "svetozor-55452",
+        "start": "2026-10-14T15:30:00+02:00",
+        "weekday": 3,
+        "date": "ср, 14.10",
+        "time": "15:30",
+        "place": "Kino Světozor",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55452"
+      },
+      {
+        "id": "bio-oko-55195",
+        "start": "2026-10-19T15:00:00+02:00",
+        "weekday": 1,
+        "date": "пн, 19.10",
+        "time": "15:00",
+        "place": "Bio Oko",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55195"
+      },
+      {
+        "id": "bio-oko-55186",
+        "start": "2026-10-27T10:00:00+01:00",
+        "weekday": 2,
+        "date": "вт, 27.10",
+        "time": "10:00",
+        "place": "Bio Oko",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55186"
+      },
+      {
+        "id": "aero-54901",
+        "start": "2026-10-29T13:30:00+01:00",
+        "weekday": 4,
+        "date": "чт, 29.10",
+        "time": "13:30",
+        "place": "Kino Aero",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=54901"
+      }
+    ]
+  },
+  {
+    "title": "Verity",
+    "poster": {
+      "src": "https://a.ltrbxd.com/resized/film-poster/1/1/6/7/1/5/1/1167151-verity-2026-0-600-0-900-crop.jpg?v=3169444893",
+      "alt": "",
+      "local": "verity.jpg"
+    },
+    "letterboxdUrl": "https://letterboxd.com/film/verity-2026/",
+    "trailerUrl": "https://www.youtube.com/watch?v=LNl82sjXH_g",
+    "screenings": [
+      {
+        "id": "svetozor-55246",
+        "start": "2026-10-06T20:15:00+02:00",
+        "weekday": 2,
+        "date": "вт, 06.10",
+        "time": "20:15",
+        "place": "Kino Světozor",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55246"
+      },
+      {
+        "id": "svetozor-55247",
+        "start": "2026-10-07T18:00:00+02:00",
+        "weekday": 3,
+        "date": "ср, 07.10",
+        "time": "18:00",
+        "place": "Kino Světozor",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55247"
+      },
+      {
+        "id": "pritomnost-54971",
+        "start": "2026-10-09T20:00:00+02:00",
+        "weekday": 5,
+        "date": "пт, 09.10",
+        "time": "20:00",
+        "place": "Kino Přítomnost",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=54971"
+      },
+      {
+        "id": "pritomnost-55396",
+        "start": "2026-10-11T20:30:00+02:00",
+        "weekday": 0,
+        "date": "вс, 11.10",
+        "time": "20:30",
+        "place": "Kino Přítomnost",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55396"
+      },
+      {
+        "id": "pritomnost-55398",
+        "start": "2026-10-14T17:30:00+02:00",
+        "weekday": 3,
+        "date": "ср, 14.10",
+        "time": "17:30",
+        "place": "Kino Přítomnost",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55398"
+      }
+    ]
+  },
+  {
+    "suggestion": true,
     "title": "Minotaur",
     "poster": {
       "src": "https://a.ltrbxd.com/resized/film-poster/7/6/3/3/3/9/763339-minotaur-2026-0-600-0-900-crop.jpg?v=e55e5e7945",
@@ -822,6 +1606,7 @@
     ]
   },
   {
+    "suggestion": true,
     "title": "ParaNorman",
     "poster": {
       "src": "https://a.ltrbxd.com/resized/film-poster/6/3/6/1/8/63618-paranorman-0-600-0-900-crop.jpg?v=4feb69b2ce",
@@ -852,10 +1637,40 @@
     ]
   },
   {
+    "title": "Memory of Princess Mumbi",
+    "poster": {
+      "src": "https://a.ltrbxd.com/resized/film-poster/1/3/9/5/8/8/6/1395886-memory-of-princess-mumbi-0-600-0-900-crop.jpg?v=c2830faab2",
+      "alt": "",
+      "local": "memory-of-princess-mumbi.jpg"
+    },
+    "letterboxdUrl": "https://letterboxd.com/film/memory-of-princess-mumbi/",
+    "trailerUrl": "https://www.youtube.com/watch?v=S4ay7xulYLg",
+    "screenings": [
+      {
+        "id": "lucerna-54592",
+        "start": "2026-10-07T20:15:00+02:00",
+        "weekday": 3,
+        "date": "ср, 07.10",
+        "time": "20:15",
+        "place": "Kino Lucerna",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=54592"
+      },
+      {
+        "id": "lucerna-54607",
+        "start": "2026-10-13T20:15:00+02:00",
+        "weekday": 2,
+        "date": "вт, 13.10",
+        "time": "20:15",
+        "place": "Kino Lucerna",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=54607"
+      }
+    ]
+  },
+  {
+    "suggestion": true,
     "title": "Aero naslepo",
-    "description": "Když zkusíte „Aero naslepo“, nebudete vědět, na jaký film jste se vypravili. Předem neplatíte nic. Po projekci dostanete možnost ocenit zážitek částkou, kterou si sami určíte.",
+    "letterboxdUrl": null,
     "trailerUrl": "https://boxd.it/uqXaW",
-    "infoButtonDescription": "Список фильмов предыдущих сеансов",
     "screenings": [
       {
         "id": "aero-53490",
@@ -865,10 +1680,22 @@
         "time": "20:30",
         "place": "Kino Aero",
         "ticketsUrl": "https://www.kinoaero.cz/en?projection=53490"
+      },
+      {
+        "id": "aero-54938",
+        "start": "2026-11-05T20:30:00+01:00",
+        "weekday": 4,
+        "date": "чт, 05.11",
+        "time": "20:30",
+        "place": "Kino Aero",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=54938"
       }
-    ]
+    ],
+    "description": "Když zkusíte „Aero naslepo“, nebudete vědět, na jaký film jste se vypravili. Předem neplatíte nic. Po projekci dostanete možnost ocenit zážitek částkou, kterou si sami určíte.",
+    "infoButtonDescription": "Список фильмов предыдущих сеансов"
   },
   {
+    "suggestion": true,
     "title": "Spider-Man: Brand New Day",
     "poster": {
       "src": "https://a.ltrbxd.com/resized/film-poster/8/7/2/8/7/1/872871-spider-man-brand-new-day-0-600-0-900-crop.jpg?v=ebe6beb4fc",
@@ -890,6 +1717,295 @@
     ]
   },
   {
+    "title": "Pina",
+    "poster": {
+      "src": "https://a.ltrbxd.com/resized/film-poster/8/8/7/8/8878-pina-0-600-0-900-crop.jpg?v=c8a1852ce2",
+      "alt": "",
+      "local": "pina.jpg"
+    },
+    "letterboxdUrl": "https://letterboxd.com/film/pina/",
+    "trailerUrl": null,
+    "screenings": [
+      {
+        "id": "lucerna-54593",
+        "start": "2026-10-08T18:15:00+02:00",
+        "weekday": 4,
+        "date": "чт, 08.10",
+        "time": "18:15",
+        "place": "Kino Lucerna",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=54593"
+      },
+      {
+        "id": "lucerna-54601",
+        "start": "2026-10-10T20:45:00+02:00",
+        "weekday": 6,
+        "date": "сб, 10.10",
+        "time": "20:45",
+        "place": "Kino Lucerna",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=54601"
+      },
+      {
+        "id": "lucerna-54605",
+        "start": "2026-10-12T20:45:00+02:00",
+        "weekday": 1,
+        "date": "пн, 12.10",
+        "time": "20:45",
+        "place": "Kino Lucerna",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=54605"
+      }
+    ]
+  },
+  {
+    "title": "Main Vaapas Aaunga",
+    "poster": {
+      "src": "https://a.ltrbxd.com/resized/film-poster/1/3/0/9/7/9/7/1309797-main-vaapas-aaunga-0-600-0-900-crop.jpg?v=8463d9a3f4",
+      "alt": "",
+      "local": "main-vaapas-aaunga.jpg"
+    },
+    "letterboxdUrl": "https://letterboxd.com/film/main-vaapas-aaunga/",
+    "trailerUrl": "https://www.youtube.com/watch?v=eVteADg_cT0",
+    "screenings": [
+      {
+        "id": "svetozor-54987",
+        "start": "2026-10-08T18:45:00+02:00",
+        "weekday": 4,
+        "date": "чт, 08.10",
+        "time": "18:45",
+        "place": "Kino Světozor",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=54987"
+      }
+    ]
+  },
+  {
+    "suggestion": true,
+    "title": "The Invite",
+    "poster": {
+      "src": "https://a.ltrbxd.com/resized/film-poster/8/5/4/8/3/1/854831-the-invite-2026-0-600-0-900-crop.jpg?v=ee72905e48",
+      "alt": "",
+      "local": "the-invite.jpg"
+    },
+    "letterboxdUrl": "https://letterboxd.com/film/the-invite-2026/",
+    "trailerUrl": "https://www.youtube.com/watch?v=fRBFIc7g4gc",
+    "screenings": [
+      {
+        "id": "svetozor-55447",
+        "start": "2026-10-09T15:30:00+02:00",
+        "weekday": 5,
+        "date": "пт, 09.10",
+        "time": "15:30",
+        "place": "Kino Světozor",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55447"
+      },
+      {
+        "id": "svetozor-55448",
+        "start": "2026-10-10T12:30:00+02:00",
+        "weekday": 6,
+        "date": "сб, 10.10",
+        "time": "12:30",
+        "place": "Kino Světozor",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55448"
+      },
+      {
+        "id": "svetozor-55449",
+        "start": "2026-10-11T15:30:00+02:00",
+        "weekday": 0,
+        "date": "вс, 11.10",
+        "time": "15:30",
+        "place": "Kino Světozor",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55449"
+      },
+      {
+        "id": "svetozor-55450",
+        "start": "2026-10-12T15:15:00+02:00",
+        "weekday": 1,
+        "date": "пн, 12.10",
+        "time": "15:15",
+        "place": "Kino Světozor",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55450"
+      }
+    ]
+  },
+  {
+    "title": "Cactus Pears",
+    "poster": {
+      "src": "https://a.ltrbxd.com/resized/film-poster/1/1/7/1/7/4/2/1171742-cactus-pears-0-600-0-900-crop.jpg?v=d5d71c330b",
+      "alt": "",
+      "local": "cactus-pears.jpg"
+    },
+    "letterboxdUrl": "https://letterboxd.com/film/cactus-pears/",
+    "trailerUrl": "https://www.youtube.com/watch?v=LQZ3qvjqLFo",
+    "screenings": [
+      {
+        "id": "svetozor-54988",
+        "start": "2026-10-09T17:30:00+02:00",
+        "weekday": 5,
+        "date": "пт, 09.10",
+        "time": "17:30",
+        "place": "Kino Světozor",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=54988"
+      }
+    ]
+  },
+  {
+    "suggestion": true,
+    "title": "NAZA",
+    "poster": {
+      "src": "https://a.ltrbxd.com/resized/film-poster/1/6/2/0/2/0/6/1620206-naza-0-600-0-900-crop.jpg?v=c34667d5c5",
+      "alt": "",
+      "local": "naza.jpg"
+    },
+    "letterboxdUrl": "https://letterboxd.com/film/naza/",
+    "trailerUrl": "https://www.youtube.com/watch?v=YIBRLEEaueo",
+    "screenings": [
+      {
+        "id": "bio-oko-55423",
+        "start": "2026-10-09T18:00:00+02:00",
+        "weekday": 5,
+        "date": "пт, 09.10",
+        "time": "18:00",
+        "place": "Bio Oko",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55423"
+      },
+      {
+        "id": "lucerna-55416",
+        "start": "2026-10-10T18:00:00+02:00",
+        "weekday": 6,
+        "date": "сб, 10.10",
+        "time": "18:00",
+        "place": "Kino Lucerna",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55416"
+      },
+      {
+        "id": "pritomnost-55400",
+        "start": "2026-10-11T17:30:00+02:00",
+        "weekday": 0,
+        "date": "вс, 11.10",
+        "time": "17:30",
+        "place": "Kino Přítomnost",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55400"
+      },
+      {
+        "id": "svetozor-55458",
+        "start": "2026-10-11T20:00:00+02:00",
+        "weekday": 0,
+        "date": "вс, 11.10",
+        "time": "20:00",
+        "place": "Kino Světozor",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55458"
+      },
+      {
+        "id": "bio-oko-55493",
+        "start": "2026-10-12T20:30:00+02:00",
+        "weekday": 1,
+        "date": "пн, 12.10",
+        "time": "20:30",
+        "place": "Bio Oko",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55493"
+      },
+      {
+        "id": "aero-55421",
+        "start": "2026-10-13T18:00:00+02:00",
+        "weekday": 2,
+        "date": "вт, 13.10",
+        "time": "18:00",
+        "place": "Kino Aero",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55421"
+      },
+      {
+        "id": "bio-oko-55494",
+        "start": "2026-10-14T18:00:00+02:00",
+        "weekday": 3,
+        "date": "ср, 14.10",
+        "time": "18:00",
+        "place": "Bio Oko",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55494"
+      },
+      {
+        "id": "lucerna-55420",
+        "start": "2026-10-14T20:30:00+02:00",
+        "weekday": 3,
+        "date": "ср, 14.10",
+        "time": "20:30",
+        "place": "Kino Lucerna",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55420"
+      }
+    ]
+  },
+  {
+    "title": "Red Rocks",
+    "poster": {
+      "src": "https://a.ltrbxd.com/resized/film-poster/1/1/4/9/9/1/1/1149911-red-rocks-2026-0-600-0-900-crop.jpg?v=36d50edf13",
+      "alt": "",
+      "local": "red-rocks.jpg"
+    },
+    "letterboxdUrl": "https://letterboxd.com/film/red-rocks-2026/",
+    "trailerUrl": "https://www.youtube.com/watch?v=qt8N377uUX4",
+    "screenings": [
+      {
+        "id": "lucerna-54595",
+        "start": "2026-10-09T18:15:00+02:00",
+        "weekday": 5,
+        "date": "пт, 09.10",
+        "time": "18:15",
+        "place": "Kino Lucerna",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=54595"
+      },
+      {
+        "id": "lucerna-54606",
+        "start": "2026-10-13T17:45:00+02:00",
+        "weekday": 2,
+        "date": "вт, 13.10",
+        "time": "17:45",
+        "place": "Kino Lucerna",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=54606"
+      }
+    ]
+  },
+  {
+    "title": "Cocktail 2",
+    "poster": {
+      "src": "https://a.ltrbxd.com/resized/film-poster/1/2/7/6/9/9/0/1276990-cocktail-2-0-600-0-900-crop.jpg?v=2324c1a94e",
+      "alt": "",
+      "local": "cocktail-2.jpg"
+    },
+    "letterboxdUrl": "https://letterboxd.com/film/cocktail-2/",
+    "trailerUrl": "https://www.youtube.com/watch?v=XXxUqLHq1xg",
+    "screenings": [
+      {
+        "id": "svetozor-54989",
+        "start": "2026-10-09T20:00:00+02:00",
+        "weekday": 5,
+        "date": "пт, 09.10",
+        "time": "20:00",
+        "place": "Kino Světozor",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=54989"
+      }
+    ]
+  },
+  {
+    "suggestion": true,
+    "title": "2001: A Space Odyssey",
+    "poster": {
+      "src": "https://a.ltrbxd.com/resized/film-poster/5/1/9/8/7/51987-2001-a-space-odyssey-0-600-0-900-crop.jpg?v=a69c46a272",
+      "alt": "",
+      "local": "2001-a-space-odyssey.jpg"
+    },
+    "letterboxdUrl": "https://letterboxd.com/film/2001-a-space-odyssey/",
+    "trailerUrl": "https://www.youtube.com/watch?v=p3yujVP6DYc",
+    "screenings": [
+      {
+        "id": "aero-55386",
+        "start": "2026-10-09T20:15:00+02:00",
+        "weekday": 5,
+        "date": "пт, 09.10",
+        "time": "20:15",
+        "place": "Kino Aero",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55386"
+      }
+    ]
+  },
+  {
+    "suggestion": true,
     "title": "Her Private Hell",
     "poster": {
       "src": "https://a.ltrbxd.com/resized/film-poster/1/3/4/6/0/5/7/1346057-her-private-hell-2026-0-600-0-900-crop.jpg?v=83981a64b3",
@@ -929,6 +2045,204 @@
     ]
   },
   {
+    "suggestion": true,
+    "title": "Donnie Darko",
+    "poster": {
+      "src": "https://a.ltrbxd.com/resized/sm/upload/ye/jq/f3/22/nmb4QhCRmdfNP6rgb81yUFgI83l-0-600-0-900-crop.jpg?v=caa3999c6f",
+      "alt": "",
+      "local": "donnie-darko.jpg"
+    },
+    "letterboxdUrl": "https://letterboxd.com/film/donnie-darko/",
+    "trailerUrl": "https://www.youtube.com/watch?v=VD3s2us-MF8",
+    "screenings": [
+      {
+        "id": "bio-oko-55166",
+        "start": "2026-10-09T20:30:00+02:00",
+        "weekday": 5,
+        "date": "пт, 09.10",
+        "time": "20:30",
+        "place": "Bio Oko",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55166"
+      },
+      {
+        "id": "aero-54918",
+        "start": "2026-10-30T20:30:00+01:00",
+        "weekday": 5,
+        "date": "пт, 30.10",
+        "time": "20:30",
+        "place": "Kino Aero",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=54918"
+      }
+    ]
+  },
+  {
+    "title": "Born in the Jungle",
+    "poster": {
+      "src": "https://a.ltrbxd.com/resized/film-poster/8/5/1/7/3/0/851730-born-in-the-jungle-0-600-0-900-crop.jpg?v=68da9b7fb7",
+      "alt": "",
+      "local": "born-in-the-jungle.jpg"
+    },
+    "letterboxdUrl": "https://letterboxd.com/film/born-in-the-jungle/",
+    "trailerUrl": "https://www.youtube.com/watch?v=7U0rVflIuWU",
+    "screenings": [
+      {
+        "id": "bio-oko-55482",
+        "start": "2026-10-10T10:00:00+02:00",
+        "weekday": 6,
+        "date": "сб, 10.10",
+        "time": "10:00",
+        "place": "Bio Oko",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55482"
+      },
+      {
+        "id": "bio-oko-55542",
+        "start": "2026-10-23T08:30:00+02:00",
+        "weekday": 5,
+        "date": "пт, 23.10",
+        "time": "08:30",
+        "place": "Bio Oko",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55542"
+      },
+      {
+        "id": "bio-oko-55200",
+        "start": "2026-10-29T15:00:00+01:00",
+        "weekday": 4,
+        "date": "чт, 29.10",
+        "time": "15:00",
+        "place": "Bio Oko",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55200"
+      }
+    ]
+  },
+  {
+    "suggestion": true,
+    "title": "Twilight",
+    "poster": {
+      "src": "https://a.ltrbxd.com/resized/film-poster/4/7/4/6/9/47469-twilight-0-600-0-900-crop.jpg?v=f347bd6a28",
+      "alt": "",
+      "local": "twilight.jpg"
+    },
+    "letterboxdUrl": "https://letterboxd.com/film/twilight-2008/",
+    "trailerUrl": "https://www.youtube.com/watch?v=OTdcS7WLFF0",
+    "screenings": [
+      {
+        "id": "aero-53491",
+        "start": "2026-10-10T11:31:00+02:00",
+        "weekday": 6,
+        "date": "сб, 10.10",
+        "time": "11:31",
+        "place": "Kino Aero",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=53491"
+      }
+    ]
+  },
+  {
+    "title": "The Twilight Saga: New Moon",
+    "poster": {
+      "src": "https://a.ltrbxd.com/resized/film-poster/4/0/4/8/0/40480-the-twilight-saga-new-moon-0-600-0-900-crop.jpg?v=ba5ab4ba1e",
+      "alt": "",
+      "local": "the-twilight-saga-new-moon.jpg"
+    },
+    "letterboxdUrl": "https://letterboxd.com/film/the-twilight-saga-new-moon/",
+    "trailerUrl": "https://www.youtube.com/watch?v=q58iQSHhZGg",
+    "screenings": [
+      {
+        "id": "aero-53492",
+        "start": "2026-10-10T14:15:00+02:00",
+        "weekday": 6,
+        "date": "сб, 10.10",
+        "time": "14:15",
+        "place": "Kino Aero",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=53492"
+      }
+    ]
+  },
+  {
+    "title": "Rang De Basanti",
+    "poster": {
+      "src": "https://a.ltrbxd.com/resized/film-poster/4/7/9/5/5/47955-rang-de-basanti-0-600-0-900-crop.jpg?v=8914b4872e",
+      "alt": "",
+      "local": "rang-de-basanti.jpg"
+    },
+    "letterboxdUrl": "https://letterboxd.com/film/rang-de-basanti/",
+    "trailerUrl": "https://www.youtube.com/watch?v=QHhnhqxB4E8",
+    "screenings": [
+      {
+        "id": "svetozor-54990",
+        "start": "2026-10-10T15:30:00+02:00",
+        "weekday": 6,
+        "date": "сб, 10.10",
+        "time": "15:30",
+        "place": "Kino Světozor",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=54990"
+      }
+    ]
+  },
+  {
+    "title": "The Twilight Saga: Eclipse",
+    "poster": {
+      "src": "https://a.ltrbxd.com/resized/film-poster/3/7/0/8/8/37088-the-twilight-saga-eclipse-0-600-0-900-crop.jpg?v=b7981ac336",
+      "alt": "",
+      "local": "the-twilight-saga-eclipse.jpg"
+    },
+    "letterboxdUrl": "https://letterboxd.com/film/the-twilight-saga-eclipse/",
+    "trailerUrl": "https://www.youtube.com/watch?v=hZxJzhIPTTg",
+    "screenings": [
+      {
+        "id": "aero-53493",
+        "start": "2026-10-10T17:00:00+02:00",
+        "weekday": 6,
+        "date": "сб, 10.10",
+        "time": "17:00",
+        "place": "Kino Aero",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=53493"
+      }
+    ]
+  },
+  {
+    "title": "Thamma",
+    "poster": {
+      "src": "https://a.ltrbxd.com/resized/film-poster/1/0/8/1/8/5/3/1081853-thamma-0-600-0-900-crop.jpg?v=99254409f6",
+      "alt": "",
+      "local": "thamma.jpg"
+    },
+    "letterboxdUrl": "https://letterboxd.com/film/thamma/",
+    "trailerUrl": "https://www.youtube.com/watch?v=Mod_oXpftJA",
+    "screenings": [
+      {
+        "id": "svetozor-54991",
+        "start": "2026-10-10T19:00:00+02:00",
+        "weekday": 6,
+        "date": "сб, 10.10",
+        "time": "19:00",
+        "place": "Kino Světozor",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=54991"
+      }
+    ]
+  },
+  {
+    "title": "The Twilight Saga: Breaking Dawn - Part 1",
+    "poster": {
+      "src": "https://a.ltrbxd.com/resized/film-poster/1/5/0/7/7/15077-the-twilight-saga-breaking-dawn-part-1-0-600-0-900-crop.jpg?v=00df403dcd",
+      "alt": "",
+      "local": "the-twilight-saga-breaking-dawn---part-1.jpg"
+    },
+    "letterboxdUrl": "https://letterboxd.com/film/the-twilight-saga-breaking-dawn-part-1/",
+    "trailerUrl": "https://www.youtube.com/watch?v=A5eJeAgoY-Y",
+    "screenings": [
+      {
+        "id": "aero-53494",
+        "start": "2026-10-10T19:30:00+02:00",
+        "weekday": 6,
+        "date": "сб, 10.10",
+        "time": "19:30",
+        "place": "Kino Aero",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=53494"
+      }
+    ]
+  },
+  {
+    "suggestion": true,
     "title": "Primetime",
     "poster": {
       "src": null,
@@ -948,6 +2262,15 @@
         "ticketsUrl": "https://www.kinoaero.cz/en?projection=54992"
       },
       {
+        "id": "bio-oko-55390",
+        "start": "2026-10-16T18:00:00+02:00",
+        "weekday": 5,
+        "date": "пт, 16.10",
+        "time": "18:00",
+        "place": "Bio Oko",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55390"
+      },
+      {
         "id": "svetozor-55283",
         "start": "2026-10-20T18:00:00+02:00",
         "weekday": 2,
@@ -955,10 +2278,225 @@
         "time": "18:00",
         "place": "Kino Světozor",
         "ticketsUrl": "https://www.kinoaero.cz/en?projection=55283"
+      },
+      {
+        "id": "aero-55392",
+        "start": "2026-10-24T17:30:00+02:00",
+        "weekday": 6,
+        "date": "сб, 24.10",
+        "time": "17:30",
+        "place": "Kino Aero",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55392"
+      },
+      {
+        "id": "pritomnost-55422",
+        "start": "2026-11-15T17:30:00+01:00",
+        "weekday": 0,
+        "date": "вс, 15.11",
+        "time": "17:30",
+        "place": "Kino Přítomnost",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55422"
       }
     ]
   },
   {
+    "title": "The Twilight Saga: Breaking Dawn - Part 2",
+    "poster": {
+      "src": "https://a.ltrbxd.com/resized/film-poster/1/5/0/7/6/15076-the-twilight-saga-breaking-dawn-part-2-0-600-0-900-crop.jpg?v=1557beaa77",
+      "alt": "",
+      "local": "the-twilight-saga-breaking-dawn---part-2.jpg"
+    },
+    "letterboxdUrl": "https://letterboxd.com/film/the-twilight-saga-breaking-dawn-part-2/",
+    "trailerUrl": "https://www.youtube.com/watch?v=i4FMOUjpe9Y",
+    "screenings": [
+      {
+        "id": "aero-53495",
+        "start": "2026-10-10T22:00:00+02:00",
+        "weekday": 6,
+        "date": "сб, 10.10",
+        "time": "22:00",
+        "place": "Kino Aero",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=53495"
+      }
+    ]
+  },
+  {
+    "title": "Forgotten Island",
+    "poster": {
+      "src": "https://a.ltrbxd.com/resized/film-poster/1/3/4/1/7/3/7/1341737-forgotten-island-2026-0-600-0-900-crop.jpg?v=a0d4d1bb5e",
+      "alt": "",
+      "local": "forgotten-island.jpg"
+    },
+    "letterboxdUrl": "https://letterboxd.com/film/forgotten-island-2026/",
+    "trailerUrl": "https://www.youtube.com/watch?v=bKvzxZmgiMY",
+    "screenings": [
+      {
+        "id": "bio-oko-55487",
+        "start": "2026-10-11T10:00:00+02:00",
+        "weekday": 0,
+        "date": "вс, 11.10",
+        "time": "10:00",
+        "place": "Bio Oko",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55487"
+      }
+    ]
+  },
+  {
+    "title": "Wirbel",
+    "poster": {
+      "src": null,
+      "alt": "",
+      "local": "wirbel.jpg"
+    },
+    "letterboxdUrl": "https://letterboxd.com/film/wirbel/crew/",
+    "trailerUrl": "https://www.youtube.com/watch?v=dGzmkdhJxyc",
+    "screenings": [
+      {
+        "id": "svetozor-55476",
+        "start": "2026-10-11T18:00:00+02:00",
+        "weekday": 0,
+        "date": "вс, 11.10",
+        "time": "18:00",
+        "place": "Kino Světozor",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55476"
+      },
+      {
+        "id": "svetozor-55430",
+        "start": "2026-10-12T15:30:00+02:00",
+        "weekday": 1,
+        "date": "пн, 12.10",
+        "time": "15:30",
+        "place": "Kino Světozor",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55430"
+      },
+      {
+        "id": "svetozor-55477",
+        "start": "2026-10-14T18:00:00+02:00",
+        "weekday": 3,
+        "date": "ср, 14.10",
+        "time": "18:00",
+        "place": "Kino Světozor",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55477"
+      }
+    ]
+  },
+  {
+    "title": "Salvation",
+    "poster": {
+      "src": "https://a.ltrbxd.com/resized/film-poster/1/2/8/4/5/7/8/1284578-salvation-2026-0-600-0-900-crop.jpg?v=6888d8561b",
+      "alt": "",
+      "local": "salvation.jpg"
+    },
+    "letterboxdUrl": "https://letterboxd.com/film/salvation-2026/",
+    "trailerUrl": "https://www.youtube.com/watch?v=PNWg5t1uRqQ",
+    "screenings": [
+      {
+        "id": "lucerna-54603",
+        "start": "2026-10-11T20:45:00+02:00",
+        "weekday": 0,
+        "date": "вс, 11.10",
+        "time": "20:45",
+        "place": "Kino Lucerna",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=54603"
+      }
+    ]
+  },
+  {
+    "title": "Don't Look Back in Anger",
+    "poster": {
+      "src": "https://a.ltrbxd.com/resized/film-poster/1/3/2/4/2/3/8/1324238-oasis-dont-look-back-in-anger-0-600-0-900-crop.jpg?v=78184e8b6d",
+      "alt": "",
+      "local": "don't-look-back-in-anger.jpg"
+    },
+    "letterboxdUrl": "https://letterboxd.com/film/oasis-dont-look-back-in-anger/",
+    "trailerUrl": "https://www.youtube.com/watch?v=vk8j6weBWPU",
+    "screenings": [
+      {
+        "id": "bio-oko-55192",
+        "start": "2026-10-12T15:00:00+02:00",
+        "weekday": 1,
+        "date": "пн, 12.10",
+        "time": "15:00",
+        "place": "Bio Oko",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55192"
+      },
+      {
+        "id": "svetozor-54978",
+        "start": "2026-10-15T15:00:00+02:00",
+        "weekday": 4,
+        "date": "чт, 15.10",
+        "time": "15:00",
+        "place": "Kino Světozor",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=54978"
+      }
+    ]
+  },
+  {
+    "title": "Red Rue Express",
+    "poster": {
+      "src": "https://a.ltrbxd.com/resized/film-poster/1/3/5/6/3/2/3/1356323-red-rue-express-0-600-0-900-crop.jpg?v=dde57cb2a1",
+      "alt": "",
+      "local": "red-rue-express.jpg"
+    },
+    "letterboxdUrl": "https://letterboxd.com/film/red-rue-express/",
+    "trailerUrl": null,
+    "screenings": [
+      {
+        "id": "bio-oko-55313",
+        "start": "2026-10-12T18:00:00+02:00",
+        "weekday": 1,
+        "date": "пн, 12.10",
+        "time": "18:00",
+        "place": "Bio Oko",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55313"
+      }
+    ]
+  },
+  {
+    "title": "Because I Have To",
+    "poster": {
+      "src": "https://a.ltrbxd.com/resized/film-poster/1/5/9/3/0/5/6/1593056-podoby-milostneho-vztahu-ke-svetu-0-600-0-900-crop.jpg?v=c46fd8f28d",
+      "alt": "",
+      "local": "because-i-have-to.jpg"
+    },
+    "letterboxdUrl": "https://letterboxd.com/film/because-i-have-to/",
+    "trailerUrl": null,
+    "screenings": [
+      {
+        "id": "svetozor-55478",
+        "start": "2026-10-12T18:00:00+02:00",
+        "weekday": 1,
+        "date": "пн, 12.10",
+        "time": "18:00",
+        "place": "Kino Světozor",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55478"
+      }
+    ]
+  },
+  {
+    "suggestion": true,
+    "title": "Perfect Days",
+    "poster": {
+      "src": "https://a.ltrbxd.com/resized/film-poster/8/7/9/2/2/9/879229-perfect-days-0-600-0-900-crop.jpg?v=4ea80661fd",
+      "alt": "",
+      "local": "perfect-days.jpg"
+    },
+    "letterboxdUrl": "https://letterboxd.com/film/perfect-days-2023/",
+    "trailerUrl": "https://www.youtube.com/watch?v=hSGUfczF8uA",
+    "screenings": [
+      {
+        "id": "svetozor-55032",
+        "start": "2026-10-12T20:15:00+02:00",
+        "weekday": 1,
+        "date": "пн, 12.10",
+        "time": "20:15",
+        "place": "Kino Světozor",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55032"
+      }
+    ]
+  },
+  {
+    "suggestion": true,
     "title": "The Shining",
     "poster": {
       "src": "https://a.ltrbxd.com/resized/sm/upload/7s/m2/bw/d0/caoYMcjUamGoBVy65i1AHJBvdzw-0-600-0-900-crop.jpg?v=88d9d6cce4",
@@ -980,23 +2518,126 @@
     ]
   },
   {
-    "title": "Perfect Days",
+    "title": "Practical Magic 2",
     "poster": {
-      "src": "https://a.ltrbxd.com/resized/film-poster/8/7/9/2/2/9/879229-perfect-days-0-600-0-900-crop.jpg?v=4ea80661fd",
+      "src": "https://a.ltrbxd.com/resized/film-poster/1/1/8/5/0/2/2/1185022-practical-magic-2-0-600-0-900-crop.jpg?v=60d1a61510",
       "alt": "",
-      "local": "perfect-days.jpg"
+      "local": "practical-magic-2.jpg"
     },
-    "letterboxdUrl": "https://letterboxd.com/film/perfect-days-2023/",
-    "trailerUrl": "https://www.youtube.com/watch?v=hSGUfczF8uA",
+    "letterboxdUrl": "https://letterboxd.com/film/practical-magic-2/",
+    "trailerUrl": "https://www.youtube.com/watch?v=6gCENR0xBVo?si=AQYLYCADakTpTGr1",
     "screenings": [
       {
-        "id": "svetozor-55032",
-        "start": "2026-10-12T20:15:00+02:00",
-        "weekday": 1,
-        "date": "пн, 12.10",
-        "time": "20:15",
+        "id": "svetozor-54977",
+        "start": "2026-10-13T15:00:00+02:00",
+        "weekday": 2,
+        "date": "вт, 13.10",
+        "time": "15:00",
         "place": "Kino Světozor",
-        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55032"
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=54977"
+      }
+    ]
+  },
+  {
+    "title": "Silent Friend",
+    "poster": {
+      "src": "https://a.ltrbxd.com/resized/film-poster/1/0/5/5/8/1/2/1055812-silent-friend-0-600-0-900-crop.jpg?v=d46efdd929",
+      "alt": "",
+      "local": "silent-friend.jpg"
+    },
+    "letterboxdUrl": "https://letterboxd.com/film/silent-friend/",
+    "trailerUrl": "https://www.youtube.com/watch?v=72SfEyxoZrA",
+    "screenings": [
+      {
+        "id": "aero-54894",
+        "start": "2026-10-13T15:00:00+02:00",
+        "weekday": 2,
+        "date": "вт, 13.10",
+        "time": "15:00",
+        "place": "Kino Aero",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=54894"
+      }
+    ]
+  },
+  {
+    "title": "Heart of the Beast",
+    "poster": {
+      "src": "https://a.ltrbxd.com/resized/film-poster/1/1/4/7/4/6/8/1147468-heart-of-the-beast-2026-0-600-0-900-crop.jpg?v=9503afe033",
+      "alt": "",
+      "local": "heart-of-the-beast.jpg"
+    },
+    "letterboxdUrl": "https://letterboxd.com/film/heart-of-the-beast-2026/",
+    "trailerUrl": "https://www.youtube.com/watch?v=JloePhiYx-c",
+    "screenings": [
+      {
+        "id": "bio-oko-55495",
+        "start": "2026-10-13T15:30:00+02:00",
+        "weekday": 2,
+        "date": "вт, 13.10",
+        "time": "15:30",
+        "place": "Bio Oko",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55495"
+      },
+      {
+        "id": "svetozor-54985",
+        "start": "2026-10-30T15:00:00+01:00",
+        "weekday": 5,
+        "date": "пт, 30.10",
+        "time": "15:00",
+        "place": "Kino Světozor",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=54985"
+      }
+    ]
+  },
+  {
+    "suggestion": true,
+    "title": "Coraline",
+    "poster": {
+      "src": "https://a.ltrbxd.com/resized/film-poster/4/2/7/7/9/42779-coraline-0-600-0-900-crop.jpg?v=b792483e2a",
+      "alt": "",
+      "local": "coraline.jpg"
+    },
+    "letterboxdUrl": "https://letterboxd.com/film/coraline/",
+    "trailerUrl": null,
+    "screenings": [
+      {
+        "id": "bio-oko-55169",
+        "start": "2026-10-13T20:30:00+02:00",
+        "weekday": 2,
+        "date": "вт, 13.10",
+        "time": "20:30",
+        "place": "Bio Oko",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55169"
+      },
+      {
+        "id": "aero-55152",
+        "start": "2026-10-27T18:01:00+01:00",
+        "weekday": 2,
+        "date": "вт, 27.10",
+        "time": "18:01",
+        "place": "Kino Aero",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55152"
+      }
+    ]
+  },
+  {
+    "title": "Fiume o morte!",
+    "poster": {
+      "src": "https://a.ltrbxd.com/resized/film-poster/1/2/8/6/8/2/0/1286820-fiume-o-morte-0-600-0-900-crop.jpg?v=955c291f95",
+      "alt": "",
+      "local": "fiume-o-morte.jpg"
+    },
+    "letterboxdUrl": "https://letterboxd.com/film/fiume-o-morte/",
+    "trailerUrl": "https://www.youtube.com/watch?v=zYQhgJrY6qo",
+    "screenings": [
+      {
+        "id": "pritomnost-54587",
+        "start": "2026-10-13T20:30:00+02:00",
+        "weekday": 2,
+        "date": "вт, 13.10",
+        "time": "20:30",
+        "place": "Kino Přítomnost",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=54587"
       }
     ]
   },
@@ -1022,6 +2663,7 @@
     ]
   },
   {
+    "suggestion": true,
     "title": "The Boxtrolls",
     "poster": {
       "src": "https://a.ltrbxd.com/resized/film-poster/1/2/5/4/8/5/125485-the-boxtrolls-0-600-0-900-crop.jpg?v=ff3615d6e8",
@@ -1052,6 +2694,7 @@
     ]
   },
   {
+    "suggestion": true,
     "title": "I Swear",
     "poster": {
       "src": "https://a.ltrbxd.com/resized/film-poster/1/1/9/7/8/4/2/1197842-i-swear-0-600-0-900-crop.jpg?v=b8f019138e",
@@ -1094,6 +2737,7 @@
     ]
   },
   {
+    "suggestion": true,
     "title": "Trainspotting",
     "poster": {
       "src": "https://a.ltrbxd.com/resized/film-poster/5/1/4/9/7/51497-trainspotting-0-600-0-900-crop.jpg?v=c8597f6cb5",
@@ -1136,6 +2780,7 @@
     ]
   },
   {
+    "suggestion": true,
     "title": "The Lives of Others",
     "poster": {
       "src": "https://a.ltrbxd.com/resized/sm/upload/8b/y5/ap/l6/bzzDAg3fkztvfQB08VBprhs9tVE-0-600-0-900-crop.jpg?v=803117c2ab",
@@ -1153,6 +2798,27 @@
         "time": "17:30",
         "place": "Kino Světozor",
         "ticketsUrl": "https://www.kinoaero.cz/en?projection=53669"
+      }
+    ]
+  },
+  {
+    "title": "Foreign Language",
+    "poster": {
+      "src": "https://a.ltrbxd.com/resized/film-poster/7/2/1/0/6/9/721069-foreign-language-0-600-0-900-crop.jpg?v=855150da64",
+      "alt": "",
+      "local": "foreign-language.jpg"
+    },
+    "letterboxdUrl": "https://letterboxd.com/film/foreign-language/",
+    "trailerUrl": "https://www.youtube.com/watch?v=4vrZ8nfiijU",
+    "screenings": [
+      {
+        "id": "lucerna-54848",
+        "start": "2026-10-19T18:00:00+02:00",
+        "weekday": 1,
+        "date": "пн, 19.10",
+        "time": "18:00",
+        "place": "Kino Lucerna",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=54848"
       }
     ]
   },
@@ -1178,6 +2844,57 @@
     ]
   },
   {
+    "title": "Chica Checa",
+    "poster": {
+      "src": "https://a.ltrbxd.com/resized/film-poster/1/2/3/4/4/7/6/1234476-czech-girl-0-600-0-900-crop.jpg?v=c50b6d9598",
+      "alt": "",
+      "local": "chica-checa.jpg"
+    },
+    "letterboxdUrl": "https://letterboxd.com/film/czech-girl/",
+    "trailerUrl": "https://www.youtube.com/watch?v=24E_j3IujTU",
+    "screenings": [
+      {
+        "id": "svetozor-54980",
+        "start": "2026-10-20T15:00:00+02:00",
+        "weekday": 2,
+        "date": "вт, 20.10",
+        "time": "15:00",
+        "place": "Kino Světozor",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=54980"
+      },
+      {
+        "id": "lucerna-54951",
+        "start": "2026-10-28T15:00:00+01:00",
+        "weekday": 3,
+        "date": "ср, 28.10",
+        "time": "15:00",
+        "place": "Kino Lucerna",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=54951"
+      }
+    ]
+  },
+  {
+    "title": "Repo Man",
+    "poster": {
+      "src": "https://a.ltrbxd.com/resized/sm/upload/0f/wo/u4/2q/kifgXnv8i8h7gCZvvwoUWUo4mBf-0-600-0-900-crop.jpg?v=f0383e9d2b",
+      "alt": "",
+      "local": "repo-man.jpg"
+    },
+    "letterboxdUrl": "https://letterboxd.com/film/repo-man/",
+    "trailerUrl": "https://www.youtube.com/watch?v=plpC1YZQ2Cw",
+    "screenings": [
+      {
+        "id": "aero-54910",
+        "start": "2026-10-20T18:01:00+02:00",
+        "weekday": 2,
+        "date": "вт, 20.10",
+        "time": "18:01",
+        "place": "Kino Aero",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=54910"
+      }
+    ]
+  },
+  {
     "title": "Inherent Vice",
     "poster": {
       "src": "https://a.ltrbxd.com/resized/film-poster/1/2/5/8/3/0/125830-inherent-vice-0-600-0-900-crop.jpg?v=342795552c",
@@ -1199,6 +2916,7 @@
     ]
   },
   {
+    "suggestion": true,
     "title": "Kubo and the Two Strings",
     "poster": {
       "src": "https://a.ltrbxd.com/resized/film-poster/2/4/0/0/6/8/240068-kubo-and-the-two-strings-0-600-0-900-crop.jpg?v=0ff2eecb8b",
@@ -1229,6 +2947,7 @@
     ]
   },
   {
+    "suggestion": true,
     "title": "American Psycho",
     "poster": {
       "src": "https://a.ltrbxd.com/resized/sm/upload/5b/u9/av/il/ecoY7zJL6Ub3URP1oPhPfGflEjV-0-600-0-900-crop.jpg?v=8126850315",
@@ -1250,6 +2969,49 @@
     ]
   },
   {
+    "title": "Behold Homolka",
+    "poster": {
+      "src": "https://a.ltrbxd.com/resized/film-poster/6/5/2/6/9/65269-behold-homolka-0-600-0-900-crop.jpg?v=58c2878212",
+      "alt": "",
+      "local": "behold-homolka.jpg"
+    },
+    "letterboxdUrl": "https://letterboxd.com/film/behold-homolka/",
+    "trailerUrl": "https://www.youtube.com/watch?v=jFcybDDPoWI",
+    "screenings": [
+      {
+        "id": "aero-54937",
+        "start": "2026-10-22T20:30:00+02:00",
+        "weekday": 4,
+        "date": "чт, 22.10",
+        "time": "20:30",
+        "place": "Kino Aero",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=54937"
+      }
+    ]
+  },
+  {
+    "title": "Forsaken",
+    "poster": {
+      "src": "https://a.ltrbxd.com/resized/film-poster/1/5/0/9/7/0/5/1509705-labandon-2-0-600-0-900-crop.jpg?v=14ecd0dbd5",
+      "alt": "",
+      "local": "forsaken.jpg"
+    },
+    "letterboxdUrl": "https://letterboxd.com/film/forsaken-2026/",
+    "trailerUrl": "https://www.youtube.com/watch?v=btUoqODoGt0",
+    "screenings": [
+      {
+        "id": "lucerna-54949",
+        "start": "2026-10-23T13:00:00+02:00",
+        "weekday": 5,
+        "date": "пт, 23.10",
+        "time": "13:00",
+        "place": "Kino Lucerna",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=54949"
+      }
+    ]
+  },
+  {
+    "suggestion": true,
     "title": "Terminator 2: Judgment Day",
     "poster": {
       "src": "https://a.ltrbxd.com/resized/film-poster/5/1/7/7/6/51776-terminator-2-judgment-day-0-600-0-900-crop.jpg?v=64f1721e62",
@@ -1271,6 +3033,37 @@
     ]
   },
   {
+    "title": "Wildwood",
+    "poster": {
+      "src": "https://a.ltrbxd.com/resized/film-poster/7/0/9/4/6/0/709460-wildwood-2026-0-600-0-900-crop.jpg?v=e0b4be5769",
+      "alt": "",
+      "local": "wildwood.jpg"
+    },
+    "letterboxdUrl": "https://letterboxd.com/film/wildwood-2026/",
+    "trailerUrl": "https://www.youtube.com/watch?v=OllsJD0czsQ",
+    "screenings": [
+      {
+        "id": "bio-oko-55426",
+        "start": "2026-10-23T20:30:00+02:00",
+        "weekday": 5,
+        "date": "пт, 23.10",
+        "time": "20:30",
+        "place": "Bio Oko",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55426"
+      },
+      {
+        "id": "aero-55153",
+        "start": "2026-10-27T20:15:00+01:00",
+        "weekday": 2,
+        "date": "вт, 27.10",
+        "time": "20:15",
+        "place": "Kino Aero",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55153"
+      }
+    ]
+  },
+  {
+    "suggestion": true,
     "title": "Scary Movie (2000)",
     "poster": {
       "src": "https://a.ltrbxd.com/resized/film-poster/4/9/4/4/3/49443-scary-movie-0-600-0-900-crop.jpg?v=c949a2d091",
@@ -1292,27 +3085,50 @@
     ]
   },
   {
-    "title": "Wildwood",
+    "title": "Bullet in the Head",
     "poster": {
-      "src": "https://a.ltrbxd.com/resized/film-poster/7/0/9/4/6/0/709460-wildwood-2026-0-600-0-900-crop.jpg?v=e0b4be5769",
+      "src": "https://a.ltrbxd.com/resized/film-poster/4/4/8/9/7/44897-bullet-in-the-head-0-600-0-900-crop.jpg?v=7c8ab2f3de",
       "alt": "",
-      "local": "wildwood.jpg"
+      "local": "bullet-in-the-head.jpg"
     },
-    "letterboxdUrl": "https://letterboxd.com/film/wildwood-2026/",
-    "trailerUrl": "https://www.youtube.com/watch?v=OllsJD0czsQ",
+    "letterboxdUrl": "https://letterboxd.com/film/bullet-in-the-head/",
+    "trailerUrl": "https://www.youtube.com/watch?v=86tatNXDTME",
     "screenings": [
       {
-        "id": "aero-55153",
-        "start": "2026-10-27T20:15:00+01:00",
-        "weekday": 2,
-        "date": "вт, 27.10",
-        "time": "20:15",
+        "id": "aero-54916",
+        "start": "2026-10-26T20:30:00+01:00",
+        "weekday": 1,
+        "date": "пн, 26.10",
+        "time": "20:30",
         "place": "Kino Aero",
-        "ticketsUrl": "https://www.kinoaero.cz/en?projection=55153"
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=54916"
       }
     ]
   },
   {
+    "suggestion": true,
+    "title": "Coyote vs. Acme",
+    "poster": {
+      "src": "https://a.ltrbxd.com/resized/film-poster/1/0/8/9/0/8/8/1089088-coyote-vs-acme-0-600-0-900-crop.jpg?v=735eb10cc7",
+      "alt": "",
+      "local": "coyote-vs.-acme.jpg"
+    },
+    "letterboxdUrl": "https://letterboxd.com/film/coyote-vs-acme/",
+    "trailerUrl": null,
+    "screenings": [
+      {
+        "id": "aero-54902",
+        "start": "2026-10-30T15:00:00+01:00",
+        "weekday": 5,
+        "date": "пт, 30.10",
+        "time": "15:00",
+        "place": "Kino Aero",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=54902"
+      }
+    ]
+  },
+  {
+    "suggestion": true,
     "title": "The Crow (1994)",
     "poster": {
       "src": "https://a.ltrbxd.com/resized/film-poster/4/7/1/0/4/47104-the-crow-0-600-0-900-crop.jpg?v=ee1947baad",
@@ -1334,6 +3150,220 @@
     ]
   },
   {
+    "title": "Betty Blue",
+    "poster": {
+      "src": "https://a.ltrbxd.com/resized/film-poster/4/4/8/2/3/44823-betty-blue-0-600-0-900-crop.jpg?v=d5c7511641",
+      "alt": "",
+      "local": "betty-blue.jpg"
+    },
+    "letterboxdUrl": "https://letterboxd.com/film/betty-blue/",
+    "trailerUrl": "https://www.youtube.com/watch?v=YxVf4JmGFAI",
+    "screenings": [
+      {
+        "id": "aero-54922",
+        "start": "2026-11-02T20:00:00+01:00",
+        "weekday": 1,
+        "date": "пн, 02.11",
+        "time": "20:00",
+        "place": "Kino Aero",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=54922"
+      }
+    ]
+  },
+  {
+    "title": "A Town Called Panic",
+    "poster": {
+      "src": "https://a.ltrbxd.com/resized/film-poster/2/4/3/4/3/24343-a-town-called-panic-0-600-0-900-crop.jpg?v=83eeda5fb6",
+      "alt": "",
+      "local": "a-town-called-panic.jpg"
+    },
+    "letterboxdUrl": "https://letterboxd.com/film/a-town-called-panic/",
+    "trailerUrl": "https://www.youtube.com/watch?v=abj58ZNE_Wg",
+    "screenings": [
+      {
+        "id": "aero-54923",
+        "start": "2026-11-04T18:00:00+01:00",
+        "weekday": 3,
+        "date": "ср, 04.11",
+        "time": "18:00",
+        "place": "Kino Aero",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=54923"
+      }
+    ]
+  },
+  {
+    "suggestion": true,
+    "title": "Three Billboards Outside Ebbing, Missouri",
+    "poster": {
+      "src": "https://a.ltrbxd.com/resized/film-poster/2/9/1/6/1/0/291610-three-billboards-outside-ebbing-missouri-0-600-0-900-crop.jpg?v=26123017e3",
+      "alt": "",
+      "local": "three-billboards-outside-ebbing-missouri.jpg"
+    },
+    "letterboxdUrl": "https://letterboxd.com/film/three-billboards-outside-ebbing-missouri/",
+    "trailerUrl": "https://www.youtube.com/watch?v=V-Hx_FX8zpg",
+    "screenings": [
+      {
+        "id": "aero-54924",
+        "start": "2026-11-06T18:01:00+01:00",
+        "weekday": 5,
+        "date": "пт, 06.11",
+        "time": "18:01",
+        "place": "Kino Aero",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=54924"
+      }
+    ]
+  },
+  {
+    "title": "Wild Horse Nine",
+    "poster": {
+      "src": "https://a.ltrbxd.com/resized/film-poster/8/0/2/6/3/2/802632-wild-horse-nine-0-600-0-900-crop.jpg?v=eade7a541c",
+      "alt": "",
+      "local": "wild-horse-nine.jpg"
+    },
+    "letterboxdUrl": "https://letterboxd.com/film/wild-horse-nine/",
+    "trailerUrl": null,
+    "screenings": [
+      {
+        "id": "aero-54925",
+        "start": "2026-11-06T20:30:00+01:00",
+        "weekday": 5,
+        "date": "пт, 06.11",
+        "time": "20:30",
+        "place": "Kino Aero",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=54925"
+      }
+    ]
+  },
+  {
+    "suggestion": true,
+    "title": "Arrival",
+    "poster": {
+      "src": "https://a.ltrbxd.com/resized/sm/upload/3u/dy/qd/qd/4Iu5f2nv7huqvuYkmZvSPOtbFjs-0-600-0-900-crop.jpg?v=0fc28fdf2c",
+      "alt": "",
+      "local": "arrival.jpg"
+    },
+    "letterboxdUrl": "https://letterboxd.com/film/arrival-2016/",
+    "trailerUrl": "https://www.youtube.com/watch?v=amzGB-YVFjc",
+    "screenings": [
+      {
+        "id": "aero-54927",
+        "start": "2026-11-09T20:30:00+01:00",
+        "weekday": 1,
+        "date": "пн, 09.11",
+        "time": "20:30",
+        "place": "Kino Aero",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=54927"
+      }
+    ]
+  },
+  {
+    "title": "The Pavilion",
+    "poster": {
+      "src": "https://a.ltrbxd.com/resized/film-poster/1/3/3/9/4/5/4/1339454-the-pavilion-2025-0-600-0-900-crop.jpg?v=8b2c18659f",
+      "alt": "",
+      "local": "the-pavilion.jpg"
+    },
+    "letterboxdUrl": "https://letterboxd.com/film/the-pavilion-2025/",
+    "trailerUrl": "https://www.youtube.com/watch?v=0vQ6BlcWtII",
+    "screenings": [
+      {
+        "id": "pritomnost-54622",
+        "start": "2026-11-10T20:00:00+01:00",
+        "weekday": 2,
+        "date": "вт, 10.11",
+        "time": "20:00",
+        "place": "Kino Přítomnost",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=54622"
+      }
+    ]
+  },
+  {
+    "title": "The Sacrifice (1986)",
+    "poster": {
+      "src": "https://a.ltrbxd.com/resized/film-poster/3/6/6/1/8/36618-the-sacrifice-0-600-0-900-crop.jpg?v=abe0768e2a",
+      "alt": "",
+      "local": "the-sacrifice-(1986).jpg"
+    },
+    "letterboxdUrl": "https://letterboxd.com/film/the-sacrifice/",
+    "trailerUrl": "https://www.youtube.com/watch?v=hCrQLPk32dQ",
+    "screenings": [
+      {
+        "id": "aero-54926",
+        "start": "2026-11-10T20:15:00+01:00",
+        "weekday": 2,
+        "date": "вт, 10.11",
+        "time": "20:15",
+        "place": "Kino Aero",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=54926"
+      }
+    ]
+  },
+  {
+    "title": "Dazed and Confused",
+    "poster": {
+      "src": "https://a.ltrbxd.com/resized/film-poster/4/7/0/2/9/47029-dazed-and-confused-0-600-0-900-crop.jpg?v=a3b615703a",
+      "alt": "",
+      "local": "dazed-and-confused.jpg"
+    },
+    "letterboxdUrl": "https://letterboxd.com/film/dazed-and-confused/",
+    "trailerUrl": "https://www.youtube.com/watch?v=3aQuvPlcB-8",
+    "screenings": [
+      {
+        "id": "aero-54930",
+        "start": "2026-11-11T18:01:00+01:00",
+        "weekday": 3,
+        "date": "ср, 11.11",
+        "time": "18:01",
+        "place": "Kino Aero",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=54930"
+      }
+    ]
+  },
+  {
+    "suggestion": true,
+    "title": "Licorice Pizza",
+    "poster": {
+      "src": "https://a.ltrbxd.com/resized/film-poster/6/4/1/0/8/6/641086-licorice-pizza-0-600-0-900-crop.jpg?v=6f08c3828c",
+      "alt": "",
+      "local": "licorice-pizza.jpg"
+    },
+    "letterboxdUrl": "https://letterboxd.com/film/licorice-pizza/",
+    "trailerUrl": "https://www.youtube.com/watch?v=V3Mr3TUFNu4",
+    "screenings": [
+      {
+        "id": "aero-54932",
+        "start": "2026-11-11T20:30:00+01:00",
+        "weekday": 3,
+        "date": "ср, 11.11",
+        "time": "20:30",
+        "place": "Kino Aero",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=54932"
+      }
+    ]
+  },
+  {
+    "title": "Larks on a String",
+    "poster": {
+      "src": "https://a.ltrbxd.com/resized/film-poster/4/4/8/1/7/44817-larks-on-a-string-0-600-0-900-crop.jpg?v=178b962c62",
+      "alt": "",
+      "local": "larks-on-a-string.jpg"
+    },
+    "letterboxdUrl": "https://letterboxd.com/film/larks-on-a-string/",
+    "trailerUrl": "https://www.youtube.com/watch?v=lR7zPKEhDU4",
+    "screenings": [
+      {
+        "id": "bio-oko-53833",
+        "start": "2026-11-13T16:00:00+01:00",
+        "weekday": 5,
+        "date": "пт, 13.11",
+        "time": "16:00",
+        "place": "Bio Oko",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=53833"
+      }
+    ]
+  },
+  {
+    "suggestion": true,
     "title": "The Ear",
     "poster": {
       "src": "https://a.ltrbxd.com/resized/film-poster/7/4/9/1/0/74910-the-ear-0-600-0-900-crop.jpg?v=8ec9fc662f",
@@ -1351,6 +3381,49 @@
         "time": "19:30",
         "place": "Bio Oko",
         "ticketsUrl": "https://www.kinoaero.cz/en?projection=53834"
+      }
+    ]
+  },
+  {
+    "title": "L'Inhumaine",
+    "poster": {
+      "src": null,
+      "alt": "",
+      "local": "the-inhuman-woman.jpg"
+    },
+    "letterboxdUrl": "https://letterboxd.com/film/the-inhuman-woman/details/",
+    "trailerUrl": "https://www.youtube.com/watch?v=7SIrx8OEITI",
+    "screenings": [
+      {
+        "id": "aero-54934",
+        "start": "2026-11-16T20:30:00+01:00",
+        "weekday": 1,
+        "date": "пн, 16.11",
+        "time": "20:30",
+        "place": "Kino Aero",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=54934"
+      }
+    ]
+  },
+  {
+    "suggestion": true,
+    "title": "Marie Antoinette",
+    "poster": {
+      "src": "https://a.ltrbxd.com/resized/sm/upload/k7/u1/3i/lu/xOdzoe3tC8X1v7M2Z86sdfjpVrO-0-600-0-900-crop.jpg?v=4b6cfecbaf",
+      "alt": "",
+      "local": "marie-antoinette.jpg"
+    },
+    "letterboxdUrl": "https://letterboxd.com/film/marie-antoinette-2006/",
+    "trailerUrl": "https://www.youtube.com/watch?v=SGUh-nmNHyQ",
+    "screenings": [
+      {
+        "id": "aero-54935",
+        "start": "2026-11-18T20:30:00+01:00",
+        "weekday": 3,
+        "date": "ср, 18.11",
+        "time": "20:30",
+        "place": "Kino Aero",
+        "ticketsUrl": "https://www.kinoaero.cz/en?projection=54935"
       }
     ]
   },
@@ -1376,6 +3449,7 @@
     ]
   },
   {
+    "suggestion": true,
     "title": "Shark Tale",
     "poster": {
       "src": "https://a.ltrbxd.com/resized/film-poster/4/6/1/1/7/46117-shark-tale-0-600-0-900-crop.jpg?v=cf45b90c76",
