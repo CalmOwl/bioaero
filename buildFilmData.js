@@ -131,11 +131,12 @@ const findFilmScreenings = (uniqueFilmTitlesArr, allFilmsObj) => {
   // }
 
   for (const film of sortedScreenings) {
-    if (film.title.includes("Blind" && "Aero")) {
+    if (film.title.includes("Aero" && "Blind")) {
       film.title = "Aero naslepo";
       film.description = "Když zkusíte „Aero naslepo“, nebudete vědět, na jaký film jste se vypravili. Předem neplatíte nic. Po projekci dostanete možnost ocenit zážitek částkou, kterou si sami určíte.";
       film.trailerUrl = "https://boxd.it/uqXaW";
       film.infoButtonDescription = "Список фильмов предыдущих сеансов";
+      delete film.poster;
     }
   }
 
