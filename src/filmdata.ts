@@ -5,22 +5,6 @@ export const FILMS = enrichedFilms as Film[];
 
 /*
   {
-    title: "Aero naslepo",
-    description: "Když zkusíte „Aero naslepo“, nebudete vědět, na jaký film jste se vypravili. Předem neplatíte nic. Po projekci dostanete možnost ocenit zážitek částkou, kterou si sami určíte.",
-    trailerUrl: "https://boxd.it/uqXaW",
-    infoButtonDescription: "Список фильмов предыдущих сеансов",
-    screenings: [
-      {
-        date: "ср 1.07",
-        time: "20:30",
-        place: "Aero",
-        ticketsUrl: "https://www.kinoaero.cz/?projection=48280"
-      },
-    ]
-  },
-
-
-  {
     "title": "Aero naslepo",
     "description": "Když zkusíte „Aero naslepo“, nebudete vědět, na jaký film jste se vypravili. Předem neplatíte nic. Po projekci dostanete možnost ocenit zážitek částkou, kterou si sami určíte.",
     "trailerUrl": "https://boxd.it/uqXaW",

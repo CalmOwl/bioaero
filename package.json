@@ -21,6 +21,6 @@
     "update": "node fetchScreenings.js && node buildFilmData.js && node downloadPosters.js"
   },
   "dependencies": {
-    "astro": "^6.4.2"
+    "astro": "^7.4.0"
   }
 }

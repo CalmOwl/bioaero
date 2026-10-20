@@ -43,8 +43,4 @@ const downloadPosters = async (films) => {
 
 const updatedFilms = await downloadPosters(films);
 
-await fs.writeFile(
-  "./finalFilmData.json",
-  JSON.stringify(updatedFilms, null, 2),
-  "utf-8"
-);
+await fs.writeFile("./finalFilmData.json", JSON.stringify(updatedFilms, null, 2), "utf-8");

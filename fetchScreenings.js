@@ -7,23 +7,14 @@ const getFilmExtraData = async (screeningUrl) => {
 
   const html = await fetch(apiUrl).then(r => r.text());
 
-  const letterboxdMatch = html.match(
-    /href="(https:\/\/letterboxd\.com\/film\/[^"]+)"/
-  );
+  const letterboxdMatch = html.match(/href="(https:\/\/letterboxd\.com\/film\/[^"]+)"/);
 
-  const trailerMatch = html.match(
-    /data-youtube-id="([^"]+)"/
-  );
+  const trailerMatch = html.match(/data-youtube-id="([^"]+)"/);
 
   return {
     id: screeningId,
-    letterboxdUrl: letterboxdMatch
-      ? letterboxdMatch[1]
-      : null,
-
-    trailerUrl: trailerMatch
-      ? `https://www.youtube.com/watch?v=${trailerMatch[1]}`
-      : null
+    letterboxdUrl: letterboxdMatch ? letterboxdMatch[1] : null,
+    trailerUrl: trailerMatch ? `https://www.youtube.com/watch?v=${trailerMatch[1]}` : null
   };
 };
 
@@ -36,13 +27,8 @@ async function main() {
 
   const body = new URLSearchParams();
 
-  [1, 2, 9, 7, 3].forEach(x =>
-    body.append("cinema[]", x)
-  );
-
-  [34, 35, 1, 2, 3].forEach(x =>
-    body.append("hall[]", x)
-  );
+  [1, 2, 9, 7, 3].forEach(x => body.append("cinema[]", x));
+  [34, 35, 1, 2, 3].forEach(x => body.append("hall[]", x));
 
   body.append("ef", "0");
   body.append("m", "");
@@ -75,48 +61,24 @@ async function main() {
 
 
   const html = await response.text();
-
   console.log("Размер HTML:", html.length);
 
-
-  const jsonLdMatches = [
-    ...html.matchAll(
-      /<script[^>]+type="application\/ld\+json"[^>]*>([\s\S]*?)<\/script>/gi
-    )
-  ];
-
+  const jsonLdMatches = [...html.matchAll(/<script[^>]+type="application\/ld\+json"[^>]*>([\s\S]*?)<\/script>/gi)];
   console.log("JSON-LD блоков:", jsonLdMatches.length);
-
 
   const shows = [];
   const skippedItems = [];
 
-
   for (const match of jsonLdMatches) {
     try {
       const data = JSON.parse(match[1]);
-
-      const items = Array.isArray(data)
-        ? data
-        : [data];
-
+      const items = Array.isArray(data) ? data : [data];
 
       for (const item of items) {
 
-        if (
-          item["@type"] === "ScreeningEvent" ||
-          item.startDate
-        ) {
-          const title =
-            convertHTML(item.workPresented?.name ||
-              item.name ||
-              "Unknown");
-
-          const cinema =
-            item.location?.name ||
-            item.location?.branchCode ||
-            "Unknown";
-
+        if (item["@type"] === "ScreeningEvent" || item.startDate) {
+          const title = convertHTML(item.workPresented?.name || item.name || "Unknown");
+          const cinema = item.location?.name || item.location?.branchCode || "Unknown";
           let cinemaId = normalizeText(cinema.replace(" ", '-').toLowerCase());
 
           if (cinemaId.includes("kino-")) {
@@ -135,122 +97,37 @@ async function main() {
             trailerUrl: extraData.trailerUrl
           });
 
-
-        } else {
-          skippedItems.push(item);
-        }
+        } else { skippedItems.push(item); }
       }
 
-    } catch (e) {
-      console.log(
-        "Ошибка JSON-LD:",
-        e.message
-      );
+    } catch (e) { console.log("Ошибка JSON-LD:", e.message); }
+  }
+
+  console.log("Пропущено JSON-LD объектов:", skippedItems.length);
+
+  const unique = [...new Map(shows.map(x => [x.url, x])).values()];
+  unique.sort((a, b) => new Date(a.start) - new Date(b.start));
+  console.log("\nВсего показов:", unique.length);
+
+  /*
+    const movieFilter = null;
+    const cinemaFilter = null;
+    let filtered = unique;
+  
+    if (movieFilter) {
+      filtered = filtered.filter(x => x.title.toLowerCase().includes(movieFilter.toLowerCase()));
     }
-  }
+  
+    if (cinemaFilter) {
+      filtered = filtered.filter(x => x.cinema.toLowerCase().includes(cinemaFilter.toLowerCase()));
+    }
+  
+    console.log("\nПосле фильтра:", filtered.length);
+  */
 
-
-  console.log(
-    "\nВсего найдено до дедупликации:",
-    shows.length
-  );
-
-  console.log(
-    "Пропущено JSON-LD объектов:",
-    skippedItems.length
-  );
-
-
-  const unique = [
-    ...new Map(
-      shows.map(x => [
-        x.url,
-        x
-      ])
-    ).values()
-  ];
-
-
-  console.log(
-    "После удаления дубликатов:",
-    unique.length
-  );
-
-
-  unique.sort(
-    (a, b) =>
-      new Date(a.start) - new Date(b.start)
-  );
-
-
-  console.log(
-    "\nВсего показов:",
-    unique.length
-  );
-
-
-  const movieFilter = null;
-
-  const cinemaFilter = null;
-
-
-  let filtered = unique;
-
-
-  if (movieFilter) {
-    filtered = filtered.filter(x =>
-      x.title
-        .toLowerCase()
-        .includes(movieFilter.toLowerCase())
-    );
-  }
-
-
-  if (cinemaFilter) {
-    filtered = filtered.filter(x =>
-      x.cinema
-        .toLowerCase()
-        .includes(cinemaFilter.toLowerCase())
-    );
-  }
-
-
-  console.log(
-    "\nПосле фильтра:",
-    filtered.length
-  );
-
-
-  fs.writeFileSync(
-    "raw-screenings.json",
-    JSON.stringify(filtered, null, 2),
-    "utf8"
-  );
-
-  const now = new Date();
-
-  const upcoming = filtered
-    .filter(x =>
-      new Date(x.start) > now
-    )
-    .slice(0, 10);
-
-
-  console.log(
-    "\nБлижайшие показы:"
-  );
-
-  console.table(upcoming);
-
-
-  console.log("\nГотово:");
-  console.log("- raw-screenings.json");
-  console.log("- raw-screenings.csv");
+  fs.writeFileSync("raw-screenings.json", JSON.stringify(unique, null, 2), "utf8");
+  console.log("\nГотово: raw-screenings.json");
 }
 
 
-main()
-  .catch(err => {
-    console.error(err);
-    process.exit(1);
-  });
+main().catch(err => { console.error(err); process.exit(1); });

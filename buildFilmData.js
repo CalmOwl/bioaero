@@ -27,11 +27,7 @@ const getLetterboxdPoster = async (letterboxdUrl) => {
   try {
     const html = await fetch(letterboxdUrl).then(r => r.text());
 
-    const matches = [
-      ...html.matchAll(
-        /<script type="application\/ld\+json">([\s\S]*?)<\/script>/g
-      )
-    ];
+    const matches = [...html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)];
 
     for (const match of matches) {
       try {
@@ -75,9 +71,7 @@ const findFilmScreenings = (uniqueFilmTitlesArr, allFilmsObj) => {
 
   for (const film of uniqueFilmTitlesArr) {
     for (const item of allFilmsObj) {
-      if (film === item.title
-        && !sortedScreenings.some(x => x.title === item.title)
-      ) {
+      if (film === item.title && !sortedScreenings.some(x => x.title === item.title)) {
         sortedScreenings.push({
           title: film,
           poster: {
@@ -87,7 +81,6 @@ const findFilmScreenings = (uniqueFilmTitlesArr, allFilmsObj) => {
           letterboxdUrl: item.letterboxdUrl,
           trailerUrl: item.trailerUrl,
           screenings: [{
-
             id: item.id,
             start: item.start,
             weekday: item.weekday,
@@ -103,13 +96,11 @@ const findFilmScreenings = (uniqueFilmTitlesArr, allFilmsObj) => {
 
   for (const film of uniqueFilmTitlesArr) {
     for (const item of allFilmsObj) {
-      if (film === item.title
-        && sortedScreenings.some(x => x.title === item.title)) {
+      if (film === item.title && sortedScreenings.some(x => x.title === item.title)) {
         const movie = sortedScreenings.find(x => x.title === film);
 
         if (!movie.screenings.some(x => x.start === item.start))
           movie.screenings.push({
-
             id: item.id,
             start: item.start,
             weekday: item.weekday,
@@ -122,7 +113,6 @@ const findFilmScreenings = (uniqueFilmTitlesArr, allFilmsObj) => {
       }
     }
   }
-
 
   // for (const film of sortedScreenings) {
   //   if (film.screenings.length > 4) {
@@ -144,23 +134,14 @@ const findFilmScreenings = (uniqueFilmTitlesArr, allFilmsObj) => {
   return sortedScreenings;
 }
 
-const result = findFilmScreenings(
-  sortingUnique(data),
-  normalizeDate(data)
-);
+const result = findFilmScreenings(sortingUnique(data), normalizeDate(data));
 
 for (let film of result) {
   if (film.letterboxdUrl) {
     const poster = await getLetterboxdPoster(film.letterboxdUrl);
-
     film.poster.src = poster;
   }
   console.log(film.poster);
-
 }
 
-fs.writeFileSync(
-  "finalFilmData.json",
-  JSON.stringify(result, null, 2),
-  "utf8"
-);
+fs.writeFileSync("finalFilmData.json", JSON.stringify(result, null, 2), "utf8");
