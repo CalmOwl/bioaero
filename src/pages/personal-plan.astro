@@ -13,6 +13,7 @@ import Layout from "../layouts/Layout.astro";
 
   const container = document.getElementById("plan");
 
+  // переписать с созданием элементов через document.createElement()
   function renderScreeningCard(screening: SavedScreening) {
     return `
     <div 
@@ -34,8 +35,8 @@ import Layout from "../layouts/Layout.astro";
       </div>
       <a 
         class="screening-card__link" 
-        href="${screening.ticketsUrl} 
-        tasrget="_blank"
+        href="${screening.ticketsUrl}" 
+        target="_blank"
       >
         купить билет
       </a>

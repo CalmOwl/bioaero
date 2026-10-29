@@ -2,6 +2,7 @@
 import films from "../../raw-screenings.json";
 
 const now = new Date();
+const currentYear = now.getFullYear();
 const currentMonth = now.getMonth() + 1;
 const daysInCurrentMonth = new Date(
   now.getFullYear(),
@@ -9,7 +10,7 @@ const daysInCurrentMonth = new Date(
   0,
 ).getDate();
 
-const firstDayOfMonth = new Date(`2026-${currentMonth}-1`);
+const firstDayOfMonth = new Date(`${currentYear}-${currentMonth}-1`);
 const firstDay = firstDayOfMonth.getDay();
 
 const getMonthCalendar = (days: number) => {
